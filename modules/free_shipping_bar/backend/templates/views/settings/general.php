@@ -67,9 +67,6 @@
     <div class="label_content wceazy_fsb_settings">
         <div class="wceazy_module_list_items">
             <div class="wceazy_module_item">
-                <?php 
-                    $shipping_zones = $this->utils->wceazy_get_default_shipping_zone();
-                ?>
                 <select name="wceazy_fsb_shipping_zone" id="wceazy_fsb_shipping_zone"
                     class="wceazy_select_control wceazy_select2">
                     <option value=""> Please select</option>

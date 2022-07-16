@@ -57,6 +57,8 @@ if (!class_exists ('wcEazyFreeShippingBarAdmin')) {
 
         function wceazy_module_dashboard () {
 
+            $shipping_zones = $this->utils->wceazy_get_default_shipping_zone();
+
             //get settings value
             $enable_fsb                 = !empty($this->wceazyfsb_settings) && isset($this->wceazyfsb_settings['wceazy_enable_fsb']) ? 'checked' : '';
             $shipping_zone              = !empty($this->wceazyfsb_settings) && !empty($this->wceazyfsb_settings['wceazy_fsb_shipping_zone']) ? $this->wceazyfsb_settings['wceazy_fsb_shipping_zone'] : '';
