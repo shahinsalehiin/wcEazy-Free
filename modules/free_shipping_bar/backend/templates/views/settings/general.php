@@ -141,8 +141,8 @@
                 <select class="wceazy_select_control wceazy_select2" multiple>
                     <option value="" disabled> Please select</option>
                     <?php
-                    if ( ! empty( $this->utils->getWooProducts () ) ) {
-                        foreach ($this->utils->getWooProducts () as $key => $product) { ?>
+                    if ( ! empty( $getWooProducts ) ) {
+                        foreach ( $getWooProducts as $key => $product) { ?>
                             <option value="" disabled> <?php echo $product["text"];?></option>;
                         <?php }
                     }
