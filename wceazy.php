@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       wcEazy - Supercharge your WooCommerce Store
+ * Plugin Name:       wcEazy
  * Plugin URI:        https://wceazy.com
  * Description:       wcEazy provides multiple WooCommerce extensions in a single package you’ll ever require.
  * Version:           1.0.2

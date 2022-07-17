@@ -1,4 +1,4 @@
-=== wcEazy ===
+=== wcEazy - Supercharge your WooCommerce Store ===
 Contributors: wceazy, wpcommerz, sazzadpro, darklup
 Donate link: https://wceazy.com
 Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
@@ -27,8 +27,6 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 </li>
 	<li><strong>Saves cost and time:</strong> Installing one plugin you will get services of different plugins at a time as it provides huge features that can serve all WooCommerce related purposes. This amazing plugin increases your store’s sales and saves your money and time by creating the most flexible Woocommerce site in the most user friendly way.</li>
 </ol>
-
-
 
 
 
@@ -201,7 +199,6 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 <li><strong>Basket Count Background Color(Pro):</strong>  Pick Basket Count background color that matches with the Basket Count color.
 </li>
 </ol>
-
 
 
 
