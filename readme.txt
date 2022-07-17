@@ -1,11 +1,11 @@
-=== wcEazy ===
+=== wcEazy - Supercharge your WooCommerce Store ===
 Contributors: wceazy, wpcommerz, sazzadpro, darklup
 Donate link: https://wceazy.com
 Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
 Tested up to: 6.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,8 +27,6 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 </li>
 	<li><strong>Saves cost and time:</strong> Installing one plugin you will get services of different plugins at a time as it provides huge features that can serve all WooCommerce related purposes. This amazing plugin increases your store’s sales and saves your money and time by creating the most flexible Woocommerce site in the most user friendly way.</li>
 </ol>
-
-
 
 
 
@@ -201,7 +199,6 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 <li><strong>Basket Count Background Color(Pro):</strong>  Pick Basket Count background color that matches with the Basket Count color.
 </li>
 </ol>
-
 
 
 
@@ -417,3 +414,7 @@ screenshot-9.png
 
 = 1.0.1 =
 This is initial Release for wcEazy
+
+= 1.0.2 =
+1. New module added : Free Shipping Bar
+2. Fix: PDF Invoice undefine call to member function issues
