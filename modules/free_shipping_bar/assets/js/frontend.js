@@ -18,12 +18,7 @@ var $wceazyFFsb = {
 
             //load fb handalers here ..
             $wceazyFFsb.init_wceazyfsb_content();
-            $wceazyFFsb.init_wceazyfspbar_content();
-            
-            //init close handaler
-            setTimeout( function(){
-                $wceazyFFsb.wceazy_handle_close_fsb();
-            },700 );            
+            $wceazyFFsb.init_wceazyfspbar_content();           
             
         });
 
@@ -163,6 +158,10 @@ var $wceazyFFsb = {
 
 };
 
+
+function wceazy_handle_close_fsb () {
+    $('#wceazy_init_free_shipping_bar').fadeOut('slow'); 
+ }
 
 //load js for frontend
 $wceazyFFsb.init_wceazyffsb();
