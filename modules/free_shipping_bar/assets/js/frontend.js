@@ -10,7 +10,7 @@ var $wceazyFFsb = {
     wceazy_fsbs             : JSON.parse(wceazy_fsb_fronted_object.wceazy_fsb_settings),
     wceazy_fsb_init         : "#wceazy_init_free_shipping_bar",
     wceazy_fspb_init        : "#wceazy_init_free_shipping_progress_bar",
-    wceazy_fsb_close_icon   : ".fsb-close_button",
+    wceazy_fsb_close_icon   : ".wceazy-fsb-close-icon",
 
     init_wceazyffsb: function(){
 
