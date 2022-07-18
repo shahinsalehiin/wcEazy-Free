@@ -4,8 +4,8 @@ Donate link: https://wceazy.com
 Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
-Tested up to: 6.0
-Stable tag: 1.0.2
+Tested up to: 6.0.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -465,3 +465,7 @@ This is initial Release for wcEazy
 = 1.0.2 =
 1. New module added : Free Shipping Bar.
 2. Fix: PDF Invoice & Shipping Slip module's undefine call to member function issues.
+
+= 1.0.3 =
+1. Fix: Free Shipping Bar module's css issues.
+2. Added: Select Shipping Zone Note for Free Shipping Bar module.

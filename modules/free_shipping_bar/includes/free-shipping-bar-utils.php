@@ -312,7 +312,7 @@ if (!class_exists ('wcEazyFreeShippingBarUtils')) {
             $message_text = '';
 
             if( $order_min_amount <= 0 ){
-                return '';
+                return 'Shipping zone not define!!';
             }
 
             $progress_persent = 0;
