@@ -80,6 +80,10 @@
                     
                 </select>
             </div>
+            <small style="color:#e91717">
+                You must select your shipping zone, if not created please create 
+                <a style="color:#f109aa;margin-left:3px" href="<?php echo admin_url('admin.php?page=wc-settings&tab=shipping'); ?>">Here</a>.
+            </small>
         </div>
     </div>
 </div>

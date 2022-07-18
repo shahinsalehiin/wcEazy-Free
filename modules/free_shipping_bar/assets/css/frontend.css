@@ -113,7 +113,7 @@
 .fsb-style1 {
     text-align: center;
     background: #0A9663;
-    padding: 0 0 10px 0;
+    padding: 15px 15px;
     color: #fff;
     font-size: 15px;
     display: flex;
@@ -138,8 +138,8 @@
     margin-top: 9px;
 }
 .fsb-style1 .fsb-close_button i.icon-cancel1:after {
-    top: -18px;
-    left: 0;
+    top: -20px;
+    left: 5px;
     color: #fff;
 }
 .fsb-style1 .fsb-bar{
