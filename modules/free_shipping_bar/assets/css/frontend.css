@@ -122,13 +122,14 @@
 }
 .fsb-style1 .fsb-inner{
     position: relative;
+    width: 98%;
 }
 .fsb-style1 a{
     color: #fff;
 }
 .fsb-style1 .fsb-close_button {
     position: absolute;
-    right: 0px;
+    right: -40px;
     top: 0px;
 }
 .fsb-style1 .fsb-close_button i.demo-icon {
