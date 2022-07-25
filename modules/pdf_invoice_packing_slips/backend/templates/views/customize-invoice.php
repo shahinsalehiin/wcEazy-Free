@@ -281,6 +281,10 @@ $currency_symbol = get_woocommerce_currency_symbol( $currency_code );
                                         </tbody>
                                     </table>
 
+                                    <div class="wfpdf_invc_paid_seal wfte_hidden wfpi_enable_paid_stamp" >
+                                        <span class="wfpdf_invc_paid_seal_text">PAID</span>
+                                    </div>
+
                                     <div class="wfpdf_invc_received_seal wfte_hidden wfcpi_payment_stamp" >
                                         <span class="wfpdf_invc_received_seal_text">RECEIVED</span>
                                     </div>
@@ -481,6 +485,20 @@ $currency_symbol = get_woocommerce_currency_symbol( $currency_code );
                             <input data-control="wfpci_ba_phone" id="wfpi_enable_phone" class="wfpi_default_checked wfcpi_controls"
                                    name="wfpi_enable_phone" type="checkbox"
                                    value="yes" <?php echo !empty($this->wfpi_settings) && isset($this->wfpi_settings['wfpi_enable_phone']) ? 'checked' : ''; ?>>
+                            <span class="slider round"></span>
+                        </label>
+                    </label>
+                </div>
+            </div>
+
+            <div class="invoice_document_title" style="cursor: pointer">
+                Paid Stamp
+                <div class="wfpi_sidebar_toggle">
+                    <label class="invoice_sidebar_switch">
+                        <label class="wfpi_customize_sidebar_toggle">
+                            <input data-control="wfpi_enable_paid_stamp" id="wfpi_enable_paid_stamp" class="wfcpi_controls"
+                                   name="wfpi_enable_paid_stamp" type="checkbox"
+                                   value="yes" <?php echo !empty($this->wfpi_settings) && isset($this->wfpi_settings['wfpi_enable_paid_stamp']) ? 'checked' : ''; ?>>
                             <span class="slider round"></span>
                         </label>
                     </label>
