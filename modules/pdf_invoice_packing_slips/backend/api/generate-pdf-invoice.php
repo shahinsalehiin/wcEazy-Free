@@ -400,7 +400,7 @@ if ($this->base_admin->base_admin->db->getModuleStatus ($this->base_admin->modul
                                         <span class="wfpdf_invoice_number_label">INVOICE#</span>
                                         <span class="wfte_invoice_number_val wfpdf_invc_text_bold">
                                         <?php
-                                        echo $this->base_admin->utils->generate_invoice_number ($order->get_order_number ());
+                                        echo $this->base_admin->utils->generate_invoice_number ($order->get_order_number (), $order->get_id());
                                         ?>
                                     </span>
                                     </div>

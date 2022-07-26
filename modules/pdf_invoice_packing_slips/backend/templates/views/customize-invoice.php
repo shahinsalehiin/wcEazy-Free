@@ -422,6 +422,31 @@ $currency_symbol = get_woocommerce_currency_symbol( $currency_code );
                     </label>
                 </div>
             </div>
+
+            <div class="invoice_document_title" style="cursor: pointer">
+                SSN <span class="wceazy_get_pro" style="margin-left: -60%;">(Pro)</span>
+                <div class="wfpi_sidebar_toggle">
+                    <label class="invoice_sidebar_switch">
+                        <label class="wfpi_customize_sidebar_toggle">
+                            <input id="wfcpi_order_ssn_id" class="wfcpi_controls" type="checkbox" disabled>
+                            <span class="slider round"></span>
+                        </label>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="invoice_document_title" style="cursor: pointer">
+                VAT <span class="wceazy_get_pro" style="margin-left: -60%;">(Pro)</span>
+                <div class="wfpi_sidebar_toggle">
+                    <label class="invoice_sidebar_switch">
+                        <label class="wfpi_customize_sidebar_toggle">
+                            <input id="wfcpi_order_vat_id" class="wfcpi_controls" type="checkbox" disabled>
+                            <span class="slider round"></span>
+                        </label>
+                    </label>
+                </div>
+            </div>
+
             <div class="invoice_document_title" style="cursor: pointer">
                 From Address
                 <div class="wfpi_sidebar_toggle">
