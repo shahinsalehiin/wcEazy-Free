@@ -1,11 +1,11 @@
 === wcEazy - Supercharge your WooCommerce Store ===
-Contributors: wceazy, wpcommerz, sazzadpro, darklup
+Contributors: wceazy, wpcommerz, darklup
 Donate link: https://wceazy.com
 Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
 Tested up to: 6.0.1
-Stable tag: 1.0.4
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -362,7 +362,7 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 	<li><strong>Inside Progress Bar Text:</strong> Accessing this feature you can enter the text of cart & checkout page free shipping progress bar. </li>
 	<li><strong>Progress Bar's Background (Pro):</strong> Customize the color of Free Shipping Bar's which is shown in cart & checkout page. </li>
 	<li><strong>System Announce:</strong> Using the feature you have to provide a message about minimum order amount for free shipping. </li>
-	<li><strong>SPurchased Message (Pro):</strong> After purchasing products this feature will show your customers a purchase message according to a customer’s cart total, minimum order and missing amount. </li>
+	<li><strong>Purchased Message (Pro):</strong> After purchasing products this feature will show your customers a purchase message according to a customer’s cart total, minimum order and missing amount. </li>
 	<li><strong>Success Message:</strong> Allows  to Write a success message and use the shortcode {checkout_page} to redirect the checkout page. </li>
 	<li><strong>Initial Delay Time (Pro):</strong> Add an initial delay time in millisecond. The Free Shipping Bar will appear according to your setting time. </li>
 	<li><strong>Allow Disappear Time (Pro):</strong>The feature allows time to disappear the shipping bar.</li>
@@ -459,17 +459,25 @@ screenshot-9.png
 
 == Changelog ==
 
-= 1.0.1 =
-This is initial Release for wcEazy
+= 1.0.6 =
+1. Updated: Loader added while module status is being changed to avoid UI conflict.
 
-= 1.0.2 =
-1. New module added : Free Shipping Bar.
-2. Fix: PDF Invoice & Shipping Slip module's undefine call to member function issues.
+= 1.0.5 =
+1. Updated: Code efficiency increased to improve memory consumption.
+1. Updated: Recoded for lower plugin size and fast loading.
+2. Added: More customization feature added in several modules.
+
+= 1.0.4 =
+1. Fix: Responsive issues for free shipping bar.
+2. Fixed: Invoice Number Issue for pdf invoice & packing slip module.
 
 = 1.0.3 =
 1. Fix: Free Shipping Bar module's css issues.
 2. Added: Select Shipping Zone Note for Free Shipping Bar module.
 
-= 1.0.4 =
-1. Fix: Responsive issues for free shipping bar.
-2. Fixed: Invoice Number Issue for pdfinvoice&shippling slip module.
+= 1.0.2 =
+1. New module added : Free Shipping Bar.
+2. Fix: PDF Invoice & Shipping Slip module's undefined call to member function issues.
+
+= 1.0.1 =
+This is initial Release for wcEazy
