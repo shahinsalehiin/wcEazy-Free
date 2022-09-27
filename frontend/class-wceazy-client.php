@@ -29,6 +29,8 @@ if (!class_exists('WcEazyClient')) {
         public $pdf_invoice;
         /* ======== Shipping Bar ========== */
         public $shipping_bar;
+        /* ======== Address Book ========== */
+        public $address_book;
 
         public function __construct()
         {
@@ -90,6 +92,12 @@ if (!class_exists('WcEazyClient')) {
                     include_once WCEAZY_PATH . "modules/shipping_bar/ModuleUtils.php";
                     $this->shipping_bar = new WcEazyShippingBarClient($this);
                 }
+                /* ======== Address Book ========== */
+                if($this->settings->getModuleStatus("address_book")){
+                    include_once WCEAZY_PATH . "modules/address_book/class-module-client.php";
+                    include_once WCEAZY_PATH . "modules/address_book/ModuleUtils.php";
+                    $this->address_book = new WcEazyAddressBookClient($this);
+                }
             }
 
         }
@@ -129,6 +137,14 @@ if (!class_exists('WcEazyClient')) {
                 wp_enqueue_style('wceazy-client-module-shipping-bar', WCEAZY_CSS_DIR.'shipping_bar/client_main.css', array(), WCEAZY_VERSION);
                 wp_enqueue_script( 'wceazy-client-module-shipping-bar', WCEAZY_JS_DIR.'shipping_bar/client_main.js', array('jquery'), WCEAZY_VERSION );
                 wp_localize_script( 'wceazy-client-module-shipping-bar', 'wceazy_client_shipping_bar_object', array(
+                    'ajaxurl' => admin_url( 'admin-ajax.php' )
+                ));
+            }
+            /* ======== Address Book ========== */
+            if($this->settings->getModuleStatus("address_book")){
+                wp_enqueue_style('wceazy-client-module-address-book', WCEAZY_CSS_DIR.'address_book/client_main.css', array(), WCEAZY_VERSION);
+                wp_enqueue_script( 'wceazy-client-module-address-book', WCEAZY_JS_DIR.'address_book/client_main.js', array('jquery'), WCEAZY_VERSION );
+                wp_localize_script( 'wceazy-client-module-address-book', 'wceazy_client_address_book_object', array(
                     'ajaxurl' => admin_url( 'admin-ajax.php' )
                 ));
             }

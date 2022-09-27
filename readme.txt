@@ -5,7 +5,7 @@ Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
 Tested up to: 6.0.1
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,7 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 	<li><strong>Product Sticky Bar:</strong> Initiate your WooCommerce site with product sticky bar  is a useful addon for boosting conversion rates on WooCommerce sites. Every product page contains a sticky bar with an Add to Cart button as well as other product-related information including a product thumbnail, title, rating, and price.</li>
 	<li><strong>URL Coupon:</strong> Generate unique URLs to any coupon in your e-commerce store. Adding a URL to any coupon, you can apply a coupon code automatically just by clicking a link.</li>
 	<li><strong>Free Shipping Bar:</strong> A floating banner that displays at the top or bottom of your website and informs visitors that you provide free shipping or other offers is known as a free shipping bar. It's an excellent approach to encourage customers to complete the checkout process.</li>
+	<li><strong>Address Book:</strong> A custom account page menu that gives your customers the option to store multiple billing and shipping addresses and retrieve them on checkout. Addresses can be updated and modified quickly and easily in /my-account/, or saved as part of the checkout process.</li>
 </ol>
 
 <br>
@@ -391,6 +392,34 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 </ol>
 
 
+
+
+<h3>Address Book</h3>
+<ol>
+	<li><strong>My Account Billing Address Book:</strong> Allows to enable address book for billing on customers account page.</li>
+	<li><strong>My Account Shipping Address Book:</strong> Allows to enable address book for shipping on customers account page.</li>
+	<li><strong>Enable Billing Address on Checkout:</strong> Allows to enable address field selection for billing on checkout page.</li>
+	<li><strong>Enable Shipping Address on Checkout:</strong> Allows to enable address field selection for shipping on checkout page.</li>
+	<li><strong>Address Field Label:</strong> Allows to set the address selection field label text on checkout page.</li>
+	<li><strong>Menu Title:</strong> Allows to set the account page menu title for Address Book.</li>
+	<li><strong>Billing Address Book Headline:</strong> Allows to set the headline text of billing address book.</li>
+	<li><strong>Shipping Address Book Headline:</strong> Allows to set the headline text of shipping address book.</li>
+	<li><strong>Add Billing Address Button Text (Pro):</strong> Allows to set the button text of add new billing address.</li>
+	<li><strong>Add Shipping Address Button Text (Pro):</strong> Allows to set the button text of add new shipping address.</li>
+	<li><strong>Billing Address Book Empty Message (Pro):</strong> Allows to set the empty message text of billing address book.</li>
+	<li><strong>Shipping Address Book Empty Message (Pro):</strong> Allows to set the empty message text of shipping address book.</li>
+	<li><strong>Address Edit Link Text (Pro):</strong> Allows to set the address edit link text.</li>
+	<li><strong>Address Delete Link Text (Pro):</strong> Allows to set the address delete link text.</li>
+	<li><strong>Address Make Primary Link Text (Pro):</strong> Allows to set the address make primary link text.</li>
+	<li><strong>Add Button Background Color (Pro):</strong> Allows to set the add new button background color.</li>
+	<li><strong>Add Button Text Color (Pro):</strong> Allows to set the add new button text color.</li>
+	<li><strong>Address Card Background Color (Pro):</strong> Allows to set the background color of address card.</li>
+	<li><strong>Address Text Color (Pro):</strong> Allows to set the text color of address inside address card.</li>
+	<li><strong>Address Card Footer Background Color (Pro):</strong> Allows to set the footer background color of address card.</li>
+
+</ol>
+
+
 <h3>Get Started with wcEazy</h3>
 <p>When you are working on your WooCommerce store and want to make it full of functions and flexibilities then WordPress plugin wcEazy can be the great solution for you. You will get all kinds of support from one plugin. So, hurry up and grab the most wonderful and workable plugin that is highly recommended for you. 
 </p>
@@ -458,6 +487,9 @@ screenshot-9.png
 
 
 == Changelog ==
+
+= 1.0.7 =
+1. Added: Address Book Module to allow store multiple billing and shipping addresses and retrieve them on checkout.
 
 = 1.0.6 =
 1. Updated: Loader added while module status is being changed to avoid UI conflict.

@@ -30,6 +30,8 @@ if (!class_exists('WcEazyAdmin')) {
         public $pdf_invoice;
         /* ======== Shipping Bar ========== */
         public $shipping_bar;
+        /* ======== Address Book ========== */
+        public $address_book;
 
         public function __construct()
         {
@@ -96,6 +98,12 @@ if (!class_exists('WcEazyAdmin')) {
                 include_once WCEAZY_PATH . "modules/shipping_bar/ModuleUtils.php";
                 $this->shipping_bar = new WcEazyShippingBarAdmin($this);
             }
+            /* ======== Address Book ========== */
+            if($this->settings->getModuleStatus("address_book")){
+                include_once WCEAZY_PATH . "modules/address_book/class-module-admin.php";
+                include_once WCEAZY_PATH . "modules/address_book/ModuleUtils.php";
+                $this->address_book = new WcEazyAddressBookAdmin($this);
+            }
 
 
         }
@@ -121,14 +129,12 @@ if (!class_exists('WcEazyAdmin')) {
         {
             if($page == "toplevel_page_wceazy-dashboard"){
                 wp_enqueue_style('wceazy-admin-main', WCEAZY_CSS_DIR.'admin_main.css', array(), WCEAZY_VERSION);
-                wp_enqueue_style('wceazy-admin-license', WCEAZY_CSS_DIR.'admin_license.css', array(), WCEAZY_VERSION);
                 wp_enqueue_style('wceazy-admin-modules', WCEAZY_CSS_DIR.'admin_modules.css', array(), WCEAZY_VERSION);
                 wp_enqueue_style('wceazy-admin-toastr', WCEAZY_CSS_DIR.'toastr.min.css', array(), WCEAZY_VERSION);
                 wp_enqueue_style('wceazy-admin-datatable', WCEAZY_CSS_DIR.'dataTables.min.css', array(), WCEAZY_VERSION);
                 wp_enqueue_style('wceazy-admin-select2', WCEAZY_CSS_DIR.'select2.min.css', array(), WCEAZY_VERSION);
 
                 wp_enqueue_script( 'wceazy-admin-main', WCEAZY_JS_DIR.'admin_main.js', array('jquery'), WCEAZY_VERSION );
-                wp_enqueue_script( 'wceazy-admin-license', WCEAZY_JS_DIR.'admin_license.js', array('jquery'), WCEAZY_VERSION );
                 wp_enqueue_script( 'wceazy-admin-toastr', WCEAZY_JS_DIR.'toastr.min.js', array('jquery'), WCEAZY_VERSION );
                 wp_enqueue_script( 'wceazy-admin-datatable', WCEAZY_JS_DIR.'dataTables.min.js', array('jquery'), WCEAZY_VERSION );
                 wp_enqueue_script( 'wceazy-admin-select2', WCEAZY_JS_DIR.'select2.min.js', array('jquery'), WCEAZY_VERSION );
@@ -179,6 +185,11 @@ if (!class_exists('WcEazyAdmin')) {
                 if($this->settings->getModuleStatus("shipping_bar")){
                     wp_enqueue_style('wceazy-admin-module-shipping-bar', WCEAZY_CSS_DIR.'shipping_bar/admin_main.css', array(), WCEAZY_VERSION);
                     wp_enqueue_script( 'wceazy-admin-module-shipping-bar', WCEAZY_JS_DIR.'shipping_bar/admin_main.js', array('jquery'), WCEAZY_VERSION );
+                }
+                /* ======== Address Book ========== */
+                if($this->settings->getModuleStatus("address_book")){
+                    wp_enqueue_style('wceazy-admin-module-address-book', WCEAZY_CSS_DIR.'address_book/admin_main.css', array(), WCEAZY_VERSION);
+                    wp_enqueue_script( 'wceazy-admin-module-address-book', WCEAZY_JS_DIR.'address_book/admin_main.js', array('jquery'), WCEAZY_VERSION );
                 }
             }
         }

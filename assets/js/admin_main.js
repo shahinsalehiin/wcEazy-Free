@@ -69,6 +69,11 @@ function wceazy_start_module_settings(host, view){
                 wceazy_shipping_bar_init(host)
             }
             break;
+        case "address_book":
+            if (typeof wceazy_address_book_init !== "undefined") {
+                wceazy_address_book_init(host)
+            }
+            break;
     }
 }
 

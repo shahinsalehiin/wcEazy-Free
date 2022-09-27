@@ -39,6 +39,12 @@ if (!class_exists('WcEazyClientAjax')) {
             add_action( 'wp_ajax_wceazy_shipping_bar_cart_updated', array($this, 'wceazy_shipping_bar_cart_updated') );
             add_action( 'wp_ajax_nopriv_wceazy_shipping_bar_cart_updated', array($this, 'wceazy_shipping_bar_cart_updated') );
 
+            /* Address Book */
+            add_action( 'wp_ajax_wceazy_address_book_delete', array($this, 'wceazy_address_book_delete') );
+            add_action( 'wp_ajax_wceazy_address_book_make_primary', array($this, 'wceazy_address_book_make_primary') );
+            add_action( 'wp_ajax_wceazy_address_book_get_address_on_checkout', array($this, 'wceazy_address_book_get_address_on_checkout') );
+
+
         }
 
 
@@ -77,6 +83,21 @@ if (!class_exists('WcEazyClientAjax')) {
         /* Shipping Bar */
         public function wceazy_shipping_bar_cart_updated() {
             include_once WCEAZY_PATH . "frontend/api/shipping_bar/get_updated_content.php";
+            wp_die();
+        }
+
+
+        /* Address Book */
+        public function wceazy_address_book_delete() {
+            include_once WCEAZY_PATH . "frontend/api/address_book/delete.php";
+            wp_die();
+        }
+        public function wceazy_address_book_make_primary() {
+            include_once WCEAZY_PATH . "frontend/api/address_book/make_primary.php";
+            wp_die();
+        }
+        public function wceazy_address_book_get_address_on_checkout() {
+            include_once WCEAZY_PATH . "frontend/api/address_book/get_address_on_checkout.php";
             wp_die();
         }
 

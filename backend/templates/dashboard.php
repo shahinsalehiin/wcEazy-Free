@@ -40,6 +40,10 @@
             <?php include WCEAZY_PATH . "backend/templates/views/shipping_bar/settings.php"; ?>
         <?php } ?>
 
+        <?php if($this->settings->getModuleStatus("address_book")){ ?>
+            <?php include WCEAZY_PATH . "backend/templates/views/address_book/settings.php"; ?>
+        <?php } ?>
+
 
     </div>
 

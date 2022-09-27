@@ -49,6 +49,9 @@ if (!class_exists('WcEazyAdminAjax')) {
 
             /* Shipping Bar */
             add_action( 'wp_ajax_wceazy_shipping_bar_save', array($this, 'wceazy_shipping_bar_save'));
+
+            /* Address Book */
+            add_action( 'wp_ajax_wceazy_address_book_save', array($this, 'wceazy_address_book_save'));
         }
 
 
@@ -142,6 +145,12 @@ if (!class_exists('WcEazyAdminAjax')) {
         /* Shipping Bar */
         public function wceazy_shipping_bar_save() {
             include_once WCEAZY_PATH . "backend/api/shipping_bar/save.php";
+            wp_die();
+        }
+
+        /* Address Book */
+        public function wceazy_address_book_save() {
+            include_once WCEAZY_PATH . "backend/api/address_book/save.php";
             wp_die();
         }
 
