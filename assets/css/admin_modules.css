@@ -149,30 +149,30 @@ Modules Page
 .wceazy_modules_list_items {
     margin: 30px 50px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 380px 380px 380px 380px;
     column-gap: 20px;
     row-gap: 20px;
     justify-content: left;
 }
 
-@media only screen and (min-width: 1401px) {
+@media only screen and (min-width: 1740px) {
     .wceazy_modules_list_items {
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 380px 380px 380px 380px;
+    }
+}
+@media only screen and (max-width: 1739px) {
+    .wceazy_modules_list_items {
+        grid-template-columns: 33% 33% 33%;
     }
 }
 @media only screen and (max-width: 1400px) {
     .wceazy_modules_list_items {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 50% 50%;
     }
 }
 @media only screen and (max-width: 1000px) {
     .wceazy_modules_list_items {
-        grid-template-columns: auto auto;
-    }
-}
-@media only screen and (max-width: 1000px) {
-    .wceazy_modules_list_items {
-        grid-template-columns: auto auto;
+        grid-template-columns: 100%;
     }
 }
 

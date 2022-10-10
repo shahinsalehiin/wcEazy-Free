@@ -25,5 +25,12 @@ if (!class_exists ('WcEazyFloatingCartUtils')) {
             }
         }
 
+        public function wceazy_ajaxify_basket_item_count () { ?>
+            <div class="wceazy_fc_basket_item_count"><?php echo is_object( WC()->cart ) ? WC()->cart->get_cart_contents_count() : '0'; ?></div>
+            <script>wceazy_frontend_fc_init();</script>
+            <?php $fragments['div.wceazy_fc_basket_item_count'] = ob_get_clean();
+            return $fragments;
+        }
+
     }
 }

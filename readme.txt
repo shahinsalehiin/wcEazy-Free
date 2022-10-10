@@ -1,11 +1,11 @@
 === wcEazy - Supercharge your WooCommerce Store ===
-Contributors: wceazy, wpcommerz, darklup
+Contributors: wceazy, wpcommerz, darklup, shahinsalehiin
 Donate link: https://wceazy.com
 Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
 Tested up to: 6.0.1
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
