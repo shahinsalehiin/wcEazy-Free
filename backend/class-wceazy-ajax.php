@@ -52,6 +52,9 @@ if (!class_exists('WcEazyAdminAjax')) {
 
             /* Address Book */
             add_action( 'wp_ajax_wceazy_address_book_save', array($this, 'wceazy_address_book_save'));
+
+            /* Product Filter */
+            add_action( 'wp_ajax_wceazy_product_filter_save', array($this, 'wceazy_product_filter_save'));
         }
 
 
@@ -151,6 +154,12 @@ if (!class_exists('WcEazyAdminAjax')) {
         /* Address Book */
         public function wceazy_address_book_save() {
             include_once WCEAZY_PATH . "backend/api/address_book/save.php";
+            wp_die();
+        }
+
+        /* Product Filter */
+        public function wceazy_product_filter_save() {
+            include_once WCEAZY_PATH . "backend/api/product_filter/save.php";
             wp_die();
         }
 

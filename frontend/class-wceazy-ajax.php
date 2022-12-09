@@ -44,6 +44,9 @@ if (!class_exists('WcEazyClientAjax')) {
             add_action( 'wp_ajax_wceazy_address_book_make_primary', array($this, 'wceazy_address_book_make_primary') );
             add_action( 'wp_ajax_wceazy_address_book_get_address_on_checkout', array($this, 'wceazy_address_book_get_address_on_checkout') );
 
+            /* Product Filter */
+            add_action( 'wp_ajax_wceazy_product_filter_search', array($this, 'wceazy_product_filter_search') );
+            add_action( 'wp_ajax_wceazy_product_filter_add_to_cart', array($this, 'wceazy_product_filter_add_to_cart') );
 
         }
 
@@ -98,6 +101,17 @@ if (!class_exists('WcEazyClientAjax')) {
         }
         public function wceazy_address_book_get_address_on_checkout() {
             include_once WCEAZY_PATH . "frontend/api/address_book/get_address_on_checkout.php";
+            wp_die();
+        }
+
+
+        /* Product Filter */
+        public function wceazy_product_filter_search() {
+            include_once WCEAZY_PATH . "frontend/api/product_filter/search.php";
+            wp_die();
+        }
+        public function wceazy_product_filter_add_to_cart() {
+            include_once WCEAZY_PATH . "frontend/api/product_filter/add_to_cart.php";
             wp_die();
         }
 

@@ -12,6 +12,8 @@ function wceazy_hide_all(){
     jQuery("#wceazy_floating_cart").hide();
     jQuery("#wceazy_pdf_invoice").hide();
     jQuery("#wceazy_shipping_bar").hide();
+    jQuery("#wceazy_address_book").hide();
+    jQuery("#wceazy_product_filter").hide();
 }
 
 
@@ -74,12 +76,17 @@ function wceazy_start_module_settings(host, view){
                 wceazy_address_book_init(host)
             }
             break;
+        case "product_filter":
+            if (typeof wceazy_product_filter_init !== "undefined") {
+                wceazy_product_filter_init(host)
+            }
+            break;
     }
 }
 
 
 function wceazy_update_module_status(view) {
-    jQuery(view).parent().parent().find(".settings_btn").text('Please Wait..')
+    jQuery(view).parent().parent().find(".settings_btn").text('Loading..')
     jQuery(view).parent().parent().find(".settings_btn").addClass("loading")
 
     var module_slug     = jQuery(view).parent().parent().parent().parent().attr("data-slug");

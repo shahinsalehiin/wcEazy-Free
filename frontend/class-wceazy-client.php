@@ -31,6 +31,8 @@ if (!class_exists('WcEazyClient')) {
         public $shipping_bar;
         /* ======== Address Book ========== */
         public $address_book;
+        /* ======== Product Filter ========== */
+        public $product_filter;
 
         public function __construct()
         {
@@ -98,6 +100,12 @@ if (!class_exists('WcEazyClient')) {
                     include_once WCEAZY_PATH . "modules/address_book/ModuleUtils.php";
                     $this->address_book = new WcEazyAddressBookClient($this);
                 }
+                /* ======== Product Filter ========== */
+                if($this->settings->getModuleStatus("product_filter")){
+                    include_once WCEAZY_PATH . "modules/product_filter/class-module-client.php";
+                    include_once WCEAZY_PATH . "modules/product_filter/ModuleUtils.php";
+                    $this->product_filter = new WcEazyProductFilterClient($this);
+                }
             }
 
         }
@@ -145,6 +153,15 @@ if (!class_exists('WcEazyClient')) {
                 wp_enqueue_style('wceazy-client-module-address-book', WCEAZY_CSS_DIR.'address_book/client_main.css', array(), WCEAZY_VERSION);
                 wp_enqueue_script( 'wceazy-client-module-address-book', WCEAZY_JS_DIR.'address_book/client_main.js', array('jquery'), WCEAZY_VERSION );
                 wp_localize_script( 'wceazy-client-module-address-book', 'wceazy_client_address_book_object', array(
+                    'ajaxurl' => admin_url( 'admin-ajax.php' )
+                ));
+            }
+
+            /* ======== Product Filter ========== */
+            if($this->settings->getModuleStatus("product_filter")){
+                wp_enqueue_style('wceazy-client-module-product-filter', WCEAZY_CSS_DIR.'product_filter/client_main.css', array(), WCEAZY_VERSION);
+                wp_enqueue_script( 'wceazy-client-module-product-filter', WCEAZY_JS_DIR.'product_filter/client_main.js', array('jquery'), WCEAZY_VERSION );
+                wp_localize_script( 'wceazy-client-module-product-filter', 'wceazy_client_product_filter_object', array(
                     'ajaxurl' => admin_url( 'admin-ajax.php' )
                 ));
             }

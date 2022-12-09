@@ -32,6 +32,8 @@ if (!class_exists('WcEazyAdmin')) {
         public $shipping_bar;
         /* ======== Address Book ========== */
         public $address_book;
+        /* ======== Product Filter ========== */
+        public $product_filter;
 
         public function __construct()
         {
@@ -103,6 +105,12 @@ if (!class_exists('WcEazyAdmin')) {
                 include_once WCEAZY_PATH . "modules/address_book/class-module-admin.php";
                 include_once WCEAZY_PATH . "modules/address_book/ModuleUtils.php";
                 $this->address_book = new WcEazyAddressBookAdmin($this);
+            }
+            /* ======== Product Filter ========== */
+            if($this->settings->getModuleStatus("product_filter")){
+                include_once WCEAZY_PATH . "modules/product_filter/class-module-admin.php";
+                include_once WCEAZY_PATH . "modules/product_filter/ModuleUtils.php";
+                $this->product_filter = new WcEazyProductFilterAdmin($this);
             }
 
 
@@ -190,6 +198,11 @@ if (!class_exists('WcEazyAdmin')) {
                 if($this->settings->getModuleStatus("address_book")){
                     wp_enqueue_style('wceazy-admin-module-address-book', WCEAZY_CSS_DIR.'address_book/admin_main.css', array(), WCEAZY_VERSION);
                     wp_enqueue_script( 'wceazy-admin-module-address-book', WCEAZY_JS_DIR.'address_book/admin_main.js', array('jquery'), WCEAZY_VERSION );
+                }
+                /* ======== Product Filter ========== */
+                if($this->settings->getModuleStatus("product_filter")){
+                    wp_enqueue_style('wceazy-admin-module-product-filter', WCEAZY_CSS_DIR.'product_filter/admin_main.css', array(), WCEAZY_VERSION);
+                    wp_enqueue_script( 'wceazy-admin-module-product-filter', WCEAZY_JS_DIR.'product_filter/admin_main.js', array('jquery'), WCEAZY_VERSION );
                 }
             }
         }

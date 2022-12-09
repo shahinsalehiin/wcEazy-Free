@@ -4,8 +4,8 @@ Donate link: https://wceazy.com
 Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
-Tested up to: 6.0.1
-Stable tag: 1.0.8
+Tested up to: 6.1
+Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,7 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 	<li><strong>URL Coupon:</strong> Generate unique URLs to any coupon in your e-commerce store. Adding a URL to any coupon, you can apply a coupon code automatically just by clicking a link.</li>
 	<li><strong>Free Shipping Bar:</strong> A floating banner that displays at the top or bottom of your website and informs visitors that you provide free shipping or other offers is known as a free shipping bar. It's an excellent approach to encourage customers to complete the checkout process.</li>
 	<li><strong>Address Book:</strong> A custom account page menu that gives your customers the option to store multiple billing and shipping addresses and retrieve them on checkout. Addresses can be updated and modified quickly and easily in /my-account/, or saved as part of the checkout process.</li>
+	<li><strong>Product Filter:</strong> Easy way to implement a custom shop page like grid of products into any page using shortcode. Including advanced filtering option to let your customers get the right thing they want. Filtering products via product name, price, rating, category and stock status is now no more depended to theme.</li>
 </ol>
 
 <br>
@@ -416,7 +417,36 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 	<li><strong>Address Card Background Color (Pro):</strong> Allows to set the background color of address card.</li>
 	<li><strong>Address Text Color (Pro):</strong> Allows to set the text color of address inside address card.</li>
 	<li><strong>Address Card Footer Background Color (Pro):</strong> Allows to set the footer background color of address card.</li>
+</ol>
 
+
+
+<h3>Product Filter</h3>
+<ol>
+	<li><strong>Show Search Filter:</strong> Allows to show search filter in sidebar.</li>
+	<li><strong>Show Price Filter:</strong> Allows to show price filter in sidebar.</li>
+	<li><strong>Show Rating Filter:</strong> Allows to show rating filter in sidebar.</li>
+	<li><strong>Show Category Filter:</strong> Allows to show category filter in sidebar.</li>
+	<li><strong>Show Stock Status Filter:</strong> Allows to show stock status filter in sidebar.</li>
+	<li><strong>Filter Sidebar Position:</strong> Allows to show the filtering in left or right side of products grid.</li>
+	<li><strong>Max Product Per Page:</strong> Allows to set maximum number of products can be showed in a page.</li>
+	<li><strong>"Add to Cart" Button Text:</strong> Allows to customize "Add to Cart" Button Text.</li>
+	<li><strong>Action Button Background Color (Pro):</strong> Allows to set background color of Add to Cart button.</li>
+	<li><strong>Action Button Font Color (Pro):</strong> Allows to set font color of Add to Cart button.</li>
+	<li><strong>Product Loader Color (Pro):</strong> Allows to set the color of product loader animation.</li>
+	<li><strong>Search Filter Label Text:</strong> Allows to set the Search Filter Label text.</li>
+	<li><strong>Search Filter Placeholder Text:</strong> Allows to set the Search Field input placeholder text.</li>
+	<li><strong>Search Filter Input Field Border Color (Pro):</strong> Allows to set border color of input field of the search filter.</li>
+	<li><strong>Search Filter Input Field Background Color (Pro):</strong> Allows to set background color of input field of the search filter.</li>
+	<li><strong>Search Filter Input Field Text Color (Pro):</strong> Allows to set text color of input field of the search filter.</li>
+	<li><strong>Price Filter Label Text:</strong> Allows to set the Price Filter Label text.</li>
+    <li><strong>Price Filter Input Field Border Color (Pro):</strong> Allows to set border color of input field of the Price filter.</li>
+    <li><strong>Price Filter Input Field Background Color (Pro):</strong> Allows to set background color of input field of the Price filter.</li>
+    <li><strong>Price Filter Input Field Text Color (Pro):</strong> Allows to set text color of input field of the Price filter.</li>
+    <li><strong>Rating Filter Label Text:</strong> Allows to set the Rating Filter Label text.</li>
+    <li><strong>Rating Filter Show 5 to 0 Star Rating:</strong> Allows to show the 5 to 0 star rating filter respectively.</li>
+    <li><strong>Category Filter Label Text:</strong> Allows to set the Category Filter Label text.</li>
+    <li><strong>Category Filter Checkbox Design (Pro):</strong> Allows to customize the checkbox design of category.</li>
 </ol>
 
 
@@ -487,6 +517,11 @@ screenshot-9.png
 
 
 == Changelog ==
+
+= 1.0.8 =
+1. Updated: Floating Cart Basket Item Count update on Ajax Add to Cart.
+2. Updated: Floating Cart Item count update on Ajax Add to Cart.
+3. Fixed: Responsive Issue on large screen.
 
 = 1.0.7 =
 1. Added: Address Book Module to allow store multiple billing and shipping addresses and retrieve them on checkout.

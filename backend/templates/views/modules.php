@@ -249,6 +249,27 @@
         </div>
 
 
+        <div class="wceazy_module_item" data-slug="product_filter">
+            <div class="wceazy_module_logo">
+                <img src="<?php echo esc_url( WCEAZY_IMG_DIR . 'modules/product_filter/icon.svg');?>" height="100" />
+            </div>
+            <div class="wceazy_module_details">
+                <h3>Product Filter</h3>
+                <div class="wceazy_module_action">
+                    <label class="toggle_switch">
+                        <input type="checkbox" onchange="wceazy_update_module_status(this)" <?php echo ($this->settings->getModuleStatus("product_filter") == 1 ? "checked" : ""); ?>>
+                        <span class="slider round"></span>
+                    </label>
+                    <div class="settings_btn <?php echo ($this->settings->getModuleStatus("product_filter") == 1 ? "active" : ""); ?>"
+                         onclick="wceazy_start_module_settings(`<?php echo esc_url(WCEAZY_URL); ?>`, this)">
+                        Settings
+                    </div>
+                    <a class="wceazy_module_docs" target="_blank" href="<?php echo WCEAZY_DOCS_PAGE; ?>">Documentation</a>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 </div>
 
