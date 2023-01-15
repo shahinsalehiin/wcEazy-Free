@@ -124,15 +124,19 @@ $unique_id = rand();
         </div>
 
         <div class="wceazy_frontend_psb_part_right">
-            <span class="wceazy_frontend_psb_product_price"><?php echo $product->get_price_html (); ?></span>
+
+            <div class="wceazy_frontend_psb_product_price_and_quantity">
+                <span class="wceazy_frontend_psb_product_price"><?php echo $product->get_price_html (); ?></span>
+                <?php if (($product->managing_stock() && $product->is_in_stock()) || !$product->managing_stock()){ ?>
+                    <?php if($wceazy_psb_enable_qty_input == "yes"){ ?>
+                        <div class="wceazy_frontend_psb_product_quantity">
+                            <input type="number" value="1" placeholder="Quantity" />
+                        </div>
+                    <?php } ?>
+                <?php } ?>
+            </div>
 
             <?php if (($product->managing_stock() && $product->is_in_stock()) || !$product->managing_stock()){ ?>
-                <?php if($wceazy_psb_enable_qty_input == "yes"){ ?>
-                    <div class="wceazy_frontend_psb_product_quantity">
-                        <input type="number" value="1" placeholder="Quantity" />
-                    </div>
-                <?php } ?>
-
                 <?php if( !empty( $variations ) && $wceazy_psb_enable_variable_product == 'yes' ){ ?>
                     <div class="wceazy_frontend_psb_variations">
                         <select>
@@ -143,11 +147,13 @@ $unique_id = rand();
                                 <?php foreach ($value['attributes'] as $attr_key => $attr_value) { ?>
                                     <option value="<?php echo $variation_id; ?>"><?php echo ucfirst ($attr_value); ?></option>
                                 <?php } ?>
-                            <?php $i++;} ?>
+                                <?php $i++;} ?>
                         </select>
                     </div>
                 <?php } ?>
+            <?php } ?>
 
+            <?php if (($product->managing_stock() && $product->is_in_stock()) || !$product->managing_stock()){ ?>
                 <button class="wceazy_frontend_psb_add_to_cart" onclick="wceazy_frontend_psb_add_to_cart(`<?php echo $product->get_id(); ?>`)">Add to Cart</button>
             <?php } ?>
         </div>

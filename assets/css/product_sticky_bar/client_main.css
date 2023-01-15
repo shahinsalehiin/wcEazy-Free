@@ -30,6 +30,11 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width:650px)  {
+    .wceazy_frontend_psb{
+        height: auto;
+    }
+}
 .wceazy_frontend_psb.top{
     top: 0;
     border-bottom: 1px solid #e5e5e5;
@@ -57,7 +62,11 @@ body.admin-bar .wceazy_frontend_psb.top{
 }
 
 
-
+@media (max-width:650px)  {
+    .wceazy_frontend_psb{
+        padding: 10px;
+    }
+}
 
 .wceazy_frontend_psb .wceazy_frontend_psb_container{
     width: 1140px;
@@ -106,8 +115,14 @@ body.admin-bar .wceazy_frontend_psb.top{
 .wceazy_frontend_psb .wceazy_frontend_psb_details .wceazy_frontend_psb_rating_review_stock .wceazy_frontend_psb_stock_status{
     margin: 0;
 }
-
-
+@media (max-width:650px)  {
+    .wceazy_frontend_psb .wceazy_frontend_psb_part_left {
+        flex: 1;
+    }
+    .wceazy_frontend_psb .wceazy_frontend_psb_details .wceazy_frontend_psb_rating_review_stock{
+        display: block;
+    }
+}
 
 
 .wceazy_frontend_psb .wceazy_frontend_psb_part_right{
@@ -149,7 +164,12 @@ body.admin-bar .wceazy_frontend_psb.top{
 
 
 
+.wceazy_frontend_psb .wceazy_frontend_psb_part_right .wceazy_frontend_psb_product_price_and_quantity{
+    display: flex;
+    align-items: center;
+}
 .wceazy_frontend_psb .wceazy_frontend_psb_part_right .wceazy_frontend_psb_product_price{
+    white-space: nowrap;
     font-size: var(--wceazy_psb_product_price_font_size);
     font-weight: 600;
     color: var(--wceazy_psb_product_price_color);
@@ -193,3 +213,26 @@ body.admin-bar .wceazy_frontend_psb.top{
     border: var(--wceazy_psb_btn_border_width) solid var(--wceazy_psb_btn_border_hover_color);
 }
 
+@media (max-width:650px)  {
+    .wceazy_frontend_psb .wceazy_frontend_psb_part_right{
+        flex-flow: wrap;
+        flex: 0;
+        justify-content: end;
+    }
+    .wceazy_frontend_psb .wceazy_frontend_psb_part_right .wceazy_frontend_psb_product_quantity{
+        margin: 0;
+    }
+    .wceazy_frontend_psb .wceazy_frontend_psb_part_right input[type="text"],
+    .wceazy_frontend_psb .wceazy_frontend_psb_part_right input[type="number"],
+    .wceazy_frontend_psb .wceazy_frontend_psb_part_right select {
+        padding: 5px 12px;
+    }
+    .wceazy_frontend_psb .wceazy_frontend_psb_part_right .wceazy_frontend_psb_variations{
+        margin: 5px 0 0 0;
+    }
+    .wceazy_frontend_psb .wceazy_frontend_psb_part_right button{
+        width: 150px;
+        margin: 5px 0 0 0;
+    }
+
+}

@@ -5,7 +5,7 @@ Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
 Tested up to: 6.1
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -517,6 +517,13 @@ screenshot-9.png
 
 
 == Changelog ==
+
+= 1.1.0 =
+1. Fixed: Product Sticky Bar responsiveness issue on mobile device has been solved
+2. Fixed: Free Shipping Bar large decimal points issue has been solved
+
+= 1.0.9 =
+1. Added: New Product Filter Module has been added
 
 = 1.0.8 =
 1. Updated: Floating Cart Basket Item Count update on Ajax Add to Cart.

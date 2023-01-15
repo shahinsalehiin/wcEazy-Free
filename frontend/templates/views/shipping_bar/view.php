@@ -162,7 +162,7 @@ $unique_id = rand();
         <?php if($wceazy_sb_enable_progress_bar == "yes") { ?>
         <div class="wceazy_frontend_sb_progress_container">
             <div class="bar-holder">
-                <div class="bar-1" style="width: <?php echo $percent; ?>%;"><?php echo $percent; ?>%</div>
+                <div class="bar-1" style="width: <?php echo $percent; ?>%;"><?php echo round($percent, 2); ?>%</div>
             </div>
         </div>
         <?php } ?>

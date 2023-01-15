@@ -106,6 +106,7 @@ body.admin-bar .wceazy_frontend_sb.top{
     -moz-border-radius: var(--wceazy_sb_bar_border_radius);
 }
 .wceazy_frontend_sb .wceazy_frontend_sb_progress_container .bar-holder .bar-1 {
+    white-space: nowrap;
     font-size: var(--wceazy_sb_bar_font_size);
     background-color: var(--wceazy_sb_bar_progress_bg);
     color: var(--wceazy_sb_bar_text_color);
@@ -132,6 +133,7 @@ body.admin-bar .wceazy_frontend_sb.top{
     -moz-border-radius: 20px;
 }
 .wceazy_cart_checkout_sb_progress_container .bar-holder .bar-1 {
+    white-space: nowrap;
     font-size: 15px;
     background-color: var(--wceazy_cart_checkout_sb_bar_progress_bg);
     color: var(--wceazy_cart_checkout_sb_bar_text_color);

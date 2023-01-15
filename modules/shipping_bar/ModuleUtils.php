@@ -206,7 +206,7 @@ if (!class_exists ('WcEazyShippingBarUtils')) {
                 <td data-title="total-volume">
                     <div id="wceazy_cart_checkout_sb_<?php echo esc_attr($unique_id);?>" class="wceazy_cart_checkout_sb_progress_container">
                         <div class="bar-holder">
-                            <div class="bar-1" style="width: <?php echo $percent; ?>%;"><?php echo $percent; ?>%</div>
+                            <div class="bar-1" style="width: <?php echo $percent; ?>%;"><?php echo round($percent, 2); ?>%</div>
                         </div>
                     </div>
                 </td>
