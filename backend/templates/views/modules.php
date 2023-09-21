@@ -268,6 +268,29 @@
                 </div>
             </div>
         </div>
+        
+        <div class="wceazy_module_item" data-slug="order_cancel">
+            <div class="wceazy-pro-module">
+                <span class="pro-tag">Pro</span>
+            </div>
+            <div class="wceazy_module_logo">
+                <img src="<?php echo esc_url( WCEAZY_IMG_DIR . 'modules/floating_cart/icon.svg');?>" height="100" />
+            </div>
+            <div class="wceazy_module_details">
+                <h3>Order Cancel</h3>
+                <div class="wceazy_module_action">
+                    <label class="toggle_switch">
+                        <input type="checkbox" onchange="wceazy_update_module_status(this)" <?php echo ($this->settings->getModuleStatus("order_cancel") == 1 ? "" : ""); ?> disabled>
+                        <span class="slider round"></span>
+                    </label>
+                    <div class="settings_btn <?php echo ($this->settings->getModuleStatus("order_cancel") == 1 ? "active" : ""); ?>"
+                         onclick="wceazy_start_module_settings(`<?php echo esc_url(WCEAZY_URL); ?>`, this)">
+                        Settings
+                    </div>
+                    <a class="wceazy_module_docs" target="_blank" href="<?php echo WCEAZY_DOCS_PAGE; ?>">Documentation</a>
+                </div>
+            </div>
+        </div>
 
 
     </div>

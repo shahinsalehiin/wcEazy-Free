@@ -1,11 +1,11 @@
 === wcEazy - Supercharge your WooCommerce Store ===
-Contributors: wceazy, wpcommerz, darklup, shahinsalehiin
+Contributors: wceazy, wpcommerz, darklup, shahinsalehiin, devmahbub
 Donate link: https://wceazy.com
 Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
-Tested up to: 6.1
-Stable tag: 1.1.2
+Tested up to: 6.3
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 <p>With wcEazy, an all-in-one WooCommerce plugin, you can increase your sales with a wide variety of features. It simplifies the overall customizing way of a WooCommerce site. In addition, no coding related knowledge is required to access this plugin. It comes up with an easy setup and user friendly accessing process.</p>
 
 <p>Dozens of WordPress WooCommerce plugins are no longer necessary!
-With just one plugin, you can improve the flexibility of your Woocommerce website.</p>
+With just one plugin, you can improve the flexibility of your WooCommerce website.</p>
 
 <h3>wcEazy comes with the following features:</h3>
 
@@ -25,7 +25,7 @@ With just one plugin, you can improve the flexibility of your Woocommerce websit
 </li>
 	<li><strong>Does not require any coding:</strong> To activate and access the WordPress plugin wcEazy, it is not necessary to have any coding knowledge. Its set up and customizing process are very much user friendly.
 </li>
-	<li><strong>Saves cost and time:</strong> Installing one plugin you will get services of different plugins at a time as it provides huge features that can serve all WooCommerce related purposes. This amazing plugin increases your store’s sales and saves your money and time by creating the most flexible Woocommerce site in the most user friendly way.</li>
+	<li><strong>Saves cost and time:</strong> Installing one plugin you will get services of different plugins at a time as it provides huge features that can serve all WooCommerce related purposes. This amazing plugin increases your store’s sales and saves your money and time by creating the most flexible WooCommerce site in the most user friendly way.</li>
 </ol>
 
 
@@ -517,6 +517,10 @@ screenshot-9.png
 
 
 == Changelog ==
+
+= 1.1.3 =
+1. Added: Shipping Bar Responsive Issue
+2. Improved: CSS Update.
 
 = 1.1.2 =
 1. Fixed: Shipping Bar Responsive Issue
