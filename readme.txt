@@ -519,8 +519,9 @@ screenshot-9.png
 == Changelog ==
 
 = 1.1.3 =
-1. Added: Shipping Bar Responsive Issue
+1. Added: Added Order Cancel Pro module placeholder
 2. Improved: CSS Update.
+3. Fixed: Several minor issues have been fixed.
 
 = 1.1.2 =
 1. Fixed: Shipping Bar Responsive Issue
