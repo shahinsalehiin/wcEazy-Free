@@ -4,8 +4,8 @@ Donate link: https://wceazy.com
 Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
-Tested up to: 6.3
-Stable tag: 1.1.3
+Tested up to: 6.4.2
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -456,6 +456,14 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
 <p>Replace all of your complex and time consuming WooCommerce plugins with a single plugin that does everything they do and more!</p>
 
 
+## Privacy Policy 
+wcEazy I Supercharge your WooCommerce Store uses [Appsero](https://appsero.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements.
+
+Appsero SDK **does not gather any data by default.** The SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure a great user experience for all our users. 
+
+Integrating Appsero SDK **DOES NOT IMMEDIATELY** start gathering data, **without confirmation from users in any case.**
+
+Learn more about how [Appsero collects and uses this data](https://appsero.com/privacy-policy/).
 
 
 
@@ -517,6 +525,10 @@ screenshot-9.png
 
 
 == Changelog ==
+
+= 1.1.4 =
+1. Improved: Performance of the plugin has been improved.
+2. Fixed: Minor CSS fixed.
 
 = 1.1.3 =
 1. Added: Added Order Cancel Pro module placeholder
