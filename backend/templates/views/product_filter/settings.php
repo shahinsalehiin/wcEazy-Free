@@ -749,18 +749,17 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
 
                         </div>
                     </div>
-
-
                 </div>
             </div>
-
-
-            <div class="wceazy_product_filter_bottom_button_section">
-                <button onclick="wceazy_product_filter_save();"><?php esc_html_e('Save Settings', 'wceazy'); ?></button>
-            </div>
-
-
-
         </div>
 
+
+        <div class="wceazy_product_filter_bottom_button_section">
+            <button onclick="wceazy_product_filter_save();"><?php esc_html_e('Save my Settings', 'wceazy'); ?></button>
+        </div>
+
+
+
     </div>
+
+</div>
