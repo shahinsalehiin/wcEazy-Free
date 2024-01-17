@@ -61,7 +61,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
     <div class="wceazy_pdf_invoice_header">
         <div class="wceazy_header_part_left">
-            <p>wcEazy <span><?php echo esc_attr(WCEAZY_VERSION); ?></span></p>
+            <p><?php esc_html_e('wcEazy', 'wceazy'); ?> <span><?php echo esc_attr(WCEAZY_VERSION); ?></span></p>
         </div>
         <div class="wceazy_header_part_right">
             <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>"><?php esc_html_e('GET PRO', 'wceazy'); ?></a>
@@ -72,11 +72,11 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
     <div class="wceazy_pdf_invoice_page_title">
         <div class="page_title_part_left">
-            <h2>PDF Invoice & Packing Slips</h2>
-            <a target="_blank" href="<?php echo WCEAZY_DOCS_PAGE; ?>">Documentation</a>
+            <h2><?php esc_html_e('PDF Invoice & Packing Slips', 'wceazy'); ?></h2>
+            <a target="_blank" href="<?php echo WCEAZY_DOCS_PAGE; ?>"><?php esc_html_e('Documentation', 'wceazy'); ?></a>
         </div>
         <div class="page_title_part_right">
-            <button class="wceazy_pdf_invoice_back_to_dashboard_btn" onclick="wceazy_modules_page_init(`<?php echo esc_url(WCEAZY_URL); ?>`)">Back to all Modules</button>
+            <button class="wceazy_pdf_invoice_back_to_dashboard_btn" onclick="wceazy_modules_page_init(`<?php echo esc_url(WCEAZY_URL); ?>`)"><?php esc_html_e('Back to all Modules', 'wceazy'); ?></button>
         </div>
     </div>
 
@@ -89,19 +89,19 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
             <div class="wceazy_pdf_invoice_tab_part_left">
                 <div class="coupon_data_tabs">
                     <div class="tab_item tab_item_active" data-target="tab_pdf_document">
-                        <h1>PDF Document</h1>
+                        <h1><?php esc_html_e('PDF Document', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_item" data-target="tab_general">
                         <h1>General</h1>
                     </div>
                     <div class="tab_item" data-target="tab_invoice">
-                        <h1>Invoice</h1>
+                        <h1><?php esc_html_e('Invoice', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_item" data-target="tab_customize_invoice">
-                        <h1>Customize Invoice</h1>
+                        <h1><?php esc_html_e('Customize Invoice', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_item" data-target="tab_customize_shipping_label">
-                        <h1>Customize Shipping Label</h1>
+                        <h1><?php esc_html_e('Customize Shipping Label', 'wceazy'); ?></h1>
                     </div>
                 </div>
             </div>
@@ -110,24 +110,24 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
                 <div class="coupon_tab_body" data-id="tab_pdf_document">
                     <div class="tab_body_title">
-                        <h1>PDF Document</h1>
+                        <h1><?php esc_html_e('PDF Document', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_body_form">
 
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_deactivate_invoice">
-                            <label for="coupon_generator_coupon_amount">Deactivate Invoice?</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Deactivate Invoice?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_deactivate_invoice == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small>Please turn off if you want to deactivate invoice.</small>
+                                <small><?php esc_html_e('Please turn off if you want to deactivate invoice.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_deactivate_shipping_label">
-                            <label for="coupon_generator_coupon_amount">Deactivate Shipping Label?</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Deactivate Shipping Label?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_deactivate_shipping_label == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small>Please turn off if you want to deactivate shipping label. It is also allowed to turn ON where shipping label is needed instead of packing slip.</small>
+                                <small><?php esc_html_e('Please turn off if you want to deactivate shipping label. It is also allowed to turn ON where shipping label is needed instead of packing slip.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -137,7 +137,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
                 <div class="coupon_tab_body" data-id="tab_general">
                     <div class="tab_body_title">
-                        <h1>General Settings</h1>
+                        <h1><?php esc_html_e('General Settings', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_body_form">
 
@@ -145,30 +145,30 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                         <h4>Shop Info</h4>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_shop_name">
-                            <label for="coupon_generator_coupon_amount">Shop Name</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Shop Name', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_pdf_invoice_text_field" type="text" value="<?php echo esc_attr($wceazy_pi_shop_name); ?>">
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_shop_logo">
-                            <label for="coupon_generator_coupon_amount">Shop Logo</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Shop Logo', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <div class="image_upload_area">
                                     <input class="wceazy_pdf_invoice_text_field" type="text" value="<?php echo esc_attr($wceazy_pi_shop_logo); ?>">
-                                    <button onclick="wceazy_pdf_invoice_image_chooser(this)">Upload</button>
+                                    <button onclick="wceazy_pdf_invoice_image_chooser(this)"><?php esc_html_e('Upload', 'wceazy'); ?></button>
                                     <img src="<?php echo $wceazy_pi_shop_logo; ?>" />
                                 </div>
-                                <small>Recommended image size 150px X 60px</small>
+                                <small><?php esc_html_e('Recommended image size 150px X 60px', 'wceazy'); ?></small>
                             </div>
                         </div>
 
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_footer_info">
-                            <label for="coupon_generator_coupon_amount">Footer Info</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Footer Info', 'wceazy'); ?>v</label>
                             <div class="field_with_msg_container">
                                 <textarea class="wceazy_pdf_invoice_textarea_field" rows="3"><?php echo esc_attr($wceazy_pi_footer_info); ?></textarea>
-                                <small>Enter invoice footer info</small>
+                                <small><?php esc_html_e('Enter invoice footer info', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -176,49 +176,49 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
 
 
-                        <h4>Shop Address (Sender Details)</h4>
+                        <h4><?php esc_html_e('Shop Address (Sender Details)', 'wceazy'); ?></h4>
 
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_sender_name">
-                            <label for="coupon_generator_coupon_amount">Sender Name</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Sender Name', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_sender_name); ?>">
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_address_line_one">
-                            <label for="coupon_generator_coupon_amount">Address Line 1</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Address Line 1', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_address_line_one); ?>">
                             </div>
-                        </div>
+                        </div>', 'wceazy'); ?>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_address_line_two">
-                            <label for="coupon_generator_coupon_amount">Address Line 2</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Address Line 2', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_address_line_two); ?>">
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_address_city">
-                            <label for="coupon_generator_coupon_amount">City</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('City', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_address_city); ?>">
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_postal_code">
-                            <label for="coupon_generator_coupon_amount">Postal Code</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Postal Code', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_postal_code); ?>">
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_country_state">
-                            <label for="coupon_generator_coupon_amount">Country/State</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Country/State', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <select class="wceazy_pdf_invoice_select_field">
-                                    <option value=""> Please select</option>
+                                    <option value=""> <?php esc_html_e('Please select', 'wceazy'); ?></option>
                                     <?php
                                     $country = isset($wceazy_pi_country_state[0]) ? $wceazy_pi_country_state[0] : array_search(WC()->countries->countries[WC()->countries->get_base_country()], WC()->countries->countries);
                                     $state = isset($wceazy_pi_country_state[1]) ? $wceazy_pi_country_state[1] : WC()->countries->get_base_state();
@@ -229,22 +229,22 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_contact_number">
-                            <label for="coupon_generator_coupon_amount">Contact Number</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Contact Number', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_contact_number); ?>">
                             </div>
                         </div>
 
 
-                        <h4>Other Settings</h4>
+                        <h4><?php esc_html_e('Other Settings', 'wceazy'); ?></h4>', 'wceazy'); ?>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_display_download">
-                            <label for="coupon_generator_coupon_amount">How do you want to view the PDF?</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('How do you want to view the PDF?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <select class="wceazy_pdf_invoice_select_field">
-                                    <option value=""> Please select</option>
-                                    <option value="display_new_window" <?php echo esc_attr("display_new_window" == $wceazy_pi_display_download ? "selected" : ""); ?>> Open The PDF in a New Window </option>
-                                    <option value="direct_download" <?php echo esc_attr("direct_download" == $wceazy_pi_display_download ? "selected" : ""); ?>> Direct Download </option>
+                                    <option value=""><?php esc_html_e(' Please select', 'wceazy'); ?></option>
+                                    <option value="display_new_window" <?php echo esc_attr("display_new_window" == $wceazy_pi_display_download ? "selected" : ""); ?>> <?php esc_html_e('Open The PDF in a New Window', 'wceazy'); ?> </option>
+                                    <option value="direct_download" <?php echo esc_attr("direct_download" == $wceazy_pi_display_download ? "selected" : ""); ?>> <?php esc_html_e('Direct Download', 'wceazy'); ?> </option>
                                 </select>
                             </div>
                         </div>
@@ -256,80 +256,77 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
                 <div class="coupon_tab_body" data-id="tab_invoice">
                     <div class="tab_body_title">
-                        <h1>Invoice Settings</h1>
+                        <h1><?php esc_html_e('Invoice Settings', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_body_form">
 
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_disabled_status">
-                            <label for="coupon_generator_coupon_amount">Disable for</label>
+                            <label for="coupon_generator_coupon_amount">Disable for', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <select class="wceazy_pdf_invoice_select_field" multiple="multiple">
-                                    <option value=""> Please select</option>
+                                    <option value=""> Please select', 'wceazy'); ?></option>
                                     <?php foreach (wc_get_order_statuses() as $key => $val) { ?>
                                         <option value="<?php echo esc_attr($key); ?>" <?php echo esc_attr(in_array($key, $wceazy_pi_disabled_status) ? "selected" : ""); ?>> <?php echo esc_attr($val); ?> </option>
                                     <?php } ?>
                                 </select>
-                                <small>Please select Order statuses which an invoice should not be generated.</small>
+                                <small><?php esc_html_e('Please select Order statuses which an invoice should not be generated.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_enable_vat_ssn">
-                            <label for="coupon_generator_coupon_amount">Enable VAT & SSN on Checkout <span style="color: #FF521D;">(Pro)</span></label>
+                            <label for="coupon_generator_coupon_amount">E<?php esc_html_e('nable VAT & SSN on Checkout', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input disabled type="checkbox" <?php echo esc_attr($wceazy_pi_enable_vat_ssn == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small>Turn on if you want to show VAT & SSN option on Checkout page.</small>
+                                <small><?php esc_html_e('Turn on if you want to show VAT & SSN option on Checkout page', 'wceazy'); ?>.</small>
                             </div>
                         </div>
-
-
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_attach_to_email">
-                            <label for="coupon_generator_coupon_amount">Attach to Email <span style="color: #FF521D;">(Pro)</span></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Attach to Email', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <select disabled class="wceazy_pdf_invoice_select_field" multiple="multiple">
-                                    <option value=""> Please select</option>
-                                    <option value="new_order" <?php echo esc_attr(in_array("new_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>> New Order(Admin Email) </option>
-                                    <option value="cancelled_order" <?php echo esc_attr(in_array("cancelled_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>> Cancelled Order </option>
-                                    <option value="failed_order" <?php echo esc_attr(in_array("failed_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>> Failed Order </option>
-                                    <option value="customer_on_hold_order" <?php echo esc_attr(in_array("customer_on_hold_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>> On-Hold Order </option>
-                                    <option value="customer_processing_order" <?php echo esc_attr(in_array("customer_processing_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>> Processing Order </option>
-                                    <option value="customer_completed_order" <?php echo esc_attr(in_array("customer_completed_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>> Complete Order </option>
-                                    <option value="customer_refunded_order" <?php echo esc_attr(in_array("customer_refunded_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>> Refunded Order </option>
-                                    <option value="customer_partially_refunded_order" <?php echo esc_attr(in_array("customer_partially_refunded_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>> Partially Refunded Order </option>
-                                    <option value="customer_invoice" <?php echo esc_attr(in_array("customer_invoice", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>> Customer Invoice </option>
+                                    <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
+                                    <option value="new_order" <?php echo esc_attr(in_array("new_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('New Order (Admin Email)', 'wceazy'); ?></option>
+                                    <option value="cancelled_order" <?php echo esc_attr(in_array("cancelled_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('Cancelled Order', 'wceazy'); ?></option>
+                                    <option value="failed_order" <?php echo esc_attr(in_array("failed_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('Failed Order', 'wceazy'); ?></option>
+                                    <option value="customer_on_hold_order" <?php echo esc_attr(in_array("customer_on_hold_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('On-Hold Order', 'wceazy'); ?></option>
+                                    <option value="customer_processing_order" <?php echo esc_attr(in_array("customer_processing_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('Processing Order', 'wceazy'); ?></option>
+                                    <option value="customer_completed_order" <?php echo esc_attr(in_array("customer_completed_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('Complete Order', 'wceazy'); ?></option>
+                                    <option value="customer_refunded_order" <?php echo esc_attr(in_array("customer_refunded_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('Refunded Order', 'wceazy'); ?></option>
+                                    <option value="customer_partially_refunded_order" <?php echo esc_attr(in_array("customer_partially_refunded_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('Partially Refunded Order', 'wceazy'); ?></option>
+                                    <option value="customer_invoice" <?php echo esc_attr(in_array("customer_invoice", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('Customer Invoice', 'wceazy'); ?></option>
                                 </select>
-                                <small>Please choose when you want the invoice to be emailed.</small>
+                                <small><?php esc_html_e('Please choose when you want the invoice to be emailed.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
-
-                        <h4>Invoice Number</h4>
+                        <h4><?php esc_html_e('Invoice Number', 'wceazy'); ?></h4>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_ordernumber_as_invoice_number">
-                            <label for="coupon_generator_coupon_amount">Order Number as Invoice Number?</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Order Number as Invoice Number?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_ordernumber_as_invoice_number == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
-                                <small>Please turn on if you want to order number as invoice number.</small>
+                                <small><?php esc_html_e('Please turn on if you want to order number as invoice number.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_invoice_start_number">
-                            <label for="coupon_generator_coupon_amount">Invoice Start Number</label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Invoice Start Number', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_pdf_invoice_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_pi_invoice_start_number); ?>">
-                                <small>Set your cart heading title.</small>
+                                <small><?php esc_html_e('Set your cart heading title.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_invoice_prefix">
-                            <label for="coupon_generator_coupon_amount">Prefix <span style="color: #FF521D;">(Pro)</span></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Prefix', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <input disabled class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_invoice_prefix); ?>">
                             </div>
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_invoice_suffix">
-                            <label for="coupon_generator_coupon_amount">Suffix <span style="color: #FF521D;">(Pro)</span></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Suffix', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <input disabled class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_invoice_suffix); ?>">
                             </div>
@@ -341,7 +338,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
                 <div class="coupon_tab_body" data-id="tab_customize_invoice">
                     <div class="tab_body_title">
-                        <h1>Invoice Customization</h1>
+                        <h1><?php esc_html_e('Invoice Customization', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_body_form">
 
