@@ -63,7 +63,7 @@
             <div class="wceazy_module_logo">
                 <img src="<?php echo esc_url(WCEAZY_IMG_DIR . 'modules/bogo_deal/icon.svg'); ?>" height="100" />
             </div>
-            <div class="wceazy_module_details">
+            <div class="wceazy_module_details"> 
                 <h3><?php esc_html_e('BOGO Deal', 'wceazy'); ?></h3>
                 <div class="wceazy_module_action">
                     <label class="toggle_switch">
@@ -278,9 +278,9 @@
                     <a class="wceazy_module_docs" target="_blank" href="<?php echo WCEAZY_DOCS_PAGE; ?>"><?php esc_html_e('Documentation', 'wceazy'); ?></a>
                 </div>
             </div>
-        </div> 
+        </div>
     </div>
-</div> 
+</div>
 <div class="wceazy_modules_popup">
     <div class="wceazy_modules_popup_inner">
         <img src="<?php echo WCEAZY_IMG_DIR . 'popup_spinner.svg' ?>" alt="">

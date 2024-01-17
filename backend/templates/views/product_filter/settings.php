@@ -84,7 +84,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
             <p>wcEazy <span><?php echo esc_attr(WCEAZY_VERSION); ?></span></p>
         </div>
         <div class="wceazy_header_part_right">
-            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>">GET PRO</a>
+            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>"><?php esc_html_e('GET PRO', 'wceazy'); ?></a>
         </div>
     </div>
 

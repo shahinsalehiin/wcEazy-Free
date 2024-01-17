@@ -7,10 +7,10 @@ $wceazy_pi_settings = $wceazy_pdf_invoice_settings ? json_decode($wceazy_pdf_inv
 $wceazy_pi_deactivate_invoice = isset($wceazy_pi_settings["deactivate_invoice"]) ? $wceazy_pi_settings["deactivate_invoice"] : "yes";
 $wceazy_pi_deactivate_shipping_label = isset($wceazy_pi_settings["deactivate_shipping_label"]) ? $wceazy_pi_settings["deactivate_shipping_label"] : "yes";
 
-$wceazy_pi_shop_name = isset($wceazy_pi_settings["shop_name"]) ? $wceazy_pi_settings["shop_name"] : get_option( 'blogname' );
-$wceazy_pi_shop_logo = isset($wceazy_pi_settings["shop_logo"]) ? $wceazy_pi_settings["shop_logo"] : WCEAZY_IMG_DIR."modules/pdf_invoice/no-image.jpg";
+$wceazy_pi_shop_name = isset($wceazy_pi_settings["shop_name"]) ? $wceazy_pi_settings["shop_name"] : get_option('blogname');
+$wceazy_pi_shop_logo = isset($wceazy_pi_settings["shop_logo"]) ? $wceazy_pi_settings["shop_logo"] : WCEAZY_IMG_DIR . "modules/pdf_invoice/no-image.jpg";
 $wceazy_pi_footer_info = isset($wceazy_pi_settings["footer_info"]) ? $wceazy_pi_settings["footer_info"] : "";
-$wceazy_pi_sender_name = isset($wceazy_pi_settings["sender_name"]) ? $wceazy_pi_settings["sender_name"] : get_option( 'blogname' );
+$wceazy_pi_sender_name = isset($wceazy_pi_settings["sender_name"]) ? $wceazy_pi_settings["sender_name"] : get_option('blogname');
 $wceazy_pi_address_line_one = isset($wceazy_pi_settings["address_line_one"]) ? $wceazy_pi_settings["address_line_one"] : get_option('woocommerce_store_address');
 $wceazy_pi_address_line_two = isset($wceazy_pi_settings["address_line_two"]) ? $wceazy_pi_settings["address_line_two"] : get_option('woocommerce_store_address_2');
 $wceazy_pi_address_city = isset($wceazy_pi_settings["address_city"]) ? $wceazy_pi_settings["address_city"] : get_option('woocommerce_store_city');
@@ -19,9 +19,9 @@ $wceazy_pi_country_state = isset($wceazy_pi_settings["country_state"]) ? explode
 $wceazy_pi_contact_number = isset($wceazy_pi_settings["contact_number"]) ? $wceazy_pi_settings["contact_number"] : "";
 $wceazy_pi_display_download = isset($wceazy_pi_settings["display_download"]) ? $wceazy_pi_settings["display_download"] : "display_new_window";
 
-$wceazy_pi_disabled_status = isset($wceazy_pi_settings["disabled_status"]) ? explode(",",$wceazy_pi_settings["disabled_status"]) : array();
+$wceazy_pi_disabled_status = isset($wceazy_pi_settings["disabled_status"]) ? explode(",", $wceazy_pi_settings["disabled_status"]) : array();
 $wceazy_pi_enable_vat_ssn = isset($wceazy_pi_settings["enable_vat_ssn"]) ? $wceazy_pi_settings["enable_vat_ssn"] : "no";
-$wceazy_pi_attach_to_email = isset($wceazy_pi_settings["attach_to_email"]) ? explode(",",$wceazy_pi_settings["attach_to_email"]) : array();
+$wceazy_pi_attach_to_email = isset($wceazy_pi_settings["attach_to_email"]) ? explode(",", $wceazy_pi_settings["attach_to_email"]) : array();
 $wceazy_pi_ordernumber_as_invoice_number = isset($wceazy_pi_settings["ordernumber_as_invoice_number"]) ? $wceazy_pi_settings["ordernumber_as_invoice_number"] : "no";
 $wceazy_pi_invoice_start_number = isset($wceazy_pi_settings["invoice_start_number"]) ? $wceazy_pi_settings["invoice_start_number"] : "1001";
 $wceazy_pi_invoice_prefix = isset($wceazy_pi_settings["invoice_prefix"]) ? $wceazy_pi_settings["invoice_prefix"] : "";
@@ -64,7 +64,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
             <p>wcEazy <span><?php echo esc_attr(WCEAZY_VERSION); ?></span></p>
         </div>
         <div class="wceazy_header_part_right">
-            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>">GET PRO</a>
+            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>"><?php esc_html_e('GET PRO', 'wceazy'); ?></a>
         </div>
     </div>
 
@@ -88,18 +88,30 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
         <div class="wceazy_pdf_invoice_tab">
             <div class="wceazy_pdf_invoice_tab_part_left">
                 <div class="coupon_data_tabs">
-                    <div class="tab_item tab_item_active" data-target="tab_pdf_document"><h1>PDF Document</h1></div>
-                    <div class="tab_item" data-target="tab_general"><h1>General</h1></div>
-                    <div class="tab_item" data-target="tab_invoice"><h1>Invoice</h1></div>
-                    <div class="tab_item" data-target="tab_customize_invoice"><h1>Customize Invoice</h1></div>
-                    <div class="tab_item" data-target="tab_customize_shipping_label"><h1>Customize Shipping Label</h1></div>
+                    <div class="tab_item tab_item_active" data-target="tab_pdf_document">
+                        <h1>PDF Document</h1>
+                    </div>
+                    <div class="tab_item" data-target="tab_general">
+                        <h1>General</h1>
+                    </div>
+                    <div class="tab_item" data-target="tab_invoice">
+                        <h1>Invoice</h1>
+                    </div>
+                    <div class="tab_item" data-target="tab_customize_invoice">
+                        <h1>Customize Invoice</h1>
+                    </div>
+                    <div class="tab_item" data-target="tab_customize_shipping_label">
+                        <h1>Customize Shipping Label</h1>
+                    </div>
                 </div>
             </div>
 
             <div class="wceazy_pdf_invoice_tab_part_right">
 
                 <div class="coupon_tab_body" data-id="tab_pdf_document">
-                    <div class="tab_body_title"><h1>PDF Document</h1></div>
+                    <div class="tab_body_title">
+                        <h1>PDF Document</h1>
+                    </div>
                     <div class="tab_body_form">
 
 
@@ -124,7 +136,9 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                 </div>
 
                 <div class="coupon_tab_body" data-id="tab_general">
-                    <div class="tab_body_title"><h1>General Settings</h1></div>
+                    <div class="tab_body_title">
+                        <h1>General Settings</h1>
+                    </div>
                     <div class="tab_body_form">
 
 
@@ -143,7 +157,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                                 <div class="image_upload_area">
                                     <input class="wceazy_pdf_invoice_text_field" type="text" value="<?php echo esc_attr($wceazy_pi_shop_logo); ?>">
                                     <button onclick="wceazy_pdf_invoice_image_chooser(this)">Upload</button>
-                                    <img src="<?php echo $wceazy_pi_shop_logo; ?>"/>
+                                    <img src="<?php echo $wceazy_pi_shop_logo; ?>" />
                                 </div>
                                 <small>Recommended image size 150px X 60px</small>
                             </div>
@@ -209,7 +223,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                                     $country = isset($wceazy_pi_country_state[0]) ? $wceazy_pi_country_state[0] : array_search(WC()->countries->countries[WC()->countries->get_base_country()], WC()->countries->countries);
                                     $state = isset($wceazy_pi_country_state[1]) ? $wceazy_pi_country_state[1] : WC()->countries->get_base_state();
                                     ?>
-                                    <?php !empty($country) && !empty($state) ? WC ()->countries->country_dropdown_options ($country, $state) : ""; ?>
+                                    <?php !empty($country) && !empty($state) ? WC()->countries->country_dropdown_options($country, $state) : ""; ?>
                                 </select>
                             </div>
                         </div>
@@ -241,7 +255,9 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                 </div>
 
                 <div class="coupon_tab_body" data-id="tab_invoice">
-                    <div class="tab_body_title"><h1>Invoice Settings</h1></div>
+                    <div class="tab_body_title">
+                        <h1>Invoice Settings</h1>
+                    </div>
                     <div class="tab_body_form">
 
 
@@ -324,7 +340,9 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                 </div>
 
                 <div class="coupon_tab_body" data-id="tab_customize_invoice">
-                    <div class="tab_body_title"><h1>Invoice Customization</h1></div>
+                    <div class="tab_body_title">
+                        <h1>Invoice Customization</h1>
+                    </div>
                     <div class="tab_body_form">
 
 
@@ -449,7 +467,9 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                 </div>
 
                 <div class="coupon_tab_body" data-id="tab_customize_shipping_label">
-                    <div class="tab_body_title"><h1>Shipping Label Customization</h1></div>
+                    <div class="tab_body_title">
+                        <h1>Shipping Label Customization</h1>
+                    </div>
                     <div class="tab_body_form">
 
 

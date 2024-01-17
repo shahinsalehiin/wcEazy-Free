@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2024-01-17 01:25+0000\n"
+"PO-Revision-Date: 2024-01-17 01:07+0000\n"
 "Last-Translator: \n"
 "Language-Team: Bengali (Bangladesh)\n"
 "Language: bn_BD\n"
@@ -29,44 +29,44 @@ msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:220
 msgid "\"Add to Cart\" Button Text"
-msgstr "\"কার্ট যুক্ত করুন\" বাটন টেক্সট"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:510
 msgid "\"And Up\" Font Color"
-msgstr "\"এবং\" ফন্ট রঙ"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:491
 msgid "\"And Up\" Text"
-msgstr "\"এবং\" টেক্সট"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:674
 msgid "\"In Stock\" Text"
-msgstr "\"শেয়ার\" টেক্সট"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:256
 msgid "\"Next Page\" Button Text"
-msgstr "\"পরবর্তী পৃষ্ঠা\" বাটন টেক্সট"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:682
 msgid "\"Out of Stock\" Text"
-msgstr "\"স্টক আউট\" টেক্সট"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:247
 msgid "\"Previous Page\" Button Text"
-msgstr "\"পূর্ববর্তী পৃষ্ঠা\" বাটন টেক্সট"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:229
 msgid "\"Select Options\" Button Text"
-msgstr "\"বিকল্প নির্বাচন করুন\" বাটন টেক্সট"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:238
 msgid "\"Stock Out\" Button Text"
-msgstr "\"স্টক আউট\" বাটন টেক্সট"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:127
 #: backend/templates/views/pdf_invoice/invoice.php:128
 msgid "$0.00"
-msgstr "$0.00"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:174
 #: backend/templates/views/address_book/settings.php:183
@@ -139,7 +139,7 @@ msgstr "$0.00"
 #: backend/templates/views/shipping_bar/settings.php:515
 #: backend/templates/views/shipping_bar/settings.php:527
 msgid "(Pro)"
-msgstr "(প্রো)"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:327
 #: backend/templates/views/product_sticky_bar/settings.php:346
@@ -149,72 +149,72 @@ msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:124
 msgid "001"
-msgstr "001"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:126
 msgid "1"
-msgstr "001"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:35
 msgid "10"
-msgstr "10"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:44
 msgid "100"
-msgstr "100"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:36
 msgid "20"
-msgstr "20"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:37
 msgid "30"
-msgstr "30"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:38
 msgid "40"
-msgstr "40"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:39
 msgid "50"
-msgstr "50"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:40
 msgid "60"
-msgstr "60"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:41
 msgid "70"
-msgstr "70"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:42
 msgid "80"
-msgstr "80"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:43
 msgid "90"
-msgstr "90"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:147
 msgid "Account Page"
-msgstr "অ্যাকাউন্ট পৃষ্ঠা"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:81
 #: backend/templates/views/url_coupon/settings.php:65
 msgid "Action"
-msgstr "কর্ম"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:265
 msgid "Action Button Background Color"
-msgstr "কর্ম বাটন পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:276
 msgid "Action Button Font Color"
-msgstr "কর্ম বাটন ফন্টের রং"
+msgstr ""
 
 #: backend/templates/views/modules.php:26
 msgid "Active"
-msgstr "সক্রিয়"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:174
 msgid "Add Billing Address Button Text "
@@ -226,7 +226,7 @@ msgstr ""
 
 #: backend/templates/views/address_book/settings.php:265
 msgid "Add Button Background Hover Color"
-msgstr "যোগ বাটন ব্যাকগ্রাউন্ড উপর কার্সার রেখে দেখুন রঙ"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:288
 msgid "Add Button Border Hover Color "
@@ -234,72 +234,72 @@ msgstr ""
 
 #: backend/templates/views/address_book/settings.php:254
 msgid "Add Button Text Color"
-msgstr "যোগ বাটন টেক্সট রঙ"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:276
 msgid "Add Button Text Hover Color"
-msgstr "যোগ বাটন টেক্সট উপর কার্সার রেখে দেখুন রঙ"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:23
 msgid "Add Rule"
-msgstr "যোগ নিয়ম"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:183
 msgid "Add Shipping Address Button Text"
-msgstr "যোগ শিপিং ঠিকানা বাটন টেক্সট"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:48
 msgid "Add to auto apply"
-msgstr "যোগ করা অটো আবেদন"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:212
 msgid "Add to Cart Button Settings"
-msgstr "কার্ট বাটন যোগ সেটিংস"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:233
 msgid "Add to cart button text"
-msgstr "কার্ট বাটন টেক্সট যোগ করুন"
+msgstr ""
 
 #: backend/templates/views/modules.php:227
 #: backend/templates/views/address_book/settings.php:54
 msgid "Address Book"
-msgstr "ঠিকানা বই"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:91
 msgid "Address Book on Account Page"
-msgstr "ঠিকানা বই অ্যাকাউন্ট পৃষ্ঠা"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:301
 msgid "Address Card Background Color"
-msgstr "ঠিকানা কার্ড পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:312
 msgid "Address Card Border Color"
-msgstr "ঠিকানা কার্ড সীমানা রং"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:333
 msgid "Address Card Footer Background Color"
-msgstr "ঠিকানা কার্ড পাদচরণ পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:345
 msgid "Address Card Link Text Color"
-msgstr "ঠিকানা কার্ড লিঙ্ক টেক্সট রঙ"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:216
 msgid "Address Delete Link Text"
-msgstr "ঠিকানা মুছে দিন, টেক্সট লিঙ্ক"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:208
 msgid "Address Edit Link Text"
-msgstr "ঠিকানা সম্পাদনা টেক্সট লিঙ্ক"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:140
 msgid "Address Field Label"
-msgstr "ঠিকানা ক্ষেত্র লেবেল"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:109
 msgid "Address Field on Checkout Page"
-msgstr "ঠিকানা ক্ষেত্র, চেকআউট পৃষ্ঠায়"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:224
 msgid "Address Make Primary Link Text "
@@ -311,67 +311,67 @@ msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:304
 msgid "After add to cart button"
-msgstr "পরে কার্ট বাটন যুক্ত করুন"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:302
 msgid "After add to cart form"
-msgstr "পরে যোগ করুন, কার্ট ফর্ম"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:202
 #: backend/templates/views/shipping_bar/settings.php:224
 msgid "After shipping block"
-msgstr "পরে গ্রেপ্তার ব্লক"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:217
 msgid "Ajax add to cart on single product"
-msgstr "Ajax কার্ট যোগ করুন, একক পণ্য"
+msgstr ""
 
 #: backend/templates/views/modules.php:25
 msgid "All"
-msgstr "সব"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:262
 msgid "Allow Deleting Item From Cart?"
-msgstr "অনুমতি মুছে ফেলা কার্ট থেকে আইটেম?"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:324
 msgid "Allow Disappear Time"
-msgstr "অনুমতি অদৃশ্য সময়"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:93
 msgid "Allow free shipping"
-msgstr "ফ্রি শিপিং অনুমতি"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:270
 msgid "Allow Quantity Update?"
-msgstr "অনুমতি পরিমাণ আপডেট?"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:181
 msgid "Allowed emails"
-msgstr "দেওয়া ইমেইল"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:712
 #: backend/templates/views/one_click_checkout/settings.php:76
 msgid "Always Hide"
-msgstr "সবসময় আড়াল"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:711
 #: backend/templates/views/one_click_checkout/settings.php:75
 msgid "Always Show"
-msgstr "সবসময় প্রদর্শন"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:47
 msgid "And Up"
-msgstr "এবং আপ"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:95
 msgid "Are you sure?"
-msgstr "আপনি কি নিশ্চিত?"
+msgstr ""
 
 #: backend/templates/views/modules.php:47
 #: backend/templates/views/auto_apply_coupon/settings.php:17
 msgid "Auto Apply Coupon"
-msgstr "অটো কুপন প্রয়োগ"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:58
 #: backend/templates/views/auto_apply_coupon/settings.php:21
@@ -381,102 +381,102 @@ msgstr "অটো কুপন প্রয়োগ"
 #: backend/templates/views/product_sticky_bar/settings.php:63
 #: backend/templates/views/url_coupon/settings.php:18
 msgid "Back to all Modules"
-msgstr "ফিরে সব মডিউল"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:365
 #: backend/templates/views/shipping_bar/settings.php:373
 msgid "Background Color"
-msgstr "পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:87
 msgid "Bar Settings"
-msgstr "বার সেটিংস"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:237
 msgid "Bar Style"
-msgstr "বার শৈলী"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:813
 #: backend/templates/views/one_click_checkout/settings.php:177
 msgid "Basket Background Color"
-msgstr "ঝুড়ি পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:170
 msgid "Basket Count"
-msgstr "ঝুড়ি গণনা"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:833
 #: backend/templates/views/one_click_checkout/settings.php:197
 msgid "Basket Count Background Color"
-msgstr "ঝুড়ি গণনা পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:823
 #: backend/templates/views/one_click_checkout/settings.php:187
 msgid "Basket Count Color"
-msgstr "বাস্কেট রঙ গণনা"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:790
 #: backend/templates/views/one_click_checkout/settings.php:154
 msgid "Basket Count Position"
-msgstr "ঝুড়ি গণনা অবস্থান"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:746
 #: backend/templates/views/one_click_checkout/settings.php:110
 msgid "Basket Icon"
-msgstr "ঝুড়ি আইকন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:803
 #: backend/templates/views/one_click_checkout/settings.php:167
 msgid "Basket Icon Color"
-msgstr "ঝুড়ি আইকন রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:730
 #: backend/templates/views/one_click_checkout/settings.php:94
 msgid "Basket Icon Size"
-msgstr "ঝুড়ি আইকন ফাইলের আকার"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:782
 #: backend/templates/views/one_click_checkout/settings.php:146
 msgid "Basket Offset (Horizontal)"
-msgstr "ঝুড়ি অফসেট (অনুভূমিক)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:774
 #: backend/templates/views/one_click_checkout/settings.php:138
 msgid "Basket Offset (Vertical)"
-msgstr "ঝুড়ি অফসেট (উল্লম্ব)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:761
 #: backend/templates/views/one_click_checkout/settings.php:125
 msgid "Basket Position"
-msgstr "ঝুড়ি অবস্থান"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:719
 #: backend/templates/views/one_click_checkout/settings.php:83
 msgid "Basket Shape"
-msgstr "ঝুড়ি আকৃতি"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:147
 #: backend/templates/views/floating_cart/settings.php:702
 #: backend/templates/views/one_click_checkout/settings.php:66
 msgid "Basket Style"
-msgstr "ঝুড়ি শৈলী"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:303
 msgid "Before add to cart button"
-msgstr "আগে কার্ট বাটন যুক্ত করুন"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:301
 msgid "Before add to cart form"
-msgstr "আগে কার্ট যোগ করুন ফর্ম"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:201
 #: backend/templates/views/shipping_bar/settings.php:223
 msgid "Before shipping block"
-msgstr "গ্রেপ্তার আগে ব্লক"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:76
 msgid "Biller Email Address"
-msgstr "Biller ইমেইল ঠিকানা"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:79
 msgid "Biller Phone Number "
@@ -485,7 +485,7 @@ msgstr ""
 #: backend/templates/views/pdf_invoice/invoice.php:61
 #: backend/templates/views/pdf_invoice/invoice.php:70
 msgid "Billing Address"
-msgstr "বিলিং ঠিকানা"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:191
 msgid "Billing Address Book Empty Message "
@@ -493,59 +493,59 @@ msgstr ""
 
 #: backend/templates/views/address_book/settings.php:158
 msgid "Billing Address Book Headline"
-msgstr "বিলিং ঠিকানা বইয়ের শিরোনাম"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:112
 msgid "Billing Address Field on Checkout?"
-msgstr "বিলিং ঠিকানা ক্ষেত্র, চেকআউট?"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:478
 msgid "Billing First Name"
-msgstr "বিলিং নাম"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:69
 msgid "Billing to Name"
-msgstr "বিলিং নাম"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:225
 msgid "Body Settings"
-msgstr "শরীরের সেটিংস"
+msgstr ""
 
 #: backend/templates/views/modules.php:67
 #: backend/templates/views/bogo_deal/settings.php:17
 msgid "BOGO Deal"
-msgstr "BOGO চুক্তি"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:414
 msgid "Border Radius"
-msgstr "সীমানা ব্যাসার্ধ"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:128
 #: backend/templates/views/shipping_bar/settings.php:354
 msgid "Bottom"
-msgstr "নীচে"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:767
 #: backend/templates/views/floating_cart/settings.php:796
 #: backend/templates/views/one_click_checkout/settings.php:131
 #: backend/templates/views/one_click_checkout/settings.php:160
 msgid "Bottom Left"
-msgstr "নীচে বাম"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:768
 #: backend/templates/views/floating_cart/settings.php:797
 #: backend/templates/views/one_click_checkout/settings.php:132
 #: backend/templates/views/one_click_checkout/settings.php:161
 msgid "Bottom Right"
-msgstr "নীচের অংশে ডানদিকে"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:47
 msgid "Bulk actions"
-msgstr "বাল্ক কর্ম"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:481
 msgid "Button Background Color"
-msgstr "বাটন পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:316
 msgid "Button Background Color <span style=\"color: #FF521D;\">(Pro)</span>"
@@ -558,24 +558,24 @@ msgstr ""
 #: backend/templates/views/floating_cart/settings.php:514
 #: backend/templates/views/product_sticky_bar/settings.php:346
 msgid "Button Border Color"
-msgstr "বাটন সীমানা রং"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:525
 #: backend/templates/views/product_sticky_bar/settings.php:377
 msgid "Button Border Hover Color"
-msgstr "বাটন সীমানা উপর কার্সার রেখে দেখুন রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:536
 msgid "Button Border Radius"
-msgstr "বাটন সীমানা ব্যাসার্ধ"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:357
 msgid "Button Border Width"
-msgstr "বাটন সীমানা প্রস্থ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:470
 msgid "Button Font Color"
-msgstr "বাটন ফন্টের রং"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:327
 msgid "Button Font Color <span "
@@ -584,16 +584,16 @@ msgstr ""
 #: backend/templates/views/floating_cart/settings.php:462
 #: backend/templates/views/product_sticky_bar/settings.php:337
 msgid "Button Font Size"
-msgstr "বাটন ফন্টের আকার"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:503
 msgid "Button Hover Background"
-msgstr "বাটন উপর কার্সার রেখে দেখুন ব্যাকগ্রাউন্ড"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:492
 #: backend/templates/views/product_sticky_bar/settings.php:389
 msgid "Button Hover Font Color"
-msgstr "বাটন উপর কার্সার রেখে দেখুন ফন্টের রং"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:400
 msgid "Button Padding Left-Right "
@@ -601,116 +601,116 @@ msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:409
 msgid "Button Padding Top-Bottom"
-msgstr "বাটন প্যাডিং টপ-বটম"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:269
 msgid "Buy now button ?"
-msgstr "এখন কিনতে বাটন ?"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:417
 msgid "Buy now button border radius (PX)"
-msgstr "এখন কিনতে বাটন সীমানা ব্যাসার্ধ (PX)"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:351
 msgid "Buy Now Button design"
-msgstr "এখন কিনতে বাটন নকশা"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:277
 #: backend/templates/views/one_click_checkout/settings.php:280
 msgid "Buy now button label"
-msgstr "এখন কিনতে বাটন লেবেল"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:326
 msgid "Buy now button margin bottom"
-msgstr "এখন কিনতে বাটন মার্জিন নীচে"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:329
 msgid "Buy now button margin bottom (PX)."
-msgstr "এখন কিনতে বাটন মার্জিন নীচে (PX)."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:334
 msgid "Buy now button margin left"
-msgstr "এখন কিনতে বাটন মার্জিন বাম"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:337
 msgid "Buy now button margin left (PX)."
-msgstr "এখন কিনতে বাটন মার্জিন বাম (PX)."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:342
 msgid "Buy now button margin right"
-msgstr "এখন কিনতে বাটন ডান মার্জিন"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:345
 msgid "Buy now button margin right (PX)."
-msgstr "এখন কিনতে বাটন মার্জিন ডান (PX)."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:318
 msgid "Buy now button margin top"
-msgstr "এখন কিনতে বাটন মার্জিন শীর্ষ"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:321
 msgid "Buy now button margin top (PX)."
-msgstr "এখন কিনতে বাটন মার্জিন শীর্ষ (PX)."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:409
 msgid "Buy now button padding left & right (PX)"
-msgstr "এখন কিনতে বাটন প্যাডিং বাম ও ডান (PX)"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:401
 msgid "Buy now button padding top & bottom (PX)"
-msgstr "এখন কিনতে বাটন প্যাডিং শীর্ষ & নীচে (PX)"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:262
 msgid "Buy Now Button Settings"
-msgstr "এখন কিনতে বাটন সেটিংস"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:310
 msgid "Buy now button width"
-msgstr "এখন কিনতে বাটন প্রস্থ"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:313
 msgid "Buy now button width on the product page (PX)."
-msgstr "এখন কিনতে বাটন প্রস্থ পণ্য পাতা নেভিগেশন (PX)."
+msgstr ""
 
 #: backend/templates/dashboard.php:63
 msgid "Cancel"
-msgstr "বাতিল"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:183
 msgid "Cart & Checkout Page Settings"
-msgstr "কার্ট & চেকআউট পৃষ্ঠা সেটিংস"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:126
 msgid "Cart Body"
-msgstr "কার্ট শরীরের"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:129
 msgid "Cart Footer"
-msgstr "কার্ট পাদচরণ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:123
 msgid "Cart Header"
-msgstr "কার্ট হেডার"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:451
 msgid "Cart Open From"
-msgstr "কার্ট ওপেন থেকে"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:186
 msgid "Cart Page"
-msgstr "কার্ট পাতা"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:443
 msgid "Cart Width(px)"
-msgstr "কার্ট প্রস্থ(px)"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:128
 msgid "Category Filter"
-msgstr "বিভাগ ফিল্টার"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:580
 msgid "Category Filter Settings"
-msgstr "বিষয়শ্রেণীতে ফিল্টার সেটিংস"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:607
 msgid "Category Font Color "
@@ -718,29 +718,29 @@ msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:445
 msgid "Center"
-msgstr "কেন্দ্র"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:225
 msgid "Change Add to cart button text"
-msgstr "পরিবর্তন কার্ট বাটন টেক্সট যোগ করুন"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:38
 msgid "Characters"
-msgstr "অক্ষর"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:40
 msgid "Characters & Numbers (Available in Pro)"
-msgstr "অক্ষর & নম্বর (উপলব্ধ প্রো)"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:126
 msgid ""
 "Check this box if the coupon cannot be used in conjunction with other "
 "coupons."
-msgstr "এই বক্স চেক করুন, যদি কুপন ব্যবহার করা যাবে না, সাথে অন্যান্য কুপন."
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:96
 msgid "Check this box if the coupon grants free shipping. A"
-msgstr "এই বক্স চেক করুন, যদি কুপন অনুদান ফ্রি শিপিং. একটি"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:133
 msgid ""
@@ -748,18 +748,15 @@ msgid ""
 "coupons will only work if the item is not on sale. Per-cart coupons will "
 "only work if there are items in the cart that are not on sale."
 msgstr ""
-"এই বক্স চেক করুন, যদি কুপন প্রযোজ্য করা উচিত নয় আইটেম বিক্রি. প্রতি আইটেম, "
-"কুপন হলে শুধুমাত্র কাজ করবে আইটেম বিক্রি হয় না. প্রতি-কার্ট কুপন শুধুমাত্র "
-"কাজ করবে যদি সেখানে আইটেম কার্ট মধ্যে যে বিক্রি না হয়."
 
 #: backend/templates/views/product_filter/settings.php:643
 #: backend/templates/views/product_filter/settings.php:739
 msgid "Checkbox Checked Background Color"
-msgstr "চেকবক্স চেক পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:715
 msgid "Checkbox Unchecked Background Color"
-msgstr "চেকবক্স আনচেক পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:619
 msgid "Checkbox Unchecked Background Color "
@@ -767,7 +764,7 @@ msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:727
 msgid "Checkbox Unchecked Border Color"
-msgstr "চেকবক্স আনচেক সীমানা রং"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:631
 msgid "Checkbox Unchecked Border Color "
@@ -775,94 +772,94 @@ msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:368
 msgid "Checkout Button"
-msgstr "চেকআউট বাটন"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:137
 #: backend/templates/views/shipping_bar/settings.php:208
 msgid "Checkout Page"
-msgstr "চেকআউট পাতা"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:424
 msgid "Checkout Settings"
-msgstr "চেকআউট সেটিংস"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:368
 msgid "Choose layout to auto fill other style configurations."
-msgstr "নির্বাচন করুন বিন্যাস থেকে, অটো ভরাট অন্য কনফিগারেশন."
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:50
 #: backend/templates/views/pdf_invoice/invoice.php:71
 #: backend/templates/views/pdf_invoice/invoice.php:97
 msgid "City"
-msgstr "সিটি"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:466
 msgid "Close Icon Color"
-msgstr "বন্ধ আইকন রঙ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:478
 msgid "Close Icon Size"
-msgstr "বন্ধ আইকন সাইজ"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:73
 #: backend/templates/views/url_coupon/settings.php:57
 msgid "Code"
-msgstr "কোড"
+msgstr ""
 
 #: backend/class-wceazy-admin.php:139
 msgid "Community support"
-msgstr "কমিউনিটি সমর্থন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:144
 #: backend/templates/views/floating_cart/settings.php:605
 msgid "Content Style"
-msgstr "কন্টেন্ট শৈলী"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:352
 msgid "Continue Shopping Button"
-msgstr "Continue Shopping বাটনে"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:409
 msgid "Continue Shopping Button Url"
-msgstr "অবিরত কেনাকাটা বাটন Url টি"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:51
 #: backend/templates/views/pdf_invoice/invoice.php:72
 #: backend/templates/views/pdf_invoice/invoice.php:98
 msgid "Country"
-msgstr "দেশ"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:75
 #: backend/templates/views/url_coupon/settings.php:59
 msgid "Coupon Amount"
-msgstr "কুপন পরিমাণ"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:88
 msgid "Coupon amount"
-msgstr "কুপন পরিমাণ"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:103
 msgid "Coupon expiry date"
-msgstr "কুপন মেয়াদ উত্তীর্ন তাং"
+msgstr ""
 
 #: backend/templates/views/modules.php:87
 #: backend/templates/views/coupon_generator/settings.php:13
 msgid "Coupon Generator"
-msgstr "কুপন জেনারেটরের"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:26
 msgid "Coupon prefix"
-msgstr "কুপন উপসর্গ"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:74
 #: backend/templates/views/coupon_generator/settings.php:35
 #: backend/templates/views/url_coupon/settings.php:58
 msgid "Coupon Type"
-msgstr "কুপন টাইপ"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:45
 msgid "Coupons Character Length"
-msgstr "কুপন চরিত্র দৈর্ঘ্য"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:229
 msgid "Coupons Generated <br />Successfully!"
@@ -870,69 +867,69 @@ msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:36
 msgid "Create First Rule"
-msgstr "তৈরি প্রথম নিয়ম"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:554
 msgid "Cross Icon Size(px)"
-msgstr "ক্রস আইকন আকার(px)"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:192
 msgid "Custom Footer Text"
-msgstr "কাস্টম ফুটার টেক্সট"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:181
 msgid "Customer Note:"
-msgstr "গ্রাহক নোট:"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:278
 msgid "Customize Messages"
-msgstr "বার্তা কাস্টমাইজ"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:236
 #: backend/templates/views/shipping_bar/settings.php:344
 msgid "Customize Styles"
-msgstr "কাস্টমাইজ শৈলী"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:66
 msgid "Delete Rule"
-msgstr "মুছে নিয়ম"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:76
 #: backend/templates/views/url_coupon/settings.php:60
 msgid "Description"
-msgstr "বিবরণ:"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:179
 msgid "Disable for Products"
-msgstr "নিষ্ক্রিয় জন্য পণ্য"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:145
 msgid "Discount"
-msgstr "ছাড়"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:80
 msgid "Discount Amount"
-msgstr "ডিসকাউন্ট পরিমাণ"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:72
 msgid "Discount Type"
-msgstr "ডিসকাউন্ট টাইপ"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:77
 msgid "Discount type"
-msgstr "ডিসকাউন্ট টাইপ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:125
 msgid "Display in Desktop"
-msgstr "প্রদর্শন ডেস্কটপ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:133
 msgid "Display in Mobile"
-msgstr "প্রদর্শন মোবাইল"
+msgstr ""
 
 #: backend/class-wceazy-admin.php:138
 msgid "Docs"
-msgstr "ডক্স"
+msgstr ""
 
 #: backend/templates/views/modules.php:56
 #: backend/templates/views/modules.php:76
@@ -954,151 +951,150 @@ msgstr "ডক্স"
 #: backend/templates/views/product_sticky_bar/settings.php:60
 #: backend/templates/views/url_coupon/settings.php:15
 msgid "Documentation"
-msgstr "ডকুমেন্টেশন"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:312
 msgid "Effect Settings"
-msgstr "প্রভাব সেটিংস"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:376
 msgid "Empty Cart Message"
-msgstr "খালি কার্ট বার্তা"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:707
 #: backend/templates/views/one_click_checkout/settings.php:71
 msgid "Enable Basket"
-msgstr "সক্রিয় ঝুড়ি"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:94
 msgid "Enable Billing Address Book"
-msgstr "সক্রিয় বিলিং ঠিকানা বই"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:488
 msgid "Enable Progress Bar"
-msgstr "সক্রিয় অগ্রগতি বার"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:102
 msgid "Enable Shipping Address Book"
-msgstr "সক্রিয় শিপিং ঠিকানা বই"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:93
 msgid "Enable Sticky Bar"
-msgstr "সক্রিয় চটচটে বার"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:194
 msgid "Enable Update Product Qty"
-msgstr "সক্রিয় আপডেট পণ্য Qty"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:202
 msgid "Enable Variable Product"
-msgstr "সক্রিয় পরিবর্তনশীল পণ্য"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:236
 msgid "Enter cart & checkout page free shipping progress bar headline text."
 msgstr ""
-"লিখতে কার্ট & চেকআউট পৃষ্ঠা, ফ্রি শিপিং, অগ্রগতি বার, শিরোনামটি টেক্সট."
 
 #: backend/templates/views/coupon_generator/settings.php:170
 msgid "Exclude categories"
-msgstr "আরও অগ্রাহ্য"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:154
 msgid "Exclude Pages"
-msgstr "পৃষ্ঠাগুলি অগ্রাহ্য"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:167
 msgid "Exclude Products"
-msgstr "পণ্য অগ্রাহ্য"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:148
 msgid "Exclude products"
-msgstr "পণ্য অগ্রাহ্য"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:130
 msgid "Exclude sale items"
-msgstr "অগ্রাহ্য বিক্রয় আইটেম"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:79
 #: backend/templates/views/url_coupon/settings.php:63
 msgid "Expiry Date"
-msgstr "মেয়াদ শেষ হওয়ার তারিখ"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:230
 msgid "Export as CSV"
-msgstr "হিসেবে এক্সপোর্ট CSV"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:146
 msgid "Fee"
-msgstr "ফি"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:58
 msgid "Filter By Category"
-msgstr "বিভাগ দ্বারা ফিল্টার"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:37
 msgid "Filter By Price"
-msgstr "মূল্য দ্বারা ফিল্টার"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:46
 msgid "Filter By Rating"
-msgstr "দ্বারা ফিল্টার রেটিং"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:66
 msgid "Filter By Stock"
-msgstr "দ্বারা ফিল্টার স্টক"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:187
 msgid "Filter Sidebar Position"
-msgstr "ফিল্টার পার্শ্বদন্ডে অবস্থান"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:55
 #: backend/templates/views/coupon_generator/settings.php:81
 #: backend/templates/views/url_coupon/settings.php:44
 msgid "Fixed cart discount"
-msgstr "স্থায়ী কার্ট ডিসকাউন্ট"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:76
 msgid "Fixed discount"
-msgstr "সংশোধন করা হয়েছে ছাড়"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:56
 #: backend/templates/views/coupon_generator/settings.php:82
 #: backend/templates/views/url_coupon/settings.php:45
 msgid "Fixed product discount"
-msgstr "সংশোধন করা হয়েছে পণ্য ডিসকাউন্ট"
+msgstr ""
 
 #: backend/templates/views/modules.php:167
 #: backend/templates/views/floating_cart/settings.php:103
 msgid "Floating Cart"
-msgstr "ভাসমান কার্ট"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:354
 msgid "Font Color"
-msgstr "ফন্ট রঙ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:431
 msgid "Font Size of Message"
-msgstr "ফন্ট সাইজ এর বার্তা"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:287
 msgid "Footer Position Fixed?"
-msgstr "ফুটার অবস্থান সংশোধন করা হয়েছে?"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:282
 msgid "Footer Settings"
-msgstr "পাদলেখ সেটিংস"
+msgstr ""
 
 #: backend/templates/views/modules.php:207
 msgid "Free Shipping Bar"
-msgstr "ফ্রি শিপিং বার"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:97
 msgid "free shipping method"
-msgstr "ফ্রি শিপিং পদ্ধতি"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:41
 msgid "From Address"
-msgstr "ঠিকানা থেকে"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:71
 #: backend/templates/views/coupon_generator/settings.php:59
@@ -1106,30 +1102,30 @@ msgstr "ঠিকানা থেকে"
 #: backend/templates/views/floating_cart/settings.php:120
 #: backend/templates/views/product_filter/settings.php:113
 msgid "General"
-msgstr "সাধারণ"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:86
 #: backend/templates/views/floating_cart/settings.php:156
 #: backend/templates/views/product_filter/settings.php:139
 msgid "General Settings"
-msgstr "সাধারণ সেটিংস"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:138
 #: backend/templates/views/floating_cart/settings.php:438
 msgid "General Style"
-msgstr "সাধারণ শৈলী"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:212
 msgid "Generate Coupons"
-msgstr "কুপন উৎপন্ন"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:225
 msgid "Generating Coupons"
-msgstr "উৎপাদিত কুপন"
+msgstr ""
 
 #: backend/templates/dashboard.php:64
 msgid "Get Premium"
-msgstr "প্রিমিয়াম পান"
+msgstr ""
 
 #: backend/templates/views/modules.php:10
 #: backend/templates/views/address_book/settings.php:46
@@ -1140,69 +1136,69 @@ msgstr "প্রিমিয়াম পান"
 #: backend/templates/views/product_sticky_bar/settings.php:51
 #: backend/templates/views/url_coupon/settings.php:8
 msgid "GET PRO"
-msgstr "প্রো পেতে"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:199
 msgid "Header Settings"
-msgstr "শিরোলেখ সেটিংস"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:141
 #: backend/templates/views/floating_cart/settings.php:549
 msgid "Header Style"
-msgstr "শিরোলেখ স্টাইল"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:562
 msgid "Heading Basket Icon Size(px)"
-msgstr "শিরোনাম ঝুড়ি আইকনের আকার(px)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:589
 msgid "Heading Border Bottom Color"
-msgstr "শিরোনাম সীমানা নীচে রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:578
 msgid "Heading Font Color"
-msgstr "শিরোনাম ফন্ট রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:570
 msgid "Heading Font Size(px)"
-msgstr "শিরোনাম ফন্টের আকার(px)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:344
 msgid "Heading Title"
-msgstr "শিরোনাম শিরোনাম"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:233
 msgid "Headline Text"
-msgstr "শিরোনাম টেক্সট"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:242
 msgid "Height"
-msgstr "উচ্চতা"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:149
 msgid "Here"
-msgstr "এখানে"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:226
 msgid "Hide Sticky bar (Product Out of Stock)"
-msgstr "আড়াল চটচটে বার (পণ্য স্টক আউট)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:713
 #: backend/templates/views/one_click_checkout/settings.php:77
 msgid "Hide when cart is empty"
-msgstr "যখন আড়াল কার্ট খালি"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:387
 msgid "Hover Background Color"
-msgstr "উপর কার্সার রেখে দেখুন পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:376
 msgid "Hover Font Color"
-msgstr "উপর কার্সার রেখে দেখুন ফন্টের রং"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:179
 msgid "how Stock Status Filter?"
-msgstr "কিভাবে স্টক অবস্থা ফিল্টার?"
+msgstr ""
 
 #. URI of the plugin
 #. Author URI of the plugin
@@ -1211,62 +1207,62 @@ msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:67
 msgid "In Stock"
-msgstr "স্টক মধ্যে কিছু অপশন"
+msgstr ""
 
 #: backend/templates/views/modules.php:27
 msgid "Inactive"
-msgstr "নিষ্ক্রিয়"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:123
 msgid "Individual use only"
-msgstr "পৃথক শুধুমাত্র ব্যবহার"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:316
 msgid "Initial Delay Time"
-msgstr "প্রাথমিক সময় বিলম্ব"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:375
 #: backend/templates/views/product_filter/settings.php:453
 msgid "Input Field Background Color"
-msgstr "ইনপুট ক্ষেত্র পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:364
 #: backend/templates/views/product_filter/settings.php:442
 msgid "Input Field Border Color"
-msgstr "ইনপুট ক্ষেত্র সীমানা রং"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:386
 #: backend/templates/views/product_filter/settings.php:464
 msgid "Input Field Text Color"
-msgstr "ইনপুট ক্ষেত্র টেক্সট রঙ"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:7
 #: backend/templates/views/pdf_invoice/invoice.php:14
 msgid "INVOICE"
-msgstr "চালান"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:15
 msgid "Invoice Date:"
-msgstr "তারিখ চালান:"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:80
 msgid "Is Auto Coupon"
-msgstr "অটো কুপন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:162
 msgid "Is Auto Open Cart?"
-msgstr "অটো ওপেন কার্ট?"
+msgstr ""
 
 #: backend/templates/views/url_coupon/settings.php:64
 msgid "Is URL Coupon"
-msgstr "হয়, URL টি কুপন"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:353
 #: backend/templates/views/product_filter/settings.php:431
 #: backend/templates/views/product_filter/settings.php:499
 #: backend/templates/views/product_filter/settings.php:595
 msgid "Label Font Color"
-msgstr "লেবেল ফন্টের রং"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:691
 msgid "Label Font Color "
@@ -1278,20 +1274,20 @@ msgstr ""
 #: backend/templates/views/product_filter/settings.php:586
 #: backend/templates/views/product_filter/settings.php:665
 msgid "Label Text"
-msgstr "লেবেল টেক্সট"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:365
 msgid "Layout 1"
-msgstr "বিন্যাস 1"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:366
 msgid "Layout 2"
-msgstr "বিন্যাস 2"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:455
 #: backend/templates/views/shipping_bar/settings.php:444
 msgid "Left"
-msgstr "বাম"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:192
 msgid "Left "
@@ -1303,49 +1299,46 @@ msgid ""
 "generates a unique coupon URL that can be used in all kind of scenarios (eg. "
 "email marketing, live chat support, blog links)."
 msgstr ""
-"যাক আপনার গ্রাহকদের এই আবেদন কুপন গিয়ে একটি URL. এই কুপন তৈরি করে একটি "
-"অনন্য কুপন URL ব্যবহার করা যেতে পারে যে, সব ধরনের পরিস্থিতিতে (যেমন. ইমেইল "
-"মার্কেটিং, লাইভ চ্যাট সমর্থন, ব্লগ লিঙ্ক)."
 
 #: backend/templates/views/coupon_generator/settings.php:197
 msgid "Limit usage to X items"
-msgstr "সীমা ব্যবহার করার জন্য, এক্স আইটেম"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:420
 msgid "Link Color on Message"
-msgstr "লিঙ্ক রঙ উপর বার্তা"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:39
 msgid "Max"
-msgstr "সর্বোচ্চ"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:421
 msgid "Max Placeholder Text"
-msgstr "সর্বোচ্চ স্থানধারক টেক্সট"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:211
 msgid "Max Product Per Page"
-msgstr "সর্বোচ্চ পণ্য পৃষ্ঠা প্রতি"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:119
 msgid "Maximum spend"
-msgstr "সর্বোচ্চ ব্যয়"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:150
 msgid "Menu Title"
-msgstr "মেনু শিরোনাম"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:299
 msgid "Message on Completed Order Amount"
-msgstr "বার্তা সম্পন্ন আদেশ পরিমাণ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:291
 msgid "Message on Partially Completed Order Amount"
-msgstr "বার্তা উপর আংশিকভাবে সম্পন্ন আদেশ পরিমাণ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:283
 msgid "Message on Zero Order Amount"
-msgstr "বার্তা উপর আদেশ পরিমাণ শূন্য"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:294
 msgid ""
@@ -1371,145 +1364,143 @@ msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:38
 msgid "Min"
-msgstr "ন্যূনতম"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:412
 msgid "Min Placeholder Text"
-msgstr "ন্যূনতম স্থানধারক টেক্সট"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:115
 msgid "Minimum spend"
-msgstr "সর্বনিম্ন ব্যয়"
+msgstr ""
 
 #: backend/templates/views/modules.php:18
 msgid "Modules"
-msgstr "মডিউল"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:98
 msgid ""
 "must be enabled in your shipping zone and be set to require \"a valid free "
 "shipping coupon\" (see the \"Free Shipping Requires\" setting)."
 msgstr ""
-"সক্রিয় করা আবশ্যক আপনার শিপিং জোন এবং স্থাপন করা প্রয়োজন \"একটি বৈধ ফ্রি "
-"শিপিং কুপন\" (দেখুন, \"ফ্রি শিপিং প্রয়োজন\" সেটিং)."
 
 #: backend/templates/views/pdf_invoice/invoice.php:125
 #: backend/templates/views/pdf_invoice/invoice.php:132
 msgid "Name of the product"
-msgstr "নাম, পণ্য"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:48
 msgid "Name of the shop"
-msgstr "নাম, দোকান"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:97
 msgid "No"
-msgstr "কোন"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:120
 msgid "No maximum"
-msgstr "আর সর্বোচ্চ"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:116
 msgid "No minimum"
-msgstr "কোন সর্বনিম্ন"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:35
 msgid "No pricing rule has been created"
-msgstr "কোন মূল্যের নিয়ম তৈরি করা হয়েছে"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:182
 msgid "No restrictions"
-msgstr "কোন সীমাবদ্ধতা"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:30
 msgid "Number of Coupons"
-msgstr "সংখ্যা কুপন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:174
 msgid "Number Of Products"
-msgstr "পণ্য সংখ্যা"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:39
 msgid "Numbers (Available in Pro)"
-msgstr "নাম্বার (উপলব্ধ প্রো)"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:266
 msgid "On product page"
-msgstr "পণ্য পাতা নেভিগেশন"
+msgstr ""
 
 #: backend/templates/views/modules.php:147
 msgid "One Click Checkout"
-msgstr "এক ক্লিক করুন চেকআউট"
+msgstr ""
 
 #: backend/templates/views/modules.php:269
 msgid "Order Cancel"
-msgstr "অর্ডার বাতিল"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:17
 msgid "Order Date:"
-msgstr "আদেশ তারিখ:"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:16
 msgid "Order No.:"
-msgstr "যাতে কোন.:"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:68
 msgid "Out of Stock"
-msgstr "স্টক আউট"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:392
 msgid "Padding Bottom"
-msgstr "প্যাডিং বটম"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:406
 #: backend/templates/views/shipping_bar/settings.php:400
 msgid "Padding Left-Right"
-msgstr "প্যাডিং বাম-ডান"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:384
 msgid "Padding Top"
-msgstr "প্যাডিং শীর্ষ"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:398
 msgid "Padding Top-Bottom"
-msgstr "প্যাডিং টপ-বটম"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:288
 msgid "Pagination Button Border Color"
-msgstr "পত্রাঙ্কন বাটন সীমানা রং"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:300
 msgid "Pagination Button Font Color"
-msgstr "পত্রাঙ্কন বাটন ফন্টের রং"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:176
 msgid "Payment Method: COD"
-msgstr "পেমেন্ট পদ্ধতি: কড"
+msgstr ""
 
 #: backend/templates/views/modules.php:187
 msgid "PDF Invoice & Packing Slips"
-msgstr "পিডিএফ চালান & বোঁচকা Slips"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:33
 #: backend/templates/views/url_coupon/settings.php:27
 msgid "Per page view"
-msgstr "প্রতি পৃষ্ঠা দেখুন"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:54
 #: backend/templates/views/bogo_deal/settings.php:75
 #: backend/templates/views/coupon_generator/settings.php:80
 #: backend/templates/views/url_coupon/settings.php:43
 msgid "Percentage discount"
-msgstr "শতাংশ ছাড়"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:344
 msgid "Placeholder Text"
-msgstr "স্থানধারক টেক্সট"
+msgstr ""
 
 #: modules/url_coupon/ModuleUtils.php:170
 msgid "Please first add the product to the cart and then apply the URL coupon."
-msgstr "দয়া করে প্রথম যোগ করার জন্য পণ্য কার্ট, এবং তারপর আবেদন URL টি কুপন."
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:74
 #: backend/templates/views/bogo_deal/settings.php:110
@@ -1547,267 +1538,252 @@ msgstr "দয়া করে প্রথম যোগ করার জন্�
 #: backend/templates/views/shipping_bar/settings.php:364
 #: backend/templates/views/shipping_bar/settings.php:443
 msgid "Please select"
-msgstr "দয়া করে নির্বাচন করুন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:189
 msgid "Please select pages where you do not show floating cart."
-msgstr "দয়া করে পেজ নির্বাচন করুন যেখানে আপনি দেখাতে না, ভাসমান কার্ট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:756
 #: backend/templates/views/one_click_checkout/settings.php:120
 msgid "Please select your basket icon."
-msgstr "দয়া করে নির্বাচন করুন, আপনার ঝুড়ি আইকন."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:461
 msgid "Please select your close icon of shipping bar."
-msgstr "দয়া করে নির্বাচন করুন, আপনার ঘনিষ্ঠ আইকন এর শিপিং বার."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:619
 msgid "Please select your delete icon."
-msgstr "দয়া করে নির্বাচন করুন মুছে দিন আইকন."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:290
 msgid "Please turn off if you do not want a fixed footer."
-msgstr "দয়া করে বন্ধ করতে না চান তাহলে আপনি একটি নির্দিষ্ট পাদচরণ."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:265
 msgid ""
 "Please turn off if you do not want to allow deleting items from the cart."
 msgstr ""
-"দয়া করে বন্ধ করুন যদি আপনি করতে চান না, অনুমতি মুছে ফেলা আইটেম কার্ট থেকে."
 
 #: backend/templates/views/floating_cart/settings.php:273
 msgid ""
 "Please turn off if you do not want to allow quantity update on the cart."
-msgstr "দয়া করে বন্ধ না হলে, আপনি অনুমতি দিতে চান পরিমাণ আপডেট কার্ট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:741
 #: backend/templates/views/one_click_checkout/settings.php:105
 msgid "Please turn off if you do not want to show basket item count."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, ঝুড়ি, আইটেমটি গণনা."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:173
 msgid "Please turn off if you do not want to show category filter in sidebar."
 msgstr ""
-"দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, বিষয়শ্রেণীতে ফিল্টার, "
-"সাইডবারে."
 
 #: backend/templates/views/product_filter/settings.php:155
 msgid "Please turn off if you do not want to show price filter in sidebar."
 msgstr ""
-"দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, মূল্য ফিল্টার পার্শ্বদন্ডে."
 
 #: backend/templates/views/product_filter/settings.php:164
 msgid "Please turn off if you do not want to show rating filter in sidebar."
 msgstr ""
-"দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান রেটিং ফিল্টার পার্শ্বদন্ডে."
 
 #: backend/templates/views/product_filter/settings.php:147
 msgid "Please turn off if you do not want to show search filter in sidebar."
 msgstr ""
-"দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, অনুসন্ধান ফিল্টার পার্শ্বদন্ডে."
 
 #: backend/templates/views/product_filter/settings.php:182
 msgid ""
 "Please turn off if you do not want to show stock status filter in sidebar."
 msgstr ""
-"দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, স্টক অবস্থা ফিল্টার "
-"পার্শ্বদন্ডে."
 
 #: backend/templates/views/product_filter/settings.php:570
 msgid "Please turn off if you do not want to show the 0 star rating filter."
 msgstr ""
-"দয়া করে বন্ধ করুন যদি আপনি করতে চান না, প্রদর্শন, 0 স্টার রেটিং ফিল্টার."
 
 #: backend/templates/views/product_filter/settings.php:561
 msgid "Please turn off if you do not want to show the 1 star rating filter."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, 1 স্টার রেটিং ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:552
 msgid "Please turn off if you do not want to show the 2 star rating filter."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান 2 স্টার রেটিং ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:543
 msgid "Please turn off if you do not want to show the 3 star rating filter."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান যে 3 তারকা রেটিং ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:534
 msgid "Please turn off if you do not want to show the 4 star rating filter."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, 4 স্টার রেটিং ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:525
 msgid "Please turn off if you do not want to show the 5 star rating filter."
 msgstr ""
-"দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান এবং 5 স্টার রেটিং ফিল্টার."
 
 #: backend/templates/views/floating_cart/settings.php:330
 msgid ""
 "Please turn off if you do not want to show the apply coupon on the cart."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান যে কুপন প্রয়োগ কার্ট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:207
 msgid ""
 "Please turn off if you do not want to show the basket icon in the cart "
 "header."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান বাস্কেট আইকন কার্ট হেডার."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:322
 msgid "Please turn off if you do not want to show the cart total on the cart."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, কার্ট মোট কার্ট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:215
 msgid ""
 "Please turn off if you do not want to show the close icon on the cart header."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান বন্ধ আইকন কার্ট হেডার."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:306
 msgid "Please turn off if you do not want to show the discount on the cart."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, ডিসকাউন্ট কার্ট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:233
 msgid "Please turn off if you do not want to show the product image."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পণ্যের ইমেজ."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:241
 msgid "Please turn off if you do not want to show the product name."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পণ্যের নাম."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:257
 msgid "Please turn off if you do not want to show the product price total."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পণ্যের দাম মোট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:249
 msgid "Please turn off if you do not want to show the product price."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পণ্যের দাম."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:314
 msgid ""
 "Please turn off if you do not want to show the shipping amount on the cart."
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান শিপিং পরিমাণ উপর কার্ট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:298
 msgid "Please turn off if you do not want to show the subtotal on the cart."
-msgstr "দয়া করে বন্ধ করুন যদি আপনি করতে চান না, প্রদর্শন সাবটোটাল উপর কার্ট."
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:213
 msgid "Please turn off if you don't want to show product image on sticky bar"
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পণ্য ইমেজ উপর চটচটে বার"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:197
 msgid ""
 "Please turn off if you don't want to show product quantity update option on "
 "sticky bar"
 msgstr ""
-"দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পণ্যের পরিমাণ আপডেট বিকল্প "
-"চটচটে বার"
 
 #: backend/templates/views/product_sticky_bar/settings.php:159
 msgid "Please turn off if you don't want to show product review"
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পণ্য পর্যালোচনা"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:170
 msgid "Please turn off if you don't want to show product review count"
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পণ্য পর্যালোচনা গণনা"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:105
 msgid "Please turn off if you don't want to show sticky bar on desktop"
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, চটচটে বার ডেস্কটপ"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:118
 msgid "Please turn off if you don't want to show sticky bar on mobile"
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান, চটচটে বার মোবাইল"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:221
 msgid "Please turn off if you don't want to show stock quantity on sticky bar"
-msgstr "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান স্টক পরিমাণ উপর চটচটে বার"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:205
 msgid ""
 "Please turn off if you don't want to show variable product selection option "
 "on sticky bar"
 msgstr ""
-"দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পরিবর্তনশীল পণ্য নির্বাচন "
-"বিকল্প চটচটে বার"
 
 #: backend/templates/views/product_sticky_bar/settings.php:96
 msgid "Please turn off if you want to disabled sticky bar"
-msgstr "দয়া করে বন্ধ করতে চান তাহলে আপনি নিষ্ক্রিয় চটচটে বার"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:229
 msgid ""
 "Please turn on if you don't want to show sticky bar when the product is out "
 "of stock"
 msgstr ""
-"দয়া করে চালু না হলে, আপনি প্রদর্শন করতে চান, চটচটে বার যখন পণ্য স্টক আউট"
 
 #: backend/templates/views/floating_cart/settings.php:165
 msgid "Please turn on if you want to auto open floating cart."
-msgstr "দয়া করে চালু করতে চান, তাহলে আপনি অটো ওপেন ভাসমান কার্ট."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:297
 msgid "Position Of the Button"
-msgstr "এর অবস্থান বাটন"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:25
 msgid "Prefix"
-msgstr "উপসর্গ"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:120
 msgid "PRICE"
-msgstr "মূল্য"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:122
 msgid "Price Filter"
-msgstr "মূল্য ফিল্টার"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:400
 msgid "Price Filter Settings"
-msgstr "মূল্য ফিল্টার সেটিংস"
+msgstr ""
 
 #: backend/templates/views/modules.php:263
 msgid "Pro"
-msgstr "প্রো"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:118
 msgid "PRODUCT"
-msgstr "পণ্য"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:126
 msgid "Product"
-msgstr "পণ্য"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:159
 msgid "Product categories"
-msgstr "পণ্য বিভাগ"
+msgstr ""
 
 #: backend/templates/views/modules.php:247
 msgid "Product Filter"
-msgstr "পণ্য ফিল্টার"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:77
 #: backend/templates/views/url_coupon/settings.php:61
 msgid "Product IDs"
-msgstr "পণ্য Id-র"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:250
 msgid "Product Image Shape"
-msgstr "পণ্য ইমেজ আকৃতি"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:632
 msgid "Product Image Width"
-msgstr "পণ্য ইমেজ প্রস্থ"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:312
 msgid "Product Loader Color"
-msgstr "পণ্য লোডার রং"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:296
 msgid "Product Price Color"
-msgstr "পণ্যের মূল্য, রঙ"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:307
 msgid "Product Price Font Size"
-msgstr "পণ্যের দাম ফন্টের আকার"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:274
 msgid "Product Rating Color "
@@ -1815,29 +1791,29 @@ msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:285
 msgid "Product Rating Count Color"
-msgstr "পণ্য রেটিং গণনা, রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:610
 msgid "Product Remove Icon"
-msgstr "পণ্য অপসারণ আইকন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:624
 msgid "Product Remove Icon Size(px)"
-msgstr "পণ্য অপসারণ আইকন আকার(px)"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:116
 #: backend/templates/views/product_filter/settings.php:203
 msgid "Product Settings"
-msgstr "পণ্য সেটিংস"
+msgstr ""
 
 #: backend/templates/views/modules.php:127
 #: backend/templates/views/product_sticky_bar/settings.php:59
 msgid "Product Sticky Bar"
-msgstr "পণ্য চটচটে বার"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:640
 msgid "Product Title Color"
-msgstr "পণ্য শিরোনাম রঙ"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:263
 msgid "Product Title Color "
@@ -1845,132 +1821,132 @@ msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:650
 msgid "Product Title Font Size"
-msgstr "পণ্য শিরোনাম ফন্টের আকার"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:137
 msgid "Products"
-msgstr "পণ্য"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:85
 msgid "Products to Buy"
-msgstr "পণ্য কিনতে"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:94
 msgid "Products to Gift"
-msgstr "পণ্য উপহার"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:108
 msgid "Productv"
-msgstr "Productv"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:485
 msgid "Progress Bar Style"
-msgstr "অগ্রগতি বার শৈলী"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:241
 #: backend/templates/views/shipping_bar/settings.php:504
 msgid "Progress Bar's Background"
-msgstr "অগ্রগতি বার এর ব্যাকগ্রাউন্ড"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:546
 msgid "Progress Bar's Border Radius"
-msgstr "অগ্রগতি বার এর সীমানা ব্যাসার্ধ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:252
 #: backend/templates/views/shipping_bar/settings.php:515
 msgid "Progress Bar's Color"
-msgstr "অগ্রগতি বার এর রঙ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:538
 msgid "Progress Bar's Font Size"
-msgstr "অগ্রগতি বার এর ফন্ট সাইজ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:263
 #: backend/templates/views/shipping_bar/settings.php:527
 msgid "Progress Bar's Text Color"
-msgstr "অগ্রগতি বার এর টেক্সট রঙ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:496
 msgid "Progress Bar's Top Margin"
-msgstr "অগ্রগতি বার এর শীর্ষ মার্জিন"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:119
 msgid "QUANTITY"
-msgstr "পরিমাণ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:676
 msgid "Quantity Box Background Color"
-msgstr "পরিমাণ বক্স পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:666
 msgid "Quantity Box Border Color"
-msgstr "পরিমাণ বক্স সীমানা রং"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:686
 msgid "Quantity Box Text Color"
-msgstr "পরিমাণ বক্স টেক্সট রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:658
 msgid "Quantity Box Width"
-msgstr "পরিমাণ বক্স প্রস্থ"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:125
 msgid "Rating Filter"
-msgstr "রেটিং ফিল্টার"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:479
 msgid "Rating Filter Settings"
-msgstr "রেটিং ফিল্টার সেটিংস"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:249
 msgid "Read more button text"
-msgstr "Read more বাটন টেক্সট"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:285
 msgid "Redirect to page"
-msgstr "থেকে পুনর্নির্দেশ পাতা"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:135
 msgid "Redirect URLs"
-msgstr "পুনর্নির্দেশ Url গুলি"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:404
 msgid "Redirect URLs Settings"
-msgstr "পুনর্নির্দেশ Url সেটিংস"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:473
 msgid "Remove billing fields?"
-msgstr "অপসারণ বিলিং ক্ষেত্র?"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:440
 msgid "Remove coupon form?"
-msgstr "কুপন সরান ফর্ম?"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:49
 msgid "Remove from auto apply"
-msgstr "দূর থেকে স্বয়ংক্রিয় আবেদন"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:429
 msgid "Remove order comment?"
-msgstr "অপসারণ আদেশ মন্তব্য?"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:451
 msgid "Remove policy text?"
-msgstr "অপসারণ নীতি টেক্সট?"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:462
 msgid "Remove terms & condition?"
-msgstr "অপসারণ শর্তাবলী & শর্ত?"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:114
 #: backend/templates/views/bogo_deal/settings.php:132
 msgid "Required Quantity"
-msgstr "প্রয়োজনীয় পরিমাণ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:456
 #: backend/templates/views/shipping_bar/settings.php:446
 msgid "Right"
-msgstr "ডান"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:191
 msgid "Right "
@@ -1980,11 +1956,11 @@ msgstr ""
 #: backend/templates/views/one_click_checkout/settings.php:87
 #: backend/templates/views/product_sticky_bar/settings.php:254
 msgid "Round"
-msgstr "বৃত্তাকার"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:24
 msgid "Save Changes"
-msgstr "পরিবর্তন সংরক্ষণ করুন"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:364
 #: backend/templates/views/floating_cart/settings.php:846
@@ -1993,31 +1969,31 @@ msgstr "পরিবর্তন সংরক্ষণ করুন"
 #: backend/templates/views/product_sticky_bar/settings.php:422
 #: backend/templates/views/shipping_bar/settings.php:559
 msgid "Save Settings"
-msgstr "সেটিংস সংরক্ষণ করুন"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:145
 msgid "Scroll Pixels"
-msgstr "স্ক্রল পিক্সেল"
+msgstr ""
 
 #: backend/templates/views/url_coupon/settings.php:49
 msgid "Search"
-msgstr "অনুসন্ধান"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:31
 msgid "Search by Product Name"
-msgstr "পণ্যের নাম দ্বারা অনুসন্ধান"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:119
 msgid "Search Filter"
-msgstr "অনুসন্ধান ফিল্টার"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:329
 msgid "Search Filter Settings"
-msgstr "অনুসন্ধান ফিল্টার সেটিংস"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:27
 msgid "Search Product"
-msgstr "অনুসন্ধান পণ্য"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:247
 #: backend/templates/views/address_book/settings.php:258
@@ -2099,559 +2075,552 @@ msgstr "অনুসন্ধান পণ্য"
 #: backend/templates/views/shipping_bar/settings.php:519
 #: backend/templates/views/shipping_bar/settings.php:531
 msgid "Select Color"
-msgstr "নির্বাচন রঙ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:181
 msgid "Select Don't Show Pages"
-msgstr "নির্বাচন না প্রদর্শন পেজ"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:241
 msgid "Select options button text"
-msgstr "বিকল্প নির্বাচন করুন বাটন টেক্সট"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:204
 msgid "Select position of the free shipping notification in cart page."
-msgstr "অবস্থান নির্বাচন ফ্রি শিপিং বিজ্ঞপ্তি, কার্ট পাতা."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:197
 msgid "Select Position on Cart Page"
-msgstr "নির্বাচন অবস্থান কার্ট পাতা"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:219
 msgid "Select Position on Checkout Page"
-msgstr "নির্বাচন অবস্থান চেকআউট পৃষ্ঠায়"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:226
 msgid ""
 "Select position where the free shipping notification will be displayed on "
 "checkout page."
 msgstr ""
-"নির্বাচন অবস্থান যেখানে ফ্রি শিপিং বিজ্ঞপ্তি প্রদর্শন করা হবে, চেকআউট "
-"পৃষ্ঠায়."
 
 #: backend/templates/views/product_sticky_bar/settings.php:257
 msgid "Select Product image shape. Default: Square"
-msgstr "নির্বাচন করুন পণ্য ইমেজ আকৃতি. ডিফল্ট: স্কয়ার"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:141
 msgid "Select Shipping Zone"
-msgstr "নির্বাচন শিপিং জোন"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:481
 msgid "Select the fields that you want to remove from 'Billing Section'."
-msgstr "নির্বাচন ক্ষেত্র যে আপনি অপসারণ করতে চান থেকে 'বিলিং অধ্যায়'."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:516
 msgid "Select the fields that you want to remove from 'Shipping Section'."
-msgstr "নির্বাচন ক্ষেত্র যে আপনি অপসারণ করতে চান 'থেকে গ্রেপ্তার অধ্যায়'."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:162
 msgid "Select the pages where you don't want to show the Free Shipping Bar."
-msgstr "পেজ নির্বাচন করুন, যেখানে আপনি চান না দেখানোর জন্য ফ্রি শিপিং বার."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:175
 msgid ""
 "Select the products for which you don't want to allow Free Shipping Bar."
-msgstr "পণ্য নির্বাচন করুন যার জন্য আপনি অনুমতি দিতে চান না, ফ্রি শিপিং বার."
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:189
 msgid "Select the products where you do not want to show the sticky bar"
-msgstr "পণ্য নির্বাচন করুন, যেখানে আপনি চান না দেখানোর জন্য চটচটে বার"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:271
 msgid ""
 "Set background color of Add to Cart, Select Option and Stock Out button."
-msgstr "সেট পটভূমির রঙ যোগ করুন, কার্ট বিকল্প নির্বাচন করুন এবং স্টক আউট বাটন."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:487
 msgid "Set background color of all buttons"
-msgstr "সেট পটভূমির রঙ সব বোতাম"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:459
 msgid "Set background color of input field of the price filter."
-msgstr "সেট পটভূমির রঙ ইনপুট ক্ষেত্র, মূল্য ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:381
 msgid "Set background color of input field of the search filter."
-msgstr "সেট পটভূমির রঙ ইনপুট ক্ষেত্র, অনুসন্ধান ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:520
 msgid "Set border color of all buttons"
-msgstr "সেট সীমানা রং এর সব বোতাম"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:448
 msgid "Set border color of input field of the price filter."
-msgstr "সেট সীমানা রং এর ইনপুট ক্ষেত্রে, মূল্য ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:370
 msgid "Set border color of input field of the search filter."
-msgstr "সেট সীমানা রং এর ইনপুট ক্ষেত্র মধ্যে অনুসন্ধান ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:294
 msgid "Set border color of Previous Page and Next Page buttons."
-msgstr "সেট সীমানা রং এর পূর্ববর্তী পৃষ্ঠা এবং পরবর্তী পাতা বোতাম."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:531
 msgid "Set border hover color of all buttons"
-msgstr "সেট সীমানা উপর কার্সার রেখে দেখুন রঙ এর সব বোতাম"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:371
 msgid "Set button background color"
-msgstr "সেট বাটন পটভূমির রঙ"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:393
 msgid "Set button background color on hover"
-msgstr "সেট বাটন পটভূমির রঙ উপর কার্সার রেখে দেখুন"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:360
 msgid "Set button font color"
-msgstr "সেট বাটন ফন্টের রং"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:382
 msgid "Set button font color on hover"
-msgstr "সেট বাটন ফন্ট রঙ, উপর কার্সার রেখে দেখুন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:412
 msgid "Set continue shopping button url."
-msgstr "সেট অবিরত কেনাকাটা বাটন url টি."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:332
 msgid "Set Disappear Time"
-msgstr "সেট সময় উধাও হয়ে যায়"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:335
 msgid ""
 "Set disappear time in milliseconds. The Free Shipping Bar will disappear "
 "according to your setting time."
 msgstr ""
-"সেট অদৃশ্য সময় মিলিসেকেন্ডে ব্যক্ত. ফ্রি শিপিং বার অদৃশ্য হয়ে যাবে মতে, "
-"আপনার সেটিং সময়."
 
 #: backend/templates/views/floating_cart/settings.php:476
 msgid "Set font color of all buttons"
-msgstr "সেট ফন্ট এর রঙ সব বোতাম"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:509
 msgid "Set hover background color of all buttons"
-msgstr "সেট উপর কার্সার রেখে দেখুন পটভূমির রঙ সব বোতাম"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:498
 msgid "Set hover font color of all buttons"
-msgstr "সেট উপর কার্সার রেখে দেখুন ফন্টের রং সব বোতাম"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:319
 msgid ""
 "Set initial delay time in milliseconds. The Free Shipping Bar will appear "
 "according to your setting time."
 msgstr ""
-"সেট প্রাথমিক বিলম্ব, মিলিসেকেন্ডে সময়. ফ্রি শিপিং বার প্রদর্শিত হবে "
-"অনুযায়ী আপনার সেটিং সময়."
 
 #: backend/templates/views/product_filter/settings.php:214
 msgid "Set maximum number of products can be showed in a page."
-msgstr "সেট সর্বোচ্চ সংখ্যক পণ্য হতে পারে দেখিয়েছেন, একটি পৃষ্ঠা."
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:360
 msgid "Set sticky bar add to cart button border width (Ex. 1)"
-msgstr "সেট চটচটে বার, কার্ট বাটন যোগ সীমানা প্রস্থ (Ex. 1)"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:340
 msgid "Set sticky bar add to cart button font size (Ex. 14)"
-msgstr "সেট চটচটে বার কার্ট বাটন যোগ করার জন্য ফন্ট সাইজ (Ex. 14)"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:403
 msgid "Set sticky bar add to cart button left-right padding (Default: 30)"
-msgstr "সেট চটচটে বার, কার্ট বাটন যোগ বাম-ডান প্যাডিং (ডিফল্ট: 30)"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:412
 msgid "Set sticky bar add to cart button top-bottom padding (Default: 10)"
 msgstr ""
-"সেট চটচটে বার কার্ট বাটন যোগ করার জন্য উপরে-নীচে প্যাডিং (পূর্বনির্ধারিত: 10)"
 
 #: backend/templates/views/product_sticky_bar/settings.php:245
 msgid "Set sticky bar height in pixel(Ex.150) - Default 100px."
-msgstr "সেট চটচটে বার উচ্চতা, পিক্সেল(Ex.150) - ডিফল্ট 100px."
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:310
 msgid "Set sticky bar product price font size (Ex. 17)"
-msgstr "সেট চটচটে বার পণ্য মূল্য ফন্টের আকার (Ex. 17)"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:516
 msgid "Set text color of \"And Up\" text shown beside ratings."
-msgstr "সেট টেক্সট রঙ \"এবং\" টেক্সট দেখানো পাশে মূল্যায়ন."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:282
 msgid "Set text color of Add to Cart, Select Option and Stock Out button."
-msgstr "সেট টেক্সট রং, কার্ট যোগ করুন, বিকল্প নির্বাচন করুন এবং স্টক আউট বাটন."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:613
 msgid "Set text color of category name."
-msgstr "সেট টেক্সট রং, বিভাগ নাম."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:470
 msgid "Set text color of input field of the price filter."
-msgstr "সেট টেক্সট রং এর ইনপুট ক্ষেত্রে, মূল্য ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:392
 msgid "Set text color of input field of the search filter."
-msgstr "সেট টেক্সট রং এর ইনপুট ক্ষেত্র মধ্যে অনুসন্ধান ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:601
 msgid "Set text color of label of the category filter."
-msgstr "সেট টেক্সট রং, লেবেল, বিভাগ ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:437
 msgid "Set text color of label of the price filter."
-msgstr "সেট টেক্সট রং, লেবেল, মূল্য ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:505
 msgid "Set text color of label of the rating filter."
-msgstr "সেট টেক্সট রং, লেবেল, এর রেটিং ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:359
 msgid "Set text color of label of the search filter."
-msgstr "সেট টেক্সট রং, লেবেল অনুসন্ধান ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:697
 msgid "Set text color of label of the stock filter."
-msgstr "সেট টেক্সট রং, লেবেল স্টক ফিল্টার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:306
 msgid "Set text color of Previous Page and Next Page buttons."
-msgstr "সেট টেক্সট রং, এবং পূর্ববর্তী পৃষ্ঠা এবং পরবর্তী পাতা বোতাম."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:709
 msgid "Set text color of stock status name."
-msgstr "সেট টেক্সট রং, স্টক অবস্থা নাম."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:223
 msgid "Set the \"Add to Cart\" button text."
-msgstr "সেট করে, \"কার্ট যুক্ত করুন\" বাটন টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:494
 msgid "Set the \"And Up\" text shown beside ratings."
-msgstr "সেট করুন \"এবং\" টেক্সট দেখানো পাশে মূল্যায়ন."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:677
 msgid "Set the \"In Stock\" option text."
-msgstr "সেট করুন \"শেয়ার\" বিকল্প টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:259
 msgid "Set the \"Next Page\" button text."
-msgstr "সেট করুন \"পরবর্তী পৃষ্ঠা\" বাটন টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:685
 msgid "Set the \"Out of Stock\" option text."
-msgstr "সেট আউট \"শেয়ার\" বিকল্প টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:250
 msgid "Set the \"Previous Page\" button text."
-msgstr "সেট \"পূর্ববর্তী পৃষ্ঠা\" বাটন টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:232
 msgid "Set the \"Select Options\" button text for variable products."
-msgstr "সেট করুন \"বিকল্প নির্বাচন করুন\" বাটন টেক্সট জন্য পরিবর্তনশীল পণ্য."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:241
 msgid "Set the \"Stock Out\" button text for stock out products."
-msgstr "সেট \"স্টক আউট\" বাটন টেক্সট জন্য স্টক পণ্য আউট."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:153
 msgid "Set the account page menu title for Address Book."
-msgstr "সেট অ্যাকাউন্ট পৃষ্ঠা মেনু শিরোনাম জন্য ঠিকানা বই."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:271
 msgid "Set the add new button background color on hover."
-msgstr "সেট যোগ নতুন বাটন পটভূমির রঙ উপর কার্সার রেখে দেখুন."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:249
 msgid "Set the add new button background color."
-msgstr "সেট যোগ নতুন বাটন পটভূমির রঙ."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:294
 msgid "Set the add new button border color on hover."
-msgstr "সেট যোগ নতুন বাটন সীমানা, রঙ, উপর কার্সার রেখে দেখুন."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:282
 msgid "Set the add new button text color on hover."
-msgstr "সেট যোগ নতুন বাটন টেক্সট রঙ উপর কার্সার রেখে দেখুন."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:260
 msgid "Set the add new button text color."
-msgstr "সেট যোগ নতুন বাটন টেক্সট রঙ."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:219
 msgid "Set the address delete link text."
-msgstr "সেট ঠিকানা মুছে দিন, টেক্সট লিঙ্ক."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:211
 msgid "Set the address edit link text."
-msgstr "সেট ঠিকানা সম্পাদনা টেক্সট লিঙ্ক."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:227
 msgid "Set the address make primary link text."
-msgstr "সেট ঠিকানা করতে প্রাথমিক টেক্সট লিঙ্ক."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:143
 msgid "Set the address selection field label text on checkout page."
-msgstr "সেট ঠিকানা নির্বাচন ক্ষেত্র লেবেল টেক্সট চেকআউট পৃষ্ঠায়."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:307
 msgid "Set the background color of address card."
-msgstr "পটভূমির রঙ সেট এর ঠিকানা কার্ড."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:649
 #: backend/templates/views/product_filter/settings.php:745
 msgid "Set the background color of checkbox on checked state."
-msgstr "পটভূমির রঙ সেট এর চেকবক্স চেক রাষ্ট্র."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:625
 #: backend/templates/views/product_filter/settings.php:721
 msgid "Set the background color of checkbox on unchecked state."
-msgstr "পটভূমির রঙ সেট এর চেকবক্স উপর অবারিত রাষ্ট্র."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:318
 msgid "Set the border color of address card."
-msgstr "সেট সীমানা রং এর ঠিকানা কার্ড."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:637
 #: backend/templates/views/product_filter/settings.php:733
 msgid "Set the border color of checkbox on unchecked state."
-msgstr "সেট সীমানা রং এর চেকবক্স উপর অবারিত রাষ্ট্র."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:177
 msgid "Set the button text of add new billing address."
-msgstr "সেট বাটন টেক্সট যোগ করুন নতুন বিলিং ঠিকানা."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:186
 msgid "Set the button text of add new shipping address."
-msgstr "সেট বাটন টেক্সট যোগ করুন নতুন শিপিং ঠিকানা."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:589
 msgid "Set the Category Filter Label text."
-msgstr "সেট বিষয়শ্রেণীতে ফিল্টার লেবেল টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:318
 msgid "Set the color of product loader animation."
-msgstr "সেট রঙ, প্রোডাক্ট এর লোডার অ্যানিমেশন."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:194
 msgid "Set the empty message text of billing address book."
-msgstr "সেট খালি বার্তা টেক্সট এর বিলিং ঠিকানা বই."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:202
 msgid "Set the empty message text of shipping address book."
-msgstr "সেট খালি বার্তা টেক্সট শিপিং ঠিকানা বই."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:339
 msgid "Set the footer background color of address card."
-msgstr "সেট পাদচরণ পটভূমির রঙ এর ঠিকানা কার্ড."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:161
 msgid "Set the headline text of billing address book."
-msgstr "সেট শিরোনামটি টেক্সট, বিলিং ঠিকানা বই."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:169
 msgid "Set the headline text of shipping address book."
-msgstr "সেট শিরোনামটি টেক্সট, শিপিং ঠিকানা বই."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:351
 msgid "Set the link text color of address card."
-msgstr "সেট টেক্সট লিঙ্ক রঙ এর ঠিকানা কার্ড."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:424
 msgid "Set the Maximum Price Field input placeholder text."
-msgstr "সেট সর্বোচ্চ মূল্য ইনপুট ক্ষেত্র স্থানধারক টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:415
 msgid "Set the Minimum Price Field input placeholder text."
-msgstr "সেট ন্যূনতম মূল্য ইনপুট ক্ষেত্র স্থানধারক টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:407
 msgid "Set the Price Filter Label text."
-msgstr "সেট মূল্য ফিল্টার লেবেল টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:486
 msgid "Set the Rating Filter Label text."
-msgstr "সেট রেটিং ফিল্টার লেবেল টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:347
 msgid "Set the Search Field input placeholder text."
-msgstr "সেট অনুসন্ধান ক্ষেত্র ইনপুট স্থানধারক টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:339
 msgid "Set the Search Filter Label text."
-msgstr "সেট অনুসন্ধান ফিল্টার লেবেল টেক্সট."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:668
 msgid "Set the Stock Filter Label text."
-msgstr "সেট স্টক ফিল্টার লেবেল টেক্সট."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:329
 msgid "Set the text color of address inside address card."
-msgstr "সেট টেক্সট রং, ঠিকানা ভিতরে ঠিকানা কার্ড."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:420
 msgid "Set view cart details button url."
-msgstr "সেট দেখুন কার্ট বিবরণ বাটন url টি."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:428
 msgid "Set view checkout button url."
-msgstr "সেট দেখুন চেকআউট বাটন url টি."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:539
 msgid "Set your all button border raduis (Ex. 4)"
-msgstr "সেট আপনার সমস্ত বাটন সীমান্ত raduis (Ex. 4)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:465
 msgid "Set your all button font size in px (Ex. 16)"
-msgstr "সেট আপনার সমস্ত বাটন ফন্টের আকার মধ্যে px (Ex. 16)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:785
 #: backend/templates/views/one_click_checkout/settings.php:149
 msgid "Set your basket horizontal offset in px (Ex. 60)"
-msgstr "সেট আপনার ঝুড়ি অনুভূমিক অফসেট px (Ex. 60)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:733
 #: backend/templates/views/one_click_checkout/settings.php:97
 msgid "Set your basket icon size in px (Ex. 35)"
-msgstr "সেট আপনার ঝুড়ি আইকন আকার px (Ex. 35)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:777
 #: backend/templates/views/one_click_checkout/settings.php:141
 msgid "Set your basket vertical offset in px (Ex. 110)"
-msgstr "সেট আপনার ঝুড়ি উল্লম্ব অফসেট px (Ex. 110)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:627
 msgid "Set your cart content delete icon size in px (Ex. 16)"
-msgstr "সেট আপনার কার্ট বিষয়বস্তু মুছে দিন আইকন আকার px (Ex. 16)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:635
 msgid "Set your cart content product image width in percent(%) (Ex. 100)"
-msgstr "সেট আপনার কার্ট কন্টেন্ট পণ্য ইমেজ প্রস্থ শতাংশ(%) (Ex. 100)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:661
 msgid "Set your cart content product quantity input box width in px (Ex. 56)"
-msgstr "সেট আপনার কার্ট কন্টেন্ট পণ্যের পরিমাণ ইনপুট বক্স প্রস্থ px (Ex. 56)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:653
 msgid "Set your cart content product title font size in px (Ex. 16)"
-msgstr "সেট আপনার কার্ট কন্টেন্ট পণ্য শিরোনাম ফন্ট আকার px (Ex. 16)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:565
 msgid "Set your cart header basket icon in px (Ex. 30)"
-msgstr "সেট আপনার কার্ট হেডার ঝুড়ি আইকন px (Ex. 30)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:595
 msgid "Set your cart header border bottom color."
-msgstr "সেট আপনার কার্ট হেডার সীমানা নীচে রঙ."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:557
 msgid "Set your cart header cross icon in px (Ex. 30)"
-msgstr "সেট আপনার কার্ট হেডার ক্রস আইকন px (Ex. 30)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:584
 msgid "Set your cart header font color."
-msgstr "সেট আপনার কার্ট হেডার ফন্টের রং."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:573
 msgid "Set your cart header font size in px (Ex. 24)"
-msgstr "সেট আপনার কার্ট হেডার ফন্টের আকার মধ্যে px (Ex. 24)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:347
 msgid "Set your cart heading title."
-msgstr "সেট আপনার কার্ট শিরোনাম শিরোনাম."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:446
 msgid "Set your cart width in px (Ex. 460)"
-msgstr "সেট আপনার কার্ট প্রস্থ px (Ex. 460)"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:371
 msgid "Set your cart's checkout button text."
-msgstr "সেট আপনার কার্ট এর চেকআউট বাটন টেক্সট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:355
 msgid "Set your cart's continue shopping button text."
-msgstr "সেট আপনার কার্ট এর অবিরত কেনাকাটা বাটন টেক্সট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:363
 msgid "Set your cart's view cart button text."
-msgstr "সেট আপনার কার্ট এর দেখুন কার্ট বাটন টেক্সট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:379
 msgid "Set your empty cart message."
-msgstr "আপনার সেট খালি কার্ট বার্তা."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:379
 msgid "Set your free shipping bar background color."
-msgstr "সেট আপনার ফ্রি শিপিং বার পটভূমির রঙ."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:549
 msgid "Set your free shipping bar progress border radius."
-msgstr "সেট আপনার ফ্রি শিপিং বার অগ্রগতি সীমানা ব্যাসার্ধ."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:541
 msgid "Set your free shipping bar progress font size."
-msgstr "সেট আপনার ফ্রি শিপিং বার অগ্রগতি ফন্ট সাইজ."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:499
 msgid "Set your free shipping bar progress margin top."
-msgstr "সেট আপনার ফ্রি শিপিং বার অগ্রগতি মার্জিন উপরে."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:395
 msgid "Set your free shipping bar's bottom padding."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর নীচে প্যাডিং."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:472
 msgid "Set your free shipping bar's close icon color."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর আইকন রঙ."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:481
 msgid "Set your free shipping bar's close icon size."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর আইকন আকার,."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:403
 msgid "Set your free shipping bar's left and right padding."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর বাম এবং ডান প্যাডিং."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:434
 msgid "Set your free shipping bar's message font size."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর বার্তা ফন্টের আকার."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:426
 msgid "Set your free shipping bar's message link text color."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর বার্তা লিঙ্ক টেক্সট রঙ."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:415
 msgid "Set your free shipping bar's message text color."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর বার্তা টেক্সট রঙ."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:258
 #: backend/templates/views/shipping_bar/settings.php:521
 msgid "Set your free shipping bar's progress color."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর অগ্রগতি রঙ."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:269
 #: backend/templates/views/shipping_bar/settings.php:533
 msgid "Set your free shipping bar's progress text color."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর অগ্রগতি টেক্সট রঙ."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:387
 msgid "Set your free shipping bar's top padding."
-msgstr "সেট আপনার ফ্রি শিপিং বার এর শীর্ষ প্যাডিং."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:247
 #: backend/templates/views/shipping_bar/settings.php:510
 msgid "Set your progress bar's background color."
-msgstr "সেট আপনার অগ্রগতি বার এর ব্যাকগ্রাউন্ড রং."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:387
 msgid "Set your subtotal text."
-msgstr "সেট আপনার উপমোট টেক্সট."
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:395
 msgid "Set your total amount text."
-msgstr "সেট আপনার মোট পরিমাণ, টেক্সট."
+msgstr ""
 
 #: backend/templates/views/modules.php:54
 #: backend/templates/views/modules.php:74
@@ -2663,256 +2632,254 @@ msgstr "সেট আপনার মোট পরিমাণ, টেক্স�
 #: backend/templates/views/modules.php:276
 #: backend/templates/views/product_sticky_bar/settings.php:76
 msgid "Settings"
-msgstr "সেটিংস"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:144
 msgid "Shipping"
-msgstr "গ্রেপ্তার"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:88
 #: backend/templates/views/pdf_invoice/invoice.php:96
 msgid "Shipping Address"
-msgstr "শিপিং ঠিকানা"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:501
 msgid "Shipping Address 1"
-msgstr "শিপিং ঠিকানা 1"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:502
 msgid "Shipping Address 2"
-msgstr "শিপিং ঠিকানা 2"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:199
 msgid "Shipping Address Book Empty Message"
-msgstr "শিপিং ঠিকানা বই খালি বার্তা"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:166
 msgid "Shipping Address Book Headline"
-msgstr "শিপিং ঠিকানা, বইয়ের শিরোনাম"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:120
 msgid "Shipping Address Field on Checkout?"
-msgstr "শিপিং ঠিকানা ক্ষেত্র, চেকআউট?"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:452
 msgid "Shipping Bar Close Icon"
-msgstr "শিপিং বার বন্ধ আইকন"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:361
 msgid "Shipping Bar Layout"
-msgstr "শিপিং বার বিন্যাস"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:349
 msgid "Shipping Bar Position"
-msgstr "শিপিং বার অবস্থান"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:504
 msgid "Shipping City"
-msgstr "গ্রেপ্তার সিটি"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:507
 msgid "Shipping Company"
-msgstr "শিপিং কোম্পানি"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:503
 msgid "Shipping Country"
-msgstr "শিপিং দেশ"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:499
 msgid "Shipping First Name"
-msgstr "শিপিং প্রথম নাম"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:500
 msgid "Shipping Last Name"
-msgstr "গ্রেপ্তার শেষ নাম"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:506
 msgid "Shipping Postcode"
-msgstr "গ্রেপ্তার পোস্টকোড"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:505
 msgid "Shipping State"
-msgstr "গ্রেপ্তার প্রদেশ"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:95
 msgid "Shipping to Name"
-msgstr "গ্রেপ্তার করার নাম"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:49
 msgid "Shop Address"
-msgstr "দোকান ঠিকানা"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:567
 msgid "Show 0 Star Rating?"
-msgstr "শো 0 রাশি নির্ধারণ?"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:558
 msgid "Show 1 Star Rating?"
-msgstr "প্রদর্শন 1 তারকা রেটিং?"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:549
 msgid "Show 2 Star Rating?"
-msgstr "শো 2 তারকা রেটিং?"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:540
 msgid "Show 3 Star Rating?"
-msgstr "প্রদর্শন 3 তারকা রেটিং?"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:531
 msgid "Show 4 Star Rating?"
-msgstr "শো 4 তারকা রেটিং?"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:522
 msgid "Show 5 Star Rating?"
-msgstr "শো 5 তারকা রেটিং?"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:53
 #: backend/templates/views/url_coupon/settings.php:42
 msgid "Show all types"
-msgstr "শো সব ধরনের"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:327
 msgid "Show Apply Coupon?"
-msgstr "শো কুপন প্রয়োগ?"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:148
 msgid ""
 "Show Bar after user scroll given pixels on the product page, Only work when "
 "\"Scroll Pixels\" option is enabled. Default 180px."
 msgstr ""
-"শো বার পরে, ব্যবহারকারী স্ক্রোল দেওয়া পিক্সেল পণ্য পাতা নেভিগেশন শুধুমাত্র "
-"কাজ যখন \"স্ক্রল পিক্সেল\" বিকল্প সক্রিয় করা হয়. ডিফল্ট 180px."
 
 #: backend/templates/views/floating_cart/settings.php:204
 msgid "Show Basket Icon?"
-msgstr "শো ঝুড়ি আইকন?"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:319
 msgid "Show Cart Total?"
-msgstr "শো কার্ট মোট?"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:170
 msgid "Show Category Filter?"
-msgstr "প্রদর্শন বিভাগ ফিল্টার?"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:212
 msgid "Show Close Icon?"
-msgstr "শো বন্ধ আইকন?"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:303
 msgid "Show Discount?"
-msgstr "শো ছাড়?"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:189
 msgid "Show in Cart Subtotal Area"
-msgstr "শো কার্ট সাবটোটাল এলাকায়"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:211
 msgid "Show in Checkout Subtotal Area"
-msgstr "প্রদর্শন চেকআউট উপমোট এলাকায়"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:738
 #: backend/templates/views/one_click_checkout/settings.php:102
 msgid "Show Item Count?"
-msgstr "প্রদর্শন আইটেম গণনা?"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:101
 msgid "Show on Desktop"
-msgstr "শো ডেস্কটপ"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:112
 msgid "Show on Mobile"
-msgstr "শো, মোবাইল"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:134
 msgid "Show Only After Scroll"
-msgstr "প্রদর্শন শুধুমাত্র পরে স্ক্রোল"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:152
 msgid "Show Price Filter?"
-msgstr "দেখান মূল্য ফিল্টার?"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:210
 msgid "Show Product Image"
-msgstr "পণ্য ইমেজ প্রদর্শন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:230
 msgid "Show Product Image?"
-msgstr "প্রদর্শন পণ্য ইমেজ?"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:238
 msgid "Show Product Name?"
-msgstr "প্রদর্শন পণ্যের নাম?"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:254
 msgid "Show Product Price Total?"
-msgstr "দেখান পণ্য মোট মূল্য?"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:153
 msgid "Show Product Review"
-msgstr "দেখান পণ্য পর্যালোচনা"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:164
 msgid "Show Product Review Count"
-msgstr "দেখান পণ্য পর্যালোচনা গণনা"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:246
 msgid "Show Product Unit Price?"
-msgstr "দেখান পণ্য একক মূল্য?"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:491
 msgid "Show progress bar with free shipping bar."
-msgstr "প্রদর্শন অগ্রগতি বার সঙ্গে ফ্রি শিপিং বার."
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:161
 msgid "Show Rating Filter?"
-msgstr "শো রেটিং ফিল্টার?"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:144
 msgid "Show Search Filter?"
-msgstr "দেখান অনুসন্ধান ফিল্টার?"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:311
 msgid "Show Shipping Amount?"
-msgstr "শো শিপিং পরিমাণ?"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:140
 msgid "Show sticky bar only when user scrolls down in product page"
-msgstr "শো চটচটে বার শুধুমাত্র যখন ব্যবহারকারী scrolls নিচে পণ্য পৃষ্ঠা"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:218
 msgid "Show Stock Status"
-msgstr "প্রদর্শন স্টক অবস্থা"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:295
 msgid "Show Subtotal?"
-msgstr "প্রদর্শন সাবটোটাল?"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:117
 msgid "SKU"
-msgstr "SKU"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:724
 #: backend/templates/views/one_click_checkout/settings.php:88
 #: backend/templates/views/product_sticky_bar/settings.php:255
 msgid "Square"
-msgstr "স্কয়ার"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:18
 msgid "SSN:"
-msgstr "এসএসএন:"
+msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:123
 msgid "Sticky Bar Position"
-msgstr "চটচটে বার অবস্থান"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:131
 msgid "Stock Filter"
-msgstr "স্টক ফিল্টার"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:659
 msgid "Stock Filter Settings"
-msgstr "স্টক ফিল্টার সেটিংস"
+msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:703
 msgid "Stock Status Font Color "
@@ -2921,246 +2888,240 @@ msgstr ""
 #: backend/templates/views/product_sticky_bar/settings.php:79
 #: backend/templates/views/shipping_bar/settings.php:230
 msgid "Style"
-msgstr "শৈলী"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:77
 msgid "Styles"
-msgstr "শৈলী"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:143
 msgid "Subtotal"
-msgstr "সাবটোটাল"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:384
 msgid "Subtotal Text"
-msgstr "সাবটোটাল টেক্সট"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:440
 msgid "Text Align of Message"
-msgstr "টেক্সট সারিবদ্ধ বার্তা"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:409
 msgid "Text Color of Message"
-msgstr "টেক্সট রঙ এর বার্তা"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:84
 msgid "The kind of discount to apply for this discount."
-msgstr "এ ধরনের ছাড় জন্য আবেদন করতে এই ছাড়."
+msgstr ""
 
 #: backend/templates/dashboard.php:61
 msgid "This feature is only available in the premium version of wcEazy"
-msgstr "এই বৈশিষ্ট্য শুধুমাত্র উপলব্ধ প্রিমিয়াম সংস্করণ wcEazy"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:236
 msgid "This text will be shown inside add to cart button."
-msgstr "এই টেক্সট দেখানো হবে ভিতরে কার্ট বাটন যুক্ত করুন."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:252
 msgid ""
 "This text will be shown on archive page for the product when the product is "
 "out of stock, leave blank if you want to use default text."
 msgstr ""
-"এই টেক্সট দেখানো হবে আর্কাইভ পৃষ্ঠার জন্য পণ্য যখন পণ্য স্টক আউট, ফাঁকা "
-"ছেড়ে দিন ব্যবহার করতে চান তাহলে আপনি ডিফল্ট টেক্সট."
 
 #: backend/templates/views/one_click_checkout/settings.php:244
 msgid ""
 "This text will be shown on the archive page for the variable product, leave "
 "blank if you want to use default text."
 msgstr ""
-"এই টেক্সট দেখানো হবে আর্কাইভ পৃষ্ঠার জন্য পরিবর্তনশীল পণ্য, ফাঁকা ছেড়ে দিন "
-"ব্যবহার করতে চান তাহলে আপনি ডিফল্ট টেক্সট."
 
 #: backend/templates/views/product_sticky_bar/settings.php:127
 #: backend/templates/views/shipping_bar/settings.php:353
 msgid "Top"
-msgstr "শীর্ষ"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:765
 #: backend/templates/views/floating_cart/settings.php:794
 #: backend/templates/views/one_click_checkout/settings.php:129
 #: backend/templates/views/one_click_checkout/settings.php:158
 msgid "Top Left"
-msgstr "উপরের বাম"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:766
 #: backend/templates/views/floating_cart/settings.php:795
 #: backend/templates/views/one_click_checkout/settings.php:130
 #: backend/templates/views/one_click_checkout/settings.php:159
 msgid "Top Right"
-msgstr "উপরের ডান"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:161
 #: backend/templates/views/product_sticky_bar/settings.php:174
 #: backend/templates/views/url_coupon/settings.php:74
 msgid "Total"
-msgstr "মোট"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:392
 msgid "Total Amount Text"
-msgstr "মোট পরিমাণ, টেক্সট"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:31
 msgid "Total number of coupons"
-msgstr "মোট সংখ্যা কুপন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:175
 msgid "Total Number Of Items"
-msgstr "আইটেম মোট সংখ্যা"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:121
 msgid "TOTAL PRICE"
-msgstr "মোট মূল্য"
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:272
 msgid "Turn on if you want Buy Now button on the product page."
-msgstr "চালু চান, তাহলে আপনি এখন কিনতে বাটন পণ্য পাতা নেভিগেশন."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:446
 msgid "Turn on if you want to remove 'Coupon Form'."
-msgstr "চালু হলে, আপনি মুছে ফেলতে চান 'কুপন ফর্ম'."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:435
 msgid "Turn on if you want to remove 'Order Comment'."
-msgstr "চালু হলে, আপনি মুছে ফেলতে চান 'অর্ডার কমেন্ট'."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:457
 msgid "Turn on if you want to remove 'Policy Text'."
-msgstr "চালু হলে, আপনি মুছে ফেলতে চান 'নীতি টেক্সট'."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:468
 msgid "Turn on if you want to remove 'Terms & Condition'."
-msgstr "চালু হলে, আপনি অপসারণ করতে চান, 'Terms & Condition'."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:327
 msgid "Turn ON the switch to allow disappear time."
-msgstr "সুইচ চালু করার অনুমতি দেয়, অদৃশ্য হয়."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:97
 msgid "Turn ON the switch to enable address book for billing."
-msgstr "সুইচ চালু করতে সক্ষম ঠিকানা বই জন্য বিলিং."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:105
 msgid "Turn ON the switch to enable address book for shipping."
-msgstr "সুইচ চালু করতে সক্ষম ঠিকানা বইয়ের জন্য শিপিং."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:115
 msgid ""
 "Turn ON the switch to enable address field selection for billing on checkout "
 "page."
 msgstr ""
-"সুইচ চালু করতে সক্ষম ঠিকানা ক্ষেত্র নির্বাচন বিলিং জন্য চেকআউট পৃষ্ঠায়."
 
 #: backend/templates/views/address_book/settings.php:123
 msgid ""
 "Turn ON the switch to enable address field selection for shipping on "
 "checkout page."
 msgstr ""
-"সুইচ চালু করতে সক্ষম ঠিকানা ক্ষেত্র, নির্বাচন শিপিং জন্য চেকআউট পৃষ্ঠায়."
 
 #: backend/templates/views/shipping_bar/settings.php:120
 msgid "Turn ON the switch to enable the Shipping Bar."
-msgstr "সুইচ চালু করতে সক্ষম শিপিং বার."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:192
 msgid ""
 "Turn ON the switch to show the free shipping notification in cart page "
 "subtotal area."
-msgstr "সুইচ চালু দেখানোর জন্য ফ্রি শিপিং বিজ্ঞপ্তি, কার্ট পাতা উপমোট এলাকায়."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:214
 msgid ""
 "Turn ON the switch to show the free shipping notification in checkout "
 "subtotal area."
-msgstr "সুইচ চালু দেখানোর জন্য ফ্রি শিপিং বিজ্ঞপ্তি চেকআউট উপমোট এলাকায়."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:128
 msgid "Turn ON the switch to show the Shipping Bar on the Desktop Screen."
-msgstr "সুইচ চালু দেখাতে শিপিং বার ডেস্কটপ পর্দা."
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:136
 msgid "Turn ON the switch to show the Shipping Bar on the Mobile Screen."
-msgstr "সুইচ চালু দেখাতে শিপিং বার মোবাইল পর্দায়."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:228
 msgid "Turn on to change the button text of add to cart button."
-msgstr "চালু পরিবর্তন করার বাটন টেক্সট যোগ করুন, কার্ট বাটন."
+msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:220
 msgid "Turn on to enable ajax add to cart on single product."
-msgstr "চালু করতে সক্ষম ajax কার্ট যোগ করুন, একক পণ্য."
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:74
 #: backend/templates/views/floating_cart/settings.php:132
 msgid "Typography"
-msgstr "ছাপাখানার বিদ্যা"
+msgstr ""
 
 #: backend/templates/views/address_book/settings.php:133
 #: backend/templates/views/floating_cart/settings.php:339
 msgid "Typography Settings"
-msgstr "ছাপাখানার বিদ্যা সেটিংস"
+msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:56
 msgid "Untitled Rule"
-msgstr "শিরোনামহীন নিয়ম"
+msgstr ""
 
 #: backend/templates/views/modules.php:107
 #: backend/templates/views/url_coupon/settings.php:14
 msgid "URL Coupon"
-msgstr "URL টি কুপন"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:193
 msgid "Usage limit per coupon"
-msgstr "ব্যবহার সীমা প্রতি কুপন"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:201
 msgid "Usage limit per user"
-msgstr "ব্যবহার সীমা ব্যবহারকারী প্রতি"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:65
 msgid "Usage Limits"
-msgstr "ব্যবহার সীমা"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:189
 msgid "Usage limits"
-msgstr "ব্যবহার সীমা"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:62
 msgid "Usage Restriction"
-msgstr "ব্যবহারের সীমাবদ্ধতা"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:111
 msgid "Usage restriction"
-msgstr "ব্যবহারের সীমাবদ্ধতা"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:78
 #: backend/templates/views/url_coupon/settings.php:62
 msgid "Usage/Limit"
-msgstr "ব্যবহার/সীমা"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:19
 msgid "VAT:"
-msgstr "ভ্যাট:"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:360
 msgid "View Cart Button"
-msgstr "দেখুন কার্ট বাটন"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:417
 msgid "View Cart Button Url"
-msgstr "দেখুন কার্ট বাটন Url টি"
+msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:425
 msgid "View Checkout Button Url"
-msgstr "দেখুন চেকআউট বাটন Url টি"
+msgstr ""
 
 #: backend/class-wceazy-admin.php:138
 msgid "View wcEazy documentation"
-msgstr "দেখুন wcEazy ডকুমেন্টেশন"
+msgstr ""
 
 #: backend/class-wceazy-admin.php:139
 msgid "Visit community forums"
-msgstr "দর্শন কমিউনিটি ফোরাম"
+msgstr ""
 
 #. Name of the plugin
 #. Author of the plugin
@@ -3169,35 +3130,33 @@ msgstr "দর্শন কমিউনিটি ফোরাম"
 #: backend/templates/views/product_sticky_bar/settings.php:48
 #: backend/templates/views/url_coupon/settings.php:5
 msgid "wcEazy"
-msgstr "wcEazy"
+msgstr ""
 
 #. Description of the plugin
 msgid ""
 "wcEazy provides multiple WooCommerce extensions in a single package you'll "
 "ever require."
 msgstr ""
-"wcEazy উপলব্ধ একাধিক ওয়ার্ডপ্রেস এক্সটেনশন একটি প্যাকেজের মধ্যে আপনি কি "
-"কখনো প্রয়োজন."
 
 #: modules/url_coupon/ModuleUtils.php:29
 #: backend/templates/views/url_coupon/url_coupon_tab.php:44
 msgid "wcEazy URL Coupon"
-msgstr "wcEazy URL টি কুপন"
+msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:98
 msgid "Yes"
-msgstr "হ্যাঁ"
+msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:149
 msgid "You must select your shipping zone, if not created please create"
-msgstr "আপনি নির্বাচন করতে হবে আপনার শিপিং জোন না হলে তৈরি করুন তৈরি করুন"
+msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:104
 msgid "YYY-MM-DD"
-msgstr "YYY-MM-DD"
+msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:52
 #: backend/templates/views/pdf_invoice/invoice.php:73
 #: backend/templates/views/pdf_invoice/invoice.php:99
 msgid "Zip Code"
-msgstr "জিপ কোড"
+msgstr ""

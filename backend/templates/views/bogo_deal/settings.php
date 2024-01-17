@@ -15,6 +15,7 @@
     <div class="wceazy_bogo_deal_page_title">
         <div class="page_title_part_left">
             <h2><?php esc_html_e('BOGO Deal', 'wceazy'); ?></h2>
+            
             <a target="_blank" href="<?php echo WCEAZY_DOCS_PAGE; ?>" <?php esc_html_e('Documentation', 'wceazy'); ?></a>
         </div>
         <div class="page_title_part_right">
