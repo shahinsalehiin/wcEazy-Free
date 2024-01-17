@@ -4,19 +4,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wcEazy 1.1.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wceazy\n"
-"POT-Creation-Date: 2024-01-17 01:06+0000\n"
+"POT-Creation-Date: 2024-01-17 17:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2024-01-17 01:25+0000\n"
+"PO-Revision-Date: 2024-01-17 17:09+0000\n"
 "Last-Translator: \n"
-"Language-Team: Bengali (Bangladesh)\n"
+"Language-Team: বাংলা\n"
 "Language: bn_BD\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.6; wp-6.4.2"
 
 #: backend/templates/views/floating_cart/settings.php:184
+#: backend/templates/views/pdf_invoice/settings.php:245
 msgid " Please select"
 msgstr ""
 
@@ -86,6 +87,11 @@ msgstr "$0.00"
 #: backend/templates/views/address_book/settings.php:333
 #: backend/templates/views/address_book/settings.php:345
 #: backend/templates/views/one_click_checkout/settings.php:489
+#: backend/templates/views/pdf_invoice/settings.php:278
+#: backend/templates/views/pdf_invoice/settings.php:285
+#: backend/templates/views/pdf_invoice/settings.php:322
+#: backend/templates/views/pdf_invoice/settings.php:329
+#: backend/templates/views/pdf_invoice/settings.php:394
 #: backend/templates/views/product_filter/settings.php:265
 #: backend/templates/views/product_filter/settings.php:276
 #: backend/templates/views/product_filter/settings.php:288
@@ -301,6 +307,14 @@ msgstr "ঠিকানা ক্ষেত্র লেবেল"
 msgid "Address Field on Checkout Page"
 msgstr "ঠিকানা ক্ষেত্র, চেকআউট পৃষ্ঠায়"
 
+#: backend/templates/views/pdf_invoice/settings.php:190
+msgid "Address Line 1"
+msgstr "ঠিকানা লাইন 1"
+
+#: backend/templates/views/pdf_invoice/settings.php:197
+msgid "Address Line 2"
+msgstr "ঠিকানা লাইন 2"
+
 #: backend/templates/views/address_book/settings.php:224
 msgid "Address Make Primary Link Text "
 msgstr ""
@@ -360,6 +374,7 @@ msgstr "সবসময় আড়াল"
 msgid "Always Show"
 msgstr "সবসময় প্রদর্শন"
 
+#: modules/product_filter/template.php:47
 #: backend/templates/views/product_filter/settings.php:47
 msgid "And Up"
 msgstr "এবং আপ"
@@ -367,6 +382,10 @@ msgstr "এবং আপ"
 #: backend/templates/views/auto_apply_coupon/settings.php:95
 msgid "Are you sure?"
 msgstr "আপনি কি নিশ্চিত?"
+
+#: backend/templates/views/pdf_invoice/settings.php:285
+msgid "Attach to Email"
+msgstr "সংযুক্ত ইমেইল"
 
 #: backend/templates/views/modules.php:47
 #: backend/templates/views/auto_apply_coupon/settings.php:17
@@ -378,6 +397,7 @@ msgstr "অটো কুপন প্রয়োগ"
 #: backend/templates/views/bogo_deal/settings.php:22
 #: backend/templates/views/coupon_generator/settings.php:17
 #: backend/templates/views/floating_cart/settings.php:107
+#: backend/templates/views/pdf_invoice/settings.php:79
 #: backend/templates/views/product_sticky_bar/settings.php:63
 #: backend/templates/views/url_coupon/settings.php:18
 msgid "Back to all Modules"
@@ -676,6 +696,10 @@ msgstr "এখন কিনতে বাটন প্রস্থ পণ্য �
 msgid "Cancel"
 msgstr "বাতিল"
 
+#: backend/templates/views/pdf_invoice/settings.php:290
+msgid "Cancelled Order"
+msgstr "বাতিল আদেশ"
+
 #: backend/templates/views/shipping_bar/settings.php:183
 msgid "Cart & Checkout Page Settings"
 msgstr "কার্ট & চেকআউট পৃষ্ঠা সেটিংস"
@@ -793,6 +817,7 @@ msgstr "নির্বাচন করুন বিন্যাস থেকে
 #: backend/templates/views/pdf_invoice/invoice.php:50
 #: backend/templates/views/pdf_invoice/invoice.php:71
 #: backend/templates/views/pdf_invoice/invoice.php:97
+#: backend/templates/views/pdf_invoice/settings.php:204
 msgid "City"
 msgstr "সিটি"
 
@@ -813,6 +838,14 @@ msgstr "কোড"
 msgid "Community support"
 msgstr "কমিউনিটি সমর্থন"
 
+#: backend/templates/views/pdf_invoice/settings.php:294
+msgid "Complete Order"
+msgstr "সম্পূর্ণ অর্ডার"
+
+#: backend/templates/views/pdf_invoice/settings.php:232
+msgid "Contact Number"
+msgstr "যোগাযোগ নম্বর"
+
 #: backend/templates/views/floating_cart/settings.php:144
 #: backend/templates/views/floating_cart/settings.php:605
 msgid "Content Style"
@@ -831,6 +864,10 @@ msgstr "অবিরত কেনাকাটা বাটন Url টি"
 #: backend/templates/views/pdf_invoice/invoice.php:98
 msgid "Country"
 msgstr "দেশ"
+
+#: backend/templates/views/pdf_invoice/settings.php:218
+msgid "Country/State"
+msgstr "দেশ/রাষ্ট্র"
 
 #: backend/templates/views/auto_apply_coupon/settings.php:75
 #: backend/templates/views/url_coupon/settings.php:59
@@ -880,18 +917,38 @@ msgstr "ক্রস আইকন আকার(px)"
 msgid "Custom Footer Text"
 msgstr "কাস্টম ফুটার টেক্সট"
 
+#: backend/templates/views/pdf_invoice/settings.php:297
+msgid "Customer Invoice"
+msgstr "গ্রাহক চালান"
+
 #: backend/templates/views/pdf_invoice/invoice.php:181
 msgid "Customer Note:"
 msgstr "গ্রাহক নোট:"
+
+#: backend/templates/views/pdf_invoice/settings.php:101
+msgid "Customize Invoice"
+msgstr "কাস্টমাইজ চালান"
 
 #: backend/templates/views/shipping_bar/settings.php:278
 msgid "Customize Messages"
 msgstr "বার্তা কাস্টমাইজ"
 
+#: backend/templates/views/pdf_invoice/settings.php:104
+msgid "Customize Shipping Label"
+msgstr "কাস্টমাইজ শিপিং লেবেল"
+
 #: backend/templates/views/address_book/settings.php:236
 #: backend/templates/views/shipping_bar/settings.php:344
 msgid "Customize Styles"
 msgstr "কাস্টমাইজ শৈলী"
+
+#: backend/templates/views/pdf_invoice/settings.php:119
+msgid "Deactivate Invoice?"
+msgstr "নিষ্ক্রিয় চালান?"
+
+#: backend/templates/views/pdf_invoice/settings.php:127
+msgid "Deactivate Shipping Label?"
+msgstr "নিষ্ক্রিয় শিপিং লেবেল?"
 
 #: backend/templates/views/bogo_deal/settings.php:66
 msgid "Delete Rule"
@@ -901,6 +958,10 @@ msgstr "মুছে নিয়ম"
 #: backend/templates/views/url_coupon/settings.php:60
 msgid "Description"
 msgstr "বিবরণ:"
+
+#: backend/templates/views/pdf_invoice/settings.php:247
+msgid "Direct Download"
+msgstr "সরাসরি ডাউনলোড করুন"
 
 #: backend/templates/views/product_sticky_bar/settings.php:179
 msgid "Disable for Products"
@@ -934,6 +995,10 @@ msgstr "প্রদর্শন মোবাইল"
 msgid "Docs"
 msgstr "ডক্স"
 
+#: backend/templates/views/pdf_invoice/settings.php:358
+msgid "Document Title"
+msgstr "নথির শিরোনাম"
+
 #: backend/templates/views/modules.php:56
 #: backend/templates/views/modules.php:76
 #: backend/templates/views/modules.php:96
@@ -951,6 +1016,7 @@ msgstr "ডক্স"
 #: backend/templates/views/bogo_deal/settings.php:19
 #: backend/templates/views/coupon_generator/settings.php:14
 #: backend/templates/views/floating_cart/settings.php:104
+#: backend/templates/views/pdf_invoice/settings.php:76
 #: backend/templates/views/product_sticky_bar/settings.php:60
 #: backend/templates/views/url_coupon/settings.php:15
 msgid "Documentation"
@@ -998,6 +1064,10 @@ msgid "Enter cart & checkout page free shipping progress bar headline text."
 msgstr ""
 "লিখতে কার্ট & চেকআউট পৃষ্ঠা, ফ্রি শিপিং, অগ্রগতি বার, শিরোনামটি টেক্সট."
 
+#: backend/templates/views/pdf_invoice/settings.php:171
+msgid "Enter invoice footer info"
+msgstr "লিখতে চালান পাদচরণ তথ্য"
+
 #: backend/templates/views/coupon_generator/settings.php:170
 msgid "Exclude categories"
 msgstr "আরও অগ্রাহ্য"
@@ -1027,10 +1097,15 @@ msgstr "মেয়াদ শেষ হওয়ার তারিখ"
 msgid "Export as CSV"
 msgstr "হিসেবে এক্সপোর্ট CSV"
 
+#: backend/templates/views/pdf_invoice/settings.php:291
+msgid "Failed Order"
+msgstr "ব্যর্থ অর্ডার"
+
 #: backend/templates/views/pdf_invoice/invoice.php:146
 msgid "Fee"
 msgstr "ফি"
 
+#: modules/product_filter/template.php:58
 #: backend/templates/views/product_filter/settings.php:58
 msgid "Filter By Category"
 msgstr "বিভাগ দ্বারা ফিল্টার"
@@ -1039,10 +1114,12 @@ msgstr "বিভাগ দ্বারা ফিল্টার"
 msgid "Filter By Price"
 msgstr "মূল্য দ্বারা ফিল্টার"
 
+#: modules/product_filter/template.php:46
 #: backend/templates/views/product_filter/settings.php:46
 msgid "Filter By Rating"
 msgstr "দ্বারা ফিল্টার রেটিং"
 
+#: modules/product_filter/template.php:66
 #: backend/templates/views/product_filter/settings.php:66
 msgid "Filter By Stock"
 msgstr "দ্বারা ফিল্টার স্টক"
@@ -1080,6 +1157,10 @@ msgstr "ফন্ট রঙ"
 msgid "Font Size of Message"
 msgstr "ফন্ট সাইজ এর বার্তা"
 
+#: backend/templates/views/pdf_invoice/settings.php:168
+msgid "Footer Info"
+msgstr "পাদচরণ তথ্য"
+
 #: backend/templates/views/floating_cart/settings.php:287
 msgid "Footer Position Fixed?"
 msgstr "ফুটার অবস্থান সংশোধন করা হয়েছে?"
@@ -1110,6 +1191,7 @@ msgstr "সাধারণ"
 
 #: backend/templates/views/address_book/settings.php:86
 #: backend/templates/views/floating_cart/settings.php:156
+#: backend/templates/views/pdf_invoice/settings.php:140
 #: backend/templates/views/product_filter/settings.php:139
 msgid "General Settings"
 msgstr "সাধারণ সেটিংস"
@@ -1137,6 +1219,8 @@ msgstr "প্রিমিয়াম পান"
 #: backend/templates/views/bogo_deal/settings.php:9
 #: backend/templates/views/coupon_generator/settings.php:7
 #: backend/templates/views/floating_cart/settings.php:95
+#: backend/templates/views/pdf_invoice/settings.php:67
+#: backend/templates/views/product_filter/settings.php:87
 #: backend/templates/views/product_sticky_bar/settings.php:51
 #: backend/templates/views/url_coupon/settings.php:8
 msgid "GET PRO"
@@ -1200,6 +1284,10 @@ msgstr "উপর কার্সার রেখে দেখুন পটভ�
 msgid "Hover Font Color"
 msgstr "উপর কার্সার রেখে দেখুন ফন্টের রং"
 
+#: backend/templates/views/pdf_invoice/settings.php:242
+msgid "How do you want to view the PDF?"
+msgstr "আপনি কিভাবে দেখতে চান, পারবেন?"
+
 #: backend/templates/views/product_filter/settings.php:179
 msgid "how Stock Status Filter?"
 msgstr "কিভাবে স্টক অবস্থা ফিল্টার?"
@@ -1209,6 +1297,7 @@ msgstr "কিভাবে স্টক অবস্থা ফিল্টার
 msgid "https://wceazy.com"
 msgstr ""
 
+#: modules/product_filter/template.php:67
 #: backend/templates/views/product_filter/settings.php:67
 msgid "In Stock"
 msgstr "স্টক মধ্যে কিছু অপশন"
@@ -1245,9 +1334,34 @@ msgstr "ইনপুট ক্ষেত্র টেক্সট রঙ"
 msgid "INVOICE"
 msgstr "চালান"
 
+#: backend/templates/views/pdf_invoice/settings.php:98
+msgid "Invoice"
+msgstr "চালান"
+
+#: backend/templates/views/pdf_invoice/settings.php:341
+msgid "Invoice Customization"
+msgstr "চালান স্বনির্ধারণ"
+
+#: backend/templates/views/pdf_invoice/settings.php:382
+msgid "Invoice Date"
+msgstr "তারিখ চালান"
+
 #: backend/templates/views/pdf_invoice/invoice.php:15
 msgid "Invoice Date:"
 msgstr "তারিখ চালান:"
+
+#: backend/templates/views/pdf_invoice/settings.php:303
+#: backend/templates/views/pdf_invoice/settings.php:370
+msgid "Invoice Number"
+msgstr "চালান নম্বর"
+
+#: backend/templates/views/pdf_invoice/settings.php:259
+msgid "Invoice Settings"
+msgstr "চালান সেটিংস"
+
+#: backend/templates/views/pdf_invoice/settings.php:314
+msgid "Invoice Start Number"
+msgstr "চালান নম্বর শুরু"
 
 #: backend/templates/views/auto_apply_coupon/settings.php:80
 msgid "Is Auto Coupon"
@@ -1393,6 +1507,10 @@ msgstr ""
 "সক্রিয় করা আবশ্যক আপনার শিপিং জোন এবং স্থাপন করা প্রয়োজন \"একটি বৈধ ফ্রি "
 "শিপিং কুপন\" (দেখুন, \"ফ্রি শিপিং প্রয়োজন\" সেটিং)."
 
+#: backend/templates/views/pdf_invoice/settings.php:278
+msgid "nable VAT & SSN on Checkout"
+msgstr "nable ভ্যাট এবং SSN চেকআউট"
+
 #: backend/templates/views/pdf_invoice/invoice.php:125
 #: backend/templates/views/pdf_invoice/invoice.php:132
 msgid "Name of the product"
@@ -1401,6 +1519,10 @@ msgstr "নাম, পণ্য"
 #: backend/templates/views/pdf_invoice/invoice.php:48
 msgid "Name of the shop"
 msgstr "নাম, দোকান"
+
+#: backend/templates/views/pdf_invoice/settings.php:289
+msgid "New Order (Admin Email)"
+msgstr "নতুন অর্ডার (অ্যাডমিন ইমেইল)"
 
 #: backend/templates/views/auto_apply_coupon/settings.php:97
 msgid "No"
@@ -1438,13 +1560,25 @@ msgstr "নাম্বার (উপলব্ধ প্রো)"
 msgid "On product page"
 msgstr "পণ্য পাতা নেভিগেশন"
 
+#: backend/templates/views/pdf_invoice/settings.php:292
+msgid "On-Hold Order"
+msgstr "অন হোল্ড আদেশ"
+
 #: backend/templates/views/modules.php:147
 msgid "One Click Checkout"
 msgstr "এক ক্লিক করুন চেকআউট"
 
+#: backend/templates/views/pdf_invoice/settings.php:246
+msgid "Open The PDF in a New Window"
+msgstr "খুলতে পারবেন একটি নতুন উইন্ডোতে"
+
 #: backend/templates/views/modules.php:269
 msgid "Order Cancel"
 msgstr "অর্ডার বাতিল"
+
+#: backend/templates/views/pdf_invoice/settings.php:388
+msgid "Order Date"
+msgstr "যাতে আপলোড"
 
 #: backend/templates/views/pdf_invoice/invoice.php:17
 msgid "Order Date:"
@@ -1454,6 +1588,19 @@ msgstr "আদেশ তারিখ:"
 msgid "Order No.:"
 msgstr "যাতে কোন.:"
 
+#: backend/templates/views/pdf_invoice/settings.php:376
+msgid "Order Number"
+msgstr "ক্রম সংখ্যা"
+
+#: backend/templates/views/pdf_invoice/settings.php:306
+msgid "Order Number as Invoice Number?"
+msgstr "ক্রম সংখ্যা হিসাবে চালান নম্বর?"
+
+#: backend/templates/views/pdf_invoice/settings.php:239
+msgid "Other Settings"
+msgstr "অন্যান্য সেটিংস"
+
+#: modules/product_filter/template.php:68
 #: backend/templates/views/product_filter/settings.php:68
 msgid "Out of Stock"
 msgstr "স্টক আউট"
@@ -1483,11 +1630,21 @@ msgstr "পত্রাঙ্কন বাটন সীমানা রং"
 msgid "Pagination Button Font Color"
 msgstr "পত্রাঙ্কন বাটন ফন্টের রং"
 
+#: backend/templates/views/pdf_invoice/settings.php:296
+msgid "Partially Refunded Order"
+msgstr "আংশিক ফেরত অর্ডার"
+
 #: backend/templates/views/pdf_invoice/invoice.php:176
 msgid "Payment Method: COD"
 msgstr "পেমেন্ট পদ্ধতি: কড"
 
+#: backend/templates/views/pdf_invoice/settings.php:92
+#: backend/templates/views/pdf_invoice/settings.php:113
+msgid "PDF Document"
+msgstr "পিডিএফ নথি"
+
 #: backend/templates/views/modules.php:187
+#: backend/templates/views/pdf_invoice/settings.php:75
 msgid "PDF Invoice & Packing Slips"
 msgstr "পিডিএফ চালান & বোঁচকা Slips"
 
@@ -1506,6 +1663,10 @@ msgstr "শতাংশ ছাড়"
 #: backend/templates/views/product_filter/settings.php:344
 msgid "Placeholder Text"
 msgstr "স্থানধারক টেক্সট"
+
+#: backend/templates/views/pdf_invoice/settings.php:299
+msgid "Please choose when you want the invoice to be emailed."
+msgstr "দয়া করে নির্বাচন করুন যখন আপনি চান চালান ইমেল করা."
 
 #: modules/url_coupon/ModuleUtils.php:170
 msgid "Please first add the product to the cart and then apply the URL coupon."
@@ -1535,6 +1696,8 @@ msgstr "দয়া করে প্রথম যোগ করার জন্�
 #: backend/templates/views/one_click_checkout/settings.php:300
 #: backend/templates/views/one_click_checkout/settings.php:476
 #: backend/templates/views/one_click_checkout/settings.php:495
+#: backend/templates/views/pdf_invoice/settings.php:221
+#: backend/templates/views/pdf_invoice/settings.php:288
 #: backend/templates/views/product_filter/settings.php:190
 #: backend/templates/views/product_sticky_bar/settings.php:126
 #: backend/templates/views/product_sticky_bar/settings.php:182
@@ -1548,6 +1711,12 @@ msgstr "দয়া করে প্রথম যোগ করার জন্�
 #: backend/templates/views/shipping_bar/settings.php:443
 msgid "Please select"
 msgstr "দয়া করে নির্বাচন করুন"
+
+#: backend/templates/views/pdf_invoice/settings.php:273
+msgid "Please select Order statuses which an invoice should not be generated."
+msgstr ""
+"দয়া করে নির্বাচন করুন, যাতে স্থিতিগুলিকে, যা একটি চালান করা উচিত হবে না "
+"উত্পন্ন."
 
 #: backend/templates/views/floating_cart/settings.php:189
 msgid "Please select pages where you do not show floating cart."
@@ -1729,6 +1898,18 @@ msgstr ""
 "দয়া করে বন্ধ না হলে, আপনি প্রদর্শন করতে চান পরিবর্তনশীল পণ্য নির্বাচন "
 "বিকল্প চটচটে বার"
 
+#: backend/templates/views/pdf_invoice/settings.php:122
+msgid "Please turn off if you want to deactivate invoice."
+msgstr "দয়া করে বন্ধ করতে চান তাহলে আপনি নিষ্ক্রিয় চালান."
+
+#: backend/templates/views/pdf_invoice/settings.php:130
+msgid ""
+"Please turn off if you want to deactivate shipping label. It is also allowed "
+"to turn ON where shipping label is needed instead of packing slip."
+msgstr ""
+"দয়া করে বন্ধ করতে চান তাহলে আপনি নিষ্ক্রিয় শিপিং লেবেল. এটি করার অনুমতি "
+"দেওয়া চালু যেখানে শিপিং লেবেল প্রয়োজন হয় পরিবর্তে প্যাকিং স্লিপ."
+
 #: backend/templates/views/product_sticky_bar/settings.php:96
 msgid "Please turn off if you want to disabled sticky bar"
 msgstr "দয়া করে বন্ধ করতে চান তাহলে আপনি নিষ্ক্রিয় চটচটে বার"
@@ -1744,11 +1925,20 @@ msgstr ""
 msgid "Please turn on if you want to auto open floating cart."
 msgstr "দয়া করে চালু করতে চান, তাহলে আপনি অটো ওপেন ভাসমান কার্ট."
 
+#: backend/templates/views/pdf_invoice/settings.php:309
+msgid "Please turn on if you want to order number as invoice number."
+msgstr "দয়া করে চালু করতে চান, তাহলে আপনি অর্ডার নম্বর হিসাবে চালান নম্বর."
+
 #: backend/templates/views/one_click_checkout/settings.php:297
 msgid "Position Of the Button"
 msgstr "এর অবস্থান বাটন"
 
+#: backend/templates/views/pdf_invoice/settings.php:211
+msgid "Postal Code"
+msgstr "পোস্টাল কোড"
+
 #: backend/templates/views/coupon_generator/settings.php:25
+#: backend/templates/views/pdf_invoice/settings.php:322
 msgid "Prefix"
 msgstr "উপসর্গ"
 
@@ -1767,6 +1957,10 @@ msgstr "মূল্য ফিল্টার সেটিংস"
 #: backend/templates/views/modules.php:263
 msgid "Pro"
 msgstr "প্রো"
+
+#: backend/templates/views/pdf_invoice/settings.php:293
+msgid "Processing Order"
+msgstr "অর্ডার প্রসেসিং"
 
 #: backend/templates/views/pdf_invoice/invoice.php:118
 msgid "PRODUCT"
@@ -1926,6 +2120,10 @@ msgstr "রেটিং ফিল্টার সেটিংস"
 msgid "Read more button text"
 msgstr "Read more বাটন টেক্সট"
 
+#: backend/templates/views/pdf_invoice/settings.php:162
+msgid "Recommended image size 150px X 60px"
+msgstr "প্রস্তাবিত ইমেজ সাইজ 150px X 60px"
+
 #: backend/templates/views/one_click_checkout/settings.php:285
 msgid "Redirect to page"
 msgstr "থেকে পুনর্নির্দেশ পাতা"
@@ -1937,6 +2135,10 @@ msgstr "পুনর্নির্দেশ Url গুলি"
 #: backend/templates/views/floating_cart/settings.php:404
 msgid "Redirect URLs Settings"
 msgstr "পুনর্নির্দেশ Url সেটিংস"
+
+#: backend/templates/views/pdf_invoice/settings.php:295
+msgid "Refunded Order"
+msgstr "ফেরত অর্ডার"
 
 #: backend/templates/views/one_click_checkout/settings.php:473
 msgid "Remove billing fields?"
@@ -2015,6 +2217,8 @@ msgstr "অনুসন্ধান ফিল্টার"
 msgid "Search Filter Settings"
 msgstr "অনুসন্ধান ফিল্টার সেটিংস"
 
+#: modules/product_filter/template.php:28
+#: modules/product_filter/template.php:31
 #: backend/templates/views/product_filter/settings.php:27
 msgid "Search Product"
 msgstr "অনুসন্ধান পণ্য"
@@ -2157,6 +2361,10 @@ msgstr "পণ্য নির্বাচন করুন যার জন্�
 #: backend/templates/views/product_sticky_bar/settings.php:189
 msgid "Select the products where you do not want to show the sticky bar"
 msgstr "পণ্য নির্বাচন করুন, যেখানে আপনি চান না দেখানোর জন্য চটচটে বার"
+
+#: backend/templates/views/pdf_invoice/settings.php:183
+msgid "Sender Name"
+msgstr "প্রেরকের নাম"
 
 #: backend/templates/views/product_filter/settings.php:271
 msgid ""
@@ -2559,6 +2767,7 @@ msgid "Set your cart header font size in px (Ex. 24)"
 msgstr "সেট আপনার কার্ট হেডার ফন্টের আকার মধ্যে px (Ex. 24)"
 
 #: backend/templates/views/floating_cart/settings.php:347
+#: backend/templates/views/pdf_invoice/settings.php:317
 msgid "Set your cart heading title."
 msgstr "সেট আপনার কার্ট শিরোনাম শিরোনাম."
 
@@ -2742,6 +2951,19 @@ msgstr "গ্রেপ্তার করার নাম"
 msgid "Shop Address"
 msgstr "দোকান ঠিকানা"
 
+#: backend/templates/views/pdf_invoice/settings.php:179
+msgid "Shop Address (Sender Details)"
+msgstr "দোকান ঠিকানা (প্রেরকের বিস্তারিত)"
+
+#: backend/templates/views/pdf_invoice/settings.php:155
+#: backend/templates/views/pdf_invoice/settings.php:364
+msgid "Shop Logo"
+msgstr "দোকান লোগো"
+
+#: backend/templates/views/pdf_invoice/settings.php:148
+msgid "Shop Name"
+msgstr "দোকান নাম"
+
 #: backend/templates/views/product_filter/settings.php:567
 msgid "Show 0 Star Rating?"
 msgstr "শো 0 রাশি নির্ধারণ?"
@@ -2898,6 +3120,10 @@ msgstr "SKU"
 msgid "Square"
 msgstr "স্কয়ার"
 
+#: backend/templates/views/pdf_invoice/settings.php:394
+msgid "SSN "
+msgstr ""
+
 #: backend/templates/views/pdf_invoice/invoice.php:18
 msgid "SSN:"
 msgstr "এসএসএন:"
@@ -2934,6 +3160,10 @@ msgstr "সাবটোটাল"
 #: backend/templates/views/floating_cart/settings.php:384
 msgid "Subtotal Text"
 msgstr "সাবটোটাল টেক্সট"
+
+#: backend/templates/views/pdf_invoice/settings.php:329
+msgid "Suffix"
+msgstr "প্রত্যয়"
 
 #: backend/templates/views/shipping_bar/settings.php:440
 msgid "Text Align of Message"
@@ -3032,6 +3262,10 @@ msgstr "চালু হলে, আপনি মুছে ফেলতে চা
 msgid "Turn on if you want to remove 'Terms & Condition'."
 msgstr "চালু হলে, আপনি অপসারণ করতে চান, 'Terms & Condition'."
 
+#: backend/templates/views/pdf_invoice/settings.php:281
+msgid "Turn on if you want to show VAT & SSN option on Checkout page"
+msgstr "চালু হলে, আপনি প্রদর্শন করতে চান, ভ্যাট এবং SSN বিকল্প চেকআউট পৃষ্ঠায়"
+
 #: backend/templates/views/shipping_bar/settings.php:327
 msgid "Turn ON the switch to allow disappear time."
 msgstr "সুইচ চালু করার অনুমতি দেয়, অদৃশ্য হয়."
@@ -3104,6 +3338,10 @@ msgstr "ছাপাখানার বিদ্যা সেটিংস"
 msgid "Untitled Rule"
 msgstr "শিরোনামহীন নিয়ম"
 
+#: backend/templates/views/pdf_invoice/settings.php:159
+msgid "Upload"
+msgstr "তারিখ"
+
 #: backend/templates/views/modules.php:107
 #: backend/templates/views/url_coupon/settings.php:14
 msgid "URL Coupon"
@@ -3166,6 +3404,7 @@ msgstr "দর্শন কমিউনিটি ফোরাম"
 #. Author of the plugin
 #: backend/templates/views/auto_apply_coupon/settings.php:6
 #: backend/templates/views/coupon_generator/settings.php:4
+#: backend/templates/views/pdf_invoice/settings.php:64
 #: backend/templates/views/product_sticky_bar/settings.php:48
 #: backend/templates/views/url_coupon/settings.php:5
 msgid "wcEazy"

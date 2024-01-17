@@ -355,43 +355,43 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                             </div>
                             <div class="wceazy_pdf_invoice_live_customizer_action">
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_invoice_title">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Document Title</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Document Title', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_invoice_title == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shop_logo">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Shop Logo</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Shop Logo', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shop_logo == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_invoice_number">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Invoice Number</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Invoice Number', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_invoice_number == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_order_number">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Order Number</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Order Number', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_order_number == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_invoice_date">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Invoice Date</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Invoice Date', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_invoice_date == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_order_date">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Order Date</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Order Date', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_order_date == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_ssn_id">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">SSN <span style="color: #FF521D;">(Pro)</span></div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('SSN ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input disabled type="checkbox" <?php echo esc_attr($wceazy_pi_enable_ssn_id == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>

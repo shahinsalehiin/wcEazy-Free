@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wcEazy 1.1.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wceazy\n"
-"POT-Creation-Date: 2024-01-17 01:06+0000\n"
+"POT-Creation-Date: 2024-01-17 17:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,6 +18,7 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/"
 
 #: backend/templates/views/floating_cart/settings.php:184
+#: backend/templates/views/pdf_invoice/settings.php:245
 msgid " Please select"
 msgstr ""
 
@@ -87,6 +88,11 @@ msgstr ""
 #: backend/templates/views/address_book/settings.php:333
 #: backend/templates/views/address_book/settings.php:345
 #: backend/templates/views/one_click_checkout/settings.php:489
+#: backend/templates/views/pdf_invoice/settings.php:278
+#: backend/templates/views/pdf_invoice/settings.php:285
+#: backend/templates/views/pdf_invoice/settings.php:322
+#: backend/templates/views/pdf_invoice/settings.php:329
+#: backend/templates/views/pdf_invoice/settings.php:394
 #: backend/templates/views/product_filter/settings.php:265
 #: backend/templates/views/product_filter/settings.php:276
 #: backend/templates/views/product_filter/settings.php:288
@@ -302,6 +308,14 @@ msgstr ""
 msgid "Address Field on Checkout Page"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:190
+msgid "Address Line 1"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:197
+msgid "Address Line 2"
+msgstr ""
+
 #: backend/templates/views/address_book/settings.php:224
 msgid "Address Make Primary Link Text "
 msgstr ""
@@ -361,12 +375,17 @@ msgstr ""
 msgid "Always Show"
 msgstr ""
 
+#: modules/product_filter/template.php:47
 #: backend/templates/views/product_filter/settings.php:47
 msgid "And Up"
 msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:95
 msgid "Are you sure?"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:285
+msgid "Attach to Email"
 msgstr ""
 
 #: backend/templates/views/modules.php:47
@@ -379,6 +398,7 @@ msgstr ""
 #: backend/templates/views/bogo_deal/settings.php:22
 #: backend/templates/views/coupon_generator/settings.php:17
 #: backend/templates/views/floating_cart/settings.php:107
+#: backend/templates/views/pdf_invoice/settings.php:79
 #: backend/templates/views/product_sticky_bar/settings.php:63
 #: backend/templates/views/url_coupon/settings.php:18
 msgid "Back to all Modules"
@@ -677,6 +697,10 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:290
+msgid "Cancelled Order"
+msgstr ""
+
 #: backend/templates/views/shipping_bar/settings.php:183
 msgid "Cart & Checkout Page Settings"
 msgstr ""
@@ -791,6 +815,7 @@ msgstr ""
 #: backend/templates/views/pdf_invoice/invoice.php:50
 #: backend/templates/views/pdf_invoice/invoice.php:71
 #: backend/templates/views/pdf_invoice/invoice.php:97
+#: backend/templates/views/pdf_invoice/settings.php:204
 msgid "City"
 msgstr ""
 
@@ -811,6 +836,14 @@ msgstr ""
 msgid "Community support"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:294
+msgid "Complete Order"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:232
+msgid "Contact Number"
+msgstr ""
+
 #: backend/templates/views/floating_cart/settings.php:144
 #: backend/templates/views/floating_cart/settings.php:605
 msgid "Content Style"
@@ -828,6 +861,10 @@ msgstr ""
 #: backend/templates/views/pdf_invoice/invoice.php:72
 #: backend/templates/views/pdf_invoice/invoice.php:98
 msgid "Country"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:218
+msgid "Country/State"
 msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:75
@@ -878,17 +915,37 @@ msgstr ""
 msgid "Custom Footer Text"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:297
+msgid "Customer Invoice"
+msgstr ""
+
 #: backend/templates/views/pdf_invoice/invoice.php:181
 msgid "Customer Note:"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:101
+msgid "Customize Invoice"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:278
 msgid "Customize Messages"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:104
+msgid "Customize Shipping Label"
+msgstr ""
+
 #: backend/templates/views/address_book/settings.php:236
 #: backend/templates/views/shipping_bar/settings.php:344
 msgid "Customize Styles"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:119
+msgid "Deactivate Invoice?"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:127
+msgid "Deactivate Shipping Label?"
 msgstr ""
 
 #: backend/templates/views/bogo_deal/settings.php:66
@@ -898,6 +955,10 @@ msgstr ""
 #: backend/templates/views/auto_apply_coupon/settings.php:76
 #: backend/templates/views/url_coupon/settings.php:60
 msgid "Description"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:247
+msgid "Direct Download"
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:179
@@ -932,6 +993,10 @@ msgstr ""
 msgid "Docs"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:358
+msgid "Document Title"
+msgstr ""
+
 #: backend/templates/views/modules.php:56
 #: backend/templates/views/modules.php:76
 #: backend/templates/views/modules.php:96
@@ -949,6 +1014,7 @@ msgstr ""
 #: backend/templates/views/bogo_deal/settings.php:19
 #: backend/templates/views/coupon_generator/settings.php:14
 #: backend/templates/views/floating_cart/settings.php:104
+#: backend/templates/views/pdf_invoice/settings.php:76
 #: backend/templates/views/product_sticky_bar/settings.php:60
 #: backend/templates/views/url_coupon/settings.php:15
 msgid "Documentation"
@@ -995,6 +1061,10 @@ msgstr ""
 msgid "Enter cart & checkout page free shipping progress bar headline text."
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:171
+msgid "Enter invoice footer info"
+msgstr ""
+
 #: backend/templates/views/coupon_generator/settings.php:170
 msgid "Exclude categories"
 msgstr ""
@@ -1024,10 +1094,15 @@ msgstr ""
 msgid "Export as CSV"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:291
+msgid "Failed Order"
+msgstr ""
+
 #: backend/templates/views/pdf_invoice/invoice.php:146
 msgid "Fee"
 msgstr ""
 
+#: modules/product_filter/template.php:58
 #: backend/templates/views/product_filter/settings.php:58
 msgid "Filter By Category"
 msgstr ""
@@ -1036,10 +1111,12 @@ msgstr ""
 msgid "Filter By Price"
 msgstr ""
 
+#: modules/product_filter/template.php:46
 #: backend/templates/views/product_filter/settings.php:46
 msgid "Filter By Rating"
 msgstr ""
 
+#: modules/product_filter/template.php:66
 #: backend/templates/views/product_filter/settings.php:66
 msgid "Filter By Stock"
 msgstr ""
@@ -1077,6 +1154,10 @@ msgstr ""
 msgid "Font Size of Message"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:168
+msgid "Footer Info"
+msgstr ""
+
 #: backend/templates/views/floating_cart/settings.php:287
 msgid "Footer Position Fixed?"
 msgstr ""
@@ -1107,6 +1188,7 @@ msgstr ""
 
 #: backend/templates/views/address_book/settings.php:86
 #: backend/templates/views/floating_cart/settings.php:156
+#: backend/templates/views/pdf_invoice/settings.php:140
 #: backend/templates/views/product_filter/settings.php:139
 msgid "General Settings"
 msgstr ""
@@ -1134,6 +1216,8 @@ msgstr ""
 #: backend/templates/views/bogo_deal/settings.php:9
 #: backend/templates/views/coupon_generator/settings.php:7
 #: backend/templates/views/floating_cart/settings.php:95
+#: backend/templates/views/pdf_invoice/settings.php:67
+#: backend/templates/views/product_filter/settings.php:87
 #: backend/templates/views/product_sticky_bar/settings.php:51
 #: backend/templates/views/url_coupon/settings.php:8
 msgid "GET PRO"
@@ -1197,6 +1281,10 @@ msgstr ""
 msgid "Hover Font Color"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:242
+msgid "How do you want to view the PDF?"
+msgstr ""
+
 #: backend/templates/views/product_filter/settings.php:179
 msgid "how Stock Status Filter?"
 msgstr ""
@@ -1206,6 +1294,7 @@ msgstr ""
 msgid "https://wceazy.com"
 msgstr ""
 
+#: modules/product_filter/template.php:67
 #: backend/templates/views/product_filter/settings.php:67
 msgid "In Stock"
 msgstr ""
@@ -1242,8 +1331,33 @@ msgstr ""
 msgid "INVOICE"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:98
+msgid "Invoice"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:341
+msgid "Invoice Customization"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:382
+msgid "Invoice Date"
+msgstr ""
+
 #: backend/templates/views/pdf_invoice/invoice.php:15
 msgid "Invoice Date:"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:303
+#: backend/templates/views/pdf_invoice/settings.php:370
+msgid "Invoice Number"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:259
+msgid "Invoice Settings"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:314
+msgid "Invoice Start Number"
 msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:80
@@ -1385,6 +1499,10 @@ msgid ""
 "shipping coupon\" (see the \"Free Shipping Requires\" setting)."
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:278
+msgid "nable VAT & SSN on Checkout"
+msgstr ""
+
 #: backend/templates/views/pdf_invoice/invoice.php:125
 #: backend/templates/views/pdf_invoice/invoice.php:132
 msgid "Name of the product"
@@ -1392,6 +1510,10 @@ msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:48
 msgid "Name of the shop"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:289
+msgid "New Order (Admin Email)"
 msgstr ""
 
 #: backend/templates/views/auto_apply_coupon/settings.php:97
@@ -1430,12 +1552,24 @@ msgstr ""
 msgid "On product page"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:292
+msgid "On-Hold Order"
+msgstr ""
+
 #: backend/templates/views/modules.php:147
 msgid "One Click Checkout"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:246
+msgid "Open The PDF in a New Window"
+msgstr ""
+
 #: backend/templates/views/modules.php:269
 msgid "Order Cancel"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:388
+msgid "Order Date"
 msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:17
@@ -1446,6 +1580,19 @@ msgstr ""
 msgid "Order No.:"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:376
+msgid "Order Number"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:306
+msgid "Order Number as Invoice Number?"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:239
+msgid "Other Settings"
+msgstr ""
+
+#: modules/product_filter/template.php:68
 #: backend/templates/views/product_filter/settings.php:68
 msgid "Out of Stock"
 msgstr ""
@@ -1475,11 +1622,21 @@ msgstr ""
 msgid "Pagination Button Font Color"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:296
+msgid "Partially Refunded Order"
+msgstr ""
+
 #: backend/templates/views/pdf_invoice/invoice.php:176
 msgid "Payment Method: COD"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:92
+#: backend/templates/views/pdf_invoice/settings.php:113
+msgid "PDF Document"
+msgstr ""
+
 #: backend/templates/views/modules.php:187
+#: backend/templates/views/pdf_invoice/settings.php:75
 msgid "PDF Invoice & Packing Slips"
 msgstr ""
 
@@ -1497,6 +1654,10 @@ msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:344
 msgid "Placeholder Text"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:299
+msgid "Please choose when you want the invoice to be emailed."
 msgstr ""
 
 #: modules/url_coupon/ModuleUtils.php:170
@@ -1527,6 +1688,8 @@ msgstr ""
 #: backend/templates/views/one_click_checkout/settings.php:300
 #: backend/templates/views/one_click_checkout/settings.php:476
 #: backend/templates/views/one_click_checkout/settings.php:495
+#: backend/templates/views/pdf_invoice/settings.php:221
+#: backend/templates/views/pdf_invoice/settings.php:288
 #: backend/templates/views/product_filter/settings.php:190
 #: backend/templates/views/product_sticky_bar/settings.php:126
 #: backend/templates/views/product_sticky_bar/settings.php:182
@@ -1539,6 +1702,10 @@ msgstr ""
 #: backend/templates/views/shipping_bar/settings.php:364
 #: backend/templates/views/shipping_bar/settings.php:443
 msgid "Please select"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:273
+msgid "Please select Order statuses which an invoice should not be generated."
 msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:189
@@ -1707,6 +1874,16 @@ msgid ""
 "on sticky bar"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:122
+msgid "Please turn off if you want to deactivate invoice."
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:130
+msgid ""
+"Please turn off if you want to deactivate shipping label. It is also allowed "
+"to turn ON where shipping label is needed instead of packing slip."
+msgstr ""
+
 #: backend/templates/views/product_sticky_bar/settings.php:96
 msgid "Please turn off if you want to disabled sticky bar"
 msgstr ""
@@ -1721,11 +1898,20 @@ msgstr ""
 msgid "Please turn on if you want to auto open floating cart."
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:309
+msgid "Please turn on if you want to order number as invoice number."
+msgstr ""
+
 #: backend/templates/views/one_click_checkout/settings.php:297
 msgid "Position Of the Button"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:211
+msgid "Postal Code"
+msgstr ""
+
 #: backend/templates/views/coupon_generator/settings.php:25
+#: backend/templates/views/pdf_invoice/settings.php:322
 msgid "Prefix"
 msgstr ""
 
@@ -1743,6 +1929,10 @@ msgstr ""
 
 #: backend/templates/views/modules.php:263
 msgid "Pro"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:293
+msgid "Processing Order"
 msgstr ""
 
 #: backend/templates/views/pdf_invoice/invoice.php:118
@@ -1903,6 +2093,10 @@ msgstr ""
 msgid "Read more button text"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:162
+msgid "Recommended image size 150px X 60px"
+msgstr ""
+
 #: backend/templates/views/one_click_checkout/settings.php:285
 msgid "Redirect to page"
 msgstr ""
@@ -1913,6 +2107,10 @@ msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:404
 msgid "Redirect URLs Settings"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:295
+msgid "Refunded Order"
 msgstr ""
 
 #: backend/templates/views/one_click_checkout/settings.php:473
@@ -1992,6 +2190,8 @@ msgstr ""
 msgid "Search Filter Settings"
 msgstr ""
 
+#: modules/product_filter/template.php:28
+#: modules/product_filter/template.php:31
 #: backend/templates/views/product_filter/settings.php:27
 msgid "Search Product"
 msgstr ""
@@ -2131,6 +2331,10 @@ msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:189
 msgid "Select the products where you do not want to show the sticky bar"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:183
+msgid "Sender Name"
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:271
@@ -2529,6 +2733,7 @@ msgid "Set your cart header font size in px (Ex. 24)"
 msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:347
+#: backend/templates/views/pdf_invoice/settings.php:317
 msgid "Set your cart heading title."
 msgstr ""
 
@@ -2712,6 +2917,19 @@ msgstr ""
 msgid "Shop Address"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:179
+msgid "Shop Address (Sender Details)"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:155
+#: backend/templates/views/pdf_invoice/settings.php:364
+msgid "Shop Logo"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:148
+msgid "Shop Name"
+msgstr ""
+
 #: backend/templates/views/product_filter/settings.php:567
 msgid "Show 0 Star Rating?"
 msgstr ""
@@ -2866,6 +3084,10 @@ msgstr ""
 msgid "Square"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:394
+msgid "SSN "
+msgstr ""
+
 #: backend/templates/views/pdf_invoice/invoice.php:18
 msgid "SSN:"
 msgstr ""
@@ -2901,6 +3123,10 @@ msgstr ""
 
 #: backend/templates/views/floating_cart/settings.php:384
 msgid "Subtotal Text"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:329
+msgid "Suffix"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:440
@@ -2996,6 +3222,10 @@ msgstr ""
 msgid "Turn on if you want to remove 'Terms & Condition'."
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:281
+msgid "Turn on if you want to show VAT & SSN option on Checkout page"
+msgstr ""
+
 #: backend/templates/views/shipping_bar/settings.php:327
 msgid "Turn ON the switch to allow disappear time."
 msgstr ""
@@ -3066,6 +3296,10 @@ msgstr ""
 msgid "Untitled Rule"
 msgstr ""
 
+#: backend/templates/views/pdf_invoice/settings.php:159
+msgid "Upload"
+msgstr ""
+
 #: backend/templates/views/modules.php:107
 #: backend/templates/views/url_coupon/settings.php:14
 msgid "URL Coupon"
@@ -3128,6 +3362,7 @@ msgstr ""
 #. Author of the plugin
 #: backend/templates/views/auto_apply_coupon/settings.php:6
 #: backend/templates/views/coupon_generator/settings.php:4
+#: backend/templates/views/pdf_invoice/settings.php:64
 #: backend/templates/views/product_sticky_bar/settings.php:48
 #: backend/templates/views/url_coupon/settings.php:5
 msgid "wcEazy"
