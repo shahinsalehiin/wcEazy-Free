@@ -188,7 +188,7 @@ $unique_id = rand();
 
             <?php if ($wceazy_pf_show_category_filter == "yes") { ?>
                 <div class="wceazy_pf_category_filter">
-                    <label><?php echo esc_html_e($wceazy_pf_category_filter_label_text, 'wceazy'); ?>/label>
+                    <label><?php echo esc_html_e($wceazy_pf_category_filter_label_text, 'wceazy'); ?></label>
                         <div class="wceazy_pf_category_filter_checkbox_container">
 
                             <?php foreach ($this->utils->getWooProductCategories() as $category) { ?>
