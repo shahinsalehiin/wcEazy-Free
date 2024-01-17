@@ -44,7 +44,9 @@ if (!class_exists('WcEazyAdmin')) {
             add_action("admin_menu", array($this, 'wceazy_admin_menu'));
             add_action('admin_enqueue_scripts', array($this, 'wceazy_admin_enqueue'));
             add_action( 'plugin_action_links_' . WCEAZY_BASE_PATH, array( $this, 'wceazy_action_links') );
-
+            
+            add_filter( 'plugin_row_meta', array( $this, 'plugin_row_meta' ), 10, 2 );
+            // add_filter( 'plugin_row_meta', array( __CLASS__, 'plugin_row_meta' ), 10, 2 );
 
             /* ======== Auto Apply Coupon ========== */
             if($this->settings->getModuleStatus("auto_apply_coupon")){
@@ -124,7 +126,22 @@ if (!class_exists('WcEazyAdmin')) {
             $links = array_merge($setting_arr, $links, $pro_arr);
             return $links;
         }
+        	
+        public function plugin_row_meta( $links, $file ) {
+            
+            // $docs_url = apply_filters( 'woocommerce_docs_url', WCEAZY_DOCS_PAGE );
+            // $community_support_url = apply_filters( 'woocommerce_community_support_url', 'https://wordpress.org/support/plugin/wceazy/' );
+            $docs_url = WCEAZY_DOCS_PAGE;
+            $community_support_url = 'https://wordpress.org/support/plugin/wceazy/';
+            
+            $row_meta = array(
+                'docs'    => '<a href="' . esc_url( $docs_url ) . '" aria-label="' . esc_attr__( 'View wcEazy documentation', 'wceazy' ) . '">' . esc_html__( 'Docs', 'wceazy' ) . '</a>',
+                'support' => '<a href="' . esc_url( $community_support_url ) . '" aria-label="' . esc_attr__( 'Visit community forums', 'wceazy' ) . '">' . esc_html__( 'Community support', 'wceazy' ) . '</a>',
+            );
 
+            return array_merge( $links, $row_meta );
+        }
+        
         function wceazy_admin_menu()
         {
             $icon_url = WCEAZY_IMG_DIR . "wceazy_icon.svg";

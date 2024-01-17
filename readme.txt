@@ -5,7 +5,7 @@ Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
 Tested up to: 6.4.2
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 <p>Dozens of WordPress WooCommerce plugins are no longer necessary!
 With just one plugin, you can improve the flexibility of your WooCommerce website.</p>
+
+[youtube https://www.youtube.com/watch?v=i83B2qCVe2Q]
+
+<p>👁️ <a href="https://wceazy.com/" target="_blank">Demo</a> | 🚀 <a href="https://wceazy.com/pricing/" target="_blank">Get Pro</a> | 👨‍💻 <a href="https://wceazy.com/support/" target="_blank">Get Support</a></p>
+
 
 <h3>wcEazy comes with the following features:</h3>
 
@@ -525,6 +530,13 @@ screenshot-9.png
 
 
 == Changelog ==
+
+= 1.1.5 =
+1. Change documentation link 
+2. Add doc link in quick links 
+3. Update readme file with pro/demo/YT link
+4. Improved: Performance of the plugin has been improved.
+5. Fixed: Minor CSS fixed.
 
 = 1.1.4 =
 1. Improved: Performance of the plugin has been improved.

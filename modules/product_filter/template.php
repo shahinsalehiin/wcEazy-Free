@@ -24,7 +24,8 @@ $wceazy_pf_pagination_btn_border_color = isset($wceazy_pf_settings["pagination_b
 $wceazy_pf_pagination_btn_text_color = isset($wceazy_pf_settings["pagination_btn_text_color"]) ? $wceazy_pf_settings["pagination_btn_text_color"] : "#6E32C9";
 $wceazy_pf_loader_color = isset($wceazy_pf_settings["loader_color"]) ? $wceazy_pf_settings["loader_color"] : "#E0E1E3";
 
-$wceazy_pf_search_filter_label_text = isset($wceazy_pf_settings["search_filter_label_text"]) ? $wceazy_pf_settings["search_filter_label_text"] : "Search Product";
+// $wceazy_pf_search_filter_label_text = isset($wceazy_pf_settings["search_filter_label_text"]) ? $wceazy_pf_settings["search_filter_label_text"] : "Search Product";
+$wceazy_pf_search_filter_label_text = isset($wceazy_pf_settings["search_filter_label_text"]) ? sanitize_text_field($wceazy_pf_settings["search_filter_label_text"]) : __("Search Product", "your-text-domain");
 $wceazy_pf_search_filter_placeholder_text = isset($wceazy_pf_settings["search_filter_placeholder_text"]) ? $wceazy_pf_settings["search_filter_placeholder_text"] : "Search by Product Name";
 $wceazy_pf_search_filter_label_color = isset($wceazy_pf_settings["search_filter_label_color"]) ? $wceazy_pf_settings["search_filter_label_color"] : "#222222";
 $wceazy_pf_search_filter_input_border_color = isset($wceazy_pf_settings["search_filter_input_border_color"]) ? $wceazy_pf_settings["search_filter_input_border_color"] : "#E4E4E6";
