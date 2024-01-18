@@ -127,19 +127,23 @@ if (!class_exists('WcEazyAdmin')) {
             return $links;
         }
         	
-        public function plugin_row_meta( $links, $file ) {
+        public function plugin_row_meta( $links, $plugin_file ) {
             
-            // $docs_url = apply_filters( 'woocommerce_docs_url', WCEAZY_DOCS_PAGE );
-            // $community_support_url = apply_filters( 'woocommerce_community_support_url', 'https://wordpress.org/support/plugin/wceazy/' );
-            $docs_url = WCEAZY_DOCS_PAGE;
-            $community_support_url = 'https://wordpress.org/support/plugin/wceazy/';
-            
-            $row_meta = array(
-                'docs'    => '<a href="' . esc_url( $docs_url ) . '" aria-label="' . esc_attr__( 'View wcEazy documentation', 'wceazy' ) . '">' . esc_html__( 'Docs', 'wceazy' ) . '</a>',
-                'support' => '<a href="' . esc_url( $community_support_url ) . '" aria-label="' . esc_attr__( 'Visit community forums', 'wceazy' ) . '">' . esc_html__( 'Community support', 'wceazy' ) . '</a>',
-            );
+            if ( 'wceazy/wceazy.php' === $plugin_file ) {
+                // $docs_url = apply_filters( 'woocommerce_docs_url', WCEAZY_DOCS_PAGE );
+                // $community_support_url = apply_filters( 'woocommerce_community_support_url', 'https://wordpress.org/support/plugin/wceazy/' );
+                $docs_url = WCEAZY_DOCS_PAGE;
+                $community_support_url = 'https://wordpress.org/support/plugin/wceazy/';
+                
+                $row_meta = array(
+                    'docs'    => '<a href="' . esc_url( $docs_url ) . '" aria-label="' . esc_attr__( 'View wcEazy documentation', 'wceazy' ) . '">' . esc_html__( 'Docs', 'wceazy' ) . '</a>',
+                    'support' => '<a href="' . esc_url( $community_support_url ) . '" aria-label="' . esc_attr__( 'Visit community forums', 'wceazy' ) . '">' . esc_html__( 'Community support', 'wceazy' ) . '</a>',
+                );
 
-            return array_merge( $links, $row_meta );
+                return array_merge( $links, $row_meta );
+            }
+
+            return $links;
         }
         
         function wceazy_admin_menu()
