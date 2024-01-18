@@ -28,23 +28,23 @@ $wceazy_pf_search_filter_label_text = isset($wceazy_pf_settings["search_filter_l
 
 
 
-$wceazy_pf_search_filter_placeholder_text = isset($wceazy_pf_settings["search_filter_placeholder_text"]) ? $wceazy_pf_settings["search_filter_placeholder_text"] : esc_html_e('Search by Product Name', 'wceazy');
+$wceazy_pf_search_filter_placeholder_text = isset($wceazy_pf_settings["search_filter_placeholder_text"]) ? $wceazy_pf_settings["search_filter_placeholder_text"] : esc_html__('Search by Product Name', 'wceazy');
 $wceazy_pf_search_filter_label_color = isset($wceazy_pf_settings["search_filter_label_color"]) ? $wceazy_pf_settings["search_filter_label_color"] : "#222222";
 $wceazy_pf_search_filter_input_border_color = isset($wceazy_pf_settings["search_filter_input_border_color"]) ? $wceazy_pf_settings["search_filter_input_border_color"] : "#E4E4E6";
 $wceazy_pf_search_filter_input_bg_color = isset($wceazy_pf_settings["search_filter_input_bg_color"]) ? $wceazy_pf_settings["search_filter_input_bg_color"] : "#F6F8FA";
 $wceazy_pf_search_filter_input_text_color = isset($wceazy_pf_settings["search_filter_input_text_color"]) ? $wceazy_pf_settings["search_filter_input_text_color"] : "#43454B";
 
-$wceazy_pf_price_filter_label_text = isset($wceazy_pf_settings["price_filter_label_text"]) ? $wceazy_pf_settings["price_filter_label_text"] : esc_html_e('Filter By Price', 'wceazy');
-$wceazy_pf_price_filter_min_placeholder_text = isset($wceazy_pf_settings["price_filter_min_placeholder_text"]) ? $wceazy_pf_settings["price_filter_min_placeholder_text"] : esc_html_e('Min', 'wceazy');
-$wceazy_pf_price_filter_max_placeholder_text = isset($wceazy_pf_settings["price_filter_max_placeholder_text"]) ? $wceazy_pf_settings["price_filter_max_placeholder_text"] : esc_html_e('Max', 'wceazy');
+$wceazy_pf_price_filter_label_text = isset($wceazy_pf_settings["price_filter_label_text"]) ? $wceazy_pf_settings["price_filter_label_text"] : esc_html__('Filter By Price', 'wceazy');
+$wceazy_pf_price_filter_min_placeholder_text = isset($wceazy_pf_settings["price_filter_min_placeholder_text"]) ? $wceazy_pf_settings["price_filter_min_placeholder_text"] : esc_html__('Min', 'wceazy');
+$wceazy_pf_price_filter_max_placeholder_text = isset($wceazy_pf_settings["price_filter_max_placeholder_text"]) ? $wceazy_pf_settings["price_filter_max_placeholder_text"] : esc_html__('Max', 'wceazy');
 $wceazy_pf_price_filter_label_color = isset($wceazy_pf_settings["price_filter_label_color"]) ? $wceazy_pf_settings["price_filter_label_color"] : "#222222";
 $wceazy_pf_price_filter_input_border_color = isset($wceazy_pf_settings["price_filter_input_border_color"]) ? $wceazy_pf_settings["price_filter_input_border_color"] : "#E4E4E6";
 $wceazy_pf_price_filter_input_bg_color = isset($wceazy_pf_settings["price_filter_input_bg_color"]) ? $wceazy_pf_settings["price_filter_input_bg_color"] : "#F6F8FA";
 $wceazy_pf_price_filter_input_text_color = isset($wceazy_pf_settings["price_filter_input_text_color"]) ? $wceazy_pf_settings["price_filter_input_text_color"] : "#43454B";
 
 
-$wceazy_pf_rating_filter_label_text = isset($wceazy_pf_settings["rating_filter_label_text"]) ? $wceazy_pf_settings["rating_filter_label_text"] : esc_html_e('Filter By Rating', 'wceazy');
-$wceazy_pf_rating_filter_and_up_text = isset($wceazy_pf_settings["rating_filter_and_up_text"]) ? $wceazy_pf_settings["rating_filter_and_up_text"] : esc_html_e('And Up', 'wceazy');
+$wceazy_pf_rating_filter_label_text = isset($wceazy_pf_settings["rating_filter_label_text"]) ? $wceazy_pf_settings["rating_filter_label_text"] : esc_html__('Filter By Rating', 'wceazy');
+$wceazy_pf_rating_filter_and_up_text = isset($wceazy_pf_settings["rating_filter_and_up_text"]) ? $wceazy_pf_settings["rating_filter_and_up_text"] : esc_html__('And Up', 'wceazy');
 $wceazy_pf_rating_filter_label_color = isset($wceazy_pf_settings["rating_filter_label_color"]) ? $wceazy_pf_settings["rating_filter_label_color"] : "#222222";
 $wceazy_pf_rating_filter_and_up_color = isset($wceazy_pf_settings["rating_filter_and_up_color"]) ? $wceazy_pf_settings["rating_filter_and_up_color"] : "#555555";
 $wceazy_pf_rating_filter_show_5_star_rating = isset($wceazy_pf_settings["rating_filter_show_5_star_rating"]) ? $wceazy_pf_settings["rating_filter_show_5_star_rating"] : "yes";
@@ -55,7 +55,7 @@ $wceazy_pf_rating_filter_show_1_star_rating = isset($wceazy_pf_settings["rating_
 $wceazy_pf_rating_filter_show_0_star_rating = isset($wceazy_pf_settings["rating_filter_show_0_star_rating"]) ? $wceazy_pf_settings["rating_filter_show_0_star_rating"] : "no";
 
 
-$wceazy_pf_category_filter_label_text = isset($wceazy_pf_settings["category_filter_label_text"]) ? $wceazy_pf_settings["category_filter_label_text"] :  esc_html_e('Filter By Category', 'wceazy');
+$wceazy_pf_category_filter_label_text = isset($wceazy_pf_settings["category_filter_label_text"]) ? $wceazy_pf_settings["category_filter_label_text"] :  esc_html__('Filter By Category', 'wceazy');
 $wceazy_pf_category_filter_label_color = isset($wceazy_pf_settings["category_filter_label_color"]) ? $wceazy_pf_settings["category_filter_label_color"] : "#222222";
 $wceazy_pf_category_filter_category_color = isset($wceazy_pf_settings["category_filter_category_color"]) ? $wceazy_pf_settings["category_filter_category_color"] : "#444444";
 $wceazy_pf_category_filter_checkbox_unchecked_bg = isset($wceazy_pf_settings["category_filter_checkbox_unchecked_bg"]) ? $wceazy_pf_settings["category_filter_checkbox_unchecked_bg"] : "#F6F8FA";
@@ -84,7 +84,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
             <p>wcEazy <span><?php echo esc_attr(WCEAZY_VERSION); ?></span></p>
         </div>
         <div class="wceazy_header_part_right">
-            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>"><?php esc_html_e('GET PRO', 'wceazy'); ?></a>
+            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>"><?php esc_html__('GET PRO', 'wceazy'); ?></a>
         </div>
     </div>
 

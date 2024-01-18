@@ -140,10 +140,6 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                         <h1><?php esc_html_e('General Settings', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_body_form">
-
-
-                        <h4>Shop Info</h4>
-
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_shop_name">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Shop Name', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
@@ -185,7 +181,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                             <div class="field_with_msg_container">
                                 <input class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_address_line_one); ?>">
                             </div>
-                        </div>', 'wceazy'); ?>
+                        </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_address_line_two">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Address Line 2', 'wceazy'); ?></label>
@@ -201,6 +197,17 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                             </div>
                         </div>
 
+
+
+
+
+
+
+
+
+
+
+
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_postal_code">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Postal Code', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
@@ -210,23 +217,37 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_country_state">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Country/State', 'wceazy'); ?></label>
-                            <?php
-                            error_log('Debug: $wceazy_pi_country_state = ' . print_r($wceazy_pi_country_state, true));
-
-                            ?>
                             <div class="field_with_msg_container">
-                                <select class="wceazy_pdf_invoice_select_field">
-                                    <option value=""> <?php esc_html_e('Please select', 'wceazy'); ?></option>
+                                <?php
+                                // Retrieve values for country and state
+                                $country = isset($wceazy_pi_country_state[0]) ? $wceazy_pi_country_state[0] : WC()->countries->get_base_country();
+                                $state   = isset($wceazy_pi_country_state[1]) ? $wceazy_pi_country_state[1] : WC()->countries->get_base_state();
+
+                                // Sanitize the country and state values
+                                $sanitized_country = wc_clean($country);
+                                $sanitized_state   = wc_clean($state);
+
+                                // Use a variable to capture the options
+                                $options = WC()->countries->get_countries();
+
+                                // Output the dropdown
+                                ?>
+                                <select class="wceazy_pdf_invoice_select_field" name="country">
+                                    <option value=""><?php esc_html_e('Hey, please select', 'wceazy'); ?></option>
                                     <?php
-                                    $country = isset($wceazy_pi_country_state[0]) ? $wceazy_pi_country_state[0] : array_search(WC()->countries->countries[WC()->countries->get_base_country()], WC()->countries->countries);
-                                    error_log('Debug: $country = ' . $country);
-                                    $state = isset($wceazy_pi_country_state[1]) ? $wceazy_pi_country_state[1] : WC()->countries->get_base_state();
-                                    error_log('Debug: $state = ' . $state);
+                                    // Loop through each option and display country name
+                                    foreach ($options as $country_code => $country_name) {
+                                        echo '<option value="' . esc_attr($country_code) . '" ' . selected($sanitized_country, $country_code, false) . '>' . esc_html($country_name) . '</option>';
+                                    }
                                     ?>
-                                    <?php !empty($country) && !empty($state) ? WC()->countries->country_dropdown_options($country, $state) : ""; ?>
                                 </select>
                             </div>
                         </div>
+
+
+
+
+
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_contact_number">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Contact Number', 'wceazy'); ?></label>
@@ -234,6 +255,19 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                                 <input class="wceazy_pdf_invoice_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pi_contact_number); ?>">
                             </div>
                         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                         <h4><?php esc_html_e('Other Settings', 'wceazy'); ?></h4>
