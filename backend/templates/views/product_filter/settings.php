@@ -24,7 +24,7 @@ $wceazy_pf_pagination_btn_text_color = isset($wceazy_pf_settings["pagination_btn
 $wceazy_pf_loader_color = isset($wceazy_pf_settings["loader_color"]) ? $wceazy_pf_settings["loader_color"] : "#E0E1E3";
 
 
-$wceazy_pf_search_filter_label_text = isset($wceazy_pf_settings["search_filter_label_text"]) ? $wceazy_pf_settings["search_filter_label_text"] :  esc_html_e('Search Product', 'wceazy');
+$wceazy_pf_search_filter_label_text = isset($wceazy_pf_settings["search_filter_label_text"]) ? $wceazy_pf_settings["search_filter_label_text"] :  esc_html__('Search Product', 'wceazy');
 
 
 
@@ -92,12 +92,12 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
 
     <div class="wceazy_product_filter_page_title">
         <div class="page_title_part_left">
-            <h2>Product Filter</h2>
-            <a target="_blank" href="<?php echo WCEAZY_DOCS_PAGE; ?>">Documentation</a>
+            <h2><?php esc_html_e('Product Filter', 'wceazy'); ?></h2>
+            <a target="_blank" href="<?php echo WCEAZY_DOCS_PAGE; ?>"><?php esc_html_e('Documentation', 'wceazy'); ?></a>
         </div>
         <div class="page_title_part_right">
             <button class="wceazy_product_filter_copy_shortcode" onclick="wceazy_product_filter_copy_shortcode()" style="display: inline-block;">[wceazy_product_filter]</button>
-            <button class="wceazy_product_filter_back_to_dashboard_btn" onclick="wceazy_modules_page_init(`<?php echo esc_url(WCEAZY_URL); ?>`)">Back to all Modules</button>
+            <button class="wceazy_product_filter_back_to_dashboard_btn" onclick="wceazy_modules_page_init(`<?php echo esc_url(WCEAZY_URL); ?>`)"><?php esc_html_e('Back to all Modules', 'wceazy'); ?></button>
         </div>
     </div>
 
@@ -134,7 +134,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
             <div class="wceazy_product_filter_tab_part_right">
 
                 <div class="coupon_tab_body" data-id="tab_general">
-                    <div class="tab_body_title"><?php esc_html_e('General Settings', 'wceazy'); ?></h1>
+                    <div class="tab_body_title"><h1><?php esc_html_e('General Settings', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_body_form">
 
@@ -153,7 +153,6 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                                 <small><?php esc_html_e('Please turn off if you do not want to show price filter in sidebar.', 'wceazy'); ?></small>
                             </div>
                         </div>
-
 
                         <div class="wceazy_product_filter_field_group wceazy_product_filter_show_rating_filter">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Rating Filter?', 'wceazy'); ?></label>
@@ -194,7 +193,6 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                     </div>
                 </div>
 
-
                 <div class="coupon_tab_body" data-id="tab_product">
                     <div class="tab_body_title">
                         <h1><?php esc_html_e('Product Settings', 'wceazy'); ?></h1>
@@ -218,7 +216,6 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                             </div>
                         </div>
 
-
                         <div class="wceazy_product_filter_field_group wceazy_product_filter_select_options_btn_text">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Select Options" Button Text', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
@@ -226,7 +223,6 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                                 <small><?php esc_html_e('Set the "Select Options" button text for variable products.', 'wceazy'); ?></small>
                             </div>
                         </div>
-
 
                         <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_out_btn_text">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Stock Out" Button Text', 'wceazy'); ?></label>
