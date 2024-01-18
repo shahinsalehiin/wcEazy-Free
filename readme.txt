@@ -5,7 +5,7 @@ Tags: woocommerce, bulk coupon generator, bogo deal, floating cart, url coupon
 Requires PHP: 5.6
 Requires at least: 5.1
 Tested up to: 6.4.2
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,7 +30,11 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
 </li>
 	<li><strong>Does not require any coding:</strong> To activate and access the WordPress plugin wcEazy, it is not necessary to have any coding knowledge. Its set up and customizing process are very much user friendly.
 </li>
-	<li><strong>Saves cost and time:</strong> Installing one plugin you will get services of different plugins at a time as it provides huge features that can serve all WooCommerce related purposes. This amazing plugin increases your store’s sales and saves your money and time by creating the most flexible WooCommerce site in the most user friendly way.</li>
+	<li><strong>Saves cost and time:</strong> Installing one plugin you will get services of different plugins at a time as it provides huge features that can serve all WooCommerce related purposes. This amazing plugin increases your store’s sales and saves your money and time by creating the most flexible WooCommerce site in the most user friendly way.
+	</li>
+	</li>
+	<li><strong>Translation:</strong> Now, wcEazy is fully compatible with translation. Any can convert the plugin content into their native language. We have already provided translation files for some languages like Chinese, Bangla, French (France), Japanese, Russian, and Spanish (Spain); more are coming.
+	</li>
 </ol>
 
 
@@ -530,6 +534,11 @@ screenshot-9.png
 
 
 == Changelog ==
+
+= 1.1.6 =
+1. Added: 100% translation ready
+2. Added: Provide translation for Chinese, Bangla, French (France), Japanese, Russian, and Spanish (Spain).
+3. Fixed: Document link issue
 
 = 1.1.5 =
 1. Change documentation link 

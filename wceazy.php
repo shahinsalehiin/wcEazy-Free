@@ -3,7 +3,7 @@
  * Plugin Name:       wcEazy
  * Plugin URI:        https://wceazy.com
  * Description:       wcEazy provides multiple WooCommerce extensions in a single package you'll ever require.
- * Version:           1.1.5
+ * Version:           1.1.6
  * Author:            wcEazy
  * Author URI:        https://wceazy.com
  * License:           GPL-2.0+
@@ -17,7 +17,7 @@ if (!defined('WPINC')) {
     die;
 }
 
-define('WCEAZY_VERSION', '1.1.5');
+define('WCEAZY_VERSION', '1.1.6');
 defined('WCEAZY_PATH') or define('WCEAZY_PATH', plugin_dir_path(__FILE__));
 defined('WCEAZY_URL') or define('WCEAZY_URL', plugin_dir_url(__FILE__));
 defined('WCEAZY_BASE_FILE') or define('WCEAZY_BASE_FILE', __FILE__);
