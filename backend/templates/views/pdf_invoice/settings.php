@@ -172,13 +172,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                             </div>
                         </div>
 
-
-
-
-
                         <h4><?php esc_html_e('Shop Address (Sender Details)', 'wceazy'); ?></h4>
-
-
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_sender_name">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Sender Name', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
@@ -216,12 +210,18 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_country_state">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Country/State', 'wceazy'); ?></label>
+                            <?php
+                            error_log('Debug: $wceazy_pi_country_state = ' . print_r($wceazy_pi_country_state, true));
+
+                            ?>
                             <div class="field_with_msg_container">
                                 <select class="wceazy_pdf_invoice_select_field">
                                     <option value=""> <?php esc_html_e('Please select', 'wceazy'); ?></option>
                                     <?php
                                     $country = isset($wceazy_pi_country_state[0]) ? $wceazy_pi_country_state[0] : array_search(WC()->countries->countries[WC()->countries->get_base_country()], WC()->countries->countries);
+                                    error_log('Debug: $country = ' . $country);
                                     $state = isset($wceazy_pi_country_state[1]) ? $wceazy_pi_country_state[1] : WC()->countries->get_base_state();
+                                    error_log('Debug: $state = ' . $state);
                                     ?>
                                     <?php !empty($country) && !empty($state) ? WC()->countries->country_dropdown_options($country, $state) : ""; ?>
                                 </select>
@@ -236,7 +236,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                         </div>
 
 
-                        <h4><?php esc_html_e('Other Settings', 'wceazy'); ?></h4>', 'wceazy'); ?>
+                        <h4><?php esc_html_e('Other Settings', 'wceazy'); ?></h4>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_display_download">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('How do you want to view the PDF?', 'wceazy'); ?></label>
@@ -248,9 +248,6 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                                 </select>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
 
@@ -259,13 +256,11 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                         <h1><?php esc_html_e('Invoice Settings', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_body_form">
-
-
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_disabled_status">
-                            <label for="coupon_generator_coupon_amount">Disable for', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Disable for', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <select class="wceazy_pdf_invoice_select_field" multiple="multiple">
-                                    <option value=""> Please select', 'wceazy'); ?></option>
+                                    <option value=""> <?php esc_html_e('Please select', 'wceazy'); ?></option>
                                     <?php foreach (wc_get_order_statuses() as $key => $val) { ?>
                                         <option value="<?php echo esc_attr($key); ?>" <?php echo esc_attr(in_array($key, $wceazy_pi_disabled_status) ? "selected" : ""); ?>> <?php echo esc_attr($val); ?> </option>
                                     <?php } ?>
@@ -397,7 +392,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_vat_id">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">VAT <span style="color: #FF521D;">(Pro)</span></div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('VAT ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input disabled type="checkbox" <?php echo esc_attr($wceazy_pi_enable_vat_id == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
@@ -409,43 +404,43 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_billing_address">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Billing Address</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Billing Address', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_billing_address == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shipping_address">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Shipping Address</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Shipping Address', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shipping_address == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_email">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Email</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Email', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_email == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_phone">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Phone Number</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Phone Number', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_phone == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_payment_method">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Payment Method</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Payment Method', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_payment_method == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_customer_note">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Customer Note</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Customer Note', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_customer_note == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_footer">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Footer</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Footer', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_footer == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
@@ -465,7 +460,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
                 <div class="coupon_tab_body" data-id="tab_customize_shipping_label">
                     <div class="tab_body_title">
-                        <h1>Shipping Label Customization</h1>
+                        <h1><?php esc_html_e('Shipping Label Customization', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_body_form">
 
@@ -481,84 +476,72 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                             <div class="wceazy_pdf_invoice_live_customizer_action">
 
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shipping_shop_logo">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Shop Logo</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Shop Logo', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shipping_shop_logo == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
 
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shipping_from_address">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">From Address</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('From Address', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shipping_from_address == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
 
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shipping_to_address">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">To Address</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('To Address', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shipping_to_address == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
 
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shipping_order_number">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Order Number</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Order Number', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shipping_order_number == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
 
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shipping_weight">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Weight</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Weight', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shipping_weight == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
 
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shipping_date">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Shipping Date</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Shipping Date', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shipping_date == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
 
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shipping_email">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Email</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Email', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shipping_email == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
 
                                 <div class="wceazy_pdf_invoice_live_customizer_action_item wceazy_pdf_invoice_enable_shipping_phone">
-                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title">Email</div>
+                                    <div class="wceazy_pdf_invoice_live_customizer_action_item_title"><?php esc_html_e('Email', 'wceazy'); ?></div>
                                     <div class="wceazy_pdf_invoice_field_group">
                                         <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_enable_shipping_phone == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
-
-
-
-
-
                     </div>
                 </div>
-
-
-
 
             </div>
         </div>
 
 
         <div class="wceazy_pdf_invoice_bottom_button_section">
-            <button onclick="wceazy_pdf_invoice_save();">Save Settings</button>
+            <button onclick="wceazy_pdf_invoice_save();"><?php esc_html_e('Save Settings', 'wceazy'); ?></button>
         </div>
-
-
 
     </div>
 

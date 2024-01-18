@@ -104,8 +104,6 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
 
 
     <div class="wceazy_product_filter_container">
-
-
         <div class="wceazy_product_filter_tab">
             <div class="wceazy_product_filter_tab_part_left">
                 <div class="coupon_data_tabs">
@@ -137,616 +135,622 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
 
                 <div class="coupon_tab_body" data-id="tab_general">
                     <div class="tab_body_title"><?php esc_html_e('General Settings', 'wceazy'); ?></h1>
-                        <div class="tab_body_form">
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_show_search_filter">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Search Filter?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_search_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show search filter in sidebar.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_show_price_filter">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Price Filter?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_price_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show price filter in sidebar.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_show_rating_filter">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Rating Filter?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_rating_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show rating filter in sidebar.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_show_category_filter">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Category Filter?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_category_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show category filter in sidebar.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_show_stock_filter">
-                                <label for="coupon_generator_coupon_amount">S<?php esc_html_e('how Stock Status Filter?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_stock_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show stock status filter in sidebar.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_sidebar_position">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Filter Sidebar Position', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <select class="wceazy_product_filter_select_field">
-                                        <option value=""> <?php esc_html_e('Please select', 'wceazy'); ?></option>
-                                        <option value="right" <?php echo esc_attr("right" == $wceazy_pf_sidebar_position ? "selected" : ""); ?>><?php esc_html_e('Right ', 'wceazy'); ?></option>
-                                        <option value="left" <?php echo esc_attr("left" == $wceazy_pf_sidebar_position ? "selected" : ""); ?>> <?php esc_html_e('Left ', 'wceazy'); ?></option>
-                                    </select>
-                                </div>
-                            </div>
-
-
-                        </div>
                     </div>
+                    <div class="tab_body_form">
 
-                    <div class="coupon_tab_body" data-id="tab_product">
-                        <div class="tab_body_title">
-                            <h1><?php esc_html_e('Product Settings', 'wceazy'); ?></h1>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_show_search_filter">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Search Filter?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_search_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show search filter in sidebar.', 'wceazy'); ?></small>
+                            </div>
                         </div>
-                        <div class="tab_body_form">
 
-
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_product_per_page">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Max Product Per Page', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_pf_product_per_page); ?>">
-                                    <small><?php esc_html_e('Set maximum number of products can be showed in a page.', 'wceazy'); ?></small>
-                                </div>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_show_price_filter">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Price Filter?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_price_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show price filter in sidebar.', 'wceazy'); ?></small>
                             </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_add_to_cart_btn_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Add to Cart" Button Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_add_to_cart_btn_text); ?>">
-                                    <small><?php esc_html_e('Set the "Add to Cart" button text.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_select_options_btn_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Select Options" Button Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_select_options_btn_text); ?>">
-                                    <small><?php esc_html_e('Set the "Select Options" button text for variable products.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_out_btn_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Stock Out" Button Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_stock_out_btn_text); ?>">
-                                    <small><?php esc_html_e('Set the "Stock Out" button text for stock out products.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_prev_btn_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Previous Page" Button Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_prev_btn_text); ?>">
-                                    <small><?php esc_html_e('Set the "Previous Page" button text.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_next_btn_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Next Page" Button Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_next_btn_text); ?>">
-                                    <small><?php esc_html_e('Set the "Next Page" button text.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_action_btn_bg_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Action Button Background Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_action_btn_bg_color" value="<?php echo esc_attr($wceazy_pf_action_btn_bg_color); ?>">
-                                        <label for="wceazy_product_filter_action_btn_bg_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set background color of Add to Cart, Select Option and Stock Out button.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_action_btn_text_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Action Button Font Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_action_btn_text_color" value="<?php echo esc_attr($wceazy_pf_action_btn_text_color); ?>">
-                                        <label for="wceazy_product_filter_action_btn_text_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of Add to Cart, Select Option and Stock Out button.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_pagination_btn_border_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Pagination Button Border Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_pagination_btn_border_color" value="<?php echo esc_attr($wceazy_pf_pagination_btn_border_color); ?>">
-                                        <label for="wceazy_product_filter_pagination_btn_border_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set border color of Previous Page and Next Page buttons.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_pagination_btn_text_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Pagination Button Font Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_pagination_btn_text_color" value="<?php echo esc_attr($wceazy_pf_pagination_btn_text_color); ?>">
-                                        <label for="wceazy_product_filter_pagination_btn_text_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of Previous Page and Next Page buttons.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_loader_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Product Loader Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_loader_color" value="<?php echo esc_attr($wceazy_pf_loader_color); ?>">
-                                        <label for="wceazy_product_filter_loader_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set the color of product loader animation.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-
                         </div>
-                    </div>
 
-                    <div class="coupon_tab_body" data-id="tab_search_filter">
-                        <div class="tab_body_title">
-                            <h1><?php esc_html_e('Search Filter Settings', 'wceazy'); ?></h1>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_show_rating_filter">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Rating Filter?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_rating_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show rating filter in sidebar.', 'wceazy'); ?></small>
+                            </div>
                         </div>
-                        <div class="tab_body_form">
 
 
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_label_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_search_filter_label_text); ?>">
-                                    <small><?php esc_html_e('Set the Search Filter Label text.', 'wceazy'); ?></small>
-                                </div>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_show_category_filter">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Category Filter?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_category_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show category filter in sidebar.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_placeholder_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Placeholder Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_search_filter_placeholder_text); ?>">
-                                    <small><?php esc_html_e('Set the Search Field input placeholder text.', 'wceazy'); ?></small>
-                                </div>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_show_stock_filter">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Stock Status Filter?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_stock_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show stock status filter in sidebar.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_label_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_search_filter_label_color" value="<?php echo esc_attr($wceazy_pf_search_filter_label_color); ?>">
-                                        <label for="wceazy_product_filter_search_filter_label_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of label of the search filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_input_border_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Border Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_search_filter_input_border_color" value="<?php echo esc_attr($wceazy_pf_search_filter_input_border_color); ?>">
-                                        <label for="wceazy_product_filter_search_filter_input_border_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set border color of input field of the search filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_input_bg_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Background Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_search_filter_input_bg_color" value="<?php echo esc_attr($wceazy_pf_search_filter_input_bg_color); ?>">
-                                        <label for="wceazy_product_filter_search_filter_input_bg_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set background color of input field of the search filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_input_text_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Text Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_search_filter_input_text_color" value="<?php echo esc_attr($wceazy_pf_search_filter_input_text_color); ?>">
-                                        <label for="wceazy_product_filter_search_filter_input_text_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of input field of the search filter.', 'wceazy'); ?></small>
-                                </div>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_sidebar_position">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Filter Sidebar Position', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <select class="wceazy_product_filter_select_field">
+                                    <option value=""> <?php esc_html_e('Please select', 'wceazy'); ?></option>
+                                    <option value="right" <?php echo esc_attr("right" == $wceazy_pf_sidebar_position ? "selected" : ""); ?>><?php esc_html_e('Right ', 'wceazy'); ?></option>
+                                    <option value="left" <?php echo esc_attr("left" == $wceazy_pf_sidebar_position ? "selected" : ""); ?>><?php esc_html_e('Left', 'wceazy'); ?> </option>
+                                </select>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="coupon_tab_body" data-id="tab_price_filter">
-                        <div class="tab_body_title">
-                            <h1><?php esc_html_e('Price Filter Settings', 'wceazy'); ?></h1>
+
+                <div class="coupon_tab_body" data-id="tab_product">
+                    <div class="tab_body_title">
+                        <h1><?php esc_html_e('Product Settings', 'wceazy'); ?></h1>
+                    </div>
+                    <div class="tab_body_form">
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_product_per_page">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Max Product Per Page', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_pf_product_per_page); ?>">
+                                <small><?php esc_html_e('Set maximum number of products can be showed in a page.', 'wceazy'); ?></small>
+                            </div>
                         </div>
-                        <div class="tab_body_form">
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_label_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_price_filter_label_text); ?>">
-                                    <small><?php esc_html_e('Set the Price Filter Label text.', 'wceazy'); ?></small>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_add_to_cart_btn_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Add to Cart" Button Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_add_to_cart_btn_text); ?>">
+                                <small><?php esc_html_e('Set the "Add to Cart" button text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_select_options_btn_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Select Options" Button Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_select_options_btn_text); ?>">
+                                <small><?php esc_html_e('Set the "Select Options" button text for variable products.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_out_btn_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Stock Out" Button Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_stock_out_btn_text); ?>">
+                                <small><?php esc_html_e('Set the "Stock Out" button text for stock out products.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_prev_btn_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Previous Page" Button Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_prev_btn_text); ?>">
+                                <small><?php esc_html_e('Set the "Previous Page" button text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_next_btn_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Next Page" Button Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_next_btn_text); ?>">
+                                <small><?php esc_html_e('Set the "Next Page" button text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_action_btn_bg_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Action Button Background Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_action_btn_bg_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set background color of Add to Cart, Select Option and Stock Out button.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_action_btn_text_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Action Button Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_action_btn_text_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set text color of Add to Cart, Select Option and Stock Out button.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_pagination_btn_border_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Pagination Button Border Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_pagination_btn_border_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set border color of Previous Page and Next Page buttons.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_pagination_btn_text_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Pagination Button Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_pagination_btn_text_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set text color of Previous Page and Next Page buttons.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_loader_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Product Loader Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_loader_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set the color of product loader animation.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="coupon_tab_body" data-id="tab_search_filter">
+                    <div class="tab_body_title">
+                        <h1><?php esc_html_e('Search Filter Settings', 'wceazy'); ?></h1>
+                    </div>
+                    <div class="tab_body_form">
+
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_label_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <!-- <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_search_filter_label_text); ?>"> -->
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_search_filter_label_text); ?>">
+                                <small><?php esc_html_e('Set the Search Filter Label text.', 'wceazy'); ?></small>
                             </div>
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_min_placeholder_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Min Placeholder Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_price_filter_min_placeholder_text); ?>">
-                                    <small><?php esc_html_e('Set the Minimum Price Field input placeholder text.', 'wceazy'); ?></small>
-                                </div>
+                        </div>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_placeholder_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Placeholder Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_search_filter_placeholder_text); ?>">
+                                <small><?php esc_html_e('Set the Search Field input placeholder text.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_max_placeholder_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Max Placeholder Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_price_filter_max_placeholder_text); ?>">
-                                    <small><?php esc_html_e('Set the Maximum Price Field input placeholder text.', 'wceazy'); ?></small>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_label_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_search_filter_label_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set text color of label of the search filter.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
 
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_label_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_price_filter_label_color" value="<?php echo esc_attr($wceazy_pf_price_filter_label_color); ?>">
-                                        <label for="wceazy_product_filter_price_filter_label_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of label of the price filter.', 'wceazy'); ?></small>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_input_border_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Border Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_search_filter_input_border_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set border color of input field of the search filter.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_input_border_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Border Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_price_filter_input_border_color" value="<?php echo esc_attr($wceazy_pf_price_filter_input_border_color); ?>">
-                                        <label for="wceazy_product_filter_price_filter_input_border_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set border color of input field of the price filter.', 'wceazy'); ?></small>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_input_bg_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Background Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_search_filter_input_bg_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set background color of input field of the search filter.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_input_bg_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Background Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_price_filter_input_bg_color" value="<?php echo esc_attr($wceazy_pf_price_filter_input_bg_color); ?>">
-                                        <label for="wceazy_product_filter_price_filter_input_bg_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set background color of input field of the price filter.', 'wceazy'); ?></small>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_search_filter_input_text_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Text Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_search_filter_input_text_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set text color of input field of the search filter.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_input_text_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Text Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_price_filter_input_text_color" value="<?php echo esc_attr($wceazy_pf_price_filter_input_text_color); ?>">
-                                        <label for="wceazy_product_filter_price_filter_input_text_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of input field of the price filter.', 'wceazy'); ?></small>
+
+                    </div>
+                </div>
+
+                <div class="coupon_tab_body" data-id="tab_price_filter">
+                    <div class="tab_body_title">
+                        <h1><?php esc_html_e('Price Filter Settings', 'wceazy'); ?></h1>
+                    </div>
+                    <div class="tab_body_form">
+
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_label_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_price_filter_label_text); ?>">
+                                <small><?php esc_html_e('Set the Price Filter Label text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_min_placeholder_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Min Placeholder Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_price_filter_min_placeholder_text); ?>">
+                                <small><?php esc_html_e('Set the Minimum Price Field input placeholder text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_max_placeholder_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Max Placeholder Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_price_filter_max_placeholder_text); ?>">
+                                <small><?php esc_html_e('Set the Maximum Price Field input placeholder text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_label_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_price_filter_label_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set text color of label of the price filter.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_input_border_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Border Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_price_filter_input_border_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set border color of input field of the price filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_input_bg_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Background Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_price_filter_input_bg_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set background color of input field of the price filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_price_filter_input_text_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Input Field Text Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_price_filter_input_text_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set text color of input field of the price filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="coupon_tab_body" data-id="tab_rating_filter">
+                    <div class="tab_body_title">
+                        <h1><?php esc_html_e('Rating Filter Settings', 'wceazy'); ?></h1>
+                    </div>
+                    <div class="tab_body_form">
+
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_label_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_html_e($wceazy_pf_rating_filter_label_text); ?>">
+                                <small><?php esc_html_e('Set the Rating Filter Label text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_and_up_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('"And Up" Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_html_e($wceazy_pf_rating_filter_and_up_text); ?>">
+                                <small><?php esc_html_e('Set the "And Up" text shown beside ratings.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_label_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_rating_filter_label_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set text color of label of the rating filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_and_up_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('"And Up" Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_rating_filter_and_up_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set text color of "And Up" text shown beside ratings.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_5_star_rating">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 5 Star Rating?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_5_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show the 5 star rating filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_4_star_rating">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 4 Star Rating?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_4_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show the 4 star rating filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_3_star_rating">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 3 Star Rating?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_3_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show the 3 star rating filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_2_star_rating">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 2 Star Rating?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_2_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show the 2 star rating filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_1_star_rating">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 1 Star Rating?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_1_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show the 1 star rating filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_0_star_rating">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 0 Star Rating?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_0_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Please turn off if you do not want to show the 0 star rating filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="coupon_tab_body" data-id="tab_category_filter">
+                    <div class="tab_body_title">
+                        <h1><?php esc_html_e('Category Filter Settings', 'wceazy'); ?></h1>
+                    </div>
+                    <div class="tab_body_form">
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_label_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_category_filter_label_text); ?>">
+                                <small><?php esc_html_e('Set the Category Filter Label text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_label_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_category_filter_label_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set text color of label of the category filter.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_category_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Category Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_category_filter_category_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set text color of category name.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_checkbox_unchecked_bg">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Unchecked Background Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_category_filter_checkbox_unchecked_bg); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set the background color of checkbox on unchecked state.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_checkbox_unchecked_border">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Unchecked Border Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_category_filter_checkbox_unchecked_border); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set the border color of checkbox on unchecked state.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_checkbox_checked_bg">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Checked Background Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_category_filter_checkbox_checked_bg); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set the background color of checkbox on checked state.', 'wceazy'); ?></small>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="coupon_tab_body" data-id="tab_rating_filter">
-                        <div class="tab_body_title">
-                            <h1><?php esc_html_e('Rating Filter Settings', 'wceazy'); ?></h1>
-                        </div>
-                        <div class="tab_body_form">
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_label_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_rating_filter_label_text); ?>">
-                                    <small><?php esc_html_e('Set the Rating Filter Label text.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_and_up_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('"And Up" Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_rating_filter_and_up_text); ?>">
-                                    <small><?php esc_html_e('Set the "And Up" text shown beside ratings.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_label_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_rating_filter_label_color" value="<?php echo esc_attr($wceazy_pf_rating_filter_label_color); ?>">
-                                        <label for="wceazy_product_filter_rating_filter_label_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of label of the rating filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_and_up_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('"And Up" Font Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_rating_filter_and_up_color" value="<?php echo esc_attr($wceazy_pf_rating_filter_and_up_color); ?>">
-                                        <label for="wceazy_product_filter_rating_filter_and_up_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of "And Up" text shown beside ratings.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_5_star_rating">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 5 Star Rating?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_5_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show the 5 star rating filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_4_star_rating">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 4 Star Rating?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_4_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show the 4 star rating filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_3_star_rating">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 3 Star Rating?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_3_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show the 3 star rating filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_2_star_rating">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 2 Star Rating?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_2_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show the 2 star rating filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_1_star_rating">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 1 Star Rating?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_1_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show the 1 star rating filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_0_star_rating">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 0 Star Rating?', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_0_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                    <small><?php esc_html_e('Please turn off if you do not want to show the 0 star rating filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                        </div>
+                <div class="coupon_tab_body" data-id="tab_stock_filter">
+                    <div class="tab_body_title">
+                        <h1><?php esc_html_e('Stock Filter Settings', 'wceazy'); ?></h1>
                     </div>
+                    <div class="tab_body_form">
 
-                    <div class="coupon_tab_body" data-id="tab_category_filter">
-                        <div class="tab_body_title">
-                            <h1><?php esc_html_e('Category Filter Settings', 'wceazy'); ?></h1>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_label_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_stock_filter_label_text); ?>">
+                                <small><?php esc_html_e('Set the Stock Filter Label text.', 'wceazy'); ?></small>
+                            </div>
                         </div>
-                        <div class="tab_body_form">
 
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_label_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_category_filter_label_text); ?>">
-                                    <small><?php esc_html_e('Set the Category Filter Label text.', 'wceazy'); ?></small>
-                                </div>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_in_stock_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('"In Stock" Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_stock_filter_in_stock_text); ?>">
+                                <small><?php esc_html_e('Set the "In Stock" option text.', 'wceazy'); ?></small>
                             </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_label_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_category_filter_label_color" value="<?php echo esc_attr($wceazy_pf_category_filter_label_color); ?>">
-                                        <label for="wceazy_product_filter_category_filter_label_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of label of the category filter.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_category_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Category Font Color ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_category_filter_category_color" value="<?php echo esc_attr($wceazy_pf_category_filter_category_color); ?>">
-                                        <label for="wceazy_product_filter_category_filter_category_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of category name.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_checkbox_unchecked_bg">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Unchecked Background Color ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_category_filter_checkbox_unchecked_bg" value="<?php echo esc_attr($wceazy_pf_category_filter_checkbox_unchecked_bg); ?>">
-                                        <label for="wceazy_product_filter_category_filter_checkbox_unchecked_bg"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set the background color of checkbox on unchecked state.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_checkbox_unchecked_border">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Unchecked Border Color ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_category_filter_checkbox_unchecked_border" value="<?php echo esc_attr($wceazy_pf_category_filter_checkbox_unchecked_border); ?>">
-                                        <label for="wceazy_product_filter_category_filter_checkbox_unchecked_border"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set the border color of checkbox on unchecked state.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_checkbox_checked_bg">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Checked Background Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_category_filter_checkbox_checked_bg" value="<?php echo esc_attr($wceazy_pf_category_filter_checkbox_checked_bg); ?>">
-                                        <label for="wceazy_product_filter_category_filter_checkbox_checked_bg"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set the background color of checkbox on checked state.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
                         </div>
-                    </div>
 
-                    <div class="coupon_tab_body" data-id="tab_stock_filter">
-                        <div class="tab_body_title">
-                            <h1><?php esc_html_e('Stock Filter Settings', 'wceazy'); ?></h1>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_out_stock_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Out of Stock" Text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_stock_filter_out_stock_text); ?>">
+                                <small><?php esc_html_e('Set the "Out of Stock" option text.', 'wceazy'); ?></small>
+                            </div>
                         </div>
-                        <div class="tab_body_form">
 
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_label_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_stock_filter_label_text); ?>">
-                                    <small><?php esc_html_e('Set the Stock Filter Label text.', 'wceazy'); ?></small>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_label_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_stock_filter_label_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set text color of label of the stock filter.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_in_stock_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('"In Stock" Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_stock_filter_in_stock_text); ?>">
-                                    <small><?php esc_html_e('Set the "In Stock" option text.', 'wceazy'); ?></small>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_stock_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Stock Status Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_stock_filter_stock_color); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set text color of stock status name.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_out_stock_text">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('"Out of Stock" Text', 'wceazy'); ?></label>
-                                <div class="field_with_msg_container">
-                                    <input class="wceazy_product_filter_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_pf_stock_filter_out_stock_text); ?>">
-                                    <small><?php esc_html_e('Set the "Out of Stock" option text.', 'wceazy'); ?></small>
+
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_checkbox_unchecked_bg">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Unchecked Background Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_stock_filter_checkbox_unchecked_bg); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set the background color of checkbox on unchecked state.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_label_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Font Color ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_stock_filter_label_color" value="<?php echo esc_attr($wceazy_pf_stock_filter_label_color); ?>">
-                                        <label for="wceazy_product_filter_stock_filter_label_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of label of the stock filter.', 'wceazy'); ?></small>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_checkbox_unchecked_border">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Unchecked Border Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_stock_filter_checkbox_unchecked_border); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set the border color of checkbox on unchecked state.', 'wceazy'); ?></small>
                             </div>
+                        </div>
 
 
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_stock_color">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Stock Status Font Color ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_stock_filter_stock_color" value="<?php echo esc_attr($wceazy_pf_stock_filter_stock_color); ?>">
-                                        <label for="wceazy_product_filter_stock_filter_stock_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set text color of stock status name.', 'wceazy'); ?></small>
+                        <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_checkbox_checked_bg">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Checked Background Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_product_filter_btn_font_color" value="<?php echo esc_attr($wceazy_pf_stock_filter_checkbox_checked_bg); ?>">
+                                    <label for="wceazy_product_filter_btn_font_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
                                 </div>
+                                <small><?php esc_html_e('Set the background color of checkbox on checked state.', 'wceazy'); ?></small>
                             </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_checkbox_unchecked_bg">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Unchecked Background Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_stock_filter_checkbox_unchecked_bg" value="<?php echo esc_attr($wceazy_pf_stock_filter_checkbox_unchecked_bg); ?>">
-                                        <label for="wceazy_product_filter_stock_filter_checkbox_unchecked_bg"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set the background color of checkbox on unchecked state.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_checkbox_unchecked_border">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Unchecked Border Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_stock_filter_checkbox_unchecked_border" value="<?php echo esc_attr($wceazy_pf_stock_filter_checkbox_unchecked_border); ?>">
-                                        <label for="wceazy_product_filter_stock_filter_checkbox_unchecked_border"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set the border color of checkbox on unchecked state.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
-                            <div class="wceazy_product_filter_field_group wceazy_product_filter_stock_filter_checkbox_checked_bg">
-                                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkbox Checked Background Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
-                                <div class="field_with_msg_container">
-                                    <div class="color_picker_area">
-                                        <input disabled type="color" id="wceazy_product_filter_stock_filter_checkbox_checked_bg" value="<?php echo esc_attr($wceazy_pf_stock_filter_checkbox_checked_bg); ?>">
-                                        <label for="wceazy_product_filter_stock_filter_checkbox_checked_bg"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                                    </div>
-                                    <small><?php esc_html_e('Set the background color of checkbox on checked state.', 'wceazy'); ?></small>
-                                </div>
-                            </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -755,7 +759,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
 
 
         <div class="wceazy_product_filter_bottom_button_section">
-            <button onclick="wceazy_product_filter_save();"><?php esc_html_e('Save my Settings', 'wceazy'); ?></button>
+            <button onclick="wceazy_product_filter_save();"><?php esc_html_e('Save Settings', 'wceazy'); ?></button>
         </div>
 
 
