@@ -31,8 +31,6 @@
                     <td></td>
                 </tr>
             </table>
-
-
             <table width="100%" border="0" cellspacing="0" cellpadding="4">
                 <tr>
                     <td class="wceazy_pi_emulator_from_address" width="33.33%" valign="top">
@@ -46,19 +44,18 @@
                             <tr>
                                 <td>
                                     <p style="font-size: 10px;"><?php esc_html_e('Name of the shop', 'wceazy'); ?></p>
-                                    <p style="font-size: 10px;"><?php esc_html_e('Shop Address', 'wceazy'); ?><< /p>
-                                            <p style="font-size: 10px;"><?php esc_html_e('City', 'wceazy'); ?><< /p>
-                                                    <p style="font-size: 10px;"><?php esc_html_e('Country', 'wceazy'); ?><< /p>
-                                                            <p style="font-size: 10px;"><?php esc_html_e('Zip Code', 'wceazy'); ?><< /p>
+                                    <p style="font-size: 10px;"><?php esc_html_e('Shop Address', 'wceazy'); ?></p>
+                                    <p style="font-size: 10px;"><?php esc_html_e('City', 'wceazy'); ?></p>
+                                    <p style="font-size: 10px;"><?php esc_html_e('Country', 'wceazy'); ?></p>
+                                    <p style="font-size: 10px;"><?php esc_html_e('Zip Code', 'wceazy'); ?></p>
                                 </td>
                             </tr>
                         </table>
-
                     </td>
                     <td class="wceazy_pi_emulator_billing_address" width="33.33%" valign="top">
                         <table width="100%" border="0" cellspacing="0" cellpadding="10" style="background-color: #F6F5FA;">
                             <tr>
-                                <td style="font-size: 10px;"><b><?php esc_html_e('Billing Address', 'wceazy'); ?><< /b>
+                                <td style="font-size: 10px;"><b><?php esc_html_e('Billing Address', 'wceazy'); ?></b>
                                 </td>
                             </tr>
                         </table>
