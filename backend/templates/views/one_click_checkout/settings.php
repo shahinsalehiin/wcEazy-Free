@@ -84,8 +84,7 @@ $wceazy_occ_remove_shipping_fields = isset($wceazy_occ_settings["remove_shipping
 
 
 
-    <div class="wceazy_one_click_checkout_container">
-
+    <div class="wceazy_one_click_checkout_container"> 
 
         <div class="wceazy_one_click_checkout_tab">
             <div class="wceazy_one_click_checkout_tab_part_left">
@@ -116,7 +115,7 @@ $wceazy_occ_remove_shipping_fields = isset($wceazy_occ_settings["remove_shipping
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Enable single page checkout?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_enable_single_page == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Enable single page checkout?', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Enable single page checkout ?', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -161,18 +160,15 @@ $wceazy_occ_remove_shipping_fields = isset($wceazy_occ_settings["remove_shipping
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Turn off the "Keep Shopping" button.', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_disable_continue_shopping_button == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('WooCommerce shows a continue shopping button after a product is added to cart, with this option you can disable that link so user re', 'wceazy'); ?>main on checkout page.</small>
+                                <small><?php esc_html_e('WooCommerce shows a continue shopping button after a product is added to cart. With this option, you can disable that link so users replace the text you want to complete the sentence here', 'wceazy'); ?>.</small>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
                 <div class="coupon_tab_body" data-id="tab_add_to_cart">
                     <div class="tab_body_title"><h1><?php esc_html_e('Add to Cart Button Settings', 'wceazy'); ?></h1></div>
-                    <div class="tab_body_form">
-
-
+                    <div class="tab_body_form"> 
                         <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_enable_product_ajax_to_cart">
                         <label for="coupon_generator_coupon_amount">
                             <?php esc_html_e('Quickly add item to shopping cart with Ajax.', 'wceazy'); ?>

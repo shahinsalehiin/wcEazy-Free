@@ -4,17 +4,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wcEazy 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wceazy\n"
-"POT-Creation-Date: 2024-01-24 04:38:50+00:00\n"
+"POT-Creation-Date: 2024-01-24 10:41:04+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2024-01-24 04:43+0000\n"
-"Last-Translator: \n"
-"Language-Team: Bengali (Bangladesh)\n"
-"Language: bn_BD\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.6; wp-6.4.2"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: backend/class-wceazy-admin.php:139
 msgid "View wcEazy documentation"
@@ -104,7 +100,8 @@ msgstr ""
 #: backend/templates/views/coupon_generator/settings.php:59
 #: backend/templates/views/coupon_generator/settings.php:73
 #: backend/templates/views/floating_cart/settings.php:118
-#: backend/templates/views/one_click_checkout/settings.php:93
+#: backend/templates/views/one_click_checkout/settings.php:92
+#: backend/templates/views/pdf_invoice/settings.php:95
 #: backend/templates/views/product_filter/settings.php:109
 msgid "General"
 msgstr ""
@@ -120,7 +117,7 @@ msgstr ""
 
 #: backend/templates/views/address_book/settings.php:86
 #: backend/templates/views/floating_cart/settings.php:154
-#: backend/templates/views/one_click_checkout/settings.php:103
+#: backend/templates/views/one_click_checkout/settings.php:102
 #: backend/templates/views/pdf_invoice/settings.php:140
 #: backend/templates/views/product_filter/settings.php:135
 msgid "General Settings"
@@ -230,16 +227,16 @@ msgstr ""
 #: backend/templates/views/address_book/settings.php:323
 #: backend/templates/views/address_book/settings.php:333
 #: backend/templates/views/address_book/settings.php:345
-#: backend/templates/views/one_click_checkout/settings.php:179
-#: backend/templates/views/one_click_checkout/settings.php:428
-#: backend/templates/views/one_click_checkout/settings.php:440
-#: backend/templates/views/one_click_checkout/settings.php:451
-#: backend/templates/views/one_click_checkout/settings.php:459
-#: backend/templates/views/one_click_checkout/settings.php:467
-#: backend/templates/views/one_click_checkout/settings.php:500
-#: backend/templates/views/one_click_checkout/settings.php:508
-#: backend/templates/views/one_click_checkout/settings.php:517
-#: backend/templates/views/one_click_checkout/settings.php:538
+#: backend/templates/views/one_click_checkout/settings.php:175
+#: backend/templates/views/one_click_checkout/settings.php:424
+#: backend/templates/views/one_click_checkout/settings.php:436
+#: backend/templates/views/one_click_checkout/settings.php:447
+#: backend/templates/views/one_click_checkout/settings.php:455
+#: backend/templates/views/one_click_checkout/settings.php:463
+#: backend/templates/views/one_click_checkout/settings.php:496
+#: backend/templates/views/one_click_checkout/settings.php:504
+#: backend/templates/views/one_click_checkout/settings.php:513
+#: backend/templates/views/one_click_checkout/settings.php:534
 #: backend/templates/views/pdf_invoice/settings.php:307
 #: backend/templates/views/pdf_invoice/settings.php:314
 #: backend/templates/views/pdf_invoice/settings.php:351
@@ -367,10 +364,10 @@ msgstr ""
 #: backend/templates/views/floating_cart/settings.php:812
 #: backend/templates/views/floating_cart/settings.php:822
 #: backend/templates/views/floating_cart/settings.php:832
-#: backend/templates/views/one_click_checkout/settings.php:410
-#: backend/templates/views/one_click_checkout/settings.php:421
-#: backend/templates/views/one_click_checkout/settings.php:433
-#: backend/templates/views/one_click_checkout/settings.php:444
+#: backend/templates/views/one_click_checkout/settings.php:406
+#: backend/templates/views/one_click_checkout/settings.php:417
+#: backend/templates/views/one_click_checkout/settings.php:429
+#: backend/templates/views/one_click_checkout/settings.php:440
 #: backend/templates/views/product_filter/settings.php:254
 #: backend/templates/views/product_filter/settings.php:265
 #: backend/templates/views/product_filter/settings.php:277
@@ -497,7 +494,7 @@ msgstr ""
 
 #: backend/templates/views/address_book/settings.php:364
 #: backend/templates/views/floating_cart/settings.php:841
-#: backend/templates/views/one_click_checkout/settings.php:568
+#: backend/templates/views/one_click_checkout/settings.php:564
 #: backend/templates/views/pdf_invoice/settings.php:577
 #: backend/templates/views/product_filter/settings.php:749
 #: backend/templates/views/product_sticky_bar/settings.php:425
@@ -706,8 +703,8 @@ msgstr ""
 #: backend/templates/views/floating_cart/settings.php:717
 #: backend/templates/views/floating_cart/settings.php:759
 #: backend/templates/views/floating_cart/settings.php:788
-#: backend/templates/views/one_click_checkout/settings.php:520
-#: backend/templates/views/one_click_checkout/settings.php:541
+#: backend/templates/views/one_click_checkout/settings.php:516
+#: backend/templates/views/one_click_checkout/settings.php:537
 #: backend/templates/views/pdf_invoice/settings.php:297
 #: backend/templates/views/pdf_invoice/settings.php:317
 #: backend/templates/views/product_filter/settings.php:182
@@ -824,9 +821,7 @@ msgid "free shipping method"
 msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:98
-msgid ""
-"must be enabled in your shipping zone and be set to require \"a valid free "
-"shipping coupon\" (see the \"Free Shipping Requires\" setting)."
+msgid "must be enabled in your shipping zone and be set to require \"a valid free shipping coupon\" (see the \"Free Shipping Requires\" setting)."
 msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:103
@@ -870,9 +865,7 @@ msgid "Exclude sale items"
 msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:133
-msgid ""
-"If it/s on sale, skip the coupon. The coupon only applies to regular-priced "
-"items, whether bought alone or in the cart."
+msgid "If it/s on sale, skip the coupon. The coupon only applies to regular-priced items, whether bought alone or in the cart."
 msgstr ""
 
 #: backend/templates/views/coupon_generator/settings.php:137
@@ -1591,406 +1584,396 @@ msgstr ""
 msgid "Order Cancel"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:94
+#: backend/templates/views/one_click_checkout/settings.php:93
 msgid "Add To Cart"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:95
+#: backend/templates/views/one_click_checkout/settings.php:94
 msgid "Buy Now Button"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:96
+#: backend/templates/views/one_click_checkout/settings.php:95
 msgid "Checkout"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:108
+#: backend/templates/views/one_click_checkout/settings.php:107
 msgid "Turn off shopping cart page?"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:111
-msgid ""
-"Enable the option to skip the cart page and redirect directly to the "
-"checkout page."
+#: backend/templates/views/one_click_checkout/settings.php:110
+msgid "Enable the option to skip the cart page and redirect directly to the checkout page."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:116
-#: backend/templates/views/one_click_checkout/settings.php:119
+#: backend/templates/views/one_click_checkout/settings.php:115
 msgid "Enable single page checkout?"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:124
+#: backend/templates/views/one_click_checkout/settings.php:118
+msgid "Enable single page checkout ?"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:123
 msgid "Allow redirect when adding to cart."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:127
-msgid ""
-"When turned on, clicking \"Add to Cart\" takes customers straight to the "
-"Checkout page."
+#: backend/templates/views/one_click_checkout/settings.php:126
+msgid "When turned on, clicking \"Add to Cart\" takes customers straight to the Checkout page."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:132
+#: backend/templates/views/one_click_checkout/settings.php:131
 msgid "Redirect to custom url?"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:135
-msgid ""
-"Redirect to custom url instead of page, so using this you can redirect to "
-"any page."
+#: backend/templates/views/one_click_checkout/settings.php:134
+msgid "Redirect to custom url instead of page, so using this you can redirect to any page."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:140
+#: backend/templates/views/one_click_checkout/settings.php:139
 msgid "Redirect to page"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:152
+#: backend/templates/views/one_click_checkout/settings.php:151
 msgid "Redirect to custom url"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:155
-msgid ""
-"Redirect to this any custom url of your website e.g.: http://yourwebsite.com"
+#: backend/templates/views/one_click_checkout/settings.php:154
+msgid "Redirect to this any custom url of your website e.g.: http://yourwebsite.com"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:161
+#: backend/templates/views/one_click_checkout/settings.php:160
 msgid "Turn off the \"Keep Shopping\" button."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:164
-msgid ""
-"WooCommerce shows a continue shopping button after a product is added to "
-"cart, with this option you can disable that link so user re"
+#: backend/templates/views/one_click_checkout/settings.php:163
+msgid "WooCommerce shows a continue shopping button after a product is added to cart. With this option, you can disable that link so users replace the text you want to complete the sentence here"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:172
+#: backend/templates/views/one_click_checkout/settings.php:170
 msgid "Add to Cart Button Settings"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:178
+#: backend/templates/views/one_click_checkout/settings.php:174
 msgid "Quickly add item to shopping cart with Ajax."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:184
+#: backend/templates/views/one_click_checkout/settings.php:180
 msgid "Turn on to enable Quickly add item to shopping cart with Ajax.."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:190
+#: backend/templates/views/one_click_checkout/settings.php:186
 msgid "Alter the \"Add to Cart\" button text."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:193
+#: backend/templates/views/one_click_checkout/settings.php:189
 msgid "Turn on to change the button text of add to cart button."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:199
+#: backend/templates/views/one_click_checkout/settings.php:195
 msgid "Add to cart button text"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:202
+#: backend/templates/views/one_click_checkout/settings.php:198
 msgid "This text will be shown inside add to cart button."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:207
+#: backend/templates/views/one_click_checkout/settings.php:203
 msgid "Select options button text"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:210
-msgid ""
-"This text will be shown on the archive page for the variable product, leave "
-"blank if you want to use default text."
+#: backend/templates/views/one_click_checkout/settings.php:206
+msgid "This text will be shown on the archive page for the variable product, leave blank if you want to use default text."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:215
+#: backend/templates/views/one_click_checkout/settings.php:211
 msgid "Read more button text"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:218
-msgid ""
-"This text will be shown on archive page for the product when the product is "
-"out of stock, leave blank if you want to use default"
+#: backend/templates/views/one_click_checkout/settings.php:214
+msgid "This text will be shown on archive page for the product when the product is out of stock, leave blank if you want to use default"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:227
+#: backend/templates/views/one_click_checkout/settings.php:223
 msgid "Buy Now Button Settings"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:235
-#: backend/templates/views/one_click_checkout/settings.php:323
+#: backend/templates/views/one_click_checkout/settings.php:231
+#: backend/templates/views/one_click_checkout/settings.php:319
 msgid "Buy now button ?"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:238
-#: backend/templates/views/one_click_checkout/settings.php:326
+#: backend/templates/views/one_click_checkout/settings.php:234
+#: backend/templates/views/one_click_checkout/settings.php:322
 msgid "Enable the \"Buy Now\" button on the product page."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:243
-#: backend/templates/views/one_click_checkout/settings.php:331
+#: backend/templates/views/one_click_checkout/settings.php:239
+#: backend/templates/views/one_click_checkout/settings.php:327
 msgid "Buy now button label <span style=\"color: #FF521D;\">(Pro)</span>"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:246
-#: backend/templates/views/one_click_checkout/settings.php:334
+#: backend/templates/views/one_click_checkout/settings.php:242
+#: backend/templates/views/one_click_checkout/settings.php:330
 msgid "Buy now button label"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:251
-#: backend/templates/views/one_click_checkout/settings.php:339
+#: backend/templates/views/one_click_checkout/settings.php:247
+#: backend/templates/views/one_click_checkout/settings.php:335
 msgid "Redirect to page <span style=\"color: #FF521D;\">(Pro)</span>"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:263
-#: backend/templates/views/one_click_checkout/settings.php:351
+#: backend/templates/views/one_click_checkout/settings.php:259
+#: backend/templates/views/one_click_checkout/settings.php:347
 msgid "Position Of the Button <span style=\"color: #FF521D;\">(Pro)</span>"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:276
-#: backend/templates/views/one_click_checkout/settings.php:362
+#: backend/templates/views/one_click_checkout/settings.php:272
+#: backend/templates/views/one_click_checkout/settings.php:358
 msgid "Buy now button width"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:279
+#: backend/templates/views/one_click_checkout/settings.php:275
 msgid "Buy now button width on product page (PX)."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:284
-#: backend/templates/views/one_click_checkout/settings.php:370
+#: backend/templates/views/one_click_checkout/settings.php:280
+#: backend/templates/views/one_click_checkout/settings.php:366
 msgid "Buy now button margin top"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:287
-#: backend/templates/views/one_click_checkout/settings.php:373
+#: backend/templates/views/one_click_checkout/settings.php:283
+#: backend/templates/views/one_click_checkout/settings.php:369
 msgid "Buy now button margin top (PX)."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:292
-#: backend/templates/views/one_click_checkout/settings.php:378
+#: backend/templates/views/one_click_checkout/settings.php:288
+#: backend/templates/views/one_click_checkout/settings.php:374
 msgid "Buy now button margin bottom"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:295
-#: backend/templates/views/one_click_checkout/settings.php:381
+#: backend/templates/views/one_click_checkout/settings.php:291
+#: backend/templates/views/one_click_checkout/settings.php:377
 msgid "Buy now button margin bottom (PX)."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:300
-#: backend/templates/views/one_click_checkout/settings.php:386
+#: backend/templates/views/one_click_checkout/settings.php:296
+#: backend/templates/views/one_click_checkout/settings.php:382
 msgid "Buy now button margin left"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:303
-#: backend/templates/views/one_click_checkout/settings.php:389
+#: backend/templates/views/one_click_checkout/settings.php:299
+#: backend/templates/views/one_click_checkout/settings.php:385
 msgid "Buy now button margin left (PX)."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:308
-#: backend/templates/views/one_click_checkout/settings.php:394
+#: backend/templates/views/one_click_checkout/settings.php:304
+#: backend/templates/views/one_click_checkout/settings.php:390
 msgid "Buy now button margin right"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:311
-#: backend/templates/views/one_click_checkout/settings.php:397
+#: backend/templates/views/one_click_checkout/settings.php:307
+#: backend/templates/views/one_click_checkout/settings.php:393
 msgid "Buy now button margin right (PX)."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:365
+#: backend/templates/views/one_click_checkout/settings.php:361
 msgid "Buy now button width on product archive page (PX)."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:403
+#: backend/templates/views/one_click_checkout/settings.php:399
 msgid "Buy Now Button design"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:406
+#: backend/templates/views/one_click_checkout/settings.php:402
 msgid "Font Color"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:412
+#: backend/templates/views/one_click_checkout/settings.php:408
 msgid "Set button font color"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:417
+#: backend/templates/views/one_click_checkout/settings.php:413
 #: backend/templates/views/shipping_bar/settings.php:373
 msgid "Background Color"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:423
+#: backend/templates/views/one_click_checkout/settings.php:419
 msgid "Set button background color"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:428
+#: backend/templates/views/one_click_checkout/settings.php:424
 msgid "Hover Font Color"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:435
+#: backend/templates/views/one_click_checkout/settings.php:431
 msgid "Set button font color on hover"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:440
+#: backend/templates/views/one_click_checkout/settings.php:436
 msgid "Hover Background Color"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:446
+#: backend/templates/views/one_click_checkout/settings.php:442
 msgid "Set button background color on hover"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:451
+#: backend/templates/views/one_click_checkout/settings.php:447
 msgid "Padding Top-Bottom"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:451
+#: backend/templates/views/one_click_checkout/settings.php:447
 msgid "wceazy"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:454
+#: backend/templates/views/one_click_checkout/settings.php:450
 msgid "Buy now button padding top & bottom (PX)"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:459
+#: backend/templates/views/one_click_checkout/settings.php:455
 #: backend/templates/views/shipping_bar/settings.php:400
 msgid "Padding Left-Right"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:462
+#: backend/templates/views/one_click_checkout/settings.php:458
 msgid "Buy now button padding left & right (PX)"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:467
+#: backend/templates/views/one_click_checkout/settings.php:463
 msgid "Border Radius"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:470
+#: backend/templates/views/one_click_checkout/settings.php:466
 msgid "Buy now button border radius (PX)"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:479
+#: backend/templates/views/one_click_checkout/settings.php:475
 msgid "Checkout Settings"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:484
+#: backend/templates/views/one_click_checkout/settings.php:480
 msgid "Remove order comment?"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:487
+#: backend/templates/views/one_click_checkout/settings.php:483
 msgid "Turn on if you want to remove ‘Order Comment’."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:492
+#: backend/templates/views/one_click_checkout/settings.php:488
 msgid "Remove coupon form?"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:495
+#: backend/templates/views/one_click_checkout/settings.php:491
 msgid "Turn on if you want to remove ‘Coupon Form’."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:500
+#: backend/templates/views/one_click_checkout/settings.php:496
 msgid "Remove policy text?"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:503
+#: backend/templates/views/one_click_checkout/settings.php:499
 msgid "Turn on if you want to remove ‘Policy Text’."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:508
+#: backend/templates/views/one_click_checkout/settings.php:504
 msgid "Remove terms & condition?"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:511
+#: backend/templates/views/one_click_checkout/settings.php:507
 msgid "Turn on if you want to remove ‘Terms & Condition’."
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:517
+#: backend/templates/views/one_click_checkout/settings.php:513
 msgid "Remove billing fields? "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:521
+#: backend/templates/views/one_click_checkout/settings.php:517
 msgid " Billing First Name "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:522
+#: backend/templates/views/one_click_checkout/settings.php:518
 msgid " Billing Last Name "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:523
+#: backend/templates/views/one_click_checkout/settings.php:519
 msgid " Billing Address 1 "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:524
+#: backend/templates/views/one_click_checkout/settings.php:520
 msgid " Billing Address 2 "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:525
+#: backend/templates/views/one_click_checkout/settings.php:521
 msgid " Billing Country "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:526
+#: backend/templates/views/one_click_checkout/settings.php:522
 msgid " Billing City "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:527
+#: backend/templates/views/one_click_checkout/settings.php:523
 msgid " Billing State "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:528
+#: backend/templates/views/one_click_checkout/settings.php:524
 msgid " Billing Postcode "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:529
+#: backend/templates/views/one_click_checkout/settings.php:525
 msgid " Billing Company "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:530
+#: backend/templates/views/one_click_checkout/settings.php:526
 msgid " Billing Phone "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:531
+#: backend/templates/views/one_click_checkout/settings.php:527
 msgid " Billing Email "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:533
+#: backend/templates/views/one_click_checkout/settings.php:529
 msgid "Choose the info you want to delete from 'Billing.'"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:538
+#: backend/templates/views/one_click_checkout/settings.php:534
 msgid "Skip shipping details?"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:542
+#: backend/templates/views/one_click_checkout/settings.php:538
 msgid "Shipping First Name"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:543
+#: backend/templates/views/one_click_checkout/settings.php:539
 msgid "Shipping Last Name"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:544
+#: backend/templates/views/one_click_checkout/settings.php:540
 msgid "Shipping Address 1"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:545
+#: backend/templates/views/one_click_checkout/settings.php:541
 msgid "Shipping Address 2"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:546
+#: backend/templates/views/one_click_checkout/settings.php:542
 msgid "Shipping Country"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:547
+#: backend/templates/views/one_click_checkout/settings.php:543
 msgid "Shipping City"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:548
+#: backend/templates/views/one_click_checkout/settings.php:544
 msgid "Shipping State"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:549
+#: backend/templates/views/one_click_checkout/settings.php:545
 msgid "Shipping Postcode"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:550
+#: backend/templates/views/one_click_checkout/settings.php:546
 msgid "Shipping Company"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:553
+#: backend/templates/views/one_click_checkout/settings.php:549
 msgid "Choose which information you want to delete from the Shipping Section."
 msgstr ""
 
@@ -2168,7 +2151,7 @@ msgid "Label Tailoring"
 msgstr ""
 
 #: backend/templates/views/pdf_invoice/settings.php:119
-msgid "Deactivate Invoice?"
+msgid "Activate Invoice"
 msgstr ""
 
 #: backend/templates/views/pdf_invoice/settings.php:122
@@ -2176,7 +2159,7 @@ msgid "Switch off to stop getting invoices."
 msgstr ""
 
 #: backend/templates/views/pdf_invoice/settings.php:127
-msgid "Deactivate Shipping Label?"
+msgid "Activate Shipping Label?"
 msgstr ""
 
 #: backend/templates/views/pdf_invoice/settings.php:130
@@ -2487,7 +2470,7 @@ msgid "Stock Filter"
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:140
-msgid "Show Search Filter?"
+msgid "Show Search Filter"
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:143
@@ -2495,7 +2478,7 @@ msgid "Turn off if you don/t want to show search filter in sidebar."
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:148
-msgid "Show Price Filter?"
+msgid "Show Price Filter"
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:151
@@ -2503,7 +2486,7 @@ msgid "Turn off if you don/t want to show price filter in sidebar."
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:156
-msgid "Show Rating Filter?"
+msgid "Show Rating Filter"
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:159
@@ -2511,7 +2494,7 @@ msgid "Turn off if you don/t want to show rating filter in sidebar."
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:164
-msgid "Show Category Filter?"
+msgid "Show Category Filter"
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:167
@@ -2519,7 +2502,7 @@ msgid "Turn off if you don/t want to show category filter in sidebar."
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:171
-msgid "Show Stock Status Filter?"
+msgid "Show Stock Status Filter"
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:174
@@ -2587,8 +2570,7 @@ msgid "Action Button Background Color"
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:256
-msgid ""
-"Set background color of Add to Cart, Select Option and Stock Out button."
+msgid "Set background color of Add to Cart, Select Option and Stock Out button."
 msgstr ""
 
 #: backend/templates/views/product_filter/settings.php:261
@@ -2944,10 +2926,7 @@ msgid "Scroll Pixels"
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:148
-msgid ""
-"Display a bar on the product page when the user scrolls a certain distance. "
-"It only activates if the \"Scroll Pixels\" option is turned on, with a "
-"default setting of 180 pixels."
+msgid "Display a bar on the product page when the user scrolls a certain distance. It only activates if the \"Scroll Pixels\" option is turned on, with a default setting of 180 pixels."
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:153
@@ -2979,9 +2958,7 @@ msgid "Enable Update Product Qty"
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:197
-msgid ""
-"Please turn off if you don't want to show product quantity update option on "
-"sticky bar"
+msgid "Please turn off if you don't want to show product quantity update option on sticky bar"
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:202
@@ -2989,9 +2966,7 @@ msgid "Enable Variable Product"
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:205
-msgid ""
-"Please turn off if you don't want to show variable product selection option "
-"on sticky bar"
+msgid "Please turn off if you don't want to show variable product selection option on sticky bar"
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:210
@@ -3015,9 +2990,7 @@ msgid "Hide Sticky bar (Product Out of Stock)"
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:229
-msgid ""
-"Please turn on if you don't want to show sticky bar when the product is out "
-"of stock"
+msgid "Please turn on if you don't want to show sticky bar when the product is out of stock"
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:237
@@ -3085,8 +3058,7 @@ msgid "Button Padding Left-Right "
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:406
-msgid ""
-"Adjust space around the add to cart button in the sticky bar (Default: 30)."
+msgid "Adjust space around the add to cart button in the sticky bar (Default: 30)."
 msgstr ""
 
 #: backend/templates/views/product_sticky_bar/settings.php:412
@@ -3138,8 +3110,7 @@ msgid "Select the pages where you don't want to show the Free Shipping Bar."
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:175
-msgid ""
-"Select the products for which you don't want to allow Free Shipping Bar."
+msgid "Select the products for which you don't want to allow Free Shipping Bar."
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:183
@@ -3155,8 +3126,7 @@ msgid "Cart Total"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:192
-msgid ""
-"Turn on the switch to show the free shipping message in the shopping cart."
+msgid "Turn on the switch to show the free shipping message in the shopping cart."
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:197
@@ -3182,9 +3152,7 @@ msgid "Display in Total Cost Area"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:214
-msgid ""
-"Turn ON the switch to show the free shipping notification in checkout "
-"subtotal area."
+msgid "Turn ON the switch to show the free shipping notification in checkout subtotal area."
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:219
@@ -3192,9 +3160,7 @@ msgid "Select Position on Checkout Page"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:226
-msgid ""
-"Select position where the free shipping notification will be displayed on "
-"checkout page."
+msgid "Select position where the free shipping notification will be displayed on checkout page."
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:233
@@ -3244,9 +3210,7 @@ msgid "Message on Zero Order Amount"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:286
-msgid ""
-"\"Empty Cart in Shipping Zone: Add items to qualify for Free Shipping "
-"({minimum_order}).\""
+msgid "\"Empty Cart in Shipping Zone: Add items to qualify for Free Shipping ({minimum_order}).\""
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:291
@@ -3254,9 +3218,7 @@ msgid "Message on Partially Completed Order Amount"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:294
-msgid ""
-"Shipping Alert: Add {missing_amount} for Free Shipping (Min. order: "
-"{minimum_order}, Current total: {cart_total})."
+msgid "Shipping Alert: Add {missing_amount} for Free Shipping (Min. order: {minimum_order}, Current total: {cart_total})."
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:299
@@ -3264,8 +3226,7 @@ msgid "Message on Completed Order Amount"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:302
-msgid ""
-"Free Shipping Alert: Your order qualifies! Click {checkout_page} to proceed."
+msgid "Free Shipping Alert: Your order qualifies! Click {checkout_page} to proceed."
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:312
@@ -3277,9 +3238,7 @@ msgid "Initial Delay Time"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:319
-msgid ""
-"Set the time delay for Free Shipping Bar to decide when it appears in "
-"milliseconds."
+msgid "Set the time delay for Free Shipping Bar to decide when it appears in milliseconds."
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:324
@@ -3295,9 +3254,7 @@ msgid "Set Disappear Time"
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:335
-msgid ""
-"Set disappear time in milliseconds. The Free Shipping Bar will disappear "
-"according to your setting time."
+msgid "Set disappear time in milliseconds. The Free Shipping Bar will disappear according to your setting time."
 msgstr ""
 
 #: backend/templates/views/shipping_bar/settings.php:349
@@ -3454,10 +3411,7 @@ msgid "wcEazy URL Coupon"
 msgstr ""
 
 #: backend/templates/views/url_coupon/url_coupon_tab.php:45
-msgid ""
-"Let your customers apply this coupon by visiting a URL. This coupon "
-"generates a unique coupon URL that can be used in all kind of scenarios (eg. "
-"email marketing, live chat support, blog links)."
+msgid "Let your customers apply this coupon by visiting a URL. This coupon generates a unique coupon URL that can be used in all kind of scenarios (eg. email marketing, live chat support, blog links)."
 msgstr ""
 
 #: modules/one_click_checkout/ModuleUtils.php:139
@@ -3467,7 +3421,6 @@ msgstr ""
 #: modules/url_coupon/ModuleUtils.php:170
 msgid "Please first add the product to the cart and then apply the URL coupon."
 msgstr ""
-
 #. Plugin Name of the plugin/theme
 msgid "wcEazy"
 msgstr ""
@@ -3477,9 +3430,7 @@ msgid "https://wceazy.com"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid ""
-"wcEazy provides multiple WooCommerce extensions in a single package you'll "
-"ever require."
+msgid "wcEazy provides multiple WooCommerce extensions in a single package you'll ever require."
 msgstr ""
 
 #. Author of the plugin/theme

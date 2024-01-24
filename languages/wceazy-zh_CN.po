@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wcEazy 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wceazy\n"
-"POT-Creation-Date: 2024-01-24 04:49+0000\n"
+"POT-Creation-Date: 2024-01-24 10:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2024-01-24 05:07+0000\n"
+"PO-Revision-Date: 2024-01-24 11:03+0000\n"
 "Last-Translator: \n"
 "Language-Team: Chinese (China)\n"
 "Language: zh_CN\n"
@@ -16,47 +16,47 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.6; wp-6.4.2"
 
-#: backend/templates/views/one_click_checkout/settings.php:523
+#: backend/templates/views/one_click_checkout/settings.php:519
 msgid " Billing Address 1 "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:524
+#: backend/templates/views/one_click_checkout/settings.php:520
 msgid " Billing Address 2 "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:526
+#: backend/templates/views/one_click_checkout/settings.php:522
 msgid " Billing City "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:529
+#: backend/templates/views/one_click_checkout/settings.php:525
 msgid " Billing Company "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:525
+#: backend/templates/views/one_click_checkout/settings.php:521
 msgid " Billing Country "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:531
+#: backend/templates/views/one_click_checkout/settings.php:527
 msgid " Billing Email "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:521
+#: backend/templates/views/one_click_checkout/settings.php:517
 msgid " Billing First Name "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:522
+#: backend/templates/views/one_click_checkout/settings.php:518
 msgid " Billing Last Name "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:530
+#: backend/templates/views/one_click_checkout/settings.php:526
 msgid " Billing Phone "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:528
+#: backend/templates/views/one_click_checkout/settings.php:524
 msgid " Billing Postcode "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:527
+#: backend/templates/views/one_click_checkout/settings.php:523
 msgid " Billing State "
 msgstr ""
 
@@ -140,16 +140,16 @@ msgstr "$0.00"
 #: backend/templates/views/address_book/settings.php:323
 #: backend/templates/views/address_book/settings.php:333
 #: backend/templates/views/address_book/settings.php:345
-#: backend/templates/views/one_click_checkout/settings.php:179
-#: backend/templates/views/one_click_checkout/settings.php:428
-#: backend/templates/views/one_click_checkout/settings.php:440
-#: backend/templates/views/one_click_checkout/settings.php:451
-#: backend/templates/views/one_click_checkout/settings.php:459
-#: backend/templates/views/one_click_checkout/settings.php:467
-#: backend/templates/views/one_click_checkout/settings.php:500
-#: backend/templates/views/one_click_checkout/settings.php:508
-#: backend/templates/views/one_click_checkout/settings.php:517
-#: backend/templates/views/one_click_checkout/settings.php:538
+#: backend/templates/views/one_click_checkout/settings.php:175
+#: backend/templates/views/one_click_checkout/settings.php:424
+#: backend/templates/views/one_click_checkout/settings.php:436
+#: backend/templates/views/one_click_checkout/settings.php:447
+#: backend/templates/views/one_click_checkout/settings.php:455
+#: backend/templates/views/one_click_checkout/settings.php:463
+#: backend/templates/views/one_click_checkout/settings.php:496
+#: backend/templates/views/one_click_checkout/settings.php:504
+#: backend/templates/views/one_click_checkout/settings.php:513
+#: backend/templates/views/one_click_checkout/settings.php:534
 #: backend/templates/views/pdf_invoice/settings.php:307
 #: backend/templates/views/pdf_invoice/settings.php:314
 #: backend/templates/views/pdf_invoice/settings.php:351
@@ -259,6 +259,14 @@ msgstr "行动按钮的背景颜色"
 msgid "Action Button Font Color"
 msgstr "行动按钮字体的彩色"
 
+#: backend/templates/views/pdf_invoice/settings.php:119
+msgid "Activate Invoice"
+msgstr "激活发票"
+
+#: backend/templates/views/pdf_invoice/settings.php:127
+msgid "Activate Shipping Label?"
+msgstr "激活装运标签吗？"
+
 #: backend/templates/views/modules.php:26
 msgid "Active"
 msgstr "活性"
@@ -295,15 +303,15 @@ msgstr "增加运送地址的按钮上的文字"
 msgid "Add to auto apply"
 msgstr "增加来自动适用"
 
-#: backend/templates/views/one_click_checkout/settings.php:94
+#: backend/templates/views/one_click_checkout/settings.php:93
 msgid "Add To Cart"
 msgstr "加入购物车"
 
-#: backend/templates/views/one_click_checkout/settings.php:172
+#: backend/templates/views/one_click_checkout/settings.php:170
 msgid "Add to Cart Button Settings"
 msgstr "添加到车设置按钮"
 
-#: backend/templates/views/one_click_checkout/settings.php:199
+#: backend/templates/views/one_click_checkout/settings.php:195
 msgid "Add to cart button text"
 msgstr "添加到车按钮文本"
 
@@ -382,7 +390,7 @@ msgstr "允许免费送货"
 msgid "Allow Quantity Update?"
 msgstr "允许数量更新？"
 
-#: backend/templates/views/one_click_checkout/settings.php:124
+#: backend/templates/views/one_click_checkout/settings.php:123
 msgid "Allow redirect when adding to cart."
 msgstr "允许向当添加到车。"
 
@@ -390,7 +398,7 @@ msgstr "允许向当添加到车。"
 msgid "Allowed emails"
 msgstr "允许电子邮件"
 
-#: backend/templates/views/one_click_checkout/settings.php:190
+#: backend/templates/views/one_click_checkout/settings.php:186
 msgid "Alter the \"Add to Cart\" button text."
 msgstr "改变的\"添加到车\"键的文字。"
 
@@ -432,7 +440,7 @@ msgstr "自动适用优惠券"
 msgid "Back to all Modules"
 msgstr "回到所有模块"
 
-#: backend/templates/views/one_click_checkout/settings.php:417
+#: backend/templates/views/one_click_checkout/settings.php:413
 #: backend/templates/views/shipping_bar/settings.php:373
 msgid "Background Color"
 msgstr "背景颜色"
@@ -534,7 +542,7 @@ msgstr "体设置"
 msgid "BOGO Deal"
 msgstr "博戈处理"
 
-#: backend/templates/views/one_click_checkout/settings.php:467
+#: backend/templates/views/one_click_checkout/settings.php:463
 msgid "Border Radius"
 msgstr "边界半径"
 
@@ -611,95 +619,95 @@ msgstr ""
 msgid "Button Padding Top-Bottom"
 msgstr "按钮填补上下"
 
-#: backend/templates/views/one_click_checkout/settings.php:95
+#: backend/templates/views/one_click_checkout/settings.php:94
 msgid "Buy Now Button"
 msgstr "现在购买的按钮"
 
-#: backend/templates/views/one_click_checkout/settings.php:235
-#: backend/templates/views/one_click_checkout/settings.php:323
+#: backend/templates/views/one_click_checkout/settings.php:231
+#: backend/templates/views/one_click_checkout/settings.php:319
 msgid "Buy now button ?"
 msgstr "现在购买的按钮?"
 
-#: backend/templates/views/one_click_checkout/settings.php:470
+#: backend/templates/views/one_click_checkout/settings.php:466
 msgid "Buy now button border radius (PX)"
 msgstr "现在购买的按钮边界半径(PX)"
 
-#: backend/templates/views/one_click_checkout/settings.php:403
+#: backend/templates/views/one_click_checkout/settings.php:399
 msgid "Buy Now Button design"
 msgstr "现在购买的按钮设计"
 
-#: backend/templates/views/one_click_checkout/settings.php:246
-#: backend/templates/views/one_click_checkout/settings.php:334
+#: backend/templates/views/one_click_checkout/settings.php:242
+#: backend/templates/views/one_click_checkout/settings.php:330
 msgid "Buy now button label"
 msgstr "现在购买的按钮标签"
 
-#: backend/templates/views/one_click_checkout/settings.php:243
-#: backend/templates/views/one_click_checkout/settings.php:331
+#: backend/templates/views/one_click_checkout/settings.php:239
+#: backend/templates/views/one_click_checkout/settings.php:327
 msgid "Buy now button label <span style=\"color: #FF521D;\">(Pro)</span>"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:292
-#: backend/templates/views/one_click_checkout/settings.php:378
+#: backend/templates/views/one_click_checkout/settings.php:288
+#: backend/templates/views/one_click_checkout/settings.php:374
 msgid "Buy now button margin bottom"
 msgstr "现在购买的按钮保证金的底部"
 
-#: backend/templates/views/one_click_checkout/settings.php:295
-#: backend/templates/views/one_click_checkout/settings.php:381
+#: backend/templates/views/one_click_checkout/settings.php:291
+#: backend/templates/views/one_click_checkout/settings.php:377
 msgid "Buy now button margin bottom (PX)."
 msgstr "现在购买的按钮保证金的底部(PX)。"
 
-#: backend/templates/views/one_click_checkout/settings.php:300
-#: backend/templates/views/one_click_checkout/settings.php:386
+#: backend/templates/views/one_click_checkout/settings.php:296
+#: backend/templates/views/one_click_checkout/settings.php:382
 msgid "Buy now button margin left"
 msgstr "现在购买的按钮左保证金"
 
-#: backend/templates/views/one_click_checkout/settings.php:303
-#: backend/templates/views/one_click_checkout/settings.php:389
+#: backend/templates/views/one_click_checkout/settings.php:299
+#: backend/templates/views/one_click_checkout/settings.php:385
 msgid "Buy now button margin left (PX)."
 msgstr "现在购买的按钮余留(PX)。"
 
-#: backend/templates/views/one_click_checkout/settings.php:308
-#: backend/templates/views/one_click_checkout/settings.php:394
+#: backend/templates/views/one_click_checkout/settings.php:304
+#: backend/templates/views/one_click_checkout/settings.php:390
 msgid "Buy now button margin right"
 msgstr "现在购买的按钮保证金的权利"
 
-#: backend/templates/views/one_click_checkout/settings.php:311
-#: backend/templates/views/one_click_checkout/settings.php:397
+#: backend/templates/views/one_click_checkout/settings.php:307
+#: backend/templates/views/one_click_checkout/settings.php:393
 msgid "Buy now button margin right (PX)."
 msgstr "现在购买的按钮保证金的权利(PX)。"
 
-#: backend/templates/views/one_click_checkout/settings.php:284
-#: backend/templates/views/one_click_checkout/settings.php:370
+#: backend/templates/views/one_click_checkout/settings.php:280
+#: backend/templates/views/one_click_checkout/settings.php:366
 msgid "Buy now button margin top"
 msgstr "现在购买的按钮保证金顶"
 
-#: backend/templates/views/one_click_checkout/settings.php:287
-#: backend/templates/views/one_click_checkout/settings.php:373
+#: backend/templates/views/one_click_checkout/settings.php:283
+#: backend/templates/views/one_click_checkout/settings.php:369
 msgid "Buy now button margin top (PX)."
 msgstr "现在购买的按钮利润率最高(PX)。"
 
-#: backend/templates/views/one_click_checkout/settings.php:462
+#: backend/templates/views/one_click_checkout/settings.php:458
 msgid "Buy now button padding left & right (PX)"
 msgstr "现在购买的按钮填充左右(PX)"
 
-#: backend/templates/views/one_click_checkout/settings.php:454
+#: backend/templates/views/one_click_checkout/settings.php:450
 msgid "Buy now button padding top & bottom (PX)"
 msgstr "现在购买的按钮填补顶部和底部(PX)"
 
-#: backend/templates/views/one_click_checkout/settings.php:227
+#: backend/templates/views/one_click_checkout/settings.php:223
 msgid "Buy Now Button Settings"
 msgstr "现在购买的设置按钮"
 
-#: backend/templates/views/one_click_checkout/settings.php:276
-#: backend/templates/views/one_click_checkout/settings.php:362
+#: backend/templates/views/one_click_checkout/settings.php:272
+#: backend/templates/views/one_click_checkout/settings.php:358
 msgid "Buy now button width"
 msgstr "现在购买的按钮宽度"
 
-#: backend/templates/views/one_click_checkout/settings.php:365
+#: backend/templates/views/one_click_checkout/settings.php:361
 msgid "Buy now button width on product archive page (PX)."
 msgstr "现在购买的按钮宽产品的存档网页(PX)。"
 
-#: backend/templates/views/one_click_checkout/settings.php:279
+#: backend/templates/views/one_click_checkout/settings.php:275
 msgid "Buy now button width on product page (PX)."
 msgstr "现在购买的按钮宽产品页(PX)。"
 
@@ -798,7 +806,7 @@ msgstr "框未经检查的背景的颜色"
 msgid "Checkbox Unchecked Border Color"
 msgstr "框未经检查的边境颜色"
 
-#: backend/templates/views/one_click_checkout/settings.php:96
+#: backend/templates/views/one_click_checkout/settings.php:95
 msgid "Checkout"
 msgstr "结账"
 
@@ -820,7 +828,7 @@ msgstr "结账按钮"
 msgid "Checkout Page"
 msgstr "结帐页"
 
-#: backend/templates/views/one_click_checkout/settings.php:479
+#: backend/templates/views/one_click_checkout/settings.php:475
 msgid "Checkout Settings"
 msgstr "结帐的设置"
 
@@ -840,11 +848,11 @@ msgstr "选择点上车页。"
 msgid "Choose the discount amount for this deal."
 msgstr "选择的折扣额的交易。"
 
-#: backend/templates/views/one_click_checkout/settings.php:533
+#: backend/templates/views/one_click_checkout/settings.php:529
 msgid "Choose the info you want to delete from 'Billing.'"
 msgstr "选择你想要的信息，从中删除'计费。'"
 
-#: backend/templates/views/one_click_checkout/settings.php:553
+#: backend/templates/views/one_click_checkout/settings.php:549
 msgid "Choose which information you want to delete from the Shipping Section."
 msgstr "选择哪些信息，你想要删除航运部分。"
 
@@ -976,14 +984,6 @@ msgstr "自消息"
 msgid "Customize Styles"
 msgstr "定制的样式"
 
-#: backend/templates/views/pdf_invoice/settings.php:119
-msgid "Deactivate Invoice?"
-msgstr "关闭发票？"
-
-#: backend/templates/views/pdf_invoice/settings.php:127
-msgid "Deactivate Shipping Label?"
-msgstr "禁运的标签?"
-
 #: backend/templates/views/bogo_deal/settings.php:66
 msgid "Delete Rule"
 msgstr "删除规则"
@@ -1095,8 +1095,11 @@ msgstr "启用篮d"
 msgid "Enable Progress Bar"
 msgstr "使进展吧"
 
-#: backend/templates/views/one_click_checkout/settings.php:116
-#: backend/templates/views/one_click_checkout/settings.php:119
+#: backend/templates/views/one_click_checkout/settings.php:118
+msgid "Enable single page checkout ?"
+msgstr "启用单页结账？"
+
+#: backend/templates/views/one_click_checkout/settings.php:115
 msgid "Enable single page checkout?"
 msgstr "启用单页结账？"
 
@@ -1104,12 +1107,12 @@ msgstr "启用单页结账？"
 msgid "Enable Sticky Bar"
 msgstr "启用粘吧"
 
-#: backend/templates/views/one_click_checkout/settings.php:238
-#: backend/templates/views/one_click_checkout/settings.php:326
+#: backend/templates/views/one_click_checkout/settings.php:234
+#: backend/templates/views/one_click_checkout/settings.php:322
 msgid "Enable the \"Buy Now\" button on the product page."
 msgstr "启用\"购买\"的按钮上的产品页。"
 
-#: backend/templates/views/one_click_checkout/settings.php:111
+#: backend/templates/views/one_click_checkout/settings.php:110
 msgid ""
 "Enable the option to skip the cart page and redirect directly to the "
 "checkout page."
@@ -1212,7 +1215,7 @@ msgstr "翻开关使用的地址簿，用于运费。"
 msgid "Floating Cart"
 msgstr "浮车"
 
-#: backend/templates/views/one_click_checkout/settings.php:406
+#: backend/templates/views/one_click_checkout/settings.php:402
 msgid "Font Color"
 msgstr "字体的彩色"
 
@@ -1258,14 +1261,15 @@ msgstr "从地址"
 #: backend/templates/views/coupon_generator/settings.php:59
 #: backend/templates/views/coupon_generator/settings.php:73
 #: backend/templates/views/floating_cart/settings.php:118
-#: backend/templates/views/one_click_checkout/settings.php:93
+#: backend/templates/views/one_click_checkout/settings.php:92
+#: backend/templates/views/pdf_invoice/settings.php:95
 #: backend/templates/views/product_filter/settings.php:109
 msgid "General"
 msgstr "一般"
 
 #: backend/templates/views/address_book/settings.php:86
 #: backend/templates/views/floating_cart/settings.php:154
-#: backend/templates/views/one_click_checkout/settings.php:103
+#: backend/templates/views/one_click_checkout/settings.php:102
 #: backend/templates/views/pdf_invoice/settings.php:140
 #: backend/templates/views/product_filter/settings.php:135
 msgid "General Settings"
@@ -1367,11 +1371,11 @@ msgstr "隐藏的价格如果你不/t想来显示这一点。"
 msgid "Hide when cart is empty"
 msgstr "隐藏在车是空的"
 
-#: backend/templates/views/one_click_checkout/settings.php:440
+#: backend/templates/views/one_click_checkout/settings.php:436
 msgid "Hover Background Color"
 msgstr "悬停的背景的颜色"
 
-#: backend/templates/views/one_click_checkout/settings.php:428
+#: backend/templates/views/one_click_checkout/settings.php:424
 msgid "Hover Font Color"
 msgstr "悬停字体的彩色"
 
@@ -1681,7 +1685,7 @@ msgstr "股票"
 msgid "Padding Bottom"
 msgstr "垫底"
 
-#: backend/templates/views/one_click_checkout/settings.php:459
+#: backend/templates/views/one_click_checkout/settings.php:455
 #: backend/templates/views/shipping_bar/settings.php:400
 msgid "Padding Left-Right"
 msgstr "填充左右"
@@ -1690,7 +1694,7 @@ msgstr "填充左右"
 msgid "Padding Top"
 msgstr "填补顶"
 
-#: backend/templates/views/one_click_checkout/settings.php:451
+#: backend/templates/views/one_click_checkout/settings.php:447
 msgid "Padding Top-Bottom"
 msgstr "填补上下"
 
@@ -1768,8 +1772,8 @@ msgstr "请第一添加的产品的车，然后应用该URL券。"
 #: backend/templates/views/floating_cart/settings.php:717
 #: backend/templates/views/floating_cart/settings.php:759
 #: backend/templates/views/floating_cart/settings.php:788
-#: backend/templates/views/one_click_checkout/settings.php:520
-#: backend/templates/views/one_click_checkout/settings.php:541
+#: backend/templates/views/one_click_checkout/settings.php:516
+#: backend/templates/views/one_click_checkout/settings.php:537
 #: backend/templates/views/pdf_invoice/settings.php:297
 #: backend/templates/views/pdf_invoice/settings.php:317
 #: backend/templates/views/product_filter/settings.php:182
@@ -1840,8 +1844,8 @@ msgstr "请打开如果你不想告诉粘酒吧时，该产品是股票"
 msgid "Please turn on if you want to auto open floating cart."
 msgstr "请打开如果你想自动开放浮动车。"
 
-#: backend/templates/views/one_click_checkout/settings.php:263
-#: backend/templates/views/one_click_checkout/settings.php:351
+#: backend/templates/views/one_click_checkout/settings.php:259
+#: backend/templates/views/one_click_checkout/settings.php:347
 msgid "Position Of the Button <span style=\"color: #FF521D;\">(Pro)</span>"
 msgstr ""
 
@@ -2021,7 +2025,7 @@ msgstr "数量框文字颜色"
 msgid "Quantity Box Width"
 msgstr "数量框宽度"
 
-#: backend/templates/views/one_click_checkout/settings.php:178
+#: backend/templates/views/one_click_checkout/settings.php:174
 msgid "Quickly add item to shopping cart with Ajax."
 msgstr "迅速增加的项目的购物车与阿贾克斯。"
 
@@ -2033,7 +2037,7 @@ msgstr "评价的过滤器"
 msgid "Rating Filter Settings"
 msgstr "评价过滤设置"
 
-#: backend/templates/views/one_click_checkout/settings.php:215
+#: backend/templates/views/one_click_checkout/settings.php:211
 msgid "Read more button text"
 msgstr "更多按钮文本"
 
@@ -2041,30 +2045,30 @@ msgstr "更多按钮文本"
 msgid "Recommended image size 150px X 60px"
 msgstr "建议图像大小个150像素X60px"
 
-#: backend/templates/views/one_click_checkout/settings.php:152
+#: backend/templates/views/one_click_checkout/settings.php:151
 msgid "Redirect to custom url"
 msgstr "重定向到定义url"
 
-#: backend/templates/views/one_click_checkout/settings.php:135
+#: backend/templates/views/one_click_checkout/settings.php:134
 msgid ""
 "Redirect to custom url instead of page, so using this you can redirect to "
 "any page."
 msgstr "重定向到定义url而不是页面，所以使用这个可以重定向到任何网页。"
 
-#: backend/templates/views/one_click_checkout/settings.php:132
+#: backend/templates/views/one_click_checkout/settings.php:131
 msgid "Redirect to custom url?"
 msgstr "重定向到定义url?"
 
-#: backend/templates/views/one_click_checkout/settings.php:140
+#: backend/templates/views/one_click_checkout/settings.php:139
 msgid "Redirect to page"
 msgstr "重定向到的页面"
 
-#: backend/templates/views/one_click_checkout/settings.php:251
-#: backend/templates/views/one_click_checkout/settings.php:339
+#: backend/templates/views/one_click_checkout/settings.php:247
+#: backend/templates/views/one_click_checkout/settings.php:335
 msgid "Redirect to page <span style=\"color: #FF521D;\">(Pro)</span>"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:155
+#: backend/templates/views/one_click_checkout/settings.php:154
 msgid ""
 "Redirect to this any custom url of your website e.g.: http://yourwebsite.com"
 msgstr ""
@@ -2081,11 +2085,11 @@ msgstr "向网址设置"
 msgid "Refunded Order"
 msgstr "退还了"
 
-#: backend/templates/views/one_click_checkout/settings.php:517
+#: backend/templates/views/one_click_checkout/settings.php:513
 msgid "Remove billing fields? "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:492
+#: backend/templates/views/one_click_checkout/settings.php:488
 msgid "Remove coupon form?"
 msgstr "删除优惠券的形式？"
 
@@ -2093,15 +2097,15 @@ msgstr "删除优惠券的形式？"
 msgid "Remove from auto apply"
 msgstr "删除自动适用"
 
-#: backend/templates/views/one_click_checkout/settings.php:484
+#: backend/templates/views/one_click_checkout/settings.php:480
 msgid "Remove order comment?"
 msgstr "除了评论？"
 
-#: backend/templates/views/one_click_checkout/settings.php:500
+#: backend/templates/views/one_click_checkout/settings.php:496
 msgid "Remove policy text?"
 msgstr "删除的政策的文字？"
 
-#: backend/templates/views/one_click_checkout/settings.php:508
+#: backend/templates/views/one_click_checkout/settings.php:504
 msgid "Remove terms & condition?"
 msgstr "删除的条款和条件？"
 
@@ -2130,7 +2134,7 @@ msgstr "保存变化"
 
 #: backend/templates/views/address_book/settings.php:364
 #: backend/templates/views/floating_cart/settings.php:841
-#: backend/templates/views/one_click_checkout/settings.php:568
+#: backend/templates/views/one_click_checkout/settings.php:564
 #: backend/templates/views/pdf_invoice/settings.php:577
 #: backend/templates/views/product_filter/settings.php:749
 #: backend/templates/views/product_sticky_bar/settings.php:425
@@ -2190,10 +2194,10 @@ msgstr "搜索产品"
 #: backend/templates/views/floating_cart/settings.php:812
 #: backend/templates/views/floating_cart/settings.php:822
 #: backend/templates/views/floating_cart/settings.php:832
-#: backend/templates/views/one_click_checkout/settings.php:410
-#: backend/templates/views/one_click_checkout/settings.php:421
-#: backend/templates/views/one_click_checkout/settings.php:433
-#: backend/templates/views/one_click_checkout/settings.php:444
+#: backend/templates/views/one_click_checkout/settings.php:406
+#: backend/templates/views/one_click_checkout/settings.php:417
+#: backend/templates/views/one_click_checkout/settings.php:429
+#: backend/templates/views/one_click_checkout/settings.php:440
 #: backend/templates/views/product_filter/settings.php:254
 #: backend/templates/views/product_filter/settings.php:265
 #: backend/templates/views/product_filter/settings.php:277
@@ -2246,7 +2250,7 @@ msgstr "选择颜色"
 msgid "Select Don't Show Pages"
 msgstr "选择不显示的网页"
 
-#: backend/templates/views/one_click_checkout/settings.php:207
+#: backend/templates/views/one_click_checkout/settings.php:203
 msgid "Select options button text"
 msgstr "选择选项文本按钮"
 
@@ -2326,19 +2330,19 @@ msgstr "设置边界颜色的一页和下页的按钮。"
 msgid "Set border hover color of all buttons"
 msgstr "设置边界悬停颜色的按钮"
 
-#: backend/templates/views/one_click_checkout/settings.php:423
+#: backend/templates/views/one_click_checkout/settings.php:419
 msgid "Set button background color"
 msgstr "设置按钮的背景颜色"
 
-#: backend/templates/views/one_click_checkout/settings.php:446
+#: backend/templates/views/one_click_checkout/settings.php:442
 msgid "Set button background color on hover"
 msgstr "设置按钮的背景的颜色悬停"
 
-#: backend/templates/views/one_click_checkout/settings.php:412
+#: backend/templates/views/one_click_checkout/settings.php:408
 msgid "Set button font color"
 msgstr "设置的字体颜色的按钮"
 
-#: backend/templates/views/one_click_checkout/settings.php:435
+#: backend/templates/views/one_click_checkout/settings.php:431
 msgid "Set button font color on hover"
 msgstr "设置按钮字体的彩色悬停"
 
@@ -2796,11 +2800,11 @@ msgstr "运费"
 msgid "Shipping Address"
 msgstr "送货的地址"
 
-#: backend/templates/views/one_click_checkout/settings.php:544
+#: backend/templates/views/one_click_checkout/settings.php:540
 msgid "Shipping Address 1"
 msgstr "送货的地址1"
 
-#: backend/templates/views/one_click_checkout/settings.php:545
+#: backend/templates/views/one_click_checkout/settings.php:541
 msgid "Shipping Address 2"
 msgstr "送货的地址2"
 
@@ -2830,15 +2834,15 @@ msgstr "运费的酒吧布局"
 msgid "Shipping Bar Position"
 msgstr "运输条的位置"
 
-#: backend/templates/views/one_click_checkout/settings.php:547
+#: backend/templates/views/one_click_checkout/settings.php:543
 msgid "Shipping City"
 msgstr "运费城"
 
-#: backend/templates/views/one_click_checkout/settings.php:550
+#: backend/templates/views/one_click_checkout/settings.php:546
 msgid "Shipping Company"
 msgstr "航运公司"
 
-#: backend/templates/views/one_click_checkout/settings.php:546
+#: backend/templates/views/one_click_checkout/settings.php:542
 msgid "Shipping Country"
 msgstr "航运国家"
 
@@ -2846,7 +2850,7 @@ msgstr "航运国家"
 msgid "Shipping Date"
 msgstr "装运日期"
 
-#: backend/templates/views/one_click_checkout/settings.php:542
+#: backend/templates/views/one_click_checkout/settings.php:538
 msgid "Shipping First Name"
 msgstr "运输第一名"
 
@@ -2854,15 +2858,15 @@ msgstr "运输第一名"
 msgid "Shipping Label Customization"
 msgstr "运送的定制标签"
 
-#: backend/templates/views/one_click_checkout/settings.php:543
+#: backend/templates/views/one_click_checkout/settings.php:539
 msgid "Shipping Last Name"
 msgstr "航运的最后一名"
 
-#: backend/templates/views/one_click_checkout/settings.php:549
+#: backend/templates/views/one_click_checkout/settings.php:545
 msgid "Shipping Postcode"
 msgstr "送货的邮政编码"
 
-#: backend/templates/views/one_click_checkout/settings.php:548
+#: backend/templates/views/one_click_checkout/settings.php:544
 msgid "Shipping State"
 msgstr "航运状态"
 
@@ -2926,8 +2930,8 @@ msgid "Show Cart Total?"
 msgstr "显示车总的?"
 
 #: backend/templates/views/product_filter/settings.php:164
-msgid "Show Category Filter?"
-msgstr "显示类别的过滤器？"
+msgid "Show Category Filter"
+msgstr "显示类别的过滤器"
 
 #: backend/templates/views/floating_cart/settings.php:298
 msgid "Show Discount?"
@@ -2950,8 +2954,8 @@ msgid "Show Only After Scroll"
 msgstr "显示只有在滚动"
 
 #: backend/templates/views/product_filter/settings.php:148
-msgid "Show Price Filter?"
-msgstr "显示的价格的过滤器？"
+msgid "Show Price Filter"
+msgstr "显示的价格的过滤器"
 
 #: backend/templates/views/product_sticky_bar/settings.php:210
 msgid "Show Product Image"
@@ -2986,12 +2990,12 @@ msgid "Show progress bar with free shipping bar."
 msgstr "显示进展酒吧有免费送货吧。"
 
 #: backend/templates/views/product_filter/settings.php:156
-msgid "Show Rating Filter?"
-msgstr "显示的评价过滤器？"
+msgid "Show Rating Filter"
+msgstr "显示的评价过滤器"
 
 #: backend/templates/views/product_filter/settings.php:140
-msgid "Show Search Filter?"
-msgstr "显示搜寻过滤器？"
+msgid "Show Search Filter"
+msgstr "显示搜寻过滤器"
 
 #: backend/templates/views/floating_cart/settings.php:306
 msgid "Show Shipping Amount?"
@@ -3006,14 +3010,14 @@ msgid "Show Stock Status"
 msgstr "显示库存状态"
 
 #: backend/templates/views/product_filter/settings.php:171
-msgid "Show Stock Status Filter?"
-msgstr "显示状态筛选股票?"
+msgid "Show Stock Status Filter"
+msgstr "显示库存状态的过滤器"
 
 #: backend/templates/views/floating_cart/settings.php:290
 msgid "Show Subtotal?"
 msgstr "显示小计?"
 
-#: backend/templates/views/one_click_checkout/settings.php:538
+#: backend/templates/views/one_click_checkout/settings.php:534
 msgid "Skip shipping details?"
 msgstr "跳过运费的细节吗？"
 
@@ -3103,17 +3107,17 @@ msgstr "文字颜色的消息"
 msgid "This feature is only available in the premium version of wcEazy"
 msgstr "该功能仅在高级版本的wcEazy"
 
-#: backend/templates/views/one_click_checkout/settings.php:202
+#: backend/templates/views/one_click_checkout/settings.php:198
 msgid "This text will be shown inside add to cart button."
 msgstr "这一文本将被显示里面添加到车按钮。"
 
-#: backend/templates/views/one_click_checkout/settings.php:218
+#: backend/templates/views/one_click_checkout/settings.php:214
 msgid ""
 "This text will be shown on archive page for the product when the product is "
 "out of stock, leave blank if you want to use default"
 msgstr "这一文本将被显示存档网页产品时，该产品是股票，保留空白的如果你想使用默认值"
 
-#: backend/templates/views/one_click_checkout/settings.php:210
+#: backend/templates/views/one_click_checkout/settings.php:206
 msgid ""
 "This text will be shown on the archive page for the variable product, leave "
 "blank if you want to use default text."
@@ -3263,11 +3267,11 @@ msgstr "关掉如果你不/t想显示的小计上车。"
 msgid "Turn off Products"
 msgstr "关闭的产品"
 
-#: backend/templates/views/one_click_checkout/settings.php:108
+#: backend/templates/views/one_click_checkout/settings.php:107
 msgid "Turn off shopping cart page?"
 msgstr "关闭的购物车一页？"
 
-#: backend/templates/views/one_click_checkout/settings.php:161
+#: backend/templates/views/one_click_checkout/settings.php:160
 msgid "Turn off the \"Keep Shopping\" button."
 msgstr "关闭的\"保留的购物\"按钮。"
 
@@ -3283,19 +3287,19 @@ msgstr "关于隐藏品的照片。"
 msgid "Turn off to prevent deleting items from the cart."
 msgstr "关闭防止删除的项目从车。"
 
-#: backend/templates/views/one_click_checkout/settings.php:495
+#: backend/templates/views/one_click_checkout/settings.php:491
 msgid "Turn on if you want to remove ‘Coupon Form’."
 msgstr "打开如果你想删除'券的形式'。"
 
-#: backend/templates/views/one_click_checkout/settings.php:487
+#: backend/templates/views/one_click_checkout/settings.php:483
 msgid "Turn on if you want to remove ‘Order Comment’."
 msgstr "打开如果你想删除'以评论'."
 
-#: backend/templates/views/one_click_checkout/settings.php:503
+#: backend/templates/views/one_click_checkout/settings.php:499
 msgid "Turn on if you want to remove ‘Policy Text’."
 msgstr "打开如果你想删除的政策的文本'."
 
-#: backend/templates/views/one_click_checkout/settings.php:511
+#: backend/templates/views/one_click_checkout/settings.php:507
 msgid "Turn on if you want to remove ‘Terms & Condition’."
 msgstr "打开如果你想删除'条款'."
 
@@ -3326,11 +3330,11 @@ msgid ""
 "subtotal area."
 msgstr "打开开关于表明自由运输通知，在结账小计的区域。"
 
-#: backend/templates/views/one_click_checkout/settings.php:193
+#: backend/templates/views/one_click_checkout/settings.php:189
 msgid "Turn on to change the button text of add to cart button."
 msgstr "又在改变按钮文本将添加到车按钮。"
 
-#: backend/templates/views/one_click_checkout/settings.php:184
+#: backend/templates/views/one_click_checkout/settings.php:180
 msgid "Turn on to enable Quickly add item to shopping cart with Ajax.."
 msgstr "打开启用迅速增加的项目的购物车与阿贾克斯.."
 
@@ -3444,17 +3448,18 @@ msgstr "wcEazy URL优惠券"
 msgid "Weight"
 msgstr "重量"
 
-#: backend/templates/views/one_click_checkout/settings.php:127
+#: backend/templates/views/one_click_checkout/settings.php:126
 msgid ""
 "When turned on, clicking \"Add to Cart\" takes customers straight to the "
 "Checkout page."
 msgstr "开启时，点击\"添加到车\"需要客户的直到结帐页。"
 
-#: backend/templates/views/one_click_checkout/settings.php:164
+#: backend/templates/views/one_click_checkout/settings.php:163
 msgid ""
 "WooCommerce shows a continue shopping button after a product is added to "
-"cart, with this option you can disable that link so user re"
-msgstr "吧示出了继续购物按钮之后产品被添加到车，这个选择你可以禁止这一链接，使用户重"
+"cart. With this option, you can disable that link so users replace the text "
+"you want to complete the sentence here"
+msgstr "吧示出了继续购物按钮之后产品被添加到车。 与此选项，可以禁止这一链接，以便用户的文本替换你想要完成这里的句子"
 
 #: backend/templates/views/auto_apply_coupon/settings.php:98
 msgid "Yes"

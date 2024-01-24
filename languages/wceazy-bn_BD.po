@@ -4,59 +4,59 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wcEazy 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wceazy\n"
-"POT-Creation-Date: 2024-01-24 04:38:50+00:00\n"
+"POT-Creation-Date: 2024-01-24 10:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2024-01-24 05:00+0000\n"
+"PO-Revision-Date: 2024-01-24 10:47+0000\n"
 "Last-Translator: \n"
-"Language-Team: বাংলা\n"
+"Language-Team: Bengali (Bangladesh)\n"
 "Language: bn_BD\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.6; wp-6.4.2"
 
-#: backend/templates/views/one_click_checkout/settings.php:523
+#: backend/templates/views/one_click_checkout/settings.php:519
 msgid " Billing Address 1 "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:524
+#: backend/templates/views/one_click_checkout/settings.php:520
 msgid " Billing Address 2 "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:526
+#: backend/templates/views/one_click_checkout/settings.php:522
 msgid " Billing City "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:529
+#: backend/templates/views/one_click_checkout/settings.php:525
 msgid " Billing Company "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:525
+#: backend/templates/views/one_click_checkout/settings.php:521
 msgid " Billing Country "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:531
+#: backend/templates/views/one_click_checkout/settings.php:527
 msgid " Billing Email "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:521
+#: backend/templates/views/one_click_checkout/settings.php:517
 msgid " Billing First Name "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:522
+#: backend/templates/views/one_click_checkout/settings.php:518
 msgid " Billing Last Name "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:530
+#: backend/templates/views/one_click_checkout/settings.php:526
 msgid " Billing Phone "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:528
+#: backend/templates/views/one_click_checkout/settings.php:524
 msgid " Billing Postcode "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:527
+#: backend/templates/views/one_click_checkout/settings.php:523
 msgid " Billing State "
 msgstr ""
 
@@ -140,16 +140,16 @@ msgstr "$0.00"
 #: backend/templates/views/address_book/settings.php:323
 #: backend/templates/views/address_book/settings.php:333
 #: backend/templates/views/address_book/settings.php:345
-#: backend/templates/views/one_click_checkout/settings.php:179
-#: backend/templates/views/one_click_checkout/settings.php:428
-#: backend/templates/views/one_click_checkout/settings.php:440
-#: backend/templates/views/one_click_checkout/settings.php:451
-#: backend/templates/views/one_click_checkout/settings.php:459
-#: backend/templates/views/one_click_checkout/settings.php:467
-#: backend/templates/views/one_click_checkout/settings.php:500
-#: backend/templates/views/one_click_checkout/settings.php:508
-#: backend/templates/views/one_click_checkout/settings.php:517
-#: backend/templates/views/one_click_checkout/settings.php:538
+#: backend/templates/views/one_click_checkout/settings.php:175
+#: backend/templates/views/one_click_checkout/settings.php:424
+#: backend/templates/views/one_click_checkout/settings.php:436
+#: backend/templates/views/one_click_checkout/settings.php:447
+#: backend/templates/views/one_click_checkout/settings.php:455
+#: backend/templates/views/one_click_checkout/settings.php:463
+#: backend/templates/views/one_click_checkout/settings.php:496
+#: backend/templates/views/one_click_checkout/settings.php:504
+#: backend/templates/views/one_click_checkout/settings.php:513
+#: backend/templates/views/one_click_checkout/settings.php:534
 #: backend/templates/views/pdf_invoice/settings.php:307
 #: backend/templates/views/pdf_invoice/settings.php:314
 #: backend/templates/views/pdf_invoice/settings.php:351
@@ -259,6 +259,14 @@ msgstr "কর্ম বাটন পটভূমির রঙ"
 msgid "Action Button Font Color"
 msgstr "কর্ম বাটন ফন্টের রং"
 
+#: backend/templates/views/pdf_invoice/settings.php:119
+msgid "Activate Invoice"
+msgstr "সক্রিয় চালান"
+
+#: backend/templates/views/pdf_invoice/settings.php:127
+msgid "Activate Shipping Label?"
+msgstr "সক্রিয় শিপিং লেবেল?"
+
 #: backend/templates/views/modules.php:26
 msgid "Active"
 msgstr "সক্রিয়"
@@ -295,15 +303,15 @@ msgstr "যোগ শিপিং ঠিকানা বাটন টেক্�
 msgid "Add to auto apply"
 msgstr "যোগ করা অটো আবেদন"
 
-#: backend/templates/views/one_click_checkout/settings.php:94
+#: backend/templates/views/one_click_checkout/settings.php:93
 msgid "Add To Cart"
 msgstr "কার্ট যোগ করুন"
 
-#: backend/templates/views/one_click_checkout/settings.php:172
+#: backend/templates/views/one_click_checkout/settings.php:170
 msgid "Add to Cart Button Settings"
 msgstr "কার্ট বাটন যোগ সেটিংস"
 
-#: backend/templates/views/one_click_checkout/settings.php:199
+#: backend/templates/views/one_click_checkout/settings.php:195
 msgid "Add to cart button text"
 msgstr "কার্ট বাটন টেক্সট যোগ করুন"
 
@@ -382,7 +390,7 @@ msgstr "ফ্রি শিপিং অনুমতি"
 msgid "Allow Quantity Update?"
 msgstr "অনুমতি পরিমাণ আপডেট?"
 
-#: backend/templates/views/one_click_checkout/settings.php:124
+#: backend/templates/views/one_click_checkout/settings.php:123
 msgid "Allow redirect when adding to cart."
 msgstr "অনুমতি পুনর্নির্দেশ কার্ট যোগ করার সময়."
 
@@ -390,7 +398,7 @@ msgstr "অনুমতি পুনর্নির্দেশ কার্ট 
 msgid "Allowed emails"
 msgstr "দেওয়া ইমেইল"
 
-#: backend/templates/views/one_click_checkout/settings.php:190
+#: backend/templates/views/one_click_checkout/settings.php:186
 msgid "Alter the \"Add to Cart\" button text."
 msgstr "পরিবর্তন \"কার্ট যুক্ত করুন\" বাটন টেক্সট."
 
@@ -432,7 +440,7 @@ msgstr "অটো কুপন প্রয়োগ"
 msgid "Back to all Modules"
 msgstr "ফিরে সব মডিউল"
 
-#: backend/templates/views/one_click_checkout/settings.php:417
+#: backend/templates/views/one_click_checkout/settings.php:413
 #: backend/templates/views/shipping_bar/settings.php:373
 msgid "Background Color"
 msgstr "পটভূমির রঙ"
@@ -534,7 +542,7 @@ msgstr "শরীরের সেটিংস"
 msgid "BOGO Deal"
 msgstr "BOGO চুক্তি"
 
-#: backend/templates/views/one_click_checkout/settings.php:467
+#: backend/templates/views/one_click_checkout/settings.php:463
 msgid "Border Radius"
 msgstr "সীমানা ব্যাসার্ধ"
 
@@ -611,95 +619,95 @@ msgstr ""
 msgid "Button Padding Top-Bottom"
 msgstr "বাটন প্যাডিং টপ-বটম"
 
-#: backend/templates/views/one_click_checkout/settings.php:95
+#: backend/templates/views/one_click_checkout/settings.php:94
 msgid "Buy Now Button"
 msgstr "এখন কিনতে বাটন"
 
-#: backend/templates/views/one_click_checkout/settings.php:235
-#: backend/templates/views/one_click_checkout/settings.php:323
+#: backend/templates/views/one_click_checkout/settings.php:231
+#: backend/templates/views/one_click_checkout/settings.php:319
 msgid "Buy now button ?"
 msgstr "এখন কিনতে বাটন ?"
 
-#: backend/templates/views/one_click_checkout/settings.php:470
+#: backend/templates/views/one_click_checkout/settings.php:466
 msgid "Buy now button border radius (PX)"
 msgstr "এখন কিনতে বাটন সীমানা ব্যাসার্ধ (PX)"
 
-#: backend/templates/views/one_click_checkout/settings.php:403
+#: backend/templates/views/one_click_checkout/settings.php:399
 msgid "Buy Now Button design"
 msgstr "এখন কিনতে বাটন নকশা"
 
-#: backend/templates/views/one_click_checkout/settings.php:246
-#: backend/templates/views/one_click_checkout/settings.php:334
+#: backend/templates/views/one_click_checkout/settings.php:242
+#: backend/templates/views/one_click_checkout/settings.php:330
 msgid "Buy now button label"
 msgstr "এখন কিনতে বাটন লেবেল"
 
-#: backend/templates/views/one_click_checkout/settings.php:243
-#: backend/templates/views/one_click_checkout/settings.php:331
+#: backend/templates/views/one_click_checkout/settings.php:239
+#: backend/templates/views/one_click_checkout/settings.php:327
 msgid "Buy now button label <span style=\"color: #FF521D;\">(Pro)</span>"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:292
-#: backend/templates/views/one_click_checkout/settings.php:378
+#: backend/templates/views/one_click_checkout/settings.php:288
+#: backend/templates/views/one_click_checkout/settings.php:374
 msgid "Buy now button margin bottom"
 msgstr "এখন কিনতে বাটন মার্জিন নীচে"
 
-#: backend/templates/views/one_click_checkout/settings.php:295
-#: backend/templates/views/one_click_checkout/settings.php:381
+#: backend/templates/views/one_click_checkout/settings.php:291
+#: backend/templates/views/one_click_checkout/settings.php:377
 msgid "Buy now button margin bottom (PX)."
 msgstr "এখন কিনতে বাটন মার্জিন নীচে (PX)."
 
-#: backend/templates/views/one_click_checkout/settings.php:300
-#: backend/templates/views/one_click_checkout/settings.php:386
+#: backend/templates/views/one_click_checkout/settings.php:296
+#: backend/templates/views/one_click_checkout/settings.php:382
 msgid "Buy now button margin left"
 msgstr "এখন কিনতে বাটন মার্জিন বাম"
 
-#: backend/templates/views/one_click_checkout/settings.php:303
-#: backend/templates/views/one_click_checkout/settings.php:389
+#: backend/templates/views/one_click_checkout/settings.php:299
+#: backend/templates/views/one_click_checkout/settings.php:385
 msgid "Buy now button margin left (PX)."
 msgstr "এখন কিনতে বাটন মার্জিন বাম (PX)."
 
-#: backend/templates/views/one_click_checkout/settings.php:308
-#: backend/templates/views/one_click_checkout/settings.php:394
+#: backend/templates/views/one_click_checkout/settings.php:304
+#: backend/templates/views/one_click_checkout/settings.php:390
 msgid "Buy now button margin right"
 msgstr "এখন কিনতে বাটন ডান মার্জিন"
 
-#: backend/templates/views/one_click_checkout/settings.php:311
-#: backend/templates/views/one_click_checkout/settings.php:397
+#: backend/templates/views/one_click_checkout/settings.php:307
+#: backend/templates/views/one_click_checkout/settings.php:393
 msgid "Buy now button margin right (PX)."
 msgstr "এখন কিনতে বাটন মার্জিন ডান (PX)."
 
-#: backend/templates/views/one_click_checkout/settings.php:284
-#: backend/templates/views/one_click_checkout/settings.php:370
+#: backend/templates/views/one_click_checkout/settings.php:280
+#: backend/templates/views/one_click_checkout/settings.php:366
 msgid "Buy now button margin top"
 msgstr "এখন কিনতে বাটন মার্জিন শীর্ষ"
 
-#: backend/templates/views/one_click_checkout/settings.php:287
-#: backend/templates/views/one_click_checkout/settings.php:373
+#: backend/templates/views/one_click_checkout/settings.php:283
+#: backend/templates/views/one_click_checkout/settings.php:369
 msgid "Buy now button margin top (PX)."
 msgstr "এখন কিনতে বাটন মার্জিন শীর্ষ (PX)."
 
-#: backend/templates/views/one_click_checkout/settings.php:462
+#: backend/templates/views/one_click_checkout/settings.php:458
 msgid "Buy now button padding left & right (PX)"
 msgstr "এখন কিনতে বাটন প্যাডিং বাম ও ডান (PX)"
 
-#: backend/templates/views/one_click_checkout/settings.php:454
+#: backend/templates/views/one_click_checkout/settings.php:450
 msgid "Buy now button padding top & bottom (PX)"
 msgstr "এখন কিনতে বাটন প্যাডিং শীর্ষ & নীচে (PX)"
 
-#: backend/templates/views/one_click_checkout/settings.php:227
+#: backend/templates/views/one_click_checkout/settings.php:223
 msgid "Buy Now Button Settings"
 msgstr "এখন কিনতে বাটন সেটিংস"
 
-#: backend/templates/views/one_click_checkout/settings.php:276
-#: backend/templates/views/one_click_checkout/settings.php:362
+#: backend/templates/views/one_click_checkout/settings.php:272
+#: backend/templates/views/one_click_checkout/settings.php:358
 msgid "Buy now button width"
 msgstr "এখন কিনতে বাটন প্রস্থ"
 
-#: backend/templates/views/one_click_checkout/settings.php:365
+#: backend/templates/views/one_click_checkout/settings.php:361
 msgid "Buy now button width on product archive page (PX)."
 msgstr "এখন কিনতে বাটন প্রস্থ উপর পণ্য আর্কাইভ পাতা (PX)."
 
-#: backend/templates/views/one_click_checkout/settings.php:279
+#: backend/templates/views/one_click_checkout/settings.php:275
 msgid "Buy now button width on product page (PX)."
 msgstr "এখন কিনতে বাটন প্রস্থ পণ্য পাতা নেভিগেশন (PX)."
 
@@ -798,7 +806,7 @@ msgstr "চেকবক্স আনচেক পটভূমির রঙ"
 msgid "Checkbox Unchecked Border Color"
 msgstr "চেকবক্স আনচেক সীমানা রং"
 
-#: backend/templates/views/one_click_checkout/settings.php:96
+#: backend/templates/views/one_click_checkout/settings.php:95
 msgid "Checkout"
 msgstr "চেকআউট"
 
@@ -820,7 +828,7 @@ msgstr "চেকআউট বাটন"
 msgid "Checkout Page"
 msgstr "চেকআউট পাতা"
 
-#: backend/templates/views/one_click_checkout/settings.php:479
+#: backend/templates/views/one_click_checkout/settings.php:475
 msgid "Checkout Settings"
 msgstr "চেকআউট সেটিংস"
 
@@ -840,11 +848,11 @@ msgstr "নির্বাচন স্পট কার্ট পাতা."
 msgid "Choose the discount amount for this deal."
 msgstr "নির্বাচন ছাড় পরিমাণ জন্য এই চুক্তি."
 
-#: backend/templates/views/one_click_checkout/settings.php:533
+#: backend/templates/views/one_click_checkout/settings.php:529
 msgid "Choose the info you want to delete from 'Billing.'"
 msgstr "চয়ন করুন এবং তথ্য আপনি মুছে ফেলতে চান থেকে 'বিলিং.'"
 
-#: backend/templates/views/one_click_checkout/settings.php:553
+#: backend/templates/views/one_click_checkout/settings.php:549
 msgid "Choose which information you want to delete from the Shipping Section."
 msgstr "যা তথ্য চয়ন, আপনি মুছে ফেলতে চান থেকে গ্রেপ্তার অধ্যায়."
 
@@ -976,14 +984,6 @@ msgstr "বার্তা কাস্টমাইজ"
 msgid "Customize Styles"
 msgstr "কাস্টমাইজ শৈলী"
 
-#: backend/templates/views/pdf_invoice/settings.php:119
-msgid "Deactivate Invoice?"
-msgstr "নিষ্ক্রিয় চালান?"
-
-#: backend/templates/views/pdf_invoice/settings.php:127
-msgid "Deactivate Shipping Label?"
-msgstr "নিষ্ক্রিয় শিপিং লেবেল?"
-
 #: backend/templates/views/bogo_deal/settings.php:66
 msgid "Delete Rule"
 msgstr "মুছে নিয়ম"
@@ -1098,8 +1098,11 @@ msgstr "সক্রিয় ঝুড়ি d"
 msgid "Enable Progress Bar"
 msgstr "সক্রিয় অগ্রগতি বার"
 
-#: backend/templates/views/one_click_checkout/settings.php:116
-#: backend/templates/views/one_click_checkout/settings.php:119
+#: backend/templates/views/one_click_checkout/settings.php:118
+msgid "Enable single page checkout ?"
+msgstr "সক্রিয়, একক পাতা চেকআউট ?"
+
+#: backend/templates/views/one_click_checkout/settings.php:115
 msgid "Enable single page checkout?"
 msgstr "সক্রিয়, একক পাতা চেকআউট?"
 
@@ -1107,12 +1110,12 @@ msgstr "সক্রিয়, একক পাতা চেকআউট?"
 msgid "Enable Sticky Bar"
 msgstr "সক্রিয় চটচটে বার"
 
-#: backend/templates/views/one_click_checkout/settings.php:238
-#: backend/templates/views/one_click_checkout/settings.php:326
+#: backend/templates/views/one_click_checkout/settings.php:234
+#: backend/templates/views/one_click_checkout/settings.php:322
 msgid "Enable the \"Buy Now\" button on the product page."
 msgstr "সক্রিয় করুন \"এখনই কিনুন\" বাটন পণ্য পাতা নেভিগেশন."
 
-#: backend/templates/views/one_click_checkout/settings.php:111
+#: backend/templates/views/one_click_checkout/settings.php:110
 msgid ""
 "Enable the option to skip the cart page and redirect directly to the "
 "checkout page."
@@ -1218,7 +1221,7 @@ msgstr "উল্টানো সুইচ ব্যবহার করার �
 msgid "Floating Cart"
 msgstr "ভাসমান কার্ট"
 
-#: backend/templates/views/one_click_checkout/settings.php:406
+#: backend/templates/views/one_click_checkout/settings.php:402
 msgid "Font Color"
 msgstr "ফন্ট রঙ"
 
@@ -1264,14 +1267,15 @@ msgstr "ঠিকানা থেকে"
 #: backend/templates/views/coupon_generator/settings.php:59
 #: backend/templates/views/coupon_generator/settings.php:73
 #: backend/templates/views/floating_cart/settings.php:118
-#: backend/templates/views/one_click_checkout/settings.php:93
+#: backend/templates/views/one_click_checkout/settings.php:92
+#: backend/templates/views/pdf_invoice/settings.php:95
 #: backend/templates/views/product_filter/settings.php:109
 msgid "General"
 msgstr "সাধারণ"
 
 #: backend/templates/views/address_book/settings.php:86
 #: backend/templates/views/floating_cart/settings.php:154
-#: backend/templates/views/one_click_checkout/settings.php:103
+#: backend/templates/views/one_click_checkout/settings.php:102
 #: backend/templates/views/pdf_invoice/settings.php:140
 #: backend/templates/views/product_filter/settings.php:135
 msgid "General Settings"
@@ -1373,11 +1377,11 @@ msgstr "আড়াল মূল্য যদি আপনি না/t চা�
 msgid "Hide when cart is empty"
 msgstr "যখন আড়াল কার্ট খালি"
 
-#: backend/templates/views/one_click_checkout/settings.php:440
+#: backend/templates/views/one_click_checkout/settings.php:436
 msgid "Hover Background Color"
 msgstr "উপর কার্সার রেখে দেখুন পটভূমির রঙ"
 
-#: backend/templates/views/one_click_checkout/settings.php:428
+#: backend/templates/views/one_click_checkout/settings.php:424
 msgid "Hover Font Color"
 msgstr "উপর কার্সার রেখে দেখুন ফন্টের রং"
 
@@ -1693,7 +1697,7 @@ msgstr "স্টক আউট"
 msgid "Padding Bottom"
 msgstr "প্যাডিং বটম"
 
-#: backend/templates/views/one_click_checkout/settings.php:459
+#: backend/templates/views/one_click_checkout/settings.php:455
 #: backend/templates/views/shipping_bar/settings.php:400
 msgid "Padding Left-Right"
 msgstr "প্যাডিং বাম-ডান"
@@ -1702,7 +1706,7 @@ msgstr "প্যাডিং বাম-ডান"
 msgid "Padding Top"
 msgstr "প্যাডিং শীর্ষ"
 
-#: backend/templates/views/one_click_checkout/settings.php:451
+#: backend/templates/views/one_click_checkout/settings.php:447
 msgid "Padding Top-Bottom"
 msgstr "প্যাডিং টপ-বটম"
 
@@ -1780,8 +1784,8 @@ msgstr "দয়া করে প্রথম যোগ করার জন্�
 #: backend/templates/views/floating_cart/settings.php:717
 #: backend/templates/views/floating_cart/settings.php:759
 #: backend/templates/views/floating_cart/settings.php:788
-#: backend/templates/views/one_click_checkout/settings.php:520
-#: backend/templates/views/one_click_checkout/settings.php:541
+#: backend/templates/views/one_click_checkout/settings.php:516
+#: backend/templates/views/one_click_checkout/settings.php:537
 #: backend/templates/views/pdf_invoice/settings.php:297
 #: backend/templates/views/pdf_invoice/settings.php:317
 #: backend/templates/views/product_filter/settings.php:182
@@ -1857,8 +1861,8 @@ msgstr ""
 msgid "Please turn on if you want to auto open floating cart."
 msgstr "দয়া করে চালু করতে চান, তাহলে আপনি অটো ওপেন ভাসমান কার্ট."
 
-#: backend/templates/views/one_click_checkout/settings.php:263
-#: backend/templates/views/one_click_checkout/settings.php:351
+#: backend/templates/views/one_click_checkout/settings.php:259
+#: backend/templates/views/one_click_checkout/settings.php:347
 msgid "Position Of the Button <span style=\"color: #FF521D;\">(Pro)</span>"
 msgstr ""
 
@@ -2038,7 +2042,7 @@ msgstr "পরিমাণ বক্স টেক্সট রঙ"
 msgid "Quantity Box Width"
 msgstr "পরিমাণ বক্স প্রস্থ"
 
-#: backend/templates/views/one_click_checkout/settings.php:178
+#: backend/templates/views/one_click_checkout/settings.php:174
 msgid "Quickly add item to shopping cart with Ajax."
 msgstr "দ্রুত আইটেম যোগ করার জন্য, শপিং কার্ট, Ajax সঙ্গে."
 
@@ -2050,7 +2054,7 @@ msgstr "রেটিং ফিল্টার"
 msgid "Rating Filter Settings"
 msgstr "রেটিং ফিল্টার সেটিংস"
 
-#: backend/templates/views/one_click_checkout/settings.php:215
+#: backend/templates/views/one_click_checkout/settings.php:211
 msgid "Read more button text"
 msgstr "Read more বাটন টেক্সট"
 
@@ -2058,11 +2062,11 @@ msgstr "Read more বাটন টেক্সট"
 msgid "Recommended image size 150px X 60px"
 msgstr "প্রস্তাবিত ইমেজ সাইজ 150px X 60px"
 
-#: backend/templates/views/one_click_checkout/settings.php:152
+#: backend/templates/views/one_click_checkout/settings.php:151
 msgid "Redirect to custom url"
 msgstr "কাস্টম url পুনর্নির্দেশ"
 
-#: backend/templates/views/one_click_checkout/settings.php:135
+#: backend/templates/views/one_click_checkout/settings.php:134
 msgid ""
 "Redirect to custom url instead of page, so using this you can redirect to "
 "any page."
@@ -2070,20 +2074,20 @@ msgstr ""
 "Redirect করার জন্য কাস্টম url পরিবর্তে পাতা, তাই এই ব্যবহার করতে পারেন, আপনি "
 "কোনো পাতা পুনর্চালনা করুন."
 
-#: backend/templates/views/one_click_checkout/settings.php:132
+#: backend/templates/views/one_click_checkout/settings.php:131
 msgid "Redirect to custom url?"
 msgstr "Redirect করার জন্য কাস্টম url-এ?"
 
-#: backend/templates/views/one_click_checkout/settings.php:140
+#: backend/templates/views/one_click_checkout/settings.php:139
 msgid "Redirect to page"
 msgstr "থেকে পুনর্নির্দেশ পাতা"
 
-#: backend/templates/views/one_click_checkout/settings.php:251
-#: backend/templates/views/one_click_checkout/settings.php:339
+#: backend/templates/views/one_click_checkout/settings.php:247
+#: backend/templates/views/one_click_checkout/settings.php:335
 msgid "Redirect to page <span style=\"color: #FF521D;\">(Pro)</span>"
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:155
+#: backend/templates/views/one_click_checkout/settings.php:154
 msgid ""
 "Redirect to this any custom url of your website e.g.: http://yourwebsite.com"
 msgstr ""
@@ -2100,11 +2104,11 @@ msgstr "পুনর্নির্দেশ Url সেটিংস"
 msgid "Refunded Order"
 msgstr "ফেরত অর্ডার"
 
-#: backend/templates/views/one_click_checkout/settings.php:517
+#: backend/templates/views/one_click_checkout/settings.php:513
 msgid "Remove billing fields? "
 msgstr ""
 
-#: backend/templates/views/one_click_checkout/settings.php:492
+#: backend/templates/views/one_click_checkout/settings.php:488
 msgid "Remove coupon form?"
 msgstr "কুপন সরান ফর্ম?"
 
@@ -2112,15 +2116,15 @@ msgstr "কুপন সরান ফর্ম?"
 msgid "Remove from auto apply"
 msgstr "দূর থেকে স্বয়ংক্রিয় আবেদন"
 
-#: backend/templates/views/one_click_checkout/settings.php:484
+#: backend/templates/views/one_click_checkout/settings.php:480
 msgid "Remove order comment?"
 msgstr "অপসারণ আদেশ মন্তব্য?"
 
-#: backend/templates/views/one_click_checkout/settings.php:500
+#: backend/templates/views/one_click_checkout/settings.php:496
 msgid "Remove policy text?"
 msgstr "অপসারণ নীতি টেক্সট?"
 
-#: backend/templates/views/one_click_checkout/settings.php:508
+#: backend/templates/views/one_click_checkout/settings.php:504
 msgid "Remove terms & condition?"
 msgstr "অপসারণ শর্তাবলী & শর্ত?"
 
@@ -2149,7 +2153,7 @@ msgstr "পরিবর্তন সংরক্ষণ করুন"
 
 #: backend/templates/views/address_book/settings.php:364
 #: backend/templates/views/floating_cart/settings.php:841
-#: backend/templates/views/one_click_checkout/settings.php:568
+#: backend/templates/views/one_click_checkout/settings.php:564
 #: backend/templates/views/pdf_invoice/settings.php:577
 #: backend/templates/views/product_filter/settings.php:749
 #: backend/templates/views/product_sticky_bar/settings.php:425
@@ -2209,10 +2213,10 @@ msgstr "অনুসন্ধান পণ্য"
 #: backend/templates/views/floating_cart/settings.php:812
 #: backend/templates/views/floating_cart/settings.php:822
 #: backend/templates/views/floating_cart/settings.php:832
-#: backend/templates/views/one_click_checkout/settings.php:410
-#: backend/templates/views/one_click_checkout/settings.php:421
-#: backend/templates/views/one_click_checkout/settings.php:433
-#: backend/templates/views/one_click_checkout/settings.php:444
+#: backend/templates/views/one_click_checkout/settings.php:406
+#: backend/templates/views/one_click_checkout/settings.php:417
+#: backend/templates/views/one_click_checkout/settings.php:429
+#: backend/templates/views/one_click_checkout/settings.php:440
 #: backend/templates/views/product_filter/settings.php:254
 #: backend/templates/views/product_filter/settings.php:265
 #: backend/templates/views/product_filter/settings.php:277
@@ -2265,7 +2269,7 @@ msgstr "নির্বাচন রঙ"
 msgid "Select Don't Show Pages"
 msgstr "নির্বাচন না প্রদর্শন পেজ"
 
-#: backend/templates/views/one_click_checkout/settings.php:207
+#: backend/templates/views/one_click_checkout/settings.php:203
 msgid "Select options button text"
 msgstr "বিকল্প নির্বাচন করুন বাটন টেক্সট"
 
@@ -2347,19 +2351,19 @@ msgstr "সেট সীমানা রং এর পূর্ববর্ত�
 msgid "Set border hover color of all buttons"
 msgstr "সেট সীমানা উপর কার্সার রেখে দেখুন রঙ এর সব বোতাম"
 
-#: backend/templates/views/one_click_checkout/settings.php:423
+#: backend/templates/views/one_click_checkout/settings.php:419
 msgid "Set button background color"
 msgstr "সেট বাটন পটভূমির রঙ"
 
-#: backend/templates/views/one_click_checkout/settings.php:446
+#: backend/templates/views/one_click_checkout/settings.php:442
 msgid "Set button background color on hover"
 msgstr "সেট বাটন পটভূমির রঙ উপর কার্সার রেখে দেখুন"
 
-#: backend/templates/views/one_click_checkout/settings.php:412
+#: backend/templates/views/one_click_checkout/settings.php:408
 msgid "Set button font color"
 msgstr "সেট বাটন ফন্টের রং"
 
-#: backend/templates/views/one_click_checkout/settings.php:435
+#: backend/templates/views/one_click_checkout/settings.php:431
 msgid "Set button font color on hover"
 msgstr "সেট বাটন ফন্ট রঙ, উপর কার্সার রেখে দেখুন"
 
@@ -2822,11 +2826,11 @@ msgstr "গ্রেপ্তার"
 msgid "Shipping Address"
 msgstr "শিপিং ঠিকানা"
 
-#: backend/templates/views/one_click_checkout/settings.php:544
+#: backend/templates/views/one_click_checkout/settings.php:540
 msgid "Shipping Address 1"
 msgstr "শিপিং ঠিকানা 1"
 
-#: backend/templates/views/one_click_checkout/settings.php:545
+#: backend/templates/views/one_click_checkout/settings.php:541
 msgid "Shipping Address 2"
 msgstr "শিপিং ঠিকানা 2"
 
@@ -2856,15 +2860,15 @@ msgstr "শিপিং বার বিন্যাস"
 msgid "Shipping Bar Position"
 msgstr "শিপিং বার অবস্থান"
 
-#: backend/templates/views/one_click_checkout/settings.php:547
+#: backend/templates/views/one_click_checkout/settings.php:543
 msgid "Shipping City"
 msgstr "গ্রেপ্তার সিটি"
 
-#: backend/templates/views/one_click_checkout/settings.php:550
+#: backend/templates/views/one_click_checkout/settings.php:546
 msgid "Shipping Company"
 msgstr "শিপিং কোম্পানি"
 
-#: backend/templates/views/one_click_checkout/settings.php:546
+#: backend/templates/views/one_click_checkout/settings.php:542
 msgid "Shipping Country"
 msgstr "শিপিং দেশ"
 
@@ -2872,7 +2876,7 @@ msgstr "শিপিং দেশ"
 msgid "Shipping Date"
 msgstr "শিপিং তারিখ"
 
-#: backend/templates/views/one_click_checkout/settings.php:542
+#: backend/templates/views/one_click_checkout/settings.php:538
 msgid "Shipping First Name"
 msgstr "শিপিং প্রথম নাম"
 
@@ -2880,15 +2884,15 @@ msgstr "শিপিং প্রথম নাম"
 msgid "Shipping Label Customization"
 msgstr "শিপিং লেবেল স্বনির্ধারণ"
 
-#: backend/templates/views/one_click_checkout/settings.php:543
+#: backend/templates/views/one_click_checkout/settings.php:539
 msgid "Shipping Last Name"
 msgstr "গ্রেপ্তার শেষ নাম"
 
-#: backend/templates/views/one_click_checkout/settings.php:549
+#: backend/templates/views/one_click_checkout/settings.php:545
 msgid "Shipping Postcode"
 msgstr "গ্রেপ্তার পোস্টকোড"
 
-#: backend/templates/views/one_click_checkout/settings.php:548
+#: backend/templates/views/one_click_checkout/settings.php:544
 msgid "Shipping State"
 msgstr "গ্রেপ্তার প্রদেশ"
 
@@ -2952,8 +2956,8 @@ msgid "Show Cart Total?"
 msgstr "শো কার্ট মোট?"
 
 #: backend/templates/views/product_filter/settings.php:164
-msgid "Show Category Filter?"
-msgstr "প্রদর্শন বিভাগ ফিল্টার?"
+msgid "Show Category Filter"
+msgstr "প্রদর্শন বিভাগ ফিল্টার"
 
 #: backend/templates/views/floating_cart/settings.php:298
 msgid "Show Discount?"
@@ -2976,8 +2980,8 @@ msgid "Show Only After Scroll"
 msgstr "প্রদর্শন শুধুমাত্র পরে স্ক্রোল"
 
 #: backend/templates/views/product_filter/settings.php:148
-msgid "Show Price Filter?"
-msgstr "দেখান মূল্য ফিল্টার?"
+msgid "Show Price Filter"
+msgstr "দেখান মূল্য ফিল্টার"
 
 #: backend/templates/views/product_sticky_bar/settings.php:210
 msgid "Show Product Image"
@@ -3012,12 +3016,12 @@ msgid "Show progress bar with free shipping bar."
 msgstr "প্রদর্শন অগ্রগতি বার সঙ্গে ফ্রি শিপিং বার."
 
 #: backend/templates/views/product_filter/settings.php:156
-msgid "Show Rating Filter?"
-msgstr "শো রেটিং ফিল্টার?"
+msgid "Show Rating Filter"
+msgstr "শো রেটিং ফিল্টার"
 
 #: backend/templates/views/product_filter/settings.php:140
-msgid "Show Search Filter?"
-msgstr "দেখান অনুসন্ধান ফিল্টার?"
+msgid "Show Search Filter"
+msgstr "দেখান অনুসন্ধান ফিল্টার"
 
 #: backend/templates/views/floating_cart/settings.php:306
 msgid "Show Shipping Amount?"
@@ -3032,14 +3036,14 @@ msgid "Show Stock Status"
 msgstr "প্রদর্শন স্টক অবস্থা"
 
 #: backend/templates/views/product_filter/settings.php:171
-msgid "Show Stock Status Filter?"
-msgstr "প্রদর্শন স্টক অবস্থা ফিল্টার?"
+msgid "Show Stock Status Filter"
+msgstr "প্রদর্শন স্টক অবস্থা ফিল্টার"
 
 #: backend/templates/views/floating_cart/settings.php:290
 msgid "Show Subtotal?"
 msgstr "প্রদর্শন সাবটোটাল?"
 
-#: backend/templates/views/one_click_checkout/settings.php:538
+#: backend/templates/views/one_click_checkout/settings.php:534
 msgid "Skip shipping details?"
 msgstr "লাফালাফি, গ্রেপ্তার বিবরণ?"
 
@@ -3129,11 +3133,11 @@ msgstr "টেক্সট রঙ এর বার্তা"
 msgid "This feature is only available in the premium version of wcEazy"
 msgstr "এই বৈশিষ্ট্য শুধুমাত্র উপলব্ধ প্রিমিয়াম সংস্করণ wcEazy"
 
-#: backend/templates/views/one_click_checkout/settings.php:202
+#: backend/templates/views/one_click_checkout/settings.php:198
 msgid "This text will be shown inside add to cart button."
 msgstr "এই টেক্সট দেখানো হবে ভিতরে কার্ট বাটন যুক্ত করুন."
 
-#: backend/templates/views/one_click_checkout/settings.php:218
+#: backend/templates/views/one_click_checkout/settings.php:214
 msgid ""
 "This text will be shown on archive page for the product when the product is "
 "out of stock, leave blank if you want to use default"
@@ -3141,7 +3145,7 @@ msgstr ""
 "এই টেক্সট দেখানো হবে আর্কাইভ পৃষ্ঠার জন্য পণ্য যখন পণ্য স্টক আউট, ফাঁকা "
 "ছেড়ে দিন, তাহলে আপনি ব্যবহার করতে চান, ডিফল্ট"
 
-#: backend/templates/views/one_click_checkout/settings.php:210
+#: backend/templates/views/one_click_checkout/settings.php:206
 msgid ""
 "This text will be shown on the archive page for the variable product, leave "
 "blank if you want to use default text."
@@ -3293,11 +3297,11 @@ msgstr "বন্ধ যদি আপনি করবেন/টি দেখা�
 msgid "Turn off Products"
 msgstr "বন্ধ পণ্য"
 
-#: backend/templates/views/one_click_checkout/settings.php:108
+#: backend/templates/views/one_click_checkout/settings.php:107
 msgid "Turn off shopping cart page?"
 msgstr "বন্ধ শপিং কার্ট পাতা?"
 
-#: backend/templates/views/one_click_checkout/settings.php:161
+#: backend/templates/views/one_click_checkout/settings.php:160
 msgid "Turn off the \"Keep Shopping\" button."
 msgstr "বন্ধ রাখুন \"কেনাকাটা\" বাটন."
 
@@ -3313,19 +3317,19 @@ msgstr "চালু বন্ধ করতে আড়াল পণ্যে�
 msgid "Turn off to prevent deleting items from the cart."
 msgstr "চালু বন্ধ করতে প্রতিরোধ মুছে ফেলা আইটেম কার্ট থেকে."
 
-#: backend/templates/views/one_click_checkout/settings.php:495
+#: backend/templates/views/one_click_checkout/settings.php:491
 msgid "Turn on if you want to remove ‘Coupon Form’."
 msgstr "চালু হলে, আপনি মুছে ফেলতে চান 'কুপন ফর্ম'."
 
-#: backend/templates/views/one_click_checkout/settings.php:487
+#: backend/templates/views/one_click_checkout/settings.php:483
 msgid "Turn on if you want to remove ‘Order Comment’."
 msgstr "চালু হলে, আপনি মুছে ফেলতে চান 'অর্ডার কমেন্ট'."
 
-#: backend/templates/views/one_click_checkout/settings.php:503
+#: backend/templates/views/one_click_checkout/settings.php:499
 msgid "Turn on if you want to remove ‘Policy Text’."
 msgstr "চালু হলে, আপনি মুছে ফেলতে চান 'নীতি টেক্সট'."
 
-#: backend/templates/views/one_click_checkout/settings.php:511
+#: backend/templates/views/one_click_checkout/settings.php:507
 msgid "Turn on if you want to remove ‘Terms & Condition’."
 msgstr "চালু হলে, আপনি অপসারণ করতে চান, 'Terms & Condition'."
 
@@ -3356,11 +3360,11 @@ msgid ""
 "subtotal area."
 msgstr "সুইচ চালু দেখানোর জন্য ফ্রি শিপিং বিজ্ঞপ্তি চেকআউট উপমোট এলাকায়."
 
-#: backend/templates/views/one_click_checkout/settings.php:193
+#: backend/templates/views/one_click_checkout/settings.php:189
 msgid "Turn on to change the button text of add to cart button."
 msgstr "চালু পরিবর্তন করার বাটন টেক্সট যোগ করুন, কার্ট বাটন."
 
-#: backend/templates/views/one_click_checkout/settings.php:184
+#: backend/templates/views/one_click_checkout/settings.php:180
 msgid "Turn on to enable Quickly add item to shopping cart with Ajax.."
 msgstr "চালু করতে সক্ষম, দ্রুত আইটেম যোগ করার জন্য, শপিং কার্ট, Ajax সঙ্গে.."
 
@@ -3476,21 +3480,22 @@ msgstr "wcEazy URL টি কুপন"
 msgid "Weight"
 msgstr "ওজন"
 
-#: backend/templates/views/one_click_checkout/settings.php:127
+#: backend/templates/views/one_click_checkout/settings.php:126
 msgid ""
 "When turned on, clicking \"Add to Cart\" takes customers straight to the "
 "Checkout page."
 msgstr ""
 "যখন চালু ক্লিক করে \"Add to Cart\" লাগে গ্রাহকদের সরাসরি চেকআউট পৃষ্ঠা থেকে."
 
-#: backend/templates/views/one_click_checkout/settings.php:164
+#: backend/templates/views/one_click_checkout/settings.php:163
 msgid ""
 "WooCommerce shows a continue shopping button after a product is added to "
-"cart, with this option you can disable that link so user re"
+"cart. With this option, you can disable that link so users replace the text "
+"you want to complete the sentence here"
 msgstr ""
 "ওয়ার্ডপ্রেস দেখায়, একটি অবিরত কেনাকাটা বাটন পরে, একটি পণ্য কার্ট যোগ করা "
-"হয়, এই বিকল্প সঙ্গে, আপনি নিষ্ক্রিয় করতে পারেন যে লিঙ্ক, তাই ব্যবহারকারী "
-"পুনরায়"
+"হয়. এই বিকল্প সঙ্গে, আপনি নিষ্ক্রিয় করতে পারেন যে লিঙ্ক, তাই "
+"ব্যবহারকারীদের টেক্সট প্রতিস্থাপন করতে চান, আপনি সম্পূর্ণ বাক্য এখানে"
 
 #: backend/templates/views/auto_apply_coupon/settings.php:98
 msgid "Yes"

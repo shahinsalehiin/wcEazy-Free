@@ -92,7 +92,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                         <h1><?php esc_html_e('PDF Document', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_item" data-target="tab_general">
-                        <h1>General</h1>
+                        <h1><?php esc_html_e('General', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_item" data-target="tab_invoice">
                         <h1><?php esc_html_e('Invoice', 'wceazy'); ?></h1>
@@ -116,7 +116,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
 
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_deactivate_invoice">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Deactivate Invoice?', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Activate Invoice', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_deactivate_invoice == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
                                 <small><?php esc_html_e('Switch off to stop getting invoices.', 'wceazy'); ?></small>
@@ -124,7 +124,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                         </div>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_deactivate_shipping_label">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Deactivate Shipping Label?', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Activate Shipping Label?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_deactivate_shipping_label == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
                                 <small><?php esc_html_e('Turn off for no label, turn on for label when needed.', 'wceazy'); ?></small>
