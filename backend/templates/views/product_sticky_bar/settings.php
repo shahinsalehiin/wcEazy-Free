@@ -84,7 +84,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
             <div class="wceazy_product_sticky_bar_tab_part_right">
                 <div class="coupon_tab_body" data-id="tab_settings">
                     <div class="tab_body_title">
-                        <h1><?php esc_html_e('Bar Settings', 'wceazy'); ?></h1>
+                        <h1><?php esc_html_e('Settings', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_body_form">
 
@@ -93,7 +93,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Enable Sticky Bar', 'wceazy') ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_psb_is_enable == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you want to disabled sticky bar', 'wceazy') ?></small>
+                                <small><?php esc_html_e('Turn off the sticky bar if you don/t want it.', 'wceazy') ?></small>
                             </div>
                         </div>
 
@@ -102,7 +102,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_psb_show_on_desktop == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
                                 <small>
-                                    <?php esc_html_e('Please turn off if you don\'t want to show sticky bar on desktop', 'wceazy') ?>
+                                    <?php esc_html_e('Toggle off if you don/t want the sticky bar on desktop', 'wceazy') ?>
                                 </small>
 
                             </div>
@@ -115,7 +115,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
                                     <input type="checkbox" <?php echo esc_attr($wceazy_psb_show_on_mobile == "yes" ? "checked" : ""); ?>>
                                     <span class="slider round"></span>
                                 </label>
-                                <small><?php esc_html_e('Please turn off if you don\'t want to show sticky bar on mobile', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Toggle off if you don/t want the sticky bar on mobile.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -145,7 +145,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Scroll Pixels', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_product_sticky_bar_text_field" type="number" placeholder="180" value="<?php echo esc_attr($wceazy_psb_scroll_pixels); ?>">
-                                <small><?php esc_html_e('Show Bar after user scroll given pixels on the product page, Only work when "Scroll Pixels" option is enabled. Default 180px.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Display a bar on the product page when the user scrolls a certain distance. It only activates if the "Scroll Pixels" option is turned on, with a default setting of 180 pixels.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -176,7 +176,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
 
 
                         <div class="wceazy_product_sticky_bar_field_group wceazy_product_sticky_bar_disabled_products">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Disable for Products', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+                            <label for="coupon_generator_coupon_amount" style="color: #FF521D;"><?php esc_html_e('Turn off Products', 'wceazy'); ?> <span><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <select class="wceazy_product_sticky_bar_select_field" multiple="multiple" disabled>
                                     <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
@@ -313,7 +313,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
 
 
                         <div class="wceazy_product_sticky_bar_field_group wceazy_product_sticky_bar_btn_bg_color">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Button Background Color <span style="color: #FF521D;">(Pro)</span>', 'wceazy'); ?><?php esc_html_e('', 'wceazy'); ?></label>
+                        <label for="coupon_generator_coupon_amount"><?php esc_html_e('Button Background Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <div class="color_picker_area">
                                     <input disabled type="color" id="wceazy_product_sticky_bar_btn_bg_color" value="<?php echo esc_attr($wceazy_psb_btn_bg_color); ?>">
@@ -324,7 +324,10 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
 
 
                         <div class="wceazy_product_sticky_bar_field_group wceazy_product_sticky_bar_btn_font_color">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Button Font Color <span ', 'wceazy'); ?>style="color: #FF521D;"><?php esc_html_e('(Pro)</span>', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount">
+                                <?php esc_html_e('Button Font Color', 'wceazy'); ?>
+                                <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span>
+                            </label>
                             <div class="field_with_msg_container">
                                 <div class="color_picker_area">
                                     <input disabled type="color" id="wceazy_product_sticky_bar_btn_font_color" value="<?php echo esc_attr($wceazy_psb_btn_font_color); ?>">
@@ -343,7 +346,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
 
 
                         <div class="wceazy_product_sticky_bar_field_group wceazy_product_sticky_bar_btn_border_color">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Button Border Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)</span>', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Button Border Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <div class="color_picker_area">
                                     <input disabled type="color" id="wceazy_product_sticky_bar_btn_border_color" value="<?php echo esc_attr($wceazy_psb_btn_border_color); ?>">
@@ -363,7 +366,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
 
 
                         <div class="wceazy_product_sticky_bar_field_group wceazy_product_sticky_bar_btn_bg_hover_color">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Button Background Hover Color ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)</span>', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Button Background Hover Color ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <div class="color_picker_area">
                                     <input disabled type="color" id="wceazy_product_sticky_bar_btn_bg_hover_color" value="<?php echo esc_attr($wceazy_psb_btn_bg_hover_color); ?>">
@@ -400,7 +403,7 @@ $wceazy_psb_btn_padding_top_bottom = isset($wceazy_psb_settings["btn_padding_top
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Button Padding Left-Right ', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <input disabled class="wceazy_product_sticky_bar_text_field" type="number" placeholder="30" value="<?php echo esc_attr($wceazy_psb_btn_padding_left_right); ?>">
-                                <small><?php esc_html_e('Set sticky bar add to cart button left-right padding (Default: 30)', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Adjust space around the add to cart button in the sticky bar (Default: 30).', 'wceazy'); ?></small>
                             </div>
                         </div>
 

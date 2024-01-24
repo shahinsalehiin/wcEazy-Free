@@ -22,7 +22,7 @@
         <form class="wceazy_coupon_generator_form_for_reset_purpose">
             <div class="wceazy_coupon_generator_top_action">
                 <div class="wceazy_coupon_generator_field_group_flex wceazy_coupon_generator_prefix">
-                    <label><?php esc_html_e('Prefix', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
+                    <label  style="color: #FF521D;" ><?php esc_html_e('Prefix', 'wceazy'); ?> <span>(Pro)</span></label>
                     <input class="wceazy_coupon_generator_text_field" type="text" placeholder="<?php esc_attr_e('Coupon prefix', 'wceazy'); ?>" disabled>
                 </div>
 
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="wceazy_coupon_generator_field_group_flex wceazy_coupon_generator_coupon_type">
-                    <label class="wceazy_coupon_generator_select2_label"><?php esc_html_e('Coupon Type', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
+                    <label class="wceazy_coupon_generator_select2_label" style="color: #FF521D;"><?php esc_html_e('Coupon Type', 'wceazy'); ?> <span >(Pro)</span></label>
                     <select class="wceazy_coupon_generator_select_field">
                         <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
                         <option value="char"><?php esc_html_e('Characters', 'wceazy'); ?></option>
@@ -81,7 +81,7 @@
                                     <option value="fixed_cart"><?php esc_html_e('Fixed cart discount', 'wceazy'); ?></option>
                                     <option value="fixed_product"><?php esc_html_e('Fixed product discount', 'wceazy'); ?></option>
                                 </select>
-                                <small><?php esc_html_e('The kind of discount to apply for this discount.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Choose the discount amount for this deal.', 'wceazy'); ?></small>
                             </div>
 
                             <div class="wceazy_coupon_generator_field_group wceazy_coupon_generator_coupon_amount">
@@ -123,14 +123,14 @@
                                 <label for="coupon_generator_individual_use"><?php esc_html_e('Individual use only', 'wceazy'); ?></label>
                                 <div class="wceazy_coupon_checkbox">
                                     <input type="checkbox">
-                                    <span class="description"><?php esc_html_e('Check this box if the coupon cannot be used in conjunction with other coupons.', 'wceazy'); ?></span>
+                                    <span class="description"><?php esc_html_e('If coupon can/t be used with others, mark this box.', 'wceazy'); ?></span>
                                 </div>
                             </div>
                             <div class="wceazy_coupon_generator_field_group wceazy_coupon_generator_exclude_sale_items">
                                 <label for="coupon_generator_exclude_sale_items"><?php esc_html_e('Exclude sale items', 'wceazy'); ?></label>
                                 <div class="wceazy_coupon_checkbox">
                                     <input type="checkbox">
-                                    <span class="description"><?php esc_html_e('Check this box if the coupon should not apply to items on sale. Per-item coupons will only work if the item is not on sale. Per-cart coupons will only work if there are items in the cart that are not on sale.', 'wceazy'); ?></span>
+                                    <span class="description"><?php esc_html_e('If it/s on sale, skip the coupon. The coupon only applies to regular-priced items, whether bought alone or in the cart.', 'wceazy'); ?></span>
                                 </div>
                             </div>
                             <div class="wceazy_coupon_generator_field_group wceazy_coupon_generator_product_ids">
@@ -145,7 +145,7 @@
                                 </select>
                             </div>
                             <div class="wceazy_coupon_generator_field_group wceazy_coupon_generator_exclude_product_ids">
-                                <label for="coupon_generator_exclude_product_ids"><?php esc_html_e('Exclude products', 'wceazy'); ?></label>
+                                <label for="coupon_generator_exclude_product_ids"><?php esc_html_e('Leave out items.', 'wceazy'); ?></label>
                                 <select class="wceazy_coupon_generator_select_field" multiple="multiple">
                                     <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
                                     <?php
@@ -190,7 +190,7 @@
                         </div>
                         <div class="tab_body_form" id="tab_body_form">
                             <div class="wceazy_coupon_generator_field_group wceazy_coupon_generator_usage_limit">
-                                <label for="coupon_generator_usage_limit"><?php esc_html_e('Usage limit per coupon', 'wceazy'); ?></label>
+                                <label for="coupon_generator_usage_limit"><?php esc_html_e('How many times you can use it.', 'wceazy'); ?></label>
                                 <input class="wceazy_coupon_generator_text_field" type="number" placeholder="0" step="1" min="0">
                             </div>
                             <div class="wceazy_coupon_generator_field_group wceazy_coupon_generator_limit_usage_to_x_items">

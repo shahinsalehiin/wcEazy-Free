@@ -189,14 +189,42 @@ $unique_id = rand();
             <?php if ($wceazy_pf_show_category_filter == "yes") { ?>
                 <div class="wceazy_pf_category_filter">
                     <label><?php echo esc_html_e($wceazy_pf_category_filter_label_text, 'wceazy'); ?></label>
-                        <div class="wceazy_pf_category_filter_checkbox_container">
+                    <div class="wceazy_pf_category_filter_checkbox_container">
 
-                            <?php foreach ($this->utils->getWooProductCategories() as $category) { ?>
-                                <label class="wceazy_pf_category_filter_checkbox_item" data-slug="<?php echo esc_attr($category["slug"]); ?>"><?php echo esc_attr($category["title"]); ?><input type="checkbox" onchange="wceazy_frontend_pf_search()"><span class="checkmark"></span></label>
-                            <?php } ?>
-                        </div>
+                        <?php 
+                        if (taxonomy_exists('product_cat')) { 
+                            $product_categories = get_terms(array(
+                                'taxonomy'   => 'product_cat',
+                                'hide_empty' => true,
+                            ));
+
+                            if (!empty($product_categories) && !is_wp_error($product_categories)) { 
+                                foreach ($product_categories as $category) { ?>
+                                    <label class="wceazy_pf_category_filter_checkbox_item" data-slug="<?php echo esc_attr($category->slug); ?>">
+                                        <?php echo esc_attr($category->name); ?>
+                                        <input type="checkbox" onchange="wceazy_frontend_pf_search()">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                <?php }
+                            }
+                        }
+ 
+                        if (empty($product_categories)) {
+                            foreach ($this->utils->getWooProductCategories() as $category) { ?>
+                                <label class="wceazy_pf_category_filter_checkbox_item" data-slug="<?php echo esc_attr($category["slug"]); ?>">
+                                    <?php echo esc_attr($category["title"]); ?>
+                                    <input type="checkbox" onchange="wceazy_frontend_pf_search()">
+                                    <span class="checkmark"></span>
+                                </label>
+                        <?php }
+                        }
+                        ?>
+                    </div>
+
                 </div>
             <?php } ?>
+
+
 
             <?php if ($wceazy_pf_show_stock_filter == "yes") { ?>
                 <div class="wceazy_pf_stock_filter">

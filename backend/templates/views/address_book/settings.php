@@ -88,10 +88,10 @@ $wceazy_ab_card_link_text_color = isset($wceazy_ab_settings["card_link_text_colo
                     <div class="tab_body_form">
 
 
-                        <h4><?php esc_html_e('Address Book on Account Page', 'wceazy') ?></h4>
+                        <h4><?php esc_html_e('Account Contacts', 'wceazy') ?></h4>
 
                         <div class="wceazy_address_book_field_group wceazy_address_book_enable_billing_address_book">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Enable Billing Address Book', 'wceazy') ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Set Up Billing Address List', 'wceazy') ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_ab_enable_billing_address_book == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
                                 <small><?php esc_html_e('Turn ON the switch to enable address book for billing.', 'wceazy') ?></small>
@@ -99,28 +99,28 @@ $wceazy_ab_card_link_text_color = isset($wceazy_ab_settings["card_link_text_colo
                         </div>
 
                         <div class="wceazy_address_book_field_group wceazy_address_book_enable_shipping_address_book">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Enable Shipping Address Book', 'wceazy') ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Use "Save Addresses for Shipping."', 'wceazy') ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_ab_enable_shipping_address_book == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Turn ON the switch to enable address book for shipping.', 'wceazy') ?></small>
+                                <small><?php esc_html_e('Flip the switch to use the address book for shipping.', 'wceazy') ?></small>
                             </div>
                         </div>
 
-                        <h4><?php esc_html_e('Address Field on Checkout Page', 'wceazy') ?></h4>
+                        <h4><?php esc_html_e('Checkout Address', 'wceazy') ?></h4>
 
                         <div class="wceazy_address_book_field_group wceazy_address_book_enable_billing_address_book_checkout">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Billing Address Field on Checkout?', 'wceazy') ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkout Address?', 'wceazy') ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_ab_enable_billing_address_book_checkout == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Turn ON the switch to enable address field selection for billing on checkout page.', 'wceazy') ?></small>
+                                <small><?php esc_html_e('"Switch ON to pick your billing address at checkout."', 'wceazy') ?></small>
                             </div>
                         </div>
 
                         <div class="wceazy_address_book_field_group wceazy_address_book_enable_shipping_address_book_checkout">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Shipping Address Field on Checkout?', 'wceazy') ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Checkout Address?', 'wceazy') ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_ab_enable_shipping_address_book_checkout == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Turn ON the switch to enable address field selection for shipping on checkout page.', 'wceazy') ?></small>
+                                <small><?php esc_html_e('Flip the switch to choose your shipping address at checkout.', 'wceazy') ?></small>
                             </div>
                         </div>
 
@@ -140,7 +140,7 @@ $wceazy_ab_card_link_text_color = isset($wceazy_ab_settings["card_link_text_colo
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Address Field Label', 'wceazy') ?></label>
                             <div class="field_with_msg_container">
                                 <input class="wceazy_address_book_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_ab_checkout_field_label); ?>">
-                                <small><?php esc_html_e('Set the address selection field label text on checkout page.', 'wceazy') ?></small>
+                                <small><?php esc_html_e('Change the label text for the address field on the checkout page.', 'wceazy') ?></small>
                             </div>
                         </div>
 
@@ -262,7 +262,7 @@ $wceazy_ab_card_link_text_color = isset($wceazy_ab_settings["card_link_text_colo
                         </div>
 
                         <div class="wceazy_address_book_field_group wceazy_address_book_add_btn_bg_hover_color">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Add Button Background Hover Color', 'wceazy') ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy') ?></span></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Change the color when you hover over the "Add" button.', 'wceazy') ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy') ?></span></label>
                             <div class="field_with_msg_container">
                                 <div class="color_picker_area">
                                     <input disabled type="color" id="wceazy_address_book_add_btn_bg_hover_color" value="<?php echo esc_attr($wceazy_ab_add_btn_bg_hover_color); ?>">
@@ -330,7 +330,7 @@ $wceazy_ab_card_link_text_color = isset($wceazy_ab_settings["card_link_text_colo
                             </div>
                         </div>
                         <div class="wceazy_address_book_field_group wceazy_address_book_card_footer_color">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Address Card Footer Background Color', 'wceazy') ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy') ?></span></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Card Bottom Color', 'wceazy') ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy') ?></span></label>
                             <div class="field_with_msg_container">
                                 <div class="color_picker_area">
                                     <input disabled type="color" id="wceazy_address_book_card_footer_color" value="<?php echo esc_attr($wceazy_ab_card_footer_color); ?>">

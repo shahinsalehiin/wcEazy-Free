@@ -61,473 +61,515 @@ $wceazy_occ_remove_shipping_fields = isset($wceazy_occ_settings["remove_shipping
 <div id="wceazy_one_click_checkout">
 
 
-    <div class="coupon_tab_body" data-id="tab_basket_style">
-        <div class="tab_body_title">
-            <h1><?php esc_html_e('Basket Style', 'wceazy'); ?></h1>
+    <div class="wceazy_one_click_checkout_header">
+        <div class="wceazy_header_part_left">
+            <p><?php esc_html_e('wcEazy', 'wceazy'); ?> <span><?php echo esc_attr(WCEAZY_VERSION); ?></span></p>
         </div>
-        <div class="tab_body_form">
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_enable">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Enable Basket', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <select class="wceazy_floating_cart_select_field">
-                        <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
-                        <option value="show_always" <?php echo esc_attr("show_always" == $wceazy_fc_basket_enable ? "selected" : ""); ?>><?php esc_html_e('Always Show', 'wceazy'); ?></option>
-                        <option value="hide_always" <?php echo esc_attr("hide_always" == $wceazy_fc_basket_enable ? "selected" : ""); ?>><?php esc_html_e('Always Hide', 'wceazy'); ?></option>
-                        <option value="hide_empty_cart" <?php echo esc_attr("hide_empty_cart" == $wceazy_fc_basket_enable ? "selected" : ""); ?>><?php esc_html_e('Hide when cart is empty', 'wceazy'); ?></option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_shape">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Shape', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <select class="wceazy_floating_cart_select_field">
-                        <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
-                        <option value="round" <?php echo esc_attr("round" == $wceazy_fc_basket_shape ? "selected" : ""); ?>><?php esc_html_e('Round', 'wceazy'); ?></option>
-                        <option value="square" <?php echo esc_attr("square" == $wceazy_fc_basket_shape ? "selected" : ""); ?>><?php esc_html_e('Square', 'wceazy'); ?></option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_icon_size">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Icon Size', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_floating_cart_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_fc_basket_icon_size); ?>">
-                    <small><?php esc_html_e('Set your basket icon size in px (Ex. 35)', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_show_count">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Item Count?', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_basket_show_count == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                    <small><?php esc_html_e('Please turn off if you do not want to show basket item count.', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_icon">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Icon', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <div class="icon_selection_area">
-                        <div class="icon_field_item icon_1 <?php echo esc_attr("icon_1" == $wceazy_fc_basket_icon ? "active" : ""); ?>" data-value="icon_1"></div>
-                        <div class="icon_field_item icon_2 <?php echo esc_attr("icon_2" == $wceazy_fc_basket_icon ? "active" : ""); ?>" data-value="icon_2"></div>
-                        <div class="icon_field_item icon_3 <?php echo esc_attr("icon_3" == $wceazy_fc_basket_icon ? "active" : ""); ?>" data-value="icon_3"></div>
-                        <div class="icon_field_item icon_4 <?php echo esc_attr("icon_4" == $wceazy_fc_basket_icon ? "active" : ""); ?>" data-value="icon_4"></div>
-                        <div class="icon_field_item icon_5 <?php echo esc_attr("icon_5" == $wceazy_fc_basket_icon ? "active" : ""); ?>" data-value="icon_5"></div>
-                        <div class="icon_field_item icon_6 <?php echo esc_attr("icon_6" == $wceazy_fc_basket_icon ? "active" : ""); ?>" data-value="icon_6"></div>
-                    </div>
-                    <small><?php esc_html_e('Please select your basket icon.', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_position">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Position', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <select class="wceazy_floating_cart_select_field">
-                        <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
-                        <option value="top_left" <?php echo esc_attr("top_left" == $wceazy_fc_basket_position ? "selected" : ""); ?>><?php esc_html_e('Top Left', 'wceazy'); ?></option>
-                        <option value="top_right" <?php echo esc_attr("top_right" == $wceazy_fc_basket_position ? "selected" : ""); ?>><?php esc_html_e('Top Right', 'wceazy'); ?></option>
-                        <option value="bottom_left" <?php echo esc_attr("bottom_left" == $wceazy_fc_basket_position ? "selected" : ""); ?>><?php esc_html_e('Bottom Left', 'wceazy'); ?></option>
-                        <option value="bottom_right" <?php echo esc_attr("bottom_right" == $wceazy_fc_basket_position ? "selected" : ""); ?>><?php esc_html_e('Bottom Right', 'wceazy'); ?></option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_offset_vertical">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Offset (Vertical)', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_floating_cart_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_fc_basket_offset_vertical); ?>">
-                    <small><?php esc_html_e('Set your basket vertical offset in px (Ex. 110)', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_offset_horizontal">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Offset (Horizontal)', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_floating_cart_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_fc_basket_offset_horizontal); ?>">
-                    <small><?php esc_html_e('Set your basket horizontal offset in px (Ex. 60)', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_count_position">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Count Position', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <select class="wceazy_floating_cart_select_field">
-                        <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
-                        <option value="top_left" <?php echo esc_attr("top_left" == $wceazy_fc_basket_count_position ? "selected" : ""); ?>><?php esc_html_e('Top Left', 'wceazy'); ?></option>
-                        <option value="top_right" <?php echo esc_attr("top_right" == $wceazy_fc_basket_count_position ? "selected" : ""); ?>><?php esc_html_e('Top Right', 'wceazy'); ?></option>
-                        <option value="bottom_left" <?php echo esc_attr("bottom_left" == $wceazy_fc_basket_count_position ? "selected" : ""); ?>><?php esc_html_e('Bottom Left', 'wceazy'); ?></option>
-                        <option value="bottom_right" <?php echo esc_attr("bottom_right" == $wceazy_fc_basket_count_position ? "selected" : ""); ?>><?php esc_html_e('Bottom Right', 'wceazy'); ?></option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_icon_color">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Icon Color', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <div class="color_picker_area">
-                        <input disabled type="color" id="wceazy_floating_cart_basket_icon_color" value="<?php echo esc_attr($wceazy_fc_basket_icon_color); ?>">
-                        <label for="wceazy_floating_cart_basket_icon_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_bg_color">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Background Color', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <div class="color_picker_area">
-                        <input disabled type="color" id="wceazy_floating_cart_basket_bg_color" value="<?php echo esc_attr($wceazy_fc_basket_bg_color); ?>">
-                        <label for="wceazy_floating_cart_basket_bg_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_count_color">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Count Color', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <div class="color_picker_area">
-                        <input disabled type="color" id="wceazy_floating_cart_basket_count_color" value="<?php echo esc_attr($wceazy_fc_basket_count_color); ?>">
-                        <label for="wceazy_floating_cart_basket_count_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_count_bg_color">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Basket Count Background Color', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <div class="color_picker_area">
-                        <input disabled type="color" id="wceazy_floating_cart_basket_count_bg_color" value="<?php echo esc_attr($wceazy_fc_basket_count_bg_color); ?>">
-                        <label for="wceazy_floating_cart_basket_count_bg_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                    </div>
-                </div>
-            </div>
-
+        <div class="wceazy_header_part_right">
+            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>"><?php esc_html_e('GET PRO' , 'wceazy'); ?></a>
         </div>
     </div>
 
 
-    <div class="coupon_tab_body" data-id="tab_add_to_cart">
-        <div class="tab_body_title">
-            <h1><?php esc_html_e('Add to Cart Button Settings', 'wceazy'); ?></h1>
+
+    <div class="wceazy_one_click_checkout_page_title">
+        <div class="page_title_part_left">
+            <h2><?php esc_html_e('One Click Checkout', 'wceazy'); ?></h2>
+            <a target="_blank" href="<?php echo WCEAZY_DOCS_PAGE; ?>"><?php esc_html_e('Documentation', 'wceazy'); ?></a>
         </div>
-        <div class="tab_body_form">
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_enable_product_ajax_to_cart">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Ajax add to cart on single product', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <label class="toggle_switch"><input disabled type="checkbox" <?php echo esc_attr($wceazy_occ_enable_product_ajax_to_cart == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                    <small><?php esc_html_e('Turn on to enable ajax add to cart on single product.', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_change_add_to_cart_button_text">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Change Add to cart button text', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_change_add_to_cart_button_text == "yes" ? "checked" : ""); ?> onchange="wceazy_one_click_checkout_selection_changed()"><span class="slider round"></span></label>
-                    <small><?php esc_html_e('Turn on to change the button text of add to cart button.', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_cart_button_text">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Add to cart button text', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_cart_button_text); ?>">
-                    <small><?php esc_html_e('This text will be shown inside add to cart button.', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_select_options_button_text">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Select options button text', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_select_options_button_text); ?>">
-                    <small><?php esc_html_e('This text will be shown on the archive page for the variable product, leave blank if you want to use default text.', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_read_more_button_text">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Read more button text', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_read_more_button_text); ?>">
-                    <small><?php esc_html_e('This text will be shown on archive page for the product when the product is out of stock, leave blank if you want to use default text.', 'wceazy'); ?></small>
-                </div>
-            </div>
-
+        <div class="page_title_part_right">
+            <button class="wceazy_one_click_checkout_back_to_dashboard_btn" onclick="wceazy_modules_page_init(`<?php echo esc_url(WCEAZY_URL); ?>`)">Back to all Modules</button>
         </div>
     </div>
 
 
-    <div class="coupon_tab_body" data-id="tab_buy_now_button">
-        <div class="tab_body_title">
-            <h1><?php esc_html_e('Buy Now Button Settings', 'wceazy'); ?></h1>
-        </div>
-        <div class="tab_body_form">
 
-            <h4><?php esc_html_e('On product page', 'wceazy'); ?></h4>
+    <div class="wceazy_one_click_checkout_container">
 
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_enable_buy_now_button_on_product">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button ?', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_enable_buy_now_button_on_product == "yes" ? "checked" : ""); ?> onchange="wceazy_one_click_checkout_selection_changed()"><span class="slider round"></span></label>
-                    <small><?php esc_html_e('Turn on if you want Buy Now button on the product page.', 'wceazy'); ?></small>
+
+        <div class="wceazy_one_click_checkout_tab">
+            <div class="wceazy_one_click_checkout_tab_part_left">
+                <div class="coupon_data_tabs">
+                    <div class="tab_item tab_item_active" data-target="tab_general"><h1><?php esc_html_e('General', 'wceazy'); ?></h1></div>
+                    <div class="tab_item" data-target="tab_add_to_cart"><h1><?php esc_html_e('Add To Cart', 'wceazy'); ?></h1></div>
+                    <div class="tab_item" data-target="tab_buy_now_button"><h1><?php esc_html_e('Buy Now Button', 'wceazy'); ?></h1></div>
+                    <div class="tab_item" data-target="tab_checkout"><h1><?php esc_html_e('Checkout', 'wceazy'); ?></h1></div>
                 </div>
             </div>
 
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_label_on_product">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button label', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <input disabled class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_btn_label_on_product); ?>">
-                    <small><?php esc_html_e('Buy now button label', 'wceazy'); ?></small>
-                </div>
-            </div>
+            <div class="wceazy_one_click_checkout_tab_part_right">
 
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_redirect_on_product">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Redirect to page', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <select disabled class="wceazy_one_click_checkout_select_field">
-                        <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
-                        <?php foreach (get_pages() as $single_page) { ?>
-                            <option value="<?php echo esc_attr(get_permalink($single_page->ID)); ?>" <?php echo esc_attr(get_permalink($single_page->ID) == $wceazy_occ_buy_btn_redirect_on_product ? "selected" : ""); ?>> <?php echo esc_attr($single_page->post_title); ?> </option>
-                        <?php } ?>
-                    </select>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_position_on_product">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Position Of the Button', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <select disabled class="wceazy_one_click_checkout_select_field">
-                        <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
-                        <option value="before_form" <?php echo esc_attr("before_form" == $wceazy_occ_buy_btn_position_on_product ? "selected" : ""); ?>><?php esc_html_e('Before add to cart form', 'wceazy'); ?></option>
-                        <option value="after_form" <?php echo esc_attr("after_form" == $wceazy_occ_buy_btn_position_on_product ? "selected" : ""); ?>><?php esc_html_e('After add to cart form', 'wceazy'); ?></option>
-                        <option value="before_button" <?php echo esc_attr("before_button" == $wceazy_occ_buy_btn_position_on_product ? "selected" : ""); ?>><?php esc_html_e('Before add to cart button', 'wceazy'); ?></option>
-                        <option value="after_button" <?php echo esc_attr("after_button" == $wceazy_occ_buy_btn_position_on_product ? "selected" : ""); ?>><?php esc_html_e('After add to cart button', 'wceazy'); ?></option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_size_on_product">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button width', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_one_click_checkout_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_btn_size_on_product); ?>">
-                    <small><?php esc_html_e('Buy now button width on the product page (PX).', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_mt">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin top', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_mt); ?>">
-                    <small><?php esc_html_e('Buy now button margin top (PX).', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_mb">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin bottom', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_mb); ?>">
-                    <small><?php esc_html_e('Buy now button margin bottom (PX).', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_ml">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin left', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_ml); ?>">
-                    <small><?php esc_html_e('Buy now button margin left (PX).', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_mr">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin right', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_mr); ?>">
-                    <small><?php esc_html_e('Buy now button margin right (PX).', 'wceazy'); ?></small>
-                </div>
-            </div>
+                <div class="coupon_tab_body" data-id="tab_general">
+                    <div class="tab_body_title"><h1><?php esc_html_e('General Settings', 'wceazy'); ?></h1></div>
+                    <div class="tab_body_form">
 
 
-
-            <h4><?php esc_html_e('Buy Now Button design', 'wceazy'); ?></h4>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_color">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Font Color', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <div class="color_picker_area">
-                        <input type="color" id="wceazy_one_click_checkout_buy_now_btn_color" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_color); ?>">
-                        <label for="wceazy_one_click_checkout_buy_now_btn_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                    </div>
-                    <small><?php esc_html_e('Set button font color', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_bg_color">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Background Color', 'wceazy'); ?></label>
-                <div class="field_with_msg_container">
-                    <div class="color_picker_area">
-                        <input type="color" id="wceazy_one_click_checkout_buy_now_btn_bg_color" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_bg_color); ?>">
-                        <label for="wceazy_one_click_checkout_buy_now_btn_bg_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                    </div>
-                    <small><?php esc_html_e('Set button background color', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_hover_color">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Hover Font Color', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <div class="color_picker_area">
-                        <input disabled type="color" id="wceazy_one_click_checkout_buy_now_btn_hover_color" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_hover_color); ?>">
-                        <label for="wceazy_one_click_checkout_buy_now_btn_hover_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                    </div>
-                    <small><?php esc_html_e('Set button font color on hover', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_hover_bg_color">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Hover Background Color', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <div class="color_picker_area">
-                        <input disabled type="color" id="wceazy_one_click_checkout_buy_now_btn_hover_bg_color" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_hover_bg_color); ?>">
-                        <label for="wceazy_one_click_checkout_buy_now_btn_hover_bg_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
-                    </div>
-                    <small><?php esc_html_e('Set button background color on hover', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_ptpb">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Padding Top-Bottom', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <input disabled class="wceazy_one_click_checkout_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_ptpb); ?>">
-                    <small><?php esc_html_e('Buy now button padding top & bottom (PX)', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_plpr">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Padding Left-Right', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <input disabled class="wceazy_one_click_checkout_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_plpr); ?>">
-                    <small><?php esc_html_e('Buy now button padding left & right (PX)', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-            <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_border_radius">
-                <label for="coupon_generator_coupon_amount"><?php esc_html_e('Border Radius', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                <div class="field_with_msg_container">
-                    <input disabled class="wceazy_one_click_checkout_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_border_radius); ?>">
-                    <small><?php esc_html_e('Buy now button border radius (PX)', 'wceazy'); ?></small>
-                </div>
-            </div>
-
-
-            <div class="coupon_tab_body" data-id="tab_checkout">
-                <div class="tab_body_title">
-                    <h1><?php esc_html_e('Checkout Settings', 'wceazy'); ?></h1>
-                </div>
-                <div class="tab_body_form">
-
-                    <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_order_comment">
-                        <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove order comment?', 'wceazy'); ?></label>
-                        <div class="field_with_msg_container">
-                            <label class="toggle_switch">
-                                <input type="checkbox" <?php echo esc_attr($wceazy_occ_remove_order_comment == "yes" ? "checked" : ""); ?>>
-                                <span class="slider round"></span>
-                            </label>
-                            <small><?php esc_html_e('Turn on if you want to remove \'Order Comment\'.', 'wceazy'); ?></small>
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_disable_cart">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Turn off shopping cart page?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_disable_cart == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Enable the option to skip the cart page and redirect directly to the checkout page.', 'wceazy'); ?></small>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_coupon_form">
-                        <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove coupon form?', 'wceazy'); ?></label>
-                        <div class="field_with_msg_container">
-                            <label class="toggle_switch">
-                                <input type="checkbox" <?php echo esc_attr($wceazy_occ_remove_coupon_form == "yes" ? "checked" : ""); ?>>
-                                <span class="slider round"></span>
-                            </label>
-                            <small><?php esc_html_e('Turn on if you want to remove \'Coupon Form\'.', 'wceazy'); ?></small>
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_enable_single_page">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Enable single page checkout?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_enable_single_page == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Enable single page checkout?', 'wceazy'); ?></small>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_policy_text">
-                        <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove policy text?', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                        <div class="field_with_msg_container">
-                            <label class="toggle_switch">
-                                <input disabled type="checkbox" <?php echo esc_attr($wceazy_occ_remove_policy_text == "yes" ? "checked" : ""); ?>>
-                                <span class="slider round"></span>
-                            </label>
-                            <small><?php esc_html_e('Turn on if you want to remove \'Policy Text\'.', 'wceazy'); ?></small>
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_enable_redirect_to_cart">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Allow redirect when adding to cart.', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_enable_redirect_to_cart == "yes" ? "checked" : ""); ?> onchange="wceazy_one_click_checkout_selection_changed()"><span class="slider round"></span></label>
+                                <small><?php esc_html_e('When turned on, clicking "Add to Cart" takes customers straight to the Checkout page.', 'wceazy'); ?></small>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_terms_condition">
-                        <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove terms & condition?', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                        <div class="field_with_msg_container">
-                            <label class="toggle_switch">
-                                <input disabled type="checkbox" <?php echo esc_attr($wceazy_occ_remove_terms_condition == "yes" ? "checked" : ""); ?>>
-                                <span class="slider round"></span>
-                            </label>
-                            <small><?php esc_html_e('Turn on if you want to remove \'Terms & Condition\'.', 'wceazy'); ?></small>
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_enable_custom_url">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Redirect to custom url?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_enable_custom_url == "yes" ? "checked" : ""); ?> onchange="wceazy_one_click_checkout_selection_changed()"><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Redirect to custom url instead of page, so using this you can redirect to any page.', 'wceazy'); ?></small>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_billing_fields">
-                        <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove billing fields?', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
-                        <div class="field_with_msg_container">
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_redirect_to_page">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Redirect to page', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <select class="wceazy_one_click_checkout_select_field">
+                                    <option value=""> Please select</option>
+                                    <?php foreach (get_pages() as $single_page) { ?>
+                                        <option value="<?php echo esc_attr(get_permalink( $single_page->ID )); ?>" <?php echo esc_attr(get_permalink( $single_page->ID ) == $wceazy_occ_redirect_to_page ? "selected" : ""); ?>> <?php echo esc_attr($single_page->post_title); ?> </option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_redirect_to_custom_url">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Redirect to custom url', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_redirect_to_custom_url); ?>">
+                                <small><?php esc_html_e('Redirect to this any custom url of your website e.g.: http://yourwebsite.com', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_disable_continue_shopping_button">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Turn off the "Keep Shopping" button.', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_disable_continue_shopping_button == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('WooCommerce shows a continue shopping button after a product is added to cart, with this option you can disable that link so user re', 'wceazy'); ?>main on checkout page.</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="coupon_tab_body" data-id="tab_add_to_cart">
+                    <div class="tab_body_title"><h1><?php esc_html_e('Add to Cart Button Settings', 'wceazy'); ?></h1></div>
+                    <div class="tab_body_form">
+
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_enable_product_ajax_to_cart">
+                        <label for="coupon_generator_coupon_amount">
+                            <?php esc_html_e('Quickly add item to shopping cart with Ajax.', 'wceazy'); ?>
+                            <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span>
+                        </label>
+
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input disabled type="checkbox" <?php echo esc_attr($wceazy_occ_enable_product_ajax_to_cart == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Turn on to enable Quickly add item to shopping cart with Ajax..', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_change_add_to_cart_button_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Alter the "Add to Cart" button text.', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_change_add_to_cart_button_text == "yes" ? "checked" : ""); ?> onchange="wceazy_one_click_checkout_selection_changed()"><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Turn on to change the button text of add to cart button.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_cart_button_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Add to cart button text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_cart_button_text); ?>">
+                                <small><?php esc_html_e('This text will be shown inside add to cart button.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_select_options_button_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Select options button text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_select_options_button_text); ?>">
+                                <small><?php esc_html_e('This text will be shown on the archive page for the variable product, leave blank if you want to use default text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_read_more_button_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Read more button text', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_read_more_button_text); ?>">
+                                <small><?php esc_html_e('This text will be shown on archive page for the product when the product is out of stock, leave blank if you want to use default', 'wceazy'); ?> text.</small>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="coupon_tab_body" data-id="tab_buy_now_button">
+                    <div class="tab_body_title"><h1><?php esc_html_e('Buy Now Button Settings', 'wceazy'); ?></h1></div>
+                    <div class="tab_body_form">
+
+
+
+                        <h4>On product page</h4>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_enable_buy_now_button_on_product">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button ?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_enable_buy_now_button_on_product == "yes" ? "checked" : ""); ?> onchange="wceazy_one_click_checkout_selection_changed()"><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Enable the "Buy Now" button on the product page.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_label_on_product">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button label <span style="color: #FF521D;">(Pro)</span>', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input disabled class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_btn_label_on_product); ?>">
+                                <small><?php esc_html_e('Buy now button label', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_redirect_on_product">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Redirect to page <span style="color: #FF521D;">(Pro)</span>', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <select disabled class="wceazy_one_click_checkout_select_field">
+                                    <option value=""> Please select</option>
+                                    <?php foreach (get_pages() as $single_page) { ?>
+                                        <option value="<?php echo esc_attr(get_permalink( $single_page->ID )); ?>" <?php echo esc_attr(get_permalink( $single_page->ID ) == $wceazy_occ_buy_btn_redirect_on_product ? "selected" : ""); ?>> <?php echo esc_attr($single_page->post_title); ?> </option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_position_on_product">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Position Of the Button <span style="color: #FF521D;">(Pro)</span>', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <select disabled class="wceazy_one_click_checkout_select_field">
+                                    <option value=""> Please select</option>
+                                    <option value="before_form" <?php echo esc_attr("before_form" == $wceazy_occ_buy_btn_position_on_product ? "selected" : ""); ?>> Before add to cart form </option>
+                                    <option value="after_form" <?php echo esc_attr("after_form" == $wceazy_occ_buy_btn_position_on_product ? "selected" : ""); ?>> After add to cart form </option>
+                                    <option value="before_button" <?php echo esc_attr("before_button" == $wceazy_occ_buy_btn_position_on_product ? "selected" : ""); ?>> Before add to cart button </option>
+                                    <option value="after_button" <?php echo esc_attr("after_button" == $wceazy_occ_buy_btn_position_on_product ? "selected" : ""); ?>> After add to cart button </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_size_on_product">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button width', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_btn_size_on_product); ?>">
+                                <small><?php esc_html_e('Buy now button width on product page (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_mt">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin top', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_mt); ?>">
+                                <small><?php esc_html_e('Buy now button margin top (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_mb">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin bottom', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_mb); ?>">
+                                <small><?php esc_html_e('Buy now button margin bottom (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_ml">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin left', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_ml); ?>">
+                                <small><?php esc_html_e('Buy now button margin left (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_mr">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin right', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_mr); ?>">
+                                <small><?php esc_html_e('Buy now button margin right (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <h4>On product archive page</h4>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_enable_buy_now_button_on_product_archive">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button ?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_enable_buy_now_button_on_product_archive == "yes" ? "checked" : ""); ?> onchange="wceazy_one_click_checkout_selection_changed()"><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Enable the "Buy Now" button on the product page.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_label_on_product_archive">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button label <span style="color: #FF521D;">(Pro)</span>', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input disabled class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_btn_label_on_product_archive); ?>">
+                                <small><?php esc_html_e('Buy now button label', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_redirect_on_product_archive">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Redirect to page <span style="color: #FF521D;">(Pro)</span>', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <select disabled class="wceazy_one_click_checkout_select_field">
+                                    <option value=""> Please select</option>
+                                    <?php foreach (get_pages() as $single_page) { ?>
+                                        <option value="<?php echo esc_attr(get_permalink( $single_page->ID )); ?>" <?php echo esc_attr(get_permalink( $single_page->ID ) == $wceazy_occ_buy_btn_redirect_on_product_archive ? "selected" : ""); ?>> <?php echo esc_attr($single_page->post_title); ?> </option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_position_on_product_archive">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Position Of the Button <span style="color: #FF521D;">(Pro)</span>', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <select disabled class="wceazy_one_click_checkout_select_field">
+                                    <option value=""> Please select</option>
+                                    <option value="before_button" <?php echo esc_attr("before_button" == $wceazy_occ_buy_btn_position_on_product_archive ? "selected" : ""); ?>> Before add to cart button </option>
+                                    <option value="after_button" <?php echo esc_attr("after_button" == $wceazy_occ_buy_btn_position_on_product_archive ? "selected" : ""); ?>> After add to cart button </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_btn_size_on_product_archive">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button width', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_btn_size_on_product_archive); ?>">
+                                <small><?php esc_html_e('Buy now button width on product archive page (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_archive_mt">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin top', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_archive_mt); ?>">
+                                <small><?php esc_html_e('Buy now button margin top (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_archive_mb">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin bottom', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_archive_mb); ?>">
+                                <small><?php esc_html_e('Buy now button margin bottom (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_archive_ml">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin left', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_archive_ml); ?>">
+                                <small><?php esc_html_e('Buy now button margin left (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_product_archive_mr">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Buy now button margin right', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_one_click_checkout_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_product_archive_mr); ?>">
+                                <small><?php esc_html_e('Buy now button margin right (PX).', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+
+                        <h4><?php esc_html_e('Buy Now Button design', 'wceazy'); ?></h4>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Font Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_one_click_checkout_buy_now_btn_color" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_color); ?>">
+                                    <label for="wceazy_one_click_checkout_buy_now_btn_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set button font color', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_bg_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Background Color', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input type="color" id="wceazy_one_click_checkout_buy_now_btn_bg_color" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_bg_color); ?>">
+                                    <label for="wceazy_one_click_checkout_buy_now_btn_bg_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set button background color', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_hover_color"> 
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Hover Font Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input disabled type="color" id="wceazy_one_click_checkout_buy_now_btn_hover_color" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_hover_color); ?>">
+                                    <label for="wceazy_one_click_checkout_buy_now_btn_hover_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set button font color on hover', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_hover_bg_color">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Hover Background Color', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+                            <div class="field_with_msg_container">
+                                <div class="color_picker_area">
+                                    <input disabled type="color" id="wceazy_one_click_checkout_buy_now_btn_hover_bg_color" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_hover_bg_color); ?>">
+                                    <label for="wceazy_one_click_checkout_buy_now_btn_hover_bg_color"><?php esc_html_e('Select Color', 'wceazy'); ?></label>
+                                </div>
+                                <small><?php esc_html_e('Set button background color on hover', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_ptpb">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Padding Top-Bottom', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span><?php esc_html_e('wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input disabled class="wceazy_one_click_checkout_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_ptpb); ?>">
+                                <small><?php esc_html_e('Buy now button padding top & bottom (PX)', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_plpr">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Padding Left-Right', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+                            <div class="field_with_msg_container">
+                                <input disabled class="wceazy_one_click_checkout_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_plpr); ?>">
+                                <small><?php esc_html_e('Buy now button padding left & right (PX)', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_buy_now_btn_border_radius">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Border Radius', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+                            <div class="field_with_msg_container">
+                                <input disabled class="wceazy_one_click_checkout_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_occ_buy_now_btn_border_radius); ?>">
+                                <small><?php esc_html_e('Buy now button border radius (PX)', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="coupon_tab_body" data-id="tab_checkout">
+                    <div class="tab_body_title"><h1><?php esc_html_e('Checkout Settings', 'wceazy'); ?></h1></div>
+                    <div class="tab_body_form">
+
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_order_comment">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove order comment?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_remove_order_comment == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Turn on if you want to remove ‘Order Comment’.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_coupon_form">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove coupon form?', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_occ_remove_coupon_form == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Turn on if you want to remove ‘Coupon Form’.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_policy_text">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove policy text?', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input disabled type="checkbox" <?php echo esc_attr($wceazy_occ_remove_policy_text == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Turn on if you want to remove ‘Policy Text’.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_terms_condition">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove terms & condition?', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+                            <div class="field_with_msg_container">
+                                <label class="toggle_switch"><input disabled type="checkbox" <?php echo esc_attr($wceazy_occ_remove_terms_condition == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
+                                <small><?php esc_html_e('Turn on if you want to remove ‘Terms & Condition’.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_billing_fields">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Remove billing fields? ', 'wceazy'); ?><span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+                            <div class="field_with_msg_container">
+                                <select disabled class="wceazy_one_click_checkout_select_field" multiple="multiple">
+                                    <option value=""> <?php esc_html_e('Please select', 'wceazy'); ?></option>
+                                    <option value="billing_first_name" <?php echo esc_attr(in_array("billing_first_name", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing First Name ', 'wceazy'); ?></option>
+                                    <option value="billing_last_name" <?php echo esc_attr(in_array("billing_last_name", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing Last Name ', 'wceazy'); ?></option>
+                                    <option value="billing_address_1" <?php echo esc_attr(in_array("billing_address_1", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing Address 1 ', 'wceazy'); ?></option>
+                                    <option value="billing_address_2" <?php echo esc_attr(in_array("billing_address_2", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing Address 2 ', 'wceazy'); ?></option>
+                                    <option value="billing_country" <?php echo esc_attr(in_array("billing_country", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing Country ', 'wceazy'); ?></option>
+                                    <option value="billing_city" <?php echo esc_attr(in_array("billing_city", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing City ', 'wceazy'); ?></option>
+                                    <option value="billing_state" <?php echo esc_attr(in_array("billing_state", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing State ', 'wceazy'); ?></option>
+                                    <option value="billing_postcode" <?php echo esc_attr(in_array("billing_postcode", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing Postcode ', 'wceazy'); ?></option>
+                                    <option value="billing_company" <?php echo esc_attr(in_array("billing_company", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing Company ', 'wceazy'); ?></option>
+                                    <option value="billing_phone" <?php echo esc_attr(in_array("billing_phone", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing Phone ', 'wceazy'); ?></option>
+                                    <option value="billing_email" <?php echo esc_attr(in_array("billing_email", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e(' Billing Email ', 'wceazy'); ?></option>
+                                </select>
+                                <small><?php esc_html_e('Choose the info you want to delete from \'Billing.\'', 'wceazy'); ?></small>
+                            </div>
+                        </div>
+
+                        <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_shipping_fields">
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Skip shipping details?', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+                            <div class="field_with_msg_container">
                             <select disabled class="wceazy_one_click_checkout_select_field" multiple="multiple">
                                 <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
-                                <!-- Add translation for each field if needed -->
-                                <option value="billing_first_name" <?php echo esc_attr(in_array("billing_first_name", $wceazy_occ_remove_billing_fields) ? "selected" : ""); ?>><?php esc_html_e('Billing First Name', 'wceazy'); ?></option>
-                                <!-- Add translations for other options as needed -->
+                                <option value="shipping_first_name" <?php echo esc_attr(in_array("shipping_first_name", $wceazy_occ_remove_shipping_fields) ? "selected" : ""); ?>><?php esc_html_e('Shipping First Name', 'wceazy'); ?></option>
+                                <option value="shipping_last_name" <?php echo esc_attr(in_array("shipping_last_name", $wceazy_occ_remove_shipping_fields) ? "selected" : ""); ?>><?php esc_html_e('Shipping Last Name', 'wceazy'); ?></option>
+                                <option value="shipping_address_1" <?php echo esc_attr(in_array("shipping_address_1", $wceazy_occ_remove_shipping_fields) ? "selected" : ""); ?>><?php esc_html_e('Shipping Address 1', 'wceazy'); ?></option>
+                                <option value="shipping_address_2" <?php echo esc_attr(in_array("shipping_address_2", $wceazy_occ_remove_shipping_fields) ? "selected" : ""); ?>><?php esc_html_e('Shipping Address 2', 'wceazy'); ?></option>
+                                <option value="shipping_country" <?php echo esc_attr(in_array("shipping_country", $wceazy_occ_remove_shipping_fields) ? "selected" : ""); ?>><?php esc_html_e('Shipping Country', 'wceazy'); ?></option>
+                                <option value="shipping_city" <?php echo esc_attr(in_array("shipping_city", $wceazy_occ_remove_shipping_fields) ? "selected" : ""); ?>><?php esc_html_e('Shipping City', 'wceazy'); ?></option>
+                                <option value="shipping_state" <?php echo esc_attr(in_array("shipping_state", $wceazy_occ_remove_shipping_fields) ? "selected" : ""); ?>><?php esc_html_e('Shipping State', 'wceazy'); ?></option>
+                                <option value="shipping_postcode" <?php echo esc_attr(in_array("shipping_postcode", $wceazy_occ_remove_shipping_fields) ? "selected" : ""); ?>><?php esc_html_e('Shipping Postcode', 'wceazy'); ?></option>
+                                <option value="shipping_company" <?php echo esc_attr(in_array("shipping_company", $wceazy_occ_remove_shipping_fields) ? "selected" : ""); ?>><?php esc_html_e('Shipping Company', 'wceazy'); ?></option>
                             </select>
-                            <small><?php esc_html_e('Select the fields that you want to remove from \'Billing Section\'.', 'wceazy'); ?></small>
+
+                            <small><?php esc_html_e('Choose which information you want to delete from the Shipping Section.', 'wceazy'); ?></small>
+
+                            </div>
                         </div>
+
+
+
                     </div>
-
-                    <div class="wceazy_one_click_checkout_field_group wceazy_one_click_checkout_remove_shipping_fields">
-                        <label for="wceazy_one_click_checkout_remove_shipping_fields">
-                            <?php esc_html_e('Remove shipping fields?'); ?>
-                            <span style="color: #FF521D;">
-                                <?php esc_html_e('(Pro)', 'wceazy'); ?>
-                            </span>
-                        </label>
-                        <div class="field_with_msg_container">
-                            <select disabled class="wceazy_one_click_checkout_select_field" multiple="multiple">
-                                <option value="">
-                                    <?php esc_html_e('Please select', 'wceazy'); ?>
-                                </option>
-                                <?php
-                                $shipping_fields = array(
-                                    'shipping_first_name' => esc_html__('Shipping First Name', 'wceazy'),
-                                    'shipping_last_name'  => esc_html__('Shipping Last Name', 'wceazy'),
-                                    'shipping_address_1'  => esc_html__('Shipping Address 1', 'wceazy'),
-                                    'shipping_address_2'  => esc_html__('Shipping Address 2', 'wceazy'),
-                                    'shipping_country'    => esc_html__('Shipping Country', 'wceazy'),
-                                    'shipping_city'       => esc_html__('Shipping City', 'wceazy'),
-                                    'shipping_state'      => esc_html__('Shipping State', 'wceazy'),
-                                    'shipping_postcode'   => esc_html__('Shipping Postcode', 'wceazy'),
-                                    'shipping_company'    => esc_html__('Shipping Company', 'wceazy'),
-                                );
-
-                                foreach ($shipping_fields as $field_key => $field_label) {
-                                    echo '<option value="' . esc_attr($field_key) . '" ' . (in_array($field_key, $wceazy_occ_remove_shipping_fields) ? 'selected' : '') . '>' . esc_html($field_label) . '</option>';
-                                }
-                                ?>
-                            </select>
-                            <small>
-                                <?php esc_html_e('Select the fields that you want to remove from \'Shipping Section\'.', 'wceazy'); ?>
-                            </small>
-                        </div>
-                    </div> 
                 </div>
+
             </div>
-
         </div>
-    </div> 
-    <div class="wceazy_one_click_checkout_bottom_button_section">
-        <button onclick="wceazy_one_click_checkout_save();"><?php esc_html_e('Save Settings', 'wceazy'); ?></button>
+
+
+        <div class="wceazy_one_click_checkout_bottom_button_section">
+            <button onclick="wceazy_one_click_checkout_save();"><?php esc_html_e('Save Settings', 'wceazy'); ?></button>
+        </div>
+
+
+
     </div>
-
-
-
-</div>
 
 </div>

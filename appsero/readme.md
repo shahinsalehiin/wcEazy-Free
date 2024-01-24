@@ -284,7 +284,7 @@ add_action('PLUGIN_OR_THEME_SLUG_tracker_optin', 'sample_tracker_optin', 10);
 ```php
 // Fires after tracking permission denied (optout)
 function sample_tracker_optout(){
-    // Don't ask for further permission, respect user's decision 
+    // don/t ask for further permission, respect user's decision 
 }
 add_action('PLUGIN_OR_THEME_SLUG_tracker_optout', 'sample_tracker_optout', 10);
 ```

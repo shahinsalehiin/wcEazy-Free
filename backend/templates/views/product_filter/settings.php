@@ -84,7 +84,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
             <p>wcEazy <span><?php echo esc_attr(WCEAZY_VERSION); ?></span></p>
         </div>
         <div class="wceazy_header_part_right">
-            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>"><?php esc_html__('GET PRO', 'wceazy'); ?></a>
+            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>"><?php esc_html_e('GET PRO', 'wceazy'); ?></a>
         </div>
     </div>
 
@@ -99,9 +99,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
             <button class="wceazy_product_filter_copy_shortcode" onclick="wceazy_product_filter_copy_shortcode()" style="display: inline-block;">[wceazy_product_filter]</button>
             <button class="wceazy_product_filter_back_to_dashboard_btn" onclick="wceazy_modules_page_init(`<?php echo esc_url(WCEAZY_URL); ?>`)"><?php esc_html_e('Back to all Modules', 'wceazy'); ?></button>
         </div>
-    </div>
-
-
+    </div> 
 
     <div class="wceazy_product_filter_container">
         <div class="wceazy_product_filter_tab">
@@ -142,7 +140,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Search Filter?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_search_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show search filter in sidebar.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show search filter in sidebar.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -150,7 +148,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Price Filter?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_price_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show price filter in sidebar.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show price filter in sidebar.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -158,25 +156,22 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Rating Filter?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_rating_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show rating filter in sidebar.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show rating filter in sidebar.', 'wceazy'); ?></small>
                             </div>
-                        </div>
-
+                        </div> 
 
                         <div class="wceazy_product_filter_field_group wceazy_product_filter_show_category_filter">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Category Filter?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_category_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show category filter in sidebar.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show category filter in sidebar.', 'wceazy'); ?></small>
                             </div>
-                        </div>
-
-
+                        </div> 
                         <div class="wceazy_product_filter_field_group wceazy_product_filter_show_stock_filter">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Stock Status Filter?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_show_stock_filter == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show stock status filter in sidebar.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show stock status filter in sidebar.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -531,7 +526,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 5 Star Rating?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_5_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the 5 star rating filter.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the 5 star rating filter.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -540,7 +535,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 4 Star Rating?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_4_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the 4 star rating filter.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the 4 star rating filter.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -549,7 +544,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 3 Star Rating?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_3_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the 3 star rating filter.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the 3 star rating filter.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -558,7 +553,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 2 Star Rating?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_2_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the 2 star rating filter.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the 2 star rating filter.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -567,20 +562,17 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 1 Star Rating?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_1_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the 1 star rating filter.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the 1 star rating filter.', 'wceazy'); ?></small>
                             </div>
-                        </div>
-
+                        </div> 
 
                         <div class="wceazy_product_filter_field_group wceazy_product_filter_rating_filter_show_0_star_rating">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show 0 Star Rating?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pf_rating_filter_show_0_star_rating == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the 0 star rating filter.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the 0 star rating filter.', 'wceazy'); ?></small>
                             </div>
-                        </div>
-
-
+                        </div> 
                     </div>
                 </div>
 
@@ -588,8 +580,7 @@ $wceazy_pf_stock_filter_checkbox_checked_bg = isset($wceazy_pf_settings["stock_f
                     <div class="tab_body_title">
                         <h1><?php esc_html_e('Category Filter Settings', 'wceazy'); ?></h1>
                     </div>
-                    <div class="tab_body_form">
-
+                    <div class="tab_body_form"> 
                         <div class="wceazy_product_filter_field_group wceazy_product_filter_category_filter_label_text">
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Label Text', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">

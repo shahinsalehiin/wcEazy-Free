@@ -63,7 +63,7 @@ class Insights
     }
 
     /**
-     * Don't show the notice
+     * don/t show the notice
      *
      * @return \self
      */
@@ -446,7 +446,7 @@ class Insights
             return;
         }
 
-        // don't show tracking if a local server
+        // don/t show tracking if a local server
         //        if ( $this->is_local_server() ) {
         //            return;
         //        }

@@ -293,7 +293,9 @@ Auto Apply Coupon
     font-weight: 700;
 }
 
-
+  .tab_body_form {
+    margin-left:55px
+}
 
 .wceazy_coupon_generator_tab .wceazy_coupon_generator_tab_part_right .tab_body_form .wceazy_coupon_generator_field_group .wceazy_coupon_generator_text_field {
     width: 50%;

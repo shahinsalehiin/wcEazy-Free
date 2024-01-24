@@ -101,7 +101,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                         <h1><?php esc_html_e('Customize Invoice', 'wceazy'); ?></h1>
                     </div>
                     <div class="tab_item" data-target="tab_customize_shipping_label">
-                        <h1><?php esc_html_e('Customize Shipping Label', 'wceazy'); ?></h1>
+                        <h1><?php esc_html_e('Label Tailoring', 'wceazy'); ?></h1>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Deactivate Invoice?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_deactivate_invoice == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you want to deactivate invoice.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Switch off to stop getting invoices.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -127,7 +127,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Deactivate Shipping Label?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_deactivate_shipping_label == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you want to deactivate shipping label. It is also allowed to turn ON where shipping label is needed instead of packing slip.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off for no label, turn on for label when needed.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -291,7 +291,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                     </div>
                     <div class="tab_body_form">
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_disabled_status">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Disable for', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Turn off', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <select class="wceazy_pdf_invoice_select_field" multiple="multiple">
                                     <option value=""> <?php esc_html_e('Please select', 'wceazy'); ?></option>
@@ -299,7 +299,7 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                                         <option value="<?php echo esc_attr($key); ?>" <?php echo esc_attr(in_array($key, $wceazy_pi_disabled_status) ? "selected" : ""); ?>> <?php echo esc_attr($val); ?> </option>
                                     <?php } ?>
                                 </select>
-                                <small><?php esc_html_e('Please select Order statuses which an invoice should not be generated.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Choose order statuses where an invoice shouldn/t be created.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -325,17 +325,17 @@ $wceazy_pi_enable_shipping_phone = isset($wceazy_pi_settings["enable_shipping_ph
                                     <option value="customer_partially_refunded_order" <?php echo esc_attr(in_array("customer_partially_refunded_order", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('Partially Refunded Order', 'wceazy'); ?></option>
                                     <option value="customer_invoice" <?php echo esc_attr(in_array("customer_invoice", $wceazy_pi_attach_to_email) ? "selected" : ""); ?>><?php esc_html_e('Customer Invoice', 'wceazy'); ?></option>
                                 </select>
-                                <small><?php esc_html_e('Please choose when you want the invoice to be emailed.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Pick when you/d like the bill sent by email.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
                         <h4><?php esc_html_e('Invoice Number', 'wceazy'); ?></h4>
 
                         <div class="wceazy_pdf_invoice_field_group wceazy_pdf_invoice_ordernumber_as_invoice_number">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Order Number as Invoice Number?', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Use "Order Number" as "Invoice Number"?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_pi_ordernumber_as_invoice_number == "yes" ? "checked" : ""); ?> onchange="wceazy_pdf_invoice_selection_changed()"><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn on if you want to order number as invoice number.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Switch on to use your order number as the invoice number.', 'wceazy'); ?></small>
                             </div>
                         </div>
 

@@ -89,7 +89,7 @@
                         <table width="100%" border="0" cellspacing="0" cellpadding="5">
                             <tr>
                                 <td>
-                                    <p style="font-size: 10px;"><?php esc_html_e('Shipping to Name', 'wceazy'); ?></p>
+                                    <p style="font-size: 10px;"><?php esc_html__('Shipping to Name', 'wceazy'); ?></p>
                                     <p style="font-size: 10px;"><?php esc_html_e('Shipping Address', 'wceazy'); ?></p>
                                     <p style="font-size: 10px;"><?php esc_html_e('City', 'wceazy'); ?></p>
                                     <p style="font-size: 10px;"><?php esc_html_e('Country', 'wceazy'); ?></p>

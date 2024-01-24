@@ -125,7 +125,7 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Display in Desktop', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_sb_display_desktop == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Turn ON the switch to show the Shipping Bar on the Desktop Screen.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Switch ON to display Shipping Bar on Desktop.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -133,7 +133,7 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Display in Mobile', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_sb_display_mobile == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Turn ON the switch to show the Shipping Bar on the Mobile Screen.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Switch ON to display Shipping Bar on mobile.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -164,7 +164,7 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
                         </div>
 
                         <div class="wceazy_shipping_bar_field_group wceazy_shipping_bar_exclude_products">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Exclude Products', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Leave out items.', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <select disabled class="wceazy_shipping_bar_select_field" multiple="multiple">
                                     <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
@@ -186,15 +186,15 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
                         <h4><?php esc_html_e('Cart Page', 'wceazy'); ?></h4>
 
                         <div class="wceazy_shipping_bar_field_group wceazy_shipping_bar_show_in_cart">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show in Cart Subtotal Area', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Cart Total', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_sb_show_in_cart == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Turn ON the switch to show the free shipping notification in cart page subtotal area.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn on the switch to show the free shipping message in the shopping cart.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
                         <div class="wceazy_shipping_bar_field_group wceazy_shipping_bar_position_cart_subtotal">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Select Position on Cart Page', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Choose spot on cart page.', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <select class="wceazy_shipping_bar_select_field">
                                     <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
@@ -208,7 +208,7 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
                         <h4><?php esc_html_e('Checkout Page', 'wceazy'); ?></h4>
 
                         <div class="wceazy_shipping_bar_field_group wceazy_shipping_bar_show_in_checkout">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show in Checkout Subtotal Area', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Display in Total Cost Area', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_sb_show_in_checkout == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
                                 <small><?php esc_html_e('Turn ON the switch to show the free shipping notification in checkout subtotal area.', 'wceazy'); ?></small>
@@ -283,7 +283,7 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Message on Zero Order Amount', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <textarea disabled class="wceazy_shipping_bar_textarea_field" rows="3"><?php echo esc_attr($wceazy_sb_zero_order_amount_msg); ?></textarea>
-                                <small><?php esc_html_e('Message to display when user in shipping zone but cart is empty. Use shortcode {minimum_order} to display minimum order amount for Free Shipping.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('"Empty Cart in Shipping Zone: Add items to qualify for Free Shipping ({minimum_order})."', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -291,7 +291,7 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Message on Partially Completed Order Amount', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <textarea disabled class="wceazy_shipping_bar_textarea_field" rows="3"><?php echo esc_attr($wceazy_sb_partial_order_amount_msg); ?></textarea>
-                                <small><?php esc_html_e('Message to display when user in shipping zone and cart is not empty but less than required minimum order amount. Use Short Codes like {cart_total} - The total amount of your purchases {minimum_order} - Minimum order amount for Free Shipping {missing_amount} - The outstanding amount of the free shipping program.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Shipping Alert: Add {missing_amount} for Free Shipping (Min. order: {minimum_order}, Current total: {cart_total}).', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -299,7 +299,7 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Message on Completed Order Amount', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <textarea disabled class="wceazy_shipping_bar_textarea_field" rows="3"><?php echo esc_attr($wceazy_sb_completed_order_amount_msg); ?></textarea>
-                                <small><?php esc_html_e('Message to display when user in shipping zone and cart total is eligible to get free shipping. Use the shortcode {checkout_page} to show the checkout page link.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Free Shipping Alert: Your order qualifies! Click {checkout_page} to proceed.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -316,7 +316,7 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Initial Delay Time', 'wceazy'); ?> <span style="color: #FF521D;"><?php esc_html_e('(Pro)', 'wceazy'); ?></span></label>
                             <div class="field_with_msg_container">
                                 <input disabled class="wceazy_shipping_bar_text_field" type="number" placeholder="" value="<?php echo esc_attr($wceazy_sb_initial_delay); ?>">
-                                <small><?php esc_html_e('Set initial delay time in milliseconds. The Free Shipping Bar will appear according to your setting time.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Set the time delay for Free Shipping Bar to decide when it appears in milliseconds.', 'wceazy'); ?></small>
                             </div>
                         </div>
 

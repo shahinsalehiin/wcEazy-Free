@@ -217,13 +217,13 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
     </li>
     <li><strong>Enable Single Page Checkout:</strong>  Enable single page checkout so that the checkout page and cart page show in a single page.
     </li>
-    <li><strong>Enable Redirect on Add to Cart:</strong>  After clicking add to cart button customer will be directly redirect to Checkout page.
+    <li><strong>Allow redirect when adding to cart.:</strong>  After clicking add to cart button customer will be directly redirect to Checkout page.
     </li>
-    <li><strong>Disable Continue Shopping Button:</strong>  WooCommerce shows a continue shopping button after a product is added to cart, with this option you can disable that link so users remain on the checkout page.
+    <li><strong>Turn off the "Keep Shopping" button.:</strong>  WooCommerce shows a continue shopping button after a product is added to cart, with this option you can disable that link so users remain on the checkout page.
     </li>
-    <li><strong>Ajax Add to Cart on Single Product (Pro):</strong>  Turn ON and access ajax add to cart on single product.
+    <li><strong>Quickly add item to shopping cart with Ajax. (Pro):</strong>  Turn ON and access Quickly add item to shopping cart with Ajax..
     </li>
-    <li><strong>Change Add to Cart Button Text:</strong>  Change the button text of add to cart button. This feature will Add to cart button text, select options button text, Read more button text.
+    <li><strong>Alter the "Add to Cart" button text.:</strong>  Change the button text of add to cart button. This feature will Add to cart button text, select options button text, Read more button text.
     </li>
     <li><strong>Buy Now Button on Product Page:</strong>  Turn on if you want the buy now button on the product page.
     </li>
@@ -285,7 +285,7 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
     </li>
     <li><strong>Remove Billing Fields (Pro):</strong>  Want to remove some billing fields? This feature will provide you the chance to pick some fields that you want to remove from the page.
     </li>
-    <li><strong>Remove Shipping Fields (Pro):</strong>  Select the fields that you want to remove from ‘Shipping Section’.</li>
+    <li><strong>Remove Shipping Fields (Pro):</strong>  Choose which information you want to delete from the 'Shipping Section.'.</li>
 </ol>
 
 
@@ -298,7 +298,7 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
 </li>
 	<li><strong>View the PDF:</strong> You can decide whether you want to open the pdf in a new window or download it directly. </li>
 	<li><strong>Show Tax:</strong> You can show the Tax in the invoice or slips.</li>
-	<li><strong>Invoice Disable for:</strong> Allows to select Order statuses which an invoice should not be generated.</li>
+	<li><strong>Invoice Turn off:</strong> Allows to select Order statuses which an invoice should not be generated.</li>
 	<li><strong>Invoice Attach to:</strong> Select the terms for that you want to attach the invoice.</li>
 	<li><strong>Invoice Number Format (Pro):</strong> </li>
 	<li><strong></strong> This feature provides you the flexibility to choose the number format for invoice number.</li>
@@ -306,7 +306,7 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
 	<li><strong>Invoice Prefix (Pro):</strong>  Select the invoice number prefix.</li>
 	<li><strong>Invoice Surfex (Pro): </strong> Select the surfex of the invoice number.</li>
 	<li><strong>Customize Invoice:</strong>  Document Title, Shop Logo, Invoice Number, Order Number, Invoice Date, Order Date, From Address, Billing Address, Shipping Address, Email, Phone Number, Payment, Received Stamp, Payment Method, Customer Note, Footer are customizable to create a proper invoice layout.</li>
-	<li><strong>Customize Shipping Label:</strong> Shop Logo, From Address, To Address, Order Number, Weight, Ship, Date, Email, Phone Number are adjustable with this feature to create a perfect layout for shipping labels.</li>
+	<li><strong>Label Tailoring:</strong> Shop Logo, From Address, To Address, Order Number, Weight, Ship, Date, Email, Phone Number are adjustable with this feature to create a perfect layout for shipping labels.</li>
 </ol>
 
 
@@ -320,11 +320,11 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
 	<li><strong>Scroll Pixels:</strong>Show Bar after user scroll given pixels on the product page, Only work when the "Scroll Pixels" option is enabled.</li>
 	<li><strong>Show Product Review:</strong>Allows you to show product review on sticky bar.</li>
 	<li><strong>Show Product Review Count:</strong> Allows you to show product reviews on sticky bar.</li>
-	<li><strong>Disable for (Pro):</strong> Select the products that you do not want to show the sticky bar.</li>
+	<li><strong>Turn off (Pro):</strong> Select the products that you do not want to show the sticky bar.</li>
 	<li><strong>Enable Update Product Qty:</strong> Allows to show update product quantity on sticky bar.</li>
 	<li><strong>Show Product Image:</strong>Enable the feature if you want show product image on sticky bar.</li>
 	<li><strong>Show Stock Status:</strong>Using this feature show stock quantity on sticky bar.</li>
-	<li><strong>Hide Sticky Bar( Product Out of Stock ):</strong> Enable it if you don't show sticky bar when product out of stock.</li>
+	<li><strong>Hide Sticky Bar( Product Out of Stock ):</strong> Enable it if you don/t show sticky bar when product out of stock.</li>
 	<li><strong>Sticky Bar's Height:</strong> Set sticky bar height in pixel(Ex.150) - Default 100px.</li>
 	<li><strong>Product Image Shape:</strong>Select Product image shape between round and square.</li>
 	<li><strong>Product Title Color  (Pro):</strong>Select Color for product title.</li>
@@ -366,10 +366,10 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
 	<li><strong>Select Shipping Zone:</strong> Allows you to select a shipping zone. </li>
 	<li><strong>Detect IP:</strong>The person that accesses your website will automatically apply to the free Shipping Zone using their IP if you enable Detect IP. </li>
 	<li><strong>Exclude Pages:</strong> Provide the scope to exclude the pages where you do't want to show the Free Shipping Bar. </li>
-	<li><strong>Exclude Products (Pro):</strong> Accessing this feature you can exclude particular pages for which you don’t want to show the free Shipping Bar. </li>
-	<li><strong>Show in Cart Subtotal Area:</strong> Enable the feature to show the free shipping notification in the cart page subtotal area. </li>
-	<li><strong>Select Position on Cart Page:</strong> Allows to select position of the free shipping notification in the cart page. </li>
-	<li><strong>Show in Checkout Subtotal Area:</strong> It permits to show the free shipping notification in the checkout subtotal area. </li>
+	<li><strong>Leave out items. (Pro):</strong> Accessing this feature you can exclude particular pages for which you don’t want to show the free Shipping Bar. </li>
+	<li><strong>Cart Total:</strong> Enable the feature to show the free shipping notification in the cart page subtotal area. </li>
+	<li><strong>Choose spot on cart page.:</strong> Allows to select position of the free shipping notification in the cart page. </li>
+	<li><strong>Display in Total Cost Area:</strong> It permits to show the free shipping notification in the checkout subtotal area. </li>
 	<li><strong>Inside Progress Bar Text:</strong> Accessing this feature you can enter the text of cart & checkout page free shipping progress bar. </li>
 	<li><strong>Progress Bar's Background (Pro):</strong> Customize the color of Free Shipping Bar's which is shown in cart & checkout page. </li>
 	<li><strong>System Announce:</strong> Using the feature you have to provide a message about minimum order amount for free shipping. </li>
@@ -410,7 +410,7 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
 	<li><strong>My Account Shipping Address Book:</strong> Allows to enable address book for shipping on customers account page.</li>
 	<li><strong>Enable Billing Address on Checkout:</strong> Allows to enable address field selection for billing on checkout page.</li>
 	<li><strong>Enable Shipping Address on Checkout:</strong> Allows to enable address field selection for shipping on checkout page.</li>
-	<li><strong>Address Field Label:</strong> Allows to set the address selection field label text on checkout page.</li>
+	<li><strong>Address Field Label:</strong> Allows to Change the label text for the address field on the checkout page.</li>
 	<li><strong>Menu Title:</strong> Allows to set the account page menu title for Address Book.</li>
 	<li><strong>Billing Address Book Headline:</strong> Allows to set the headline text of billing address book.</li>
 	<li><strong>Shipping Address Book Headline:</strong> Allows to set the headline text of shipping address book.</li>
@@ -425,7 +425,7 @@ With just one plugin, you can improve the flexibility of your WooCommerce websit
 	<li><strong>Add Button Text Color (Pro):</strong> Allows to set the add new button text color.</li>
 	<li><strong>Address Card Background Color (Pro):</strong> Allows to set the background color of address card.</li>
 	<li><strong>Address Text Color (Pro):</strong> Allows to set the text color of address inside address card.</li>
-	<li><strong>Address Card Footer Background Color (Pro):</strong> Allows to set the footer background color of address card.</li>
+	<li><strong>Card Bottom Color (Pro):</strong> Allows to set the footer background color of address card.</li>
 </ol>
 
 

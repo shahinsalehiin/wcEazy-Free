@@ -110,9 +110,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
 
 
 
-    <div class="wceazy_floating_cart_container">
-
-
+    <div class="wceazy_floating_cart_container"> 
         <div class="wceazy_floating_cart_tab">
             <div class="wceazy_floating_cart_tab_part_left">
                 <div class="coupon_data_tabs">
@@ -188,10 +186,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                                 </select>
                                 <small><?php esc_html_e('Please select pages where you do not show floating cart.', 'wceazy'); ?></small>
                             </div>
-                        </div>
-
-
-
+                        </div> 
                     </div>
                 </div>
                 <div class="coupon_tab_body" data-id="tab_cart_header">
@@ -201,18 +196,18 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                     <div class="tab_body_form">
 
                         <div class="wceazy_floating_cart_field_group wceazy_floating_cart_show_header_basket_icon">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Basket Icon?', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Display Basket Symbol?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_header_basket_icon == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the basket icon in the cart header.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the basket icon in the cart header.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
                         <div class="wceazy_floating_cart_field_group wceazy_floating_cart_show_header_close_icon">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Close Icon?', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Display "X" Icon?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_header_close_icon == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the close icon on the cart header.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the close icon on the cart header.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -230,7 +225,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Product Image?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_product_image == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the product image.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off to hide product picture.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -238,7 +233,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Product Name?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_product_name == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the product name.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Hide product name if you don/t want to display it.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -246,7 +241,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Product Unit Price?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_product_price == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the product price.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Hide the price if you don/t want to display it.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -254,7 +249,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Product Price Total?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_product_price_total == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the product price total.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Hide price if you don/t want to display the total.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -262,7 +257,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Allow Deleting Item From Cart?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_delete_item_form_cart == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to allow deleting items from the cart.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off to prevent deleting items from the cart.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -270,7 +265,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Allow Quantity Update?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_allowed_quantity_update == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to allow quantity update on the cart.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Switch off if you don/t want to change the quantity in the cart.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -287,7 +282,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Footer Position Fixed?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_footer_position_fixed == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want a fixed footer.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want a fixed footer.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -295,7 +290,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Subtotal?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_subtotal == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the subtotal on the cart.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the subtotal on the cart.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -303,7 +298,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Discount?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_discount == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the discount on the cart.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the discount on the cart.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -311,7 +306,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Shipping Amount?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_shipping_amount == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the shipping amount on the cart.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the shipping amount on the cart.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -319,7 +314,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Cart Total?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_cart_total == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the cart total on the cart.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the cart total on the cart.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -327,7 +322,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Apply Coupon?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_show_coupon == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show the apply coupon on the cart.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show the apply coupon on the cart.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -406,7 +401,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                     <div class="tab_body_form">
 
                         <div class="wceazy_floating_cart_field_group wceazy_floating_cart_continue_btn_url">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Continue Shopping Button Url', 'wceazy'); ?> <span style="color: #FF521D;">(Pro)</span></label>
+                            <label for="coupon_generator_coupon_amount" style="color: #FF521D;"><?php esc_html_e('Continue Shopping Button Url', 'wceazy'); ?> <span>(Pro)</span></label>
                             <div class="field_with_msg_container">
                                 <input disabled class="wceazy_floating_cart_text_field" type="text" placeholder="" value="<?php echo esc_attr($wceazy_fc_continue_btn_url); ?>">
                                 <small><?php esc_html_e('Set continue shopping button url.', 'wceazy'); ?></small>
@@ -704,7 +699,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                     <div class="tab_body_form">
 
                         <div class="wceazy_floating_cart_field_group wceazy_floating_cart_basket_enable">
-                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Enable Basket', 'wceazy'); ?></label>
+                            <label for="coupon_generator_coupon_amount"><?php esc_html_e('Enable Basket d', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <select class="wceazy_floating_cart_select_field">
                                     <option value=""><?php esc_html_e('Please select', 'wceazy'); ?></option>
@@ -738,7 +733,7 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                             <label for="coupon_generator_coupon_amount"><?php esc_html_e('Show Item Count?', 'wceazy'); ?></label>
                             <div class="field_with_msg_container">
                                 <label class="toggle_switch"><input type="checkbox" <?php echo esc_attr($wceazy_fc_basket_show_count == "yes" ? "checked" : ""); ?>><span class="slider round"></span></label>
-                                <small><?php esc_html_e('Please turn off if you do not want to show basket item count.', 'wceazy'); ?></small>
+                                <small><?php esc_html_e('Turn off if you don/t want to show basket item count.', 'wceazy'); ?></small>
                             </div>
                         </div>
 
@@ -846,6 +841,6 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
             <button onclick="wceazy_floating_cart_save();"><?php esc_html_e('Save Settings', 'wceazy'); ?></button>
         </div>
  
-    </div>
+    </div> 
 
 </div>

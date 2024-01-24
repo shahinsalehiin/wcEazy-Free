@@ -69,6 +69,5 @@
         </table>
     </div>
 
-</div>
-
-<p style="font-size: 13px;"><?php esc_html_e('Total', 'wceazy'); ?></p>
+    <!-- <p style="font-size: 13px;"><?php esc_html_e('Total z', 'wceazy'); ?></p> -->
+</div> 
